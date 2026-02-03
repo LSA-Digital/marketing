@@ -1,0 +1,240 @@
+## LSA Digital — Marketing Campaign Organizing Doc (Feb 2026)
+
+### Purpose
+Generate interest from **business + technical audiences** in the LSA Digital brand, and convert that interest into **qualified conversations** that lead to **custom Human‑AI solution development** work.
+
+### North Star positioning (rebrand anchor)
+- **Core thesis**: **Enterprise Heritage. Startup Velocity.**
+- **Operating model**: Human‑AI **Develop → Deploy → Disrupt** concept-to-scale cycle.
+- **Differentiator**: aim for speed **and** compliance/scale (the “LSA Zone”), not “fast prototypes that die in governance.”
+
+Primary sources:
+- `https://www.lsadigital.com/`
+- `https://www.lsadigital.com/products`
+
+### Constraints
+- **Low budget**: rely on partner reposts, founder networks, and repurposing one artifact into many formats.
+- **Content must be “what we did”**: real artifacts (screenshots, demo clips, architectures, tests, validation, workflow steps) first; “lessons learned” second.
+
+---
+
+## Audience map (write for both without sounding split-brained)
+### Business readers
+Founders, GMs, ops leaders, innovation leaders, VPs/Directors, program owners.
+- Want: credible speed, reduced risk, clear pilot path, stakeholder-ready narrative.
+
+### Technical readers
+Enterprise architects, eng leads, platform teams, AI/ML leads, security/compliance, product managers.
+- Want: architecture clarity, integration realities, auditability, evaluation/testing evidence.
+
+---
+
+## Offer + conversion path (keep it simple)
+- **Primary CTA**: “Book a 20–30 min working session” (map your idea to Develop/Deploy/Disrupt + pilot path).
+- **Secondary CTA**: “Request a demo” (LSARS / HRA / EPMS / ReimagineIt / MEDICODA).
+- **Proof CTA**: “See the artifacts” (short clips + screenshots + brief technical notes).
+
+---
+
+## Content pillars (themes)
+### Theme 1 — Experts + AI (Human‑in‑the‑Loop done for real)
+**Message**: AI accelerates; experts provide judgment + safety. We design workflows where **AI proposes and experts dispose**.
+
+Anchor partnership/proof:
+- LSARS principals on `https://lsars.com/`:
+  - **Nelson Smith** (Principal; 35+ yrs environmental mass tort; lead counsel for opioids and environmental lawsuits)
+  - **Dr. Thad Perry** (Principal; 30+ yrs healthcare informatics & research; backed by clinical experts)
+  - **Mike Idengren** (Principal; 28+ yrs digital transformation + AI tech; Human‑AI.com founder)
+
+Products to spotlight under this theme:
+- **LSARS** (expert verification + permitting/compliance workflows): `https://www.lsadigital.com/products/lsars` and `https://lsars.com/`
+- **HRA** (regulatory-grade health risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
+- **MEDICODA** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
+
+High-performing formats:
+- “Before → after” workflow screenshots
+- Expert review/verification step (what is checked, how, and why)
+- Validation/evidence posts (parity, tests, E2E, audit trail)
+
+### Theme 2 — AI technology (agentic + productized + enterprise-aware)
+**Message**: We don’t just “use AI,” we build **systems**—agentic workflows, measurable outputs, governance hooks, and product UX where humans drive intent.
+
+Anchor proof:
+- Human‑in‑the‑Loop outreach system webinar recap: `https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap`
+  - Includes: GQM method, agentic architecture, integrations (GPT‑4o, Apify, Tavily, Google CSE), closed feedback loop demo.
+
+Products to spotlight under this theme:
+- **EPMS** (AI-assisted product discovery + roadmap planning): `https://www.lsadigital.com/products/epms`
+- **ReimagineIt** (AI-guided discovery interview + “clarity score” + blueprint generation): `https://www.lsadigital.com/products/reimagineit`
+- **Human‑AI Concept Lab** (process analysis/mining + recommendations + human control): `https://www.lsadigital.com/products/human-ai-optimizer`
+
+High-performing formats:
+- Simple architecture diagrams (roles → agents → tools → data → governance)
+- “How we evaluated it” (tests, parity checks, regression harness, E2E)
+- “How humans steer it” (intent capture, review queues, audit logs, approvals)
+
+#### EPMS “MCP for developers” angle (artifact-capture requirement)
+You called out a key differentiator: **PM intent in the EPMS UI can drive developer workflows via MCP** (agentic assistance that stays aligned to product intent).
+
+To keep this campaign aligned with the “what we did” rule, treat this as an **artifact capture requirement before publishing**:
+- Screenshot/clip of the PM intent entry point in EPMS
+- Screenshot/clip of the MCP-driven developer assist (what tool calls happen, what gets produced)
+- 1 paragraph on boundaries (what is automated vs what is human-approved)
+- 1 paragraph on governance/auditability (how we trace intent → output)
+
+### Theme 3 (recommended) — Speed with compliance & scale
+**Message**: “Fast” doesn’t mean fragile. We design for pilot readiness and enterprise realities (security, auditability, integration).
+Use carefully phrased claims (“in progress”, “prototype”, “public beta”) and show artifacts.
+
+---
+
+## Content rules (non‑negotiables)
+- **Artifact-first**: include at least one of (screenshot, short clip, diagram, test/validation snippet) in every major post.
+- **Then interpretation**: lessons learned, best practices derived from the artifact.
+- **No generic hype**: if it can be posted by any AI consultancy, it doesn’t ship.
+- **Claims discipline**: keep stages accurate (DEVELOP/DEPLOY/public beta/in progress).
+
+---
+
+## Single source of truth: Expert ↔ product alignment
+Maintain and reference:
+- `./lsaProductExpertAlignment.md`
+
+Writing agents must pull expert names/roles/claim boundaries from that file only.
+
+---
+
+## Content inventory (primary sources for agents)
+Brand and portfolio:
+- `https://www.lsadigital.com/`
+- `https://www.lsadigital.com/products`
+
+Products:
+- LSARS: `https://www.lsadigital.com/products/lsars`
+- HRA: `https://www.lsadigital.com/products/hra`
+- EPMS: `https://www.lsadigital.com/products/epms`
+- MEDICODA: `https://www.lsadigital.com/products/medicoda`
+- Human‑AI Concept Lab: `https://www.lsadigital.com/products/human-ai-optimizer`
+- ReimagineIt: `https://www.lsadigital.com/products/reimagineit`
+
+Proof / “what we built”:
+- Webinar recap (Human‑in‑the‑Loop outreach system): `https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap`
+- Partner site (bios + LSARS proof): `https://lsars.com/`
+
+Note:
+- There is also an LSA Digital insight post titled “LSA ProspectPilot Human‑AI Marketing Solution” listed on the LSA Digital homepage insights section. If used, link directly:
+  - `https://www.lsadigital.com/insights/lsa-prospectpilot-human-ai-marketing-solution`
+
+---
+
+## Distribution plan (low budget, partner-forward)
+Primary channel:
+- LinkedIn (company + founders/SMEs)
+
+Partner amplification (make it easy):
+- Build “repost kits” per post (3 suggested captions + 1 image + 3 bullets + 1 link with UTM).
+- Tag partners/SMEs when relevant (pre-coordinate so it’s not a surprise).
+
+Secondary (optional):
+- YouTube shorts (unlisted clips embedded in posts)
+- Newsletter repost (same content, different intro)
+- Targeted community posts (product mgmt, enterprise architecture, compliance, environmental permitting)
+
+Always:
+- Use **UTMs** on outbound links (including partner repost kits).
+
+---
+
+## Publication cadence (Feb 2026 baseline)
+Sustainable starter cadence:
+- **2 LinkedIn posts/week** (Tue + Thu)
+- **1 short demo clip/week** (Fri)
+- **1 longer artifact drop every 2 weeks** (blog/insight-style post OR PDF “artifact drop”)
+
+### Feb 2026 editorial calendar (starter)
+Week 1
+- Theme 1: LSARS — expert verification workflow (“AI proposes; experts dispose”)
+- Theme 2: Human‑in‑the‑Loop outreach system — architecture + why GQM worked
+- Clip: Develop/Deploy/Disrupt in 60–90s using one product as example
+
+Week 2
+- Theme 1: HRA — what “parity validated” means (explain simply + show evidence types)
+- Theme 2: ReimagineIt — clarity score prevents fast wrong solutions
+- Clip: Human-in-the-loop control loop diagram + narration
+
+Week 3
+- Theme 1: MEDICODA — clinic partnership realities (burnout, accuracy, auditing)
+- Theme 2: EPMS — AI-assisted discovery while PM intent stays in control
+- Clip: “From idea to pilot-ready” mapped to your cycle (avoid over-claims)
+
+Week 4
+- Theme 3: Speed vs compliance — practical checklist (auditability, tests, approvals)
+- Theme 1+2: LSARS unified platform story (trust + HRA + AI tooling)
+- Clip: “What makes Human‑AI enterprise-ready?” (short, concrete)
+
+---
+
+## Brief template for content-writing agents (copy/paste)
+- Audience: business / technical / mixed
+- Theme: Experts+AI / AI technology / Compliance+scale
+- Primary artifacts to cite: (paste 1–3 URLs)
+- One concrete “what we did”: (screenshot? test? workflow? clip? architecture?)
+- Claim boundaries: prototype vs public beta vs “in progress”
+- CTA: demo request / working session / artifact download
+- Format: LinkedIn short / LinkedIn long / carousel script / 60s clip script
+- SME reviewer: (from `./lsaProductExpertAlignment.md`)
+
+---
+
+## Publishing checklist for publishing agents
+- Visual attached (screenshot/clip/diagram)
+- Hook is problem-first, not hype-first
+- Includes one measurable detail (tests, parity, workflow step, time saved, accuracy target—only if provable)
+- Partner repost kit prepared (3 alt captions)
+- UTM link used
+- Seed 2 comments (artifact detail + a question)
+
+### UTM convention + repost kit template (low budget amplification)
+#### UTM convention (simple, consistent)
+Use:
+- `utm_source`: linkedin | partner | newsletter | youtube
+- `utm_medium`: organic | repost | comment
+- `utm_campaign`: feb_2026_human_ai
+- `utm_content`: short_slug_for_post (e.g., lsars_expert_verify_01)
+
+#### Repost kit (paste into a shared doc/thread for partners)
+- **Post link**: <URL with UTM>
+- **1 image / 1 clip**: <asset link>
+- **3 suggested captions**:
+  1) (business-leaning) …
+  2) (technical-leaning) …
+  3) (partner voice) …
+- **3 proof bullets (artifact-based)**:
+  - …
+  - …
+  - …
+- **1 question prompt** (to drive comments):
+  - …
+
+---
+
+## KPI + feedback loop (minimal viable)
+- Top-of-funnel: impressions, saves, meaningful comments, partner reposts
+- Mid-funnel: clicks to demo/Let’s Talk, time on page
+- Bottom-funnel: booked calls, pilot requests, intros
+
+Every 2 weeks:
+- Identify top 2 posts by saves/comments
+- Publish “Part 2” deeper on one artifact (not broader)
+
+---
+
+## Additional planning angles (recommended)
+- ICP slices + message matrix:
+  - “Ops bottleneck” (ReimagineIt), “Permit risk” (LSARS/HRA), “PM discovery speed” (EPMS), “Compliance-heavy workflow” (Human‑AI Concept Lab), “Clinical admin burden” (MEDICODA)
+- Proof library:
+  - “Artifact gallery” page: screenshots, short clips, diagrams, validation/testing evidence
+- Objection handling posts:
+  - “Is this secure?”, “How do we audit it?”, “What’s the human’s role?”, “What’s real vs prototype?”
+- Partner-forward calendar:
+  - 1–2 posts/month explicitly co-authored with partner SMEs (max repost leverage)
