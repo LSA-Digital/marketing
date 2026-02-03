@@ -89,8 +89,11 @@ Use carefully phrased claims (“in progress”, “prototype”, “public beta
 ---
 
 ## Content rules (non‑negotiables)
-- **Artifact-first**: include at least one of (screenshot, short clip, diagram, test/validation snippet) in every major post.
-- **Then interpretation**: lessons learned, best practices derived from the artifact.
+
+Generally, **No AI slop**:  The content must feel authentic; no formulaic mechanical posts or recycled garbage.  It has to be anchored in real experience for real outcomes, including the domain expertise from real partners/experts when appropriate (e.g., business domain problem-solving posts).
+
+- **Experience-first**: include at least one of (text description, screenshot, short clip, diagram, test/validation snippet) in every major post.
+- **Then interpretation**: lessons learned, best practices derived from the experience.
 - **No generic hype**: if it can be posted by any AI consultancy, it doesn’t ship.
 - **Claims discipline**: keep stages accurate (DEVELOP/DEPLOY/public beta/in progress).
 
@@ -147,30 +150,42 @@ Always:
 
 ## Publication cadence (Feb 2026 baseline)
 Sustainable starter cadence:
-- **2 LinkedIn posts/week** (Tue + Thu)
-- **1 short demo clip/week** (Fri)
-- **1 longer artifact drop every 2 weeks** (blog/insight-style post OR PDF “artifact drop”)
+- **3 LinkedIn posts/week** (**Mon + Wed + Fri**)
+- **2 short demo clips/week** (recommend Tue + Thu)
+- **1 longer artifact drop/week** (blog/insight-style post OR PDF “artifact drop”)
 
 ### Feb 2026 editorial calendar (starter)
 Week 1
-- Theme 1: LSARS — expert verification workflow (“AI proposes; experts dispose”)
-- Theme 2: Human‑in‑the‑Loop outreach system — architecture + why GQM worked
-- Clip: Develop/Deploy/Disrupt in 60–90s using one product as example
+- **Mon post**: Theme 1: LSARS — expert verification workflow (“AI proposes; experts dispose”)
+- **Tue clip**: Develop → Deploy → Disrupt in 60–90s using one product as example
+- **Wed post**: Theme 2: Human‑in‑the‑Loop outreach system — architecture + why GQM worked
+- **Thu clip**: Outreach system loop diagram + narration (60–90s)
+- **Fri post**: Theme 3: Speed with compliance & scale — “what makes it enterprise-ready” checklist (artifact-first)
+- **Longer artifact (weekly)**: 1–2 page “Artifact drop” PDF: outreach system architecture (roles → agents → tools → governance) + 3 key lessons
 
 Week 2
-- Theme 1: HRA — what “parity validated” means (explain simply + show evidence types)
-- Theme 2: ReimagineIt — clarity score prevents fast wrong solutions
-- Clip: Human-in-the-loop control loop diagram + narration
+- **Mon post**: Theme 1: HRA — what “parity validated” means (explain simply + show evidence types)
+- **Tue clip**: HRA evidence types walkthrough (tests/parity/audit trail) in 60–90s (no over-claims)
+- **Wed post**: Theme 2: ReimagineIt — clarity score prevents fast wrong solutions
+- **Thu clip**: “Clarity score” demo snippet / storyboard (60–90s)
+- **Fri post**: Theme 3: Speed with compliance & scale — how humans steer + approve (review queues + audit logs)
+- **Longer artifact (weekly)**: Blog/insight-style post: “What parity validation means (and what it doesn’t)” + screenshots/artifacts
 
 Week 3
-- Theme 1: MEDICODA — clinic partnership realities (burnout, accuracy, auditing)
-- Theme 2: EPMS — AI-assisted discovery while PM intent stays in control
-- Clip: “From idea to pilot-ready” mapped to your cycle (avoid over-claims)
+- **Mon post**: Theme 1: MEDICODA — clinic partnership realities (burnout, accuracy, auditing)
+- **Tue clip**: Human final decision loop + real-time auditing (60–90s)
+- **Wed post**: Theme 2: EPMS — AI-assisted discovery while PM intent stays in control
+- **Thu clip**: “From idea to pilot-ready” mapped to Develop/Deploy/Disrupt (60–90s; avoid over-claims)
+- **Fri post**: Theme 2: EPMS — “artifact capture” mini-checklist (intent → tool calls → outputs → traceability)
+- **Longer artifact (weekly)**: EPMS artifact drop: intent entry screenshot + example outputs + boundary/governance notes
 
 Week 4
-- Theme 3: Speed vs compliance — practical checklist (auditability, tests, approvals)
-- Theme 1+2: LSARS unified platform story (trust + HRA + AI tooling)
-- Clip: “What makes Human‑AI enterprise-ready?” (short, concrete)
+- **Mon post**: Theme 3: Speed vs compliance — practical checklist (auditability, tests, approvals)
+- **Tue clip**: “What makes Human‑AI enterprise-ready?” (short, concrete; 60–90s)
+- **Wed post**: Theme 1+2: LSARS unified platform story (trust + HRA + AI tooling)
+- **Thu clip**: LSARS workflow “before → after” (60–90s)
+- **Fri post**: Theme 1: Experts + AI — how to request SME soundbites + review flow (lightweight process, artifact-first)
+- **Longer artifact (weekly)**: End-of-month round-up: “Feb artifacts” gallery post (links + 1 paragraph per artifact)
 
 ---
 
