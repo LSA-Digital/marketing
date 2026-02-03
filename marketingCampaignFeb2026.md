@@ -130,6 +130,44 @@ Note:
 
 ---
 
+## Content creation standard (simple + durable)
+### Rule: every post lives in `./posts/`
+- **All post content goes in `posts/`** so it’s searchable, reusable, and easy to ship.
+- **Each post gets its own sub-folder** under `posts/`.
+- A “post” is defined by **one Markdown file** (the canonical post text) plus any supporting assets (images/video/etc).
+- The Markdown file may include **local assets** and **remote links**:
+  - **Local assets** (preferred for screenshots/exports you control) must live **in the same post folder** as the Markdown file.
+  - **Remote links** are allowed for canonical sources (product pages, partner sites, YouTube, etc.).
+
+### Recommended folder structure (stands the test of time)
+Use a date + slug so posts naturally sort and are stable across weeks/months/years.
+
+- `posts/YYYY/MM/YYYY-MM-DD_slug/`
+  - `post.md` (canonical post text + notes)
+  - `assets/` (optional; images, gifs, video, diagrams, exported PDFs)
+  - `links.md` (optional; curated remote URLs, citations, UTMs)
+  - `notes.md` (optional; research, SME feedback, approvals, claim boundaries)
+
+Example:
+- `posts/2026/02/2026-02-03_lsars-expert-verification/`
+  - `post.md`
+  - `assets/lsars_workflow_before_after.png`
+  - `assets/outreach_loop.mp4`
+  - `links.md`
+
+### Post Markdown conventions (keep it lightweight)
+At the top of `post.md`, include a small metadata block so it’s easy to plan and review:
+- **Title**
+- **Channel** (LinkedIn post | demo clip script | longer artifact)
+- **Theme** (Experts+AI | AI technology | Compliance+scale)
+- **Status** (draft | in_review | approved | published)
+- **Publish target** (date + time + poster)
+- **SME reviewer** (from `./lsaProductExpertAlignment.md` when relevant)
+- **Artifacts** (local file paths + remote links)
+- **Claim boundaries** (prototype / beta / in progress; “what we did” only)
+
+---
+
 ## Distribution plan (low budget, partner-forward)
 Primary channel:
 - LinkedIn (company + founders/SMEs)
