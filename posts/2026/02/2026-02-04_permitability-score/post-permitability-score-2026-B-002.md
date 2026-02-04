@@ -11,7 +11,7 @@
 - **Publish target**: 2026-02-11 (Wed)
 - **Poster**: company page
 - **SME reviewer**: Nelson Smith + Mike Idengren
-- **CTA**: request a demo
+- **CTA**: request a demo at [lsars.com](https://lsars.com)
 
 ## Post
 
@@ -28,9 +28,7 @@ Key supporting details:
 
 Result: more credible investment planning, fewer surprises, and fewer “trust collapses” that turn a permit into a fight.
 
----
-
-If you’re carrying permit timeline risk and need a clearer view of what will break first, request a demo.
+If you want to see how CPS works, request a demo at [lsars.com](https://lsars.com).
 
 ## Artifacts
 - Local:

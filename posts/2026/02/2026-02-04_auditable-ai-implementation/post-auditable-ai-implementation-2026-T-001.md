@@ -11,7 +11,7 @@
 - **Publish target**: 2026-02-10 (Mon)
 - **Poster**: company page
 - **SME reviewer**: Mike Idengren
-- **CTA**: see artifacts
+- **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 - **Depends on**: 2026-B-001 (auditable-ai-trust)
 
 ## Post
@@ -28,10 +28,7 @@ Key best-practice upgrades we made (high level):
 - **Turn validation into readable artifacts** so reviewers can see what was used, what was calculated, and what changed.
 
 Result: faster answers for common questions, controlled escalation for edge cases, and fewer “we can’t ship this because we can’t explain it” moments.
-
----
-
-Building Human-AI systems that need regulatory-grade trust? We've documented the patterns.
+If you want the patterns and supporting artifacts, start at [lsadigital.com](https://lsadigital.com).
 
 ## Artifacts
 - Local:

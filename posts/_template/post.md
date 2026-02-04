@@ -8,7 +8,6 @@
 - **Theme**: Experts+AI | AI technology | Compliance+scale
 - **Audience**: business | technical | mixed
 - **Status**: draft | in_review | approved | published
-- **Publish target**: YYYY-MM-DD (Mon/Wed/Fri for posts; Tue/Thu for clips)
 - **Poster**: (company page | founder | SME)
 - **SME reviewer**: (from `lsaProductExpertAlignment.md` based on product)
 - **CTA**: (book a working session | request a demo | see artifacts)

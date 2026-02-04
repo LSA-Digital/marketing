@@ -11,7 +11,7 @@
 - **Publish target**: 2026-02-13 (Fri)
 - **Poster**: company page
 - **SME reviewer**: Mike Idengren
-- **CTA**: see artifacts
+- **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 - **Depends on**: 2026-B-002 (permitability-score)
 
 ## Post
@@ -29,9 +29,7 @@ Key supporting details:
 
 Result: stakeholders get fewer surprises, engineering gets fewer “rewrite this for audit” cycles, and decisions get easier to defend.
 
----
-
-If you’re building AI for high-stakes workflows, don’t optimize for “impressive.” Optimize for “explainable under pressure.”
+If you want the approach and artifacts, start at [lsadigital.com](https://lsadigital.com).
 
 ## Artifacts
 - Local:

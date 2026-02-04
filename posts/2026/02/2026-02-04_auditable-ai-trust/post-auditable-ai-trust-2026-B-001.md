@@ -11,7 +11,7 @@
 - **Publish target**: 2026-02-07 (Fri)
 - **Poster**: company page
 - **SME reviewer**: Nelson Smith + Dr. Thad Perry
-- **CTA**: book a working session
+- **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post
 
@@ -32,9 +32,7 @@ Permit requestors can test scenarios faster—with defensible deltas vs baseline
 
 Auditability turns commitments into measurable proof points.
 
----
-
-If your organization is navigating complex permits and needs transparency that all stakeholders can verify, let's talk.
+If a working session would help, start at [lsars.com](https://lsars.com).
 
 ## Artifacts
 - Local:
