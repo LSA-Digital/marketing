@@ -13,6 +13,8 @@
 | 2026-T-004 | Reinforcement learning for mitigation strategy discovery—only if it’s auditable. | [post](posts/2026/02/2026-02-04_mitigation-strategy-optimization/post-mitigation-strategy-optimization-2026-T-004.md) | draft  | tech     | LSARS      | 2026-B-005 | Flexible, faster permit options - over 100x the speed! |
 | 2026-B-006 | Governments can do more with less—without buying new software                       | [post](posts/2026/02/2026-02-04_governments-more-done-with-less/post-governments-more-done-with-less-2026-B-006.md)    | draft  | business | LSARS      | —         | —                                                     |
 | 2026-T-005 | Route questions by data priority (highest-confidence first)                         | [post](posts/2026/02/2026-02-04_data-priority-routing/post-data-priority-routing-2026-T-005.md)                        | draft  | tech     | LSARS      | 2026-B-006 | Governments can do more with less—without buying new software |
+| 2026-B-007 | Regulatory transparency that reviewers can verify                                   | [post](posts/2026/02/2026-02-04_regulatory-transparency-reports/post-regulatory-transparency-reports-2026-B-007.md)    | draft  | business | LSARS      | —         | —                                                     |
+| 2026-T-006 | Data manifests beat implicit semantics                                               | [post](posts/2026/02/2026-02-04_data-manifest/post-data-manifest-2026-T-006.md)                                        | draft  | tech     | LSARS      | 2026-B-007 | Regulatory transparency that reviewers can verify      |
 
 ---
 
@@ -30,8 +32,8 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-007`
-- Next tech post:`2026-T-006`
+- Next business post:`2026-B-008`
+- Next tech post:`2026-T-007`
 
 ### Channel Strategy
 
