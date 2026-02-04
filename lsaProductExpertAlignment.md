@@ -21,6 +21,7 @@ Use this table as the **single glance view** for assigning writing agents, selec
 | **EPMS** | LSA Digital product management experts | AI-assisted discovery while PM intent remains the driver | Market research in days; scope validation; competitive intelligence (cite product page); **MCP/agentic dev assist** only with captured artifacts | LSA Digital product owner | Company/product |
 | **Human‑AI Concept Lab** | LSA Digital enterprise process experts | Process mining/recommendations with humans in control | Process analysis/mining; human-in-the-loop control; enterprise scalability framing | LSA Digital product owner | Company/product |
 | **ReimagineIt** | LSA Digital product owners | “Clarity before solution” discovery discipline | Discovery interview + clarity score; multiple options; blueprint sections (workflow/backlog/KPIs/tech approach) | LSA Digital product owner | Company/product |
+| **CCN (Clinical Care Navigators)** | Dr. Thad Perry | State health program guidance; clinical care navigation workflow | State health department agency coordination; care navigator support systems | Dr. Thad Perry | Dr. Thad Perry only (after pre-coordination) |
 
 ## Experts (confirmed from LSARS site / LSA Digital artifacts)
 
@@ -111,6 +112,16 @@ Use this table as the **single glance view** for assigning writing agents, selec
   - Discovery interview + clarity score
   - Blueprint sections (workflow, backlog, KPIs, technical approach)
 
+### CCN (Clinical Care Navigators)
+- Primary experts:
+  - Dr. Thad Perry — state health program guidance; clinical informatics
+- Target audience:
+  - State health department agencies
+- "What we did" proof angles:
+  - Care navigation workflow optimization
+  - State agency coordination systems
+  - Clinical care pathway support
+
 ---
 
 ## Review + approvals (operational)
@@ -119,6 +130,7 @@ Use this table as the **single glance view** for assigning writing agents, selec
   - HRA: Dr. Thad Perry (interpretation) + LSA Digital implementer
   - MEDICODA: clinic reviewer (if approved) + LSA Digital implementer
   - EPMS/ReimagineIt/Concept Lab: LSA Digital product owner
+  - CCN: Dr. Thad Perry
 
 - Quote bank workflow:
   - Store approved quotes under headings per product with date + source URL.
@@ -126,5 +138,15 @@ Use this table as the **single glance view** for assigning writing agents, selec
 ---
 
 ## Tagging guidance (partner amplification)
-- When a post uses LSARS “expert + AI” proof, tag the LSARS entity and the relevant principal(s) after pre-coordination.
+
+### Product-specific tagging rules:
+- **LSARS**: Nelson Smith, Thad Perry, Mike Idengren, Julian Smith can be tagged (after pre-coordination)
+- **HRA**: Only Thad Perry can be tagged (after pre-coordination)
+- **MEDICODA**: Nobody can be tagged yet (product/company tags only)
+- **EPMS / Human-AI Concept Lab / ReimagineIt**: Only LSA Digital and Mike Idengren can be tagged
+- **CCN (Clinical Care Navigators)**: Only Thad Perry can be tagged (after pre-coordination)
+
+### General rules:
 - Never tag individuals on posts that contain unapproved claims, sensitive metrics, or client-identifying details.
+- When tagging is allowed, always pre-coordinate with the individual before posting.
+- When in doubt, use company/product tags only.

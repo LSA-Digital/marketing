@@ -11,15 +11,19 @@ Everything that ships as content lives under `posts/`.
 ## Recommended structure (date + slug)
 
 `posts/YYYY/MM/YYYY-MM-DD_slug/`
-- `post.md` — canonical post text + metadata + publication notes
+- `post-[slug]-[postid].md` — canonical post text + metadata + publication notes
 - `assets/` — optional local assets
 - `links.md` — optional: citations, UTMs, canonical URLs
 - `notes.md` — optional: research, SME feedback, approvals
 
+**Post file naming**: `post-[slug]-[postid].md`
+- `slug` = kebab-case friendly name (same as folder slug)
+- `postid` = from `post-index.md` in project root (e.g., `2026-B-001`)
+
 Example:
 
 `posts/2026/02/2026-02-03_lsars-expert-verification/`
-- `post.md`
+- `post-lsars-expert-verification-2026-B-002.md`
 - `assets/lsars_workflow_before_after.png`
 - `links.md`
 
