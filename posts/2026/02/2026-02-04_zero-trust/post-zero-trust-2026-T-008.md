@@ -1,16 +1,16 @@
 # The Best Security Configuration Is the One You Can't Misconfigure
 
 ## Metadata
-- **Post ID**: 2026-B-009
+- **Post ID**: 2026-T-008
 - **Channel**: LinkedIn post
-- **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
+- **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
 - **Product**: LSARS, HRA
-- **Theme**: Compliance+scale
-- **Audience**: business
+- **Theme**: AI technology
+- **Audience**: technical
 - **Status**: draft
 - **Poster**: company page
 - **SME reviewer**: Mike Idengren
-- **CTA**: book a working session
+- **CTA**: see artifacts
 - **Depends on**: —
 
 ## Post
@@ -31,7 +31,7 @@ For permit requestors and regulators, this means your health risk data is protec
 
 Security that depends on perfect configuration isn't security. Security that removes the configuration is.
 
-If your current systems rely on developers getting auth right every time, let's talk: https://lsars.com
+See how we approach security architecture: https://lsadigital.com
 
 ## Artifacts
 - Local:

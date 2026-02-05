@@ -17,8 +17,7 @@
 | 2026-T-006 | Data manifests beat implicit semantics                                               | [post](posts/2026/02/2026-02-04_data-manifest/post-data-manifest-2026-T-006.md)                                        | approved  | tech     | LSARS      | 2026-B-007 | Regulatory transparency that reviewers can verify      |
 | 2026-B-008 | 797 Pollutants, 5 Significant Figures: HARP2 Parity                                  | [post](posts/2026/02/2026-02-04_harp2-parity/post-harp2-parity-2026-B-008.md)                                           | draft     | business | LSARS, HRA | —         | —                                                     |
 | 2026-T-007 | Back-Calculations Drift. Source Data Doesn't.                                        | [post](posts/2026/02/2026-02-04_source-data-first/post-source-data-first-2026-T-007.md)                                 | draft     | tech     | LSARS, HRA | 2026-B-008 | 797 Pollutants, 5 Significant Figures: HARP2 Parity    |
-| 2026-B-009 | The Best Security Configuration Is the One You Can't Misconfigure                    | [post](posts/2026/02/2026-02-04_zero-trust-architecture/post-zero-trust-architecture-2026-B-009.md)                     | draft     | business | LSARS, HRA | —         | —                                                     |
-| 2026-T-008 | Assume Every Component Is Misconfigured. Then Design Accordingly.                    | [post](posts/2026/02/2026-02-04_zero-trust-boundaries/post-zero-trust-boundaries-2026-T-008.md)                         | draft     | tech     | LSARS, HRA | 2026-B-009 | The Best Security Configuration Is the One You Can't Misconfigure |
+| 2026-T-008 | The Best Security Configuration Is the One You Can't Misconfigure                    | [post](posts/2026/02/2026-02-04_zero-trust/post-zero-trust-2026-T-008.md)                                               | draft     | tech     | LSARS, HRA | —         | —                                                     |
 
 ---
 
@@ -36,7 +35,7 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-010`
+- Next business post:`2026-B-009`
 - Next tech post:`2026-T-009`
 
 ### Channel Strategy
