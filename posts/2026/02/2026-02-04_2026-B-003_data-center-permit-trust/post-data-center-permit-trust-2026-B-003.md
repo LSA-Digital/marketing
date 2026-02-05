@@ -7,9 +7,9 @@
 - **Product**: LSARS
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Nelson Smith, Mike Idengren
+- **Expert**: Nelson Smith, Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 
@@ -41,26 +41,3 @@ If you're navigating data center permitting and want to see how measurable commi
 - Remote:
   - https://lsars.com/
 
-## Claim boundaries
-- Stage: in progress
-- What we can say safely:
-  - LSARS uses HRA + SDOH data to design community commitments
-  - The Permit Intelligence Portal tracks and publishes compliance
-  - The approach addresses NIMBY concerns (grid, water, noise, accountability)
-  - Multi-stakeholder framing: faster permits benefit everyone
-- What we should NOT claim:
-  - Specific permit approval timelines or guarantees
-  - Quantified cost savings without cited evidence
-  - That any specific data center project used this approach (unless approved)
-
-## Notes
-- Repost kit:
-  - Business caption: "Data center permits stall on trust, not pollutants. Here's how LSARS makes community commitments measurable—and enforceable."
-  - Technical caption: "Energy burden SDOH analysis + water transparency dashboards + noise monitoring = permit timelines that don't stall on NIMBY opposition."
-  - Partner voice caption: "When communities can verify commitments instead of just trusting them, everyone wins—faster permits, real benefits, fewer fights."
-- Question prompt: "What's the biggest trust barrier you've seen in large infrastructure permitting?"
-- UTM:
-  - `utm_source=linkedin`
-  - `utm_medium=organic`
-  - `utm_campaign=feb_2026_human_ai`
-  - `utm_content=data-center-permit-trust`

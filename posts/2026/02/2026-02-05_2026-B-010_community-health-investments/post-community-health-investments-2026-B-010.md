@@ -9,7 +9,7 @@
 - **Audience**: business
 - **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Nelson Smith
+- **Expert**: Nelson Smith
 - **CTA**: book a working session
 - **Depends on**: —
 

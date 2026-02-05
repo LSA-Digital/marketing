@@ -9,15 +9,15 @@
 - **Audience**: business
 - **Status**: draft
 - **Poster**: company page
-- **SME reviewer**: Mike Idengren
+- **Expert**: Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 
 ## Post
 
-When a regulator reviews your health risk calculations, they're not checking whether your numbers are "close enough." They're checking whether your numbers match the same methodology they use—down to the significant figures.
+797 Pollutants & 5 Significant Figures - when a regulator reviews your health risk calculations, they're not checking whether your numbers are "close enough." They're checking whether your numbers match the same methodology they use — down to the significant figures.
 
-We built LSARS to achieve exact parity with HARP2, the authoritative regulatory tool for California Health Risk Assessments.
+We built the LSARS Health Risk Assessment engine to achieve exact parity with HARP2, the authoritative regulatory tool for California Health Risk Assessments.
 
 Here's what that means in practice:
 
@@ -25,7 +25,7 @@ Here's what that means in practice:
 
 - **5 significant figures**: Precision isn't approximate. When regulators see our outputs, they can verify against the same tool they already trust.
 
-- **3-way comparison**: We don't just match HARP2. We run LSARS OEHHA mode, LSARS EPA mode, and HARP2 reference in parallel—so you can see exactly how different methodologies compare.
+- **3-way comparison**: We don't just match HARP2. We run LSARS CA-OEHHA mode, LSARS EPA mode, and HARP2 reference data in parallel — so you can see exactly how different methodologies compare.
 
 For permit requestors, this means submissions that don't get kicked back for methodology questions. For regulators, it means outputs that match the tool they're trained to review. For communities, it means transparency built on the same foundation as regulatory enforcement.
 

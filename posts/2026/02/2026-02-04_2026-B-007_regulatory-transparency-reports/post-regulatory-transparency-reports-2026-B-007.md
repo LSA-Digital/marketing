@@ -1,39 +1,44 @@
 # Regulatory transparency that reviewers can verify
 
 ## Metadata
+
 - **Post ID**: 2026-B-007
 - **Channel**: LinkedIn post
-- **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS
+- **Target page**:[LSARS](https://www.linkedin.com/company/lsars)
+- **Product**: 
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Nelson Smith + Dr. Thad Perry (and/or Mike Idengren)
+- **Expert**: Nelson Smith + Dr. Thad Perry (and/or Mike Idengren)
 - **CTA**: book a working session
 - **Depends on**: —
 
 ## Post
+
 “Aligned with the regulator” is not a statement you get to make. It’s something you have to *show*.
 
-What we did: we built reporting so **for any map context**, reviewers can see the full chain—**calculations, assumptions, and citations**—not just a conclusion.
+For the LSARS Health Risk Assessment + Permitting solution, we built reporting in context of **every locality in the U.S.** - so reviewers can see the full chain—**calculations, assumptions, and citations (**not just a possibly-hallucinated conclusion**).
 
 That matters because alignment isn’t one-size-fits-all:
+
 - Some situations demand **strict agency alignment**.
 - Others demand **more detailed health risk assessment** framing.
 - Either way, trust comes from transparency that holds up under review.
 
-The point isn’t to generate a prettier answer. The point is to generate a package a reviewer can validate without “trusting the black box.”
+The point isn’t to generate an answer the user wants: it is to give the an answer they can trust.
 
 If you want to see what “show your work” looks like in a real permitting workflow, book a working session at `https://lsars.com`.
 
 ## Artifacts
+
 - Local:
   - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
 
 ## Claim boundaries
+
 - Stage: in progress
 - What we can say safely:
   - We built report outputs that include calculations and citations for transparency and reviewability.
@@ -42,6 +47,7 @@ If you want to see what “show your work” looks like in a real permitting wor
   - Guaranteed regulator acceptance, approval speedups, or quantified reductions in review time without measured proof.
 
 ## Notes (optional)
+
 - Repost kit:
   - Business caption: Regulatory alignment isn’t a claim—it’s a trail reviewers can verify.
   - Technical caption: Provenance, calculations, and citations aren’t “extras”—they’re the product in high-stakes domains.

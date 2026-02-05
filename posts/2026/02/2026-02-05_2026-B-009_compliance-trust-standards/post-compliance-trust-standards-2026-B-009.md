@@ -7,9 +7,9 @@
 - **Product**: LSARS, HRA
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Mike Idengren
+- **Expert**: Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 
@@ -19,12 +19,12 @@ Regulators in California use different standards than the EPA. State agencies ha
 
 **The problem isn't meeting standards—it's proving you met them in a way each reviewer can verify.**
 
-LSARS doesn't just run calculations. It generates contextual reports that explain the methodology, show the math, and cite the exact regulatory standard or peer-reviewed research behind each step. Different agency? Different report format. Same underlying rigor.
+LSARS doesn't just run calculations. It generates contextual reports that explain the methodology, shows the math, and cites the exact regulatory standard or peer-reviewed research behind each step. Different agency? Different report format. Same underlying rigor.
 
 Why this matters:
 
-- **Permit reviewers** see calculations they can trace back to authoritative sources—not black-box outputs
-- **Permit applicants** reduce back-and-forth by answering "how did you calculate this?" before it's asked
+- **Permit reviewers** see calculations they can trace back to authoritative sources, not black-box outputs
+- **Permit applicants** reduce back-and-forth by answering "how did you calculate this?" before asked
 - **Communities** get documentation they can trust because it's the same documentation the agency sees
 
 Static audit reports work for stable, single-jurisdiction environments. But when you're navigating EPA vs. OEHHA modes, or state-specific requirements, you need dynamic reports that adapt context without sacrificing transparency.

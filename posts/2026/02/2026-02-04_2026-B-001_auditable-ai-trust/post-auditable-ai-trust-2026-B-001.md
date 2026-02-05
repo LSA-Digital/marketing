@@ -7,10 +7,10 @@
 - **Product**: LSARS, HRA
 - **Theme**: Experts+AI
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Publish target**: 2026-02-07 (Fri)
 - **Poster**: company page
-- **SME reviewer**: Nelson Smith + Dr. Thad Perry
+- **Expert**: Nelson Smith + Dr. Thad Perry
 - **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post
@@ -41,26 +41,3 @@ If a working session would help, start at [lsars.com](https://lsars.com).
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
 
-## Claim boundaries
-- Stage: in progress
-- What we can say safely:
-  - 797 pollutants tested for parity (from mindmap notes)
-  - 5 significant figures validation (from mindmap synopsis)
-  - Reports with full calculations and citations available
-  - Community portal shows promises vs outcomes
-- What we should NOT claim:
-  - Specific client names or project details without approval
-  - Regulatory agency endorsement
-  - Exact timeline/cost savings without cited evidence
-
-## Notes (optional)
-- Repost kit:
-  - Business caption: "When your permit involves cancer risk, stakeholders don't want confidence—they want evidence. Here's how LSARS makes AI outputs auditable."
-  - Technical caption: "Auditable AI isn't optional in regulated domains. See how we built calculation parity + citation trails into LSARS."
-  - Partner voice caption: "Trust comes from transparency. LSARS shows the work behind every health risk calculation."
-- Question prompt: "What part of your permit process causes the most rework—missing evidence, late objections, or something else?"
-- UTM:
-  - `utm_source=linkedin`
-  - `utm_medium=organic`
-  - `utm_campaign=feb_2026_human_ai`
-  - `utm_content=auditable-ai-trust`

@@ -7,18 +7,18 @@
 - **Product**: LSARS
 - **Theme**: AI technology
 - **Audience**: technical
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Mike Idengren
+- **Expert**: Mike Idengren
 - **CTA**: see artifacts
 - **Depends on**: 2026-B-007
 
 ## Post
-If your model has to *guess* what a domain field means, you’ve already shipped ambiguity into a high-stakes workflow.
+AI agents are not good at guessing what you mean.  In a ChatGPT back-and-forth dialog, you can just correct it.  In an autonomous production system, the AI agents have to go by guardrails and rules.
 
-What we did: we documented the AI context fields with a **data manifest** so the system can use domain data correctly (and reviewers can tell what it used), instead of relying on “implicit semantics.”
+For our partners' LSARS Permitting + Community Health Risk Assessment solution, we documented the AI context fields with a **data manifest** so the system can use domain data correctly (and reviewers can tell what it used), instead of relying on “implicit semantics.”
 
-Best-practice stance: the manifest is part of the product. Treat it like code.
+The manifest is part of the product. Treat it like code.
 
 Guardrails we follow:
 - **Define fields like a contract** (what it is, units, allowed ranges, source-of-truth).

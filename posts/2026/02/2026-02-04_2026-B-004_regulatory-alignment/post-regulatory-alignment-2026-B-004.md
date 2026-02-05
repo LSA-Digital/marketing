@@ -7,9 +7,9 @@
 - **Product**: LSARS, HRA
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Mike Idengren
+- **Expert**: Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 
@@ -40,26 +40,3 @@ If you're working across jurisdictions or need calculations that align with spec
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
 
-## Claim boundaries
-- Stage: deployed
-- What we can say safely:
-  - LSARS supports both EPA and CA OEHHA calculation modes
-  - Users can select the appropriate regulatory framework
-  - Calculations are transparent and auditable
-  - OEHHA mode includes age sensitivity, diesel, and other California-specific factors
-- What we should NOT claim:
-  - Specific regulatory approval or certification
-  - That LSARS replaces regulatory review
-  - Quantified time savings without cited evidence
-
-## Notes
-- Repost kit:
-  - Business caption: "EPA and OEHHA calculate health risks differently. LSARS supports both—so your calculations match what regulators expect."
-  - Technical caption: "Multi-mode regulatory calculation support: EPA federal vs CA OEHHA with age sensitivity, diesel handling, and California-specific exposure factors."
-  - Partner voice caption: "Regulatory alignment means speaking the same language as the agencies reviewing your work. LSARS makes that straightforward."
-- Question prompt: "How do you handle calculation methodology differences across jurisdictions today?"
-- UTM:
-  - `utm_source=linkedin`
-  - `utm_medium=organic`
-  - `utm_campaign=feb_2026_human_ai`
-  - `utm_content=regulatory-alignment`

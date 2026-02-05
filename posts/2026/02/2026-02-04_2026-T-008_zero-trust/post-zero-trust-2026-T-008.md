@@ -9,7 +9,7 @@
 - **Audience**: technical
 - **Status**: approved
 - **Poster**: company page
-- **SME reviewer**: Mike Idengren
+- **Expert**: Mike Idengren
 - **CTA**: see artifacts
 - **Depends on**: —
 
