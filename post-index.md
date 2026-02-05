@@ -18,6 +18,8 @@
 | 2026-B-008 | 797 Pollutants, 5 Significant Figures: HARP2 Parity                                  | [post](posts/2026/02/2026-02-04_harp2-parity/post-harp2-parity-2026-B-008.md)                                           | draft     | business | LSARS, HRA | —         | —                                                     |
 | 2026-T-007 | Back-Calculations Drift. Source Data Doesn't.                                        | [post](posts/2026/02/2026-02-04_source-data-first/post-source-data-first-2026-T-007.md)                                 | draft     | tech     | LSARS, HRA | 2026-B-008 | 797 Pollutants, 5 Significant Figures: HARP2 Parity    |
 | 2026-T-008 | The Best Security Configuration Is the One You Can't Misconfigure                    | [post](posts/2026/02/2026-02-04_zero-trust/post-zero-trust-2026-T-008.md)                                               | approved  | tech     | LSARS, HRA | —         | —                                                     |
+| 2026-B-009 | Compliance Across Standards Isn't About Checking Boxes—It's About Showing Your Work | [post](posts/2026/02/2026-02-05_compliance-trust-standards/post-compliance-trust-standards-2026-B-009.md)               | draft     | business | LSARS, HRA | —         | —                                                     |
+| 2026-T-009 | Model Selection Is a Product Decision. Treat It Like Configuration.                  | [post](posts/2026/02/2026-02-05_model-configuration-reviewable/post-model-configuration-reviewable-2026-T-009.md)       | draft     | tech     | LSARS, HRA | 2026-B-009 | Compliance Across Standards Isn't About Checking Boxes |
 
 ---
 
@@ -35,8 +37,8 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-009`
-- Next tech post:`2026-T-009`
+- Next business post:`2026-B-010`
+- Next tech post:`2026-T-010`
 
 ### Channel Strategy
 
