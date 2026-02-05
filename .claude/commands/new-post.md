@@ -163,37 +163,78 @@ Guardrails:
 
 ## Tone Guidance
 
-### Business posts (B-type, LSARS channel)
-- **Lead with the business problem**, not the technology.
-- Technology/AI comes second, as the "how we addressed it."
-- **CTA link**: `https://lsars.com`
+### House voice (applies to ALL posts)
+- **Artifact-first**: anchor the post in one concrete thing we built or shipped (report, diagram, workflow, dataset, configuration spec). Mention it in the post text, and list it under **Artifacts**.
+- **Short, punchy paragraphs**: 1–3 sentences per paragraph. Avoid walls of text.
+- **Assertive, evidence-oriented claims**: prefer “show your work / evidence / audit trail / bounded” over hype.
+- **Use bold for structure**: section headers like `**How it works:**`, `**Why this matters:**`, `**Result:**` and bold labels at the start of bullets.
+- **No fluff**: avoid “leveraging”, “synergy”, “revolutionary”, “game-changing”, “disrupt”.
+- **CTA lives at the end**: no horizontal rule (`---`) before the CTA; final sentence(s) should naturally include the link.
 
-### Multi-stakeholder framing
-- Write for **all stakeholders** with shared interest framing.
-- Avoid "Why it matters to you:" sections—name stakeholders explicitly instead.
-
-### Tech posts (T-type, LSA Digital channel)
-- **Hook hard in the first 1–2 sentences** with a dramatic consequence or positive contrast.
-- **Do not reference the timing of a dependent upstream post.**
-- **Keep it high-level**—avoid low-level implementation specifics.
-- **CTA link**: `https://lsadigital.com`
-
-### Post patterns
-
+### Default post shape (works for both business + tech)
 First two beats are always:
 1. **Hook** (problem/bad pattern, or good practice) — 1–2 sentences
-2. **What we did** — 1 sentence, concrete and artifact-first
+2. **What we did** — 1 sentence starting with “We built …” or “We built X to …”
 
-Then choose one pattern for the rest:
+Then pick one of these middle structures (keep it tight):
+- **Pattern A (classic)**: Hook → What we did → `**How it works:**` (3 bullets) → `**Why this matters:**` → `**Result:**` → CTA
+- **Pattern B (outcome-forward)**: Hook → What we did → `**Result:**` → `**How it works:**` (3 bullets) → CTA
+- **Pattern C (best-practice manifesto)**: Hook → What we did → stance (“best practice is …”) → `**How it works:**` (3 guardrail bullets) → `**Result:**` → CTA
 
-**Pattern A (classic)**: Hook → What we did → Credibility → 3 bullets → Result
+Bullet guidance:
+- Use **3 bullets** by default (4 max).
+- Start each bullet with a **bold label** and keep each bullet to 1–2 lines.
 
-**Pattern B (outcome-forward)**: Hook → What we did → Result → 3 bullets → Credibility
+### Business posts (B-type, LSARS channel)
+- **Lead with the stakeholder problem** (trust, timelines, defensibility, evidence). Tech/AI comes second as the “how”.
+- **Multi-stakeholder framing**: explicitly name stakeholders (e.g., communities, permit applicants, regulators). Avoid “Why it matters to you:” phrasing.
+- **Concrete outcome language**: “reduce back-and-forth”, “fewer surprises”, “defensible deltas vs baseline”, “commitments tracked against outcomes”.
+- **CTA link**: `https://lsars.com`
 
-**Pattern C (best-practice manifesto)**: Hook → What we did → Best-practice stance → 3 bullets (guardrails) → Credibility → Result
+Strong business hooks tend to look like:
+- A reframing: “X isn’t about Y — it’s about Z.”
+- A cost-of-failure line: “The bottleneck isn’t disagreement — it’s evidence.”
+- A shared-interest line: “It’s in everyone’s interest to …”
 
-#### CTA formatting rule
-Do not insert a horizontal rule (`---`) before the CTA. Let it flow naturally as the final sentence(s).
+### Tech posts (T-type, LSA Digital channel)
+- **Hook hard in the first 1–2 sentences**: a sharp consequence, contrast, or contrarian best practice.
+- **High-level engineering patterns** (not low-level implementation): architecture choices, permissions, routing, auditability, escalation.
+- **Include at least one “critical design choice”** sentence (e.g., what capability was intentionally removed/gated).
+- **Do not reference timing** of the dependent upstream post (no “in our last post…”, no “next week…”). You may cite the dependency in metadata only.
+- **Do not use internal IDs in the post text** (e.g., `2026-B-010`). IDs belong in **Metadata** and `post-index.md`, not in content for normal readers.
+- **CTA link**: `https://lsadigital.com`
+
+Strong tech hooks tend to look like:
+- “Most systems do X. That’s why they fail at Y.”
+- “If you can’t explain ___, you can’t trust ___.”
+- “You picked the model. That was the easy part.”
+
+### Ready-to-fill mini-templates (copy/paste)
+
+**Business (LSARS)**
+- Hook (1–2 sentences)
+- We built <artifact/system> to <outcome>.
+- `**How it works:**`
+  - **<Label>**: <1 line>
+  - **<Label>**: <1 line>
+  - **<Label>**: <1 line>
+- `**Why this matters for stakeholders:**`
+  - **<Stakeholder>** <benefit>
+  - **<Stakeholder>** <benefit>
+  - **<Stakeholder>** <benefit>
+- `**Result:**` <1 sentence>
+- CTA sentence + `https://lsars.com`
+
+**Tech (LSA Digital)**
+- Hook (1–2 sentences)
+- We built <pattern/system> to <outcome>.
+- `**How it works:**`
+  - **P1 / <Layer>**: <1 line>
+  - **P2 / <Layer>**: <1 line>
+  - **P3 / <Layer>**: <1 line>
+- The critical design choice: **<constraint/gating rule>**.
+- `**Result:**` <latency/cost/auditability/safety outcome in 1 sentence>
+- CTA sentence + `https://lsadigital.com`
 
 ---
 

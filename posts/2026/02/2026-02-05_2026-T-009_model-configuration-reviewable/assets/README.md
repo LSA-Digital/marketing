@@ -1,5 +1,5 @@
 # Assets needed
 
-- [ ] Code snippet showing explicit model configuration (environment variables)
-- [ ] Architecture diagram showing model roles (advisor vs. research vs. extraction)
-- [ ] Configuration example showing model assignment by task type
+- [ ] Diagram showing agent configuration dimensions (purpose, data, tools, guardrails, collaboration)
+- [ ] Example agent config file or schema showing explicit permissions
+- [ ] Architecture diagram showing multi-agent system with clear boundaries and handoff rules
