@@ -17,7 +17,7 @@ Create a new marketing post folder **and draft the post content**, following the
 **Every post creation MUST complete ALL items below. Do not end the command until all are done.**
 
 ### Required for ALL posts
-- [ ] Post folder created: `posts/YYYY/MM/YYYY-MM-DD_slug/`
+- [ ] Post folder created: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - [ ] Post file created: `post-[slug]-[postid].md` with complete draft
 - [ ] `assets/` directory created (with README.md if assets are missing)
 - [ ] `post-index.md` updated with new row
@@ -53,7 +53,6 @@ Create a new marketing post folder **and draft the post content**, following the
 - **Theme**: Experts+AI | AI technology | Compliance+scale
 - **Product(s)**: See `lsaProductExpertAlignment.md` for the canonical product list
 - **One concrete "what we did" artifact** to anchor the post
-- **Stage / claim boundaries**: prototype | in progress | public beta | deployed
 - **Channel**: LinkedIn post | demo clip script | longer artifact
 - **CTA**: book a working session | request a demo | see artifacts
   - Business posts (LSARS channel): use `https://lsars.com`
@@ -67,8 +66,10 @@ Create a new marketing post folder **and draft the post content**, following the
 
 **Automatic post type detection from mind map location**:
 The mind map structure determines the post type automatically—do NOT ask the user:
-- **Tech post (T-type)**: Nodes under `LSARS > Technology > AI / Best Practices`
-- **Business post (B-type)**: All other topic areas (Permit Requestor, Regulatory Alignment, Communities, Data Centers, Smart Mobility, etc.)
+- **Tech post (T-type)**: Nodes under `LSARS > Technology` (includes AI / Best Practices and all other Technology sub-nodes)
+- **Business post (B-type)**: All other top-level topic areas (Permit Requestor, Regulatory Alignment, Communities, Data Centers, Smart Mobility, "How does LSARS help Governments...", etc.)
+
+**IMPORTANT**: Never pull a business post from any node under `LSARS > Technology`. All Technology nodes produce tech posts, regardless of their specific content.
 
 Apply sensible defaults based on type:
 - **Business posts**: Audience=business, Theme=Experts+AI or Compliance+scale, CTA=book a working session
@@ -92,9 +93,9 @@ When creating from Mind map mode, check the XMind relationships for links betwee
 - ID format: `YYYY-T-NNN` where `T` = `B` (business) or `T` (tech)
 
 ### 7. Create the post folder and file
-- Directory: `posts/YYYY/MM/YYYY-MM-DD_slug/`
+- Directory: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - File: `post-[slug]-[postid].md`
-- Include: Title, Metadata, Post text, Artifacts, Claim boundaries, Notes (repost kit, UTM)
+- Include: Title, Metadata, Post text, Artifacts
 
 ### 8. Create companion files as needed
 - `links.md` for remote links with UTM variants
@@ -199,7 +200,7 @@ Do not insert a horizontal rule (`---`) before the CTA. Let it flow naturally as
 ## File Structure Reference
 
 ```
-posts/YYYY/MM/YYYY-MM-DD_slug/
+posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/
 ├── post-[slug]-[postid].md    # Main post file
 ├── assets/                     # Local assets
 │   └── README.md              # Asset checklist if items missing
