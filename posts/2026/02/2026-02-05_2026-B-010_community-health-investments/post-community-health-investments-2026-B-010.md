@@ -7,7 +7,7 @@
 - **Product**: LSARS, HRA
 - **Theme**: Experts+AI
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **SME reviewer**: Nelson Smith
 - **CTA**: book a working session
@@ -17,11 +17,11 @@
 
 Permit applicants promise community benefits. Communities hear vague assurances. The gap between "we'll help" and actual health outcomes is where trust breaks down.
 
-We built LSARS to close that gap—using Health Risk Assessment combined with Social Determinants of Health data to target investments where they actually matter.
+We built the LSARS Permits and Health Risk Assessment (HRA) to close that gap — using pollutant/health condition data, combined with Social Determinants of Health data to target investments where they actually matter.
 
 **How it works:**
 
-- **HRA baseline**: Quantify existing pollutant exposure, cancer risk, and cumulative health burden by census tract—not just facility-level emissions.
+- **HRA baseline**: Quantify existing pollutant exposure, cancer risk, and cumulative health burden by census tract (not just facility-level emissions).
 - **SDOH integration**: Layer in transportation access, food security, healthcare availability, and economic vulnerability to identify the real barriers to community health.
 - **Targeted investments**: Instead of generic "community benefit" promises, permit holders commit to specific interventions—clinical care navigators, job training, transportation improvements—matched to the actual needs.
 
