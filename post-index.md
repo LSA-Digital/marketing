@@ -37,13 +37,6 @@
 | 2026-B-017 | How does LSARS make noise commitments enforceable (decibel limits + continuous monitoring)? | [post](posts/2026/02/2026-02-10_2026-B-017_enforceable-noise-commitments/post-enforceable-noise-commitments-2026-B-017.md) | draft | business | LSARS | — | — | Nelson Smith + Keith Mangold |
 | 2026-B-018 | How does LSARS handle diesel backup generator credibility (construction + testing) with HRA baseline risk? | [post](posts/2026/02/2026-02-10_2026-B-018_diesel-backup-credibility/post-diesel-backup-credibility-2026-B-018.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Mike Idengren |
 | 2026-B-019 | How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)? | [post](posts/2026/02/2026-02-10_2026-B-019_rural-workforce-commitments/post-rural-workforce-commitments-2026-B-019.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Dr. Thad Perry |
-| 2026-B-020 | How does LSARS + Smart Mobility turn SDOH into mobility investments communities will accept? | [post](posts/2026/02/2026-02-10_2026-B-020_sdoh-mobility-acceptance/post-sdoh-mobility-acceptance-2026-B-020.md) | draft | business | LSARS, Smart Mobility | — | — | Dr. Thad Perry |
-| 2026-B-021 | How does Smart Mobility make construction traffic commitments measurable for faster permits? | [post](posts/2026/02/2026-02-10_2026-B-021_measurable-construction-traffic/post-measurable-construction-traffic-2026-B-021.md) | draft | business | LSARS, Smart Mobility | — | — | Keith Mangold + Nelson Smith |
-| 2026-B-022 | How does LSARS publish mobility KPIs as part of a CBA scorecard to ensure transparency? | [post](posts/2026/02/2026-02-10_2026-B-022_mobility-kpi-scorecards/post-mobility-kpi-scorecards-2026-B-022.md) | draft | business | LSARS, Smart Mobility | — | — | Keith Mangold + Nelson Smith |
-| 2026-B-023 | How does LSARS + Smart Mobility improve emergency access (cooling centers/clinics)? | [post](posts/2026/02/2026-02-10_2026-B-023_emergency-access-equity/post-emergency-access-equity-2026-B-023.md) | draft | business | LSARS, Smart Mobility | — | — | Dr. Thad Perry |
-| 2026-B-024 | How does LSARS give under-resourced governments one-click mobility visibility? | [post](posts/2026/02/2026-02-10_2026-B-024_gov-mobility-visibility/post-gov-mobility-visibility-2026-B-024.md) | draft | business | LSARS, Smart Mobility | — | — | Keith Mangold + Nelson Smith |
-| 2026-B-025 | How does Smart Mobility reduce parking spillover and quality-of-life opposition? | [post](posts/2026/02/2026-02-10_2026-B-025_parking-spillover-control/post-parking-spillover-control-2026-B-025.md) | draft | business | LSARS, Smart Mobility | — | — | Keith Mangold + Nelson Smith |
-| 2026-B-026 | How do Low Emission Zone / access-control systems become a compliance proof point? | [post](posts/2026/02/2026-02-10_2026-B-026_lez-compliance-proof/post-lez-compliance-proof-2026-B-026.md) | draft | business | LSARS, Smart Mobility | — | — | Keith Mangold + Nelson Smith |
 ---
 
 ## Instructions for Post Index Maintenance
@@ -60,7 +53,7 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-027`
+- Next business post:`2026-B-020`
 - Next tech post:`2026-T-016`
 
 
