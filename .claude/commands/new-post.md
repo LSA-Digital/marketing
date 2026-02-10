@@ -145,19 +145,19 @@ Output a completion summary showing:
 1. Verify what will be committed:
    - `git status`
    - `git diff`
-2. Stage only post-related changes (avoid committing unrelated edits):
-   - The new post folder(s) under `posts/YYYY/MM/...`
-   - `post-index.md`
-   - `docs/mindmaps/LSARS_posts_v2.xmind` (Mind map mode only)
+2. Stage ALL outstanding changes:
+   - `git add .`
+   - This includes the new post folder(s), `post-index.md`, XMind files, and any other modified files in the repository
 3. Create a commit with a clear message. Suggested format:
    - `posts: add <short-title> (<post-id>)`
    - If a linked tech/business pair was created, include both IDs in one commit message.
+   - If other files beyond the post are included, mention them briefly if significant
 4. Push to remote:
    - `git push`
 
 Guardrails:
 - Never commit secrets (e.g., `.env`, credentials, API keys).
-- If the repo has additional uncommitted changes unrelated to this post, either exclude them from staging or split them into separate commits (only if explicitly requested).
+- If `.env` or other sensitive files appear in `git status`, explicitly exclude them with `git reset HEAD <file>` before committing.
 
 ---
 

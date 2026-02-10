@@ -13,3 +13,6 @@
 # Temporary files
 *.tmp
 *.log
+
+# Google Workspace MCP credentials
+.gsuite/

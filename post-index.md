@@ -33,6 +33,10 @@
 | 2026-B-015 | Apprenticeships don’t work if people can’t get to them                                  | [post](posts/2026/02/2026-02-04_2026-B-015_apprenticeship-access-smart-mobility/post-apprenticeship-access-smart-mobility-2026-B-015.md) | draft | business | LSARS, HRA | —          | —                                                       | Dr. Thad Perry + Mike Idengren (and/or Nelson Smith) |
 | 2026-T-015 | Agentic AI “just-in-time” UX: the information you need, when you need it               | [post](posts/2026/02/2026-02-04_2026-T-015_agentic-ai-just-in-time-ux/post-agentic-ai-just-in-time-ux-2026-T-015.md)                | draft    | tech     | LSARS      | 2026-B-015 | Apprenticeships don’t work if people can’t get to them   | Keith Mangold (and/or LSA Digital implementer)     |
 
+| 2026-B-016 | How does LSARS make water use and drought triggers transparent (potable vs reclaimed)? | [post](posts/2026/02/2026-02-10_2026-B-016_data-center-water-transparency/post-data-center-water-transparency-2026-B-016.md) | draft | business | LSARS | — | — | Keith Mangold + Nelson Smith |
+| 2026-B-017 | How does LSARS make noise commitments enforceable (decibel limits + continuous monitoring)? | [post](posts/2026/02/2026-02-10_2026-B-017_enforceable-noise-commitments/post-enforceable-noise-commitments-2026-B-017.md) | draft | business | LSARS | — | — | Nelson Smith + Keith Mangold |
+| 2026-B-018 | How does LSARS handle diesel backup generator credibility (construction + testing) with HRA baseline risk? | [post](posts/2026/02/2026-02-10_2026-B-018_diesel-backup-credibility/post-diesel-backup-credibility-2026-B-018.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Mike Idengren |
+| 2026-B-019 | How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)? | [post](posts/2026/02/2026-02-10_2026-B-019_rural-workforce-commitments/post-rural-workforce-commitments-2026-B-019.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Dr. Thad Perry |
 ---
 
 ## Instructions for Post Index Maintenance
@@ -49,7 +53,7 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-016`
+- Next business post:`2026-B-020`
 - Next tech post:`2026-T-016`
 
 

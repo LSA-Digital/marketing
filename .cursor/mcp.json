@@ -6,6 +6,17 @@
         "/Users/idengrenme/dev/common/mcp-xmind/dist/index.js",
         "/Users/idengrenme/dev/marketing/docs/mindmaps"
       ]
+    },
+    "gsuite": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@nicobailey/mcp-gsuite",
+        "--gauth-file",
+        "/Users/idengrenme/dev/marketing/.gsuite/gauth.json",
+        "--credentials-dir",
+        "/Users/idengrenme/dev/marketing/.gsuite"
+      ]
     }
   }
 }
