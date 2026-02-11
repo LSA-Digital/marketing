@@ -37,6 +37,18 @@
 | 2026-B-017 | How does LSARS make noise commitments enforceable (decibel limits + continuous monitoring)? | [post](posts/2026/02/2026-02-10_2026-B-017_enforceable-noise-commitments/post-enforceable-noise-commitments-2026-B-017.md) | draft | business | LSARS | — | — | Nelson Smith + Keith Mangold |
 | 2026-B-018 | How does LSARS handle diesel backup generator credibility (construction + testing) with HRA baseline risk? | [post](posts/2026/02/2026-02-10_2026-B-018_diesel-backup-credibility/post-diesel-backup-credibility-2026-B-018.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Mike Idengren |
 | 2026-B-019 | How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)? | [post](posts/2026/02/2026-02-10_2026-B-019_rural-workforce-commitments/post-rural-workforce-commitments-2026-B-019.md) | draft | business | LSARS, HRA | — | — | Nelson Smith + Dr. Thad Perry |
+| 2026-B-020 | How does LSARS help accelerate Data Center permitting? | [post](posts/2026/02/2026-02-10_2026-B-020_accelerate-data-center-permitting/post-accelerate-data-center-permitting-2026-B-020.md) | draft | business | LSARS, HRA | — | — | Nelson Smith |
+| 2026-B-021 | How does LSARS help accelerate Utility permitting? | [post](posts/2026/02/2026-02-10_2026-B-021_accelerate-utility-permitting/post-accelerate-utility-permitting-2026-B-021.md) | draft | business | LSARS | — | — | — |
+| 2026-B-022 | How does LSARS help improve community economy? | [post](posts/2026/02/2026-02-10_2026-B-022_community-economic-commitments/post-community-economic-commitments-2026-B-022.md) | draft | business | LSARS | — | — | Nelson Smith |
+| 2026-B-023 | How does LSARS help improve transparency and accountability for promises made to the community? | [post](posts/2026/02/2026-02-10_2026-B-023_community-promises-accountability/post-community-promises-accountability-2026-B-023.md) | draft | business | LSARS | — | — | Nelson Smith |
+| 2026-B-024 | How does LSARS help add more jobs for the local community? | [post](posts/2026/02/2026-02-10_2026-B-024_local-jobs-training-pipeline/post-local-jobs-training-pipeline-2026-B-024.md) | draft | business | LSARS | — | — | Nelson Smith |
+| 2026-B-025 | How does LSARS + Smart Mobility turn SDOH into mobility investments communities will accept? | [post](posts/2026/02/2026-02-10_2026-B-025_sdoh-to-mobility-investments/post-sdoh-to-mobility-investments-2026-B-025.md) | draft | business | LSARS, HRA | — | — | Dr. Thad Perry |
+| 2026-B-026 | How does Smart Mobility make construction traffic commitments measurable for faster permits? | [post](posts/2026/02/2026-02-10_2026-B-026_construction-traffic-commitments/post-construction-traffic-commitments-2026-B-026.md) | draft | business | LSARS | — | — | Keith Mangold, Nelson Smith |
+| 2026-B-027 | How does LSARS publish mobility KPIs as part of a CBA scorecard to ensure transparency and accountability for the community? | [post](posts/2026/02/2026-02-10_2026-B-027_mobility-kpi-scorecards/post-mobility-kpi-scorecards-2026-B-027.md) | draft | business | LSARS | — | — | Keith Mangold, Nelson Smith |
+| 2026-B-028 | How does LSARS + Smart Mobility improve emergency access (cooling centers/clinics) in high-vulnerability tracts? | [post](posts/2026/02/2026-02-10_2026-B-028_emergency-access-mobility/post-emergency-access-mobility-2026-B-028.md) | draft | business | LSARS, HRA | — | — | Dr. Thad Perry |
+| 2026-B-029 | How does LSARS give under-resourced governments one-click mobility visibility during permitting? | [post](posts/2026/02/2026-02-10_2026-B-029_one-click-mobility-visibility/post-one-click-mobility-visibility-2026-B-029.md) | draft | business | LSARS | — | — | Keith Mangold, Nelson Smith |
+| 2026-B-030 | How does Smart Mobility reduce parking spillover and quality-of-life opposition near project sites? | [post](posts/2026/02/2026-02-10_2026-B-030_parking-spillover-accountability/post-parking-spillover-accountability-2026-B-030.md) | draft | business | LSARS | — | — | Keith Mangold, Nelson Smith |
+| 2026-B-031 | How do Low Emission Zone / access-control systems become a compliance proof point in permits? | [post](posts/2026/02/2026-02-10_2026-B-031_lez-access-control-compliance/post-lez-access-control-compliance-2026-B-031.md) | draft | business | LSARS | — | — | Keith Mangold, Nelson Smith |
 ---
 
 ## Instructions for Post Index Maintenance
@@ -53,7 +65,7 @@
 
 **Next IDs**:
 
-- Next business post:`2026-B-020`
+- Next business post:`2026-B-032`
 - Next tech post:`2026-T-016`
 
 

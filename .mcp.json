@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "xmind": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/idengrenme/dev/common/mcp-xmind/dist/index.js",
+        "/Users/idengrenme/dev/marketing/docs/mindmaps"
+      ]
+    },
+    "lazy-mcp": {
+      "type": "stdio",
+      "command": "/Users/idengrenme/dev/lazy-mcp/build/mcp-proxy",
+      "args": [
+        "--config",
+        "/Users/idengrenme/dev/common/lazy-mcp/config.json",
+        "--hierarchy",
+        "/Users/idengrenme/dev/common/lazy-mcp/hierarchy"
+      ]
+    }
+  }
+}

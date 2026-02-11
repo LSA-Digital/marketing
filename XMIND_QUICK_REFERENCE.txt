@@ -1,0 +1,89 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    XMIND POST-ID COVERAGE QUICK REFERENCE                  ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📊 CURRENT STATUS
+─────────────────────────────────────────────────────────────────────────────
+File: docs/mindmaps/LSARS_posts_v2.xmind
+Total Nodes: 180
+  ✓ With Post-ID: 34 (18.9%)
+  ✗ Without Post-ID: 146 (81.1%)
+
+🔍 ANALYZE COVERAGE
+─────────────────────────────────────────────────────────────────────────────
+# View full report (human-readable)
+python3 scripts/analyze_xmind_coverage.py
+
+# Export as JSON (for scripts)
+python3 scripts/analyze_xmind_coverage.py --json > coverage.json
+
+# Export as CSV (for spreadsheet)
+python3 scripts/analyze_xmind_coverage.py --csv > coverage.csv
+
+📝 ASSIGN POST-ID TO A NODE
+─────────────────────────────────────────────────────────────────────────────
+python3 scripts/update_xmind_labels.py \
+  docs/mindmaps/LSARS_posts_v2.xmind \
+  <NODE_ID> \
+  <POST_ID>
+
+Example:
+python3 scripts/update_xmind_labels.py \
+  docs/mindmaps/LSARS_posts_v2.xmind \
+  9801d04d690b4df392dd467d72 \
+  2026-B-020
+
+✅ VERIFY ASSIGNMENT
+─────────────────────────────────────────────────────────────────────────────
+python3 scripts/analyze_xmind_coverage.py | grep "2026-B-020"
+
+🏷️  POST-ID NAMING CONVENTION
+─────────────────────────────────────────────────────────────────────────────
+Format: YYYY-X-NNN
+  YYYY = Year (2026)
+  X = Category (B=Business, T=Technology)
+  NNN = Sequential number (001-999)
+
+Examples:
+  2026-B-001 = Business post #1
+  2026-T-010 = Technology post #10
+  2026-B-020 = Business post #20
+
+📋 WORKFLOW: CREATE NEW POST
+─────────────────────────────────────────────────────────────────────────────
+1. Create post folder and content
+2. Update post-index.md
+3. Assign post-id to mindmap node:
+   python3 scripts/update_xmind_labels.py \
+     docs/mindmaps/LSARS_posts_v2.xmind \
+     <NODE_ID> \
+     <POST_ID>
+4. Verify: python3 scripts/analyze_xmind_coverage.py
+5. Commit changes
+
+🔧 RELATED SCRIPTS
+─────────────────────────────────────────────────────────────────────────────
+analyze_xmind_coverage.py  - Analyze post-id coverage (THIS ONE)
+update_xmind_labels.py     - Add/update labels on nodes
+dump_xmind_tree.py         - View full tree structure
+
+📚 DOCUMENTATION
+─────────────────────────────────────────────────────────────────────────────
+docs/XMIND_ANALYSIS_GUIDE.md       - Full guide with examples
+.claude/commands/update-mindmap-node.md - Detailed update instructions
+
+🚀 QUICK COMMANDS
+─────────────────────────────────────────────────────────────────────────────
+# See all pending nodes
+python3 scripts/analyze_xmind_coverage.py | grep -A 2 "NODES WITHOUT"
+
+# See all assigned nodes
+python3 scripts/analyze_xmind_coverage.py | grep -A 2 "NODES WITH"
+
+# Find a specific node by title
+python3 scripts/analyze_xmind_coverage.py --csv | grep "your search term"
+
+# Get JSON for programmatic use
+python3 scripts/analyze_xmind_coverage.py --json | jq '.nodes_without_post_id'
+
+═════════════════════════════════════════════════════════════════════════════
