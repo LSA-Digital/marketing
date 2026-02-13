@@ -1,9 +1,9 @@
 # How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)?
 
-- **ID**: 2026-B-019
-- **Date**: 2026-02-10
-- **Type**: Business
-- **Artifacts**: Use SDOH to identify barriers (transport, childcare, language, education), then pair paid apprenticeships with real supports and publish completion + local spend + procurement metrics so 'few jobs' skepticism is addressed with evidence.
+## Metadata
+- **Post ID**: 2026-B-019
+- **CTA**: Build the workforce at [lsars.com](https://lsars.com)
+- **Depends on**: —
 
 # "Jobs" isn't a magic word—access is
 

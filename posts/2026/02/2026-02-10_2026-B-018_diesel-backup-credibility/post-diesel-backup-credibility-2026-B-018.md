@@ -1,9 +1,9 @@
 # How does LSARS handle diesel backup generator credibility (construction + testing) with HSRA baseline risk?
 
-- **ID**: 2026-B-018
-- **Date**: 2026-02-10
-- **Type**: Business
-- **Artifacts**: Even if normal operations are clean, diesel backup and construction emissions can be politically material in high-burden tracts. LSARS anchors the conversation in baseline HSRA + cumulative burden and tracks mitigation/compliance transparently.
+## Metadata
+- **Post ID**: 2026-B-018
+- **CTA**: See the model at [lsars.com](https://lsars.com)
+- **Depends on**: —
 
 # Credibility means counting the backup generators too
 

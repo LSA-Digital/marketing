@@ -3,11 +3,6 @@
 ## Metadata
 
 - **Post ID**: 2026-B-007
-- **Channel**: LinkedIn post
-- **Target page**:[LSARS](https://www.linkedin.com/company/lsars)
-- **Theme**: Compliance+scale
-- **Audience**: business
-- **Poster**: company page
 - **CTA**: book a working session
 - **Depends on**: —
 

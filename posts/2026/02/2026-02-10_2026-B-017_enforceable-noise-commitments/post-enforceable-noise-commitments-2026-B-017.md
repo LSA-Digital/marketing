@@ -1,9 +1,9 @@
 # How does LSARS make noise commitments enforceable (decibel limits + continuous monitoring)?
 
-- **ID**: 2026-B-017
-- **Date**: 2026-02-10
-- **Type**: Business
-- **Artifacts**: Convert 'the hum will never stop' into measurable commitments: setbacks, acoustic design, decibel limits, continuous monitoring, and public scorecards tracked in the Permit Intelligence Portal.
+## Metadata
+- **Post ID**: 2026-B-017
+- **CTA**: Learn more at [lsars.com](https://lsars.com)
+- **Depends on**: —
 
 # Make the "hum" measurable and managed
 

@@ -1,9 +1,9 @@
 # How does LSARS make water use and drought triggers transparent (potable vs reclaimed)?
 
-- **ID**: 2026-B-016
-- **Date**: 2026-02-10
-- **Type**: Business
-- **Artifacts**: Publish a simple public water dashboard (caps, potable vs reclaimed, drought-trigger operating rules, compliance history) so the community isn't asked to rely on verbal assurances.
+## Metadata
+- **Post ID**: 2026-B-016
+- **CTA**: See the dashboard at [lsars.com](https://lsars.com)
+- **Depends on**: —
 
 # Water transparency that communities can verify
 

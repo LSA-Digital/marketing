@@ -2,12 +2,6 @@
 
 ## Metadata
 - **Post ID**: 2026-B-001
-- **Channel**: LinkedIn post
-- **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Theme**: Experts+AI
-- **Audience**: business
-- **Publish target**: 2026-02-07 (Fri)
-- **Poster**: company page
 - **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post

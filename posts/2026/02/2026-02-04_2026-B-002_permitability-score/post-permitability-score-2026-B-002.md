@@ -2,12 +2,6 @@
 
 ## Metadata
 - **Post ID**: 2026-B-002
-- **Channel**: LinkedIn post
-- **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Theme**: Compliance+scale
-- **Audience**: business
-- **Publish target**: 2026-02-11 (Wed)
-- **Poster**: company page
 - **CTA**: request a demo at [lsars.com](https://lsars.com)
 
 ## Post

@@ -2,12 +2,6 @@
 
 ## Metadata
 - **Post ID**: 2026-T-001
-- **Channel**: LinkedIn post
-- **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
-- **Theme**: AI technology
-- **Audience**: technical
-- **Publish target**: 2026-02-10 (Mon)
-- **Poster**: company page
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 - **Depends on**: 2026-B-001 (auditable-ai-trust)
 
