@@ -17,5 +17,6 @@ When the user invokes this command:
 4. Update /post-index.md with same status for this post
 4. Save the file
 5. Confirm the update
+6. git commit / push changes
 
 Valid status values: `draft`, `in_review`, `approved`, `published`, `rejected`
