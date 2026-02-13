@@ -9,7 +9,6 @@
 - **Audience**: business
 - **Status**: approved
 - **Poster**: company page
-- **Expert**: Nelson Smith
 - **CTA**: book a working session
 - **Depends on**: —
 

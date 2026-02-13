@@ -10,7 +10,6 @@
 - **Status**: approved
 - **Publish target**: 2026-02-11 (Wed)
 - **Poster**: company page
-- **Expert**: Nelson Smith + Mike Idengren
 - **CTA**: request a demo at [lsars.com](https://lsars.com)
 
 ## Post

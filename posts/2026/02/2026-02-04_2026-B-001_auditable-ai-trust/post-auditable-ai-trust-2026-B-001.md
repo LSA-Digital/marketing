@@ -10,7 +10,6 @@
 - **Status**: approved
 - **Publish target**: 2026-02-07 (Fri)
 - **Poster**: company page
-- **Expert**: Nelson Smith + Dr. Thad Perry
 - **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post

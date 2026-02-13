@@ -9,7 +9,6 @@
 - **Audience**: business
 - **Status**: approved
 - **Poster**: company page
-- **Expert**: Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 

@@ -9,7 +9,6 @@
 - **Audience**: business
 - **Status**: draft
 - **Poster**: company page
-- **Expert**: Dr. Thad Perry
 - **CTA**: book a working session
 - **Depends on**: —
 

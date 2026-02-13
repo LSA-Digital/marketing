@@ -9,7 +9,6 @@
 - **Audience**: business
 - **Status**: draft
 - **Poster**: company page
-- **Expert**: —
 - **CTA**: book a working session
 - **Depends on**: —
 

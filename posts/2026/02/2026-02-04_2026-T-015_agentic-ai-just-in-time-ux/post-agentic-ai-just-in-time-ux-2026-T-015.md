@@ -9,7 +9,6 @@
 - **Audience**: technical
 - **Status**: draft
 - **Poster**: company page
-- **Expert**: Keith Mangold (and/or LSA Digital implementer)
 - **CTA**: see artifacts
 - **Depends on**: 2026-B-015
 

@@ -10,7 +10,6 @@
 - **Audience**: business
 - **Status**: approved
 - **Poster**: company page
-- **Expert**: Nelson Smith + Mike Idengren
 - **CTA**: book a working session
 - **Depends on**: —
 

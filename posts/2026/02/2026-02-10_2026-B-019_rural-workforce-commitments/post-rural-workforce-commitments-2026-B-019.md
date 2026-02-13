@@ -4,7 +4,6 @@
 - **Date**: 2026-02-10
 - **Status**: draft
 - **Type**: Business
-- **Expert**: Nelson Smith + Dr. Thad Perry
 - **Product**: LSARS, HSRA
 - **Artifacts**: Use SDOH to identify barriers (transport, childcare, language, education), then pair paid apprenticeships with real supports and publish completion + local spend + procurement metrics so 'few jobs' skepticism is addressed with evidence.
 

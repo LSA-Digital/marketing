@@ -10,7 +10,6 @@
 - **Status**: approved
 - **Publish target**: 2026-02-10 (Mon)
 - **Poster**: company page
-- **Expert**: Mike Idengren
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 - **Depends on**: 2026-B-001 (auditable-ai-trust)
 

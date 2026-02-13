@@ -10,7 +10,6 @@
 - **Status**: approved
 - **Publish target**: 2026-02-13 (Fri)
 - **Poster**: company page
-- **Expert**: Mike Idengren
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 - **Depends on**: 2026-B-002 (permitability-score)
 

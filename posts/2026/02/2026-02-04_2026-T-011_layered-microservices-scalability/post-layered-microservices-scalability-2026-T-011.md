@@ -9,7 +9,6 @@
 - **Audience**: technical
 - **Status**: approved
 - **Poster**: company page
-- **Expert**: Mike Idengren (and/or LSA Digital implementer)
 - **CTA**: see artifacts
 - **Depends on**: 2026-B-011
 

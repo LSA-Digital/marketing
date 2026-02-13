@@ -4,7 +4,6 @@
 - **Date**: 2026-02-10
 - **Status**: draft
 - **Type**: Business
-- **Expert**: Keith Mangold + Nelson Smith
 - **Product**: LSARS
 - **Artifacts**: Publish a simple public water dashboard (caps, potable vs reclaimed, drought-trigger operating rules, compliance history) so the community isn't asked to rely on verbal assurances.
 

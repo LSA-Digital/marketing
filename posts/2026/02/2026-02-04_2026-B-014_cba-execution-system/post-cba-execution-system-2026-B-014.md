@@ -9,7 +9,6 @@
 - **Audience**: business
 - **Status**: draft
 - **Poster**: company page
-- **Expert**: Nelson Smith + Keith Mangold (and/or Mike Idengren)
 - **CTA**: book a working session
 - **Depends on**: —
 
