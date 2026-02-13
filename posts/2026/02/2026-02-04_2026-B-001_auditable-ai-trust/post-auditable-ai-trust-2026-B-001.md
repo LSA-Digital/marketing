@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-001
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Experts+AI
 - **Audience**: business
 - **Status**: approved
@@ -24,7 +24,7 @@ A useful AI answer in a high-stakes domain isn't the answer—it's the **evidenc
 We built LSARS to make AI outputs auditable from the start.
 
 **What this looks like in practice:**
-- Health Risk Assessment calculations validated against CA OEHHA standards—matched to 5 significant figures across 797 pollutants
+- HSRA health risk calculations validated against CA OEHHA standards—matched to 5 significant figures across 797 pollutants
 - Full reports with formulas and citations available for any map context
 - A community portal showing promises vs actual spending and outcomes
 
@@ -40,4 +40,3 @@ If a working session would help, start at [lsars.com](https://lsars.com).
 - Remote:
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
-

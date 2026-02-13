@@ -1,9 +1,9 @@
-LSARS Demo.SHORT_HRA+Permit Simulator.2026Feb9.SCRIPT
+LSARS Demo.SHORT_HSRA+Permit Simulator.2026Feb9.SCRIPT
 2026FEB9
 
 ## Scene 1:
 **Speaker:** Keith WH/Standing Bkgr
-Welcome to our LSARS Health Risk & Permit Acceleration solution. Today, we're going to talk about how we help accelerate permits at a high level, and then show a brief overview of how the Agentic AI software works. Our LSARS Permit Acceleration solution can be used for any kind of permit or location, but today we will focus on examples of Data Centers and Smart Mobility in the U.S.
+Welcome to our LSARS Health & Social Risk + Permit Acceleration solution. Today, we're going to talk about how we help accelerate permits at a high level, and then show a brief overview of how the Agentic AI software works. Our LSARS Permit Acceleration solution can be used for any kind of permit or location, but today we will focus on examples of Data Centers and Smart Mobility in the U.S.
 **Speaker:** Keith WH/Standing Bkgr
 Before we get into the system demo, I will turn it over to Mike Idengren to briefly explain LSARS and Apex Environmental Resolution Group leadership team, and what they do.
  
@@ -21,7 +21,7 @@ Briefly, the reason baseline community health is important is because pollutants
  
 ## Scene 4:
 **Speaker:** Keith WH/Standing Bkgr
- Thanks for that brief overview, Mike. Now, we'd like to put it all together, by showing the shorter version of our website simulator demo. It combines a miniature version of the Health Risk Assessment system with the Permit Intelligence Portal.
+ Thanks for that brief overview, Mike. Now, we'd like to put it all together, by showing the shorter version of our website simulator demo. It combines a miniature version of the Health & Social Risk Assessment system with the Permit Intelligence Portal.
 **Speaker:** Keith WH/Standing Bkgr
 First, we're going to simulate how Doctor Perry's AI avatar will advise on Health and Social Risk Assessment metrics to provide targeted advice for a specific kind of permit project.
 **Speaker:** Keith WH/Standing Bkgr
@@ -31,7 +31,7 @@ You will see how our human experts combine their experience with AI analysis. Th
  
 ## Scene 5:
 **Speaker:** Mike BL/Head Trans
-All right, so we are at the community permit ability simulation lab and here we're going to simulate the speed of a permit for a data center that is in 37211, which is a ZIP code in Nashville, Tennessee. So what we can see here after entering that zip code is the first health risk assessment. Dr Perry is telling us that the heaviest concentration of the pollutants is Diesel and that's putting our community at cancer risk of 602 per million. We've got a 61st percentile vulnerability in the nation and a lifetime financial burden of 56 million. And sure enough, looking at this map of the zip code in Nashville, we can see that there are 3 intervention priorities recommended based on the social health especially, which is has a lot of blue and dark blue.
+All right, so we are at the community permit ability simulation lab and here we're going to simulate the speed of a permit for a data center that is in 37211, which is a ZIP code in Nashville, Tennessee. So what we can see here after entering that zip code is the first health & social risk assessment. Dr Perry is telling us that the heaviest concentration of the pollutants is Diesel and that's putting our community at cancer risk of 602 per million. We've got a 61st percentile vulnerability in the nation and a lifetime financial burden of 56 million. And sure enough, looking at this map of the zip code in Nashville, we can see that there are 3 intervention priorities recommended based on the social health especially, which is has a lot of blue and dark blue.
  
 ## Scene 6:
 **Speaker:** Mike BL/Head Trans
@@ -45,7 +45,7 @@ Now Keith, over to you.
  
 ## Scene 8:
 **Speaker:** Keith WH/Standing Trans
- Thanks, Mike. So, we just finished our analysis of the health risk assessment for this ZIP code in Nashville, and now we're going to go down to our next step, which is to improve the permit outcomes. So when we scroll down, we can see the permit intelligence area and we can see Nelson telling us that the community permeability score is going to predict the permit approval likelihood based on the HRA data and the proposed investments.
+ Thanks, Mike. So, we just finished our analysis of the health & social risk assessment for this ZIP code in Nashville, and now we're going to go down to our next step, which is to improve the permit outcomes. So when we scroll down, we can see the permit intelligence area and we can see Nelson telling us that the community permeability score is going to predict the permit approval likelihood based on the HSRA data and the proposed investments.
  
 ## Scene 9:
 **Speaker:** Keith WH/Standing Trans
@@ -87,4 +87,3 @@ And that is the key to unlocking major blockers that get in the way of a permit.
 **Speaker:** Keith WH/Standing Bkgr
  Thank you for attending our demo. We look forward to discussing how we can partner with your organization to deliver faster permits and happier, healthier communities. Contact us at hello at LSARS dot com for more information!
  
-

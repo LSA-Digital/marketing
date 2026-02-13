@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-004
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
 - **Status**: approved
@@ -39,4 +39,3 @@ If you're working across jurisdictions or need calculations that align with spec
 - Remote:
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
-

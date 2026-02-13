@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-013
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Experts+AI
 - **Audience**: business
 - **Status**: draft

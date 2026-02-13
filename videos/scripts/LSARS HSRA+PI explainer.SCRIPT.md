@@ -1,4 +1,4 @@
-# LSARS HRA+PI Explainer video script
+# LSARS HSRA+PI Explainer video script
 2026Feb9
 
 ## Scene 1:
@@ -19,7 +19,7 @@ Now, I'd like to turn it over to Mike Idengren, one of three Principals and Chie
 **Speaker:** Keith WH/Standing Bkgr
  The LSARS system calculates the confidence of hitting that date with what we call the "Community Permitability Score". A higher CPS score equals higher confidence of hitting the desired permit approval date.
 **Speaker:** Keith WH/Standing Bkgr
-The Apex Environmental Resolution Group uses both the LSARS technology and consulting services to achieve better trust and speed. LSARS does this by first collecting information about the community, such as its Health and Social Risk Assessment. As part of the initial Apex consulting engagement, LSARS Health Risk Assessment configuration is led by Dr. Thad Perry and his team, using the optimal set of national, state, and local data. This data sets the stage for analysis outcomes such as local pollutant concentrations, resulting cancer rates, and social health metrics.
+The Apex Environmental Resolution Group uses both the LSARS technology and consulting services to achieve better trust and speed. LSARS does this by first collecting information about the community, such as its Health & Social Risk Assessment (HSRA). As part of the initial Apex consulting engagement, LSARS HSRA configuration is led by Dr. Thad Perry and his team, using the optimal set of national, state, and local data. This data sets the stage for analysis outcomes such as local pollutant concentrations, resulting cancer rates, and social health metrics.
  
 ## Scene 4:
 **Speaker:** Keith WH/Standing Bkgr
@@ -37,5 +37,3 @@ Other metrics can include lack of local high school degrees and shortage for tra
 **Speaker:** Keith WH/Standing Bkgr
  Thank you for attending our demo! We look forward to discussing how we can partner with your organization to deliver faster permits and happier, healthier communities. Contact us at hello at LSARS dot com for more information!
  
-
-

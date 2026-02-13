@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-020
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
 - **Status**: draft
@@ -22,7 +22,7 @@ We built LSARS to help permit requestors move faster by turning NIMBY concerns i
 
 **How it works:**
 - **Issue map**: we translate community and agency concerns into specific evidence requirements (what has to be measured, reported, and enforced).
-- **Commitment design**: we use baseline HRA + SDOH context to propose investments that match the local objections (energy affordability, water triggers, noise controls, site buffers).
+- **Commitment design**: we use baseline HSRA + SDOH context to propose investments that match the local objections (energy affordability, water triggers, noise controls, site buffers).
 - **Execution + proof**: commitments become tracked milestones and public scorecards, so stakeholders can verify progress instead of re-litigating claims.
 
 **Result:** fewer surprises, fewer "trust us" debates, and a clearer path to a defensible permit.

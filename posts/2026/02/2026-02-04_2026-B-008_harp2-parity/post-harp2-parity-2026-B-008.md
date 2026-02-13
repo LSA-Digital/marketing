@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-008
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
 - **Status**: draft
@@ -17,7 +17,7 @@
 
 797 Pollutants & 5 Significant Figures - when a regulator reviews your health risk calculations, they're not checking whether your numbers are "close enough." They're checking whether your numbers match the same methodology they use — down to the significant figures.
 
-We built the LSARS Health Risk Assessment engine to achieve exact parity with HARP2, the authoritative regulatory tool for California Health Risk Assessments.
+We built the LSARS Health & Social Risk Assessment (HSRA) engine to achieve exact parity with HARP2, the authoritative regulatory tool for California Health Risk Assessments.
 
 Here's what that means in practice:
 
@@ -31,7 +31,7 @@ For permit requestors, this means submissions that don't get kicked back for met
 
 Parity isn't a marketing claim. It's 797 pollutants, tested and documented, every time the underlying data changes.
 
-If your current HRA workflow involves explaining why your numbers are "similar to" what regulators expect, let's talk: https://lsars.com
+If your current HSRA workflow involves explaining why your numbers are "similar to" what regulators expect, let's talk: https://lsars.com
 
 ## Artifacts
 - Local:

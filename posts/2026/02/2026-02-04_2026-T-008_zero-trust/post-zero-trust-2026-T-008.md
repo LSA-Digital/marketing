@@ -4,7 +4,7 @@
 - **Post ID**: 2026-T-008
 - **Channel**: LinkedIn post
 - **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: AI technology
 - **Audience**: technical
 - **Status**: approved
@@ -23,7 +23,7 @@ Here's what zero-trust architecture means for our platform:
 
 - **Unified reverse proxy**: All traffic routes through a single HTTPS ingress point. Individual services don't handle their own authentication—they don't even know how to.
 
-- **No auth behind the proxy**: Developers working on their solutions (e.g., HRA calculator or permit scenario engine) can't accidentally expose an endpoint. The proxy handles auth; the services just serve.
+- **No auth behind the proxy**: Developers working on their solutions (e.g., HSRA calculator or permit scenario engine) can't accidentally expose an endpoint. The proxy handles auth; the services just serve.
 
 - **Service isolation by design**: Each component runs independently with no shared file systems. A bug in one service can't leak credentials from another because there are no credentials to leak.
 

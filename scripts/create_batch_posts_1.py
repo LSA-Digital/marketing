@@ -68,15 +68,15 @@ Hear the difference at https://lsars.com
     {
         "id": "2026-B-018",
         "slug": "diesel-backup-credibility",
-        "title": "How does LSARS handle diesel backup generator credibility (construction + testing) with HRA baseline risk?",
+        "title": "How does LSARS handle diesel backup generator credibility (construction + testing) with HSRA baseline risk?",
         "node_id": "7458aa90612a4f1785663840db",
         "expert": "Nelson Smith + Mike Idengren",
-        "product": "LSARS, HRA",
+        "product": "LSARS, HSRA",
         "content": """# Credibility means counting the backup generators too
 
 "Clean" data centers still have diesel backups. Ignoring them destroys credibility. Communities know they exist, so we track them.
 
-We integrated diesel backup testing schedules and construction emissions into the HRA baseline model.
+We integrated diesel backup testing schedules and construction emissions into the HSRA baseline model.
 
 **How it works:**
 - **Cumulative Burden**: Models backup emissions on top of existing community pollution load.
@@ -92,7 +92,7 @@ We integrated diesel backup testing schedules and construction emissions into th
 
 See the model at https://lsars.com
 """,
-        "synopsis": "Even if normal operations are clean, diesel backup and construction emissions can be politically material in high-burden tracts. LSARS anchors the conversation in baseline HRA + cumulative burden and tracks mitigation/compliance transparently.",
+        "synopsis": "Even if normal operations are clean, diesel backup and construction emissions can be politically material in high-burden tracts. LSARS anchors the conversation in baseline HSRA + cumulative burden and tracks mitigation/compliance transparently.",
     },
     {
         "id": "2026-B-019",
@@ -100,7 +100,7 @@ See the model at https://lsars.com
         "title": "How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)?",
         "node_id": "0afcd997212046bbbe68dde82d",
         "expert": "Nelson Smith + Dr. Thad Perry",
-        "product": "LSARS, HRA",
+        "product": "LSARS, HSRA",
         "content": """# "Jobs" isn't a magic word—access is
 
 "It creates jobs" is a tired line if locals can't access them due to skills or transport gaps.

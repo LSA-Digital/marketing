@@ -15,8 +15,8 @@ Use this table as the **single glance view** for assigning writing agents, selec
 
 | Product | Primary experts / SMEs | Best contributions (soundbites to request) | “What we did” proof angles to emphasize | Default reviewer(s) | Safe to tag (after pre-coordination) |
 |---|---|---|---|---|---|
-| **LSARS** | Nelson Smith; Dr. Thad Perry; Mike Idengren | Permitting risk + community trust framing; health risk interpretation; enterprise delivery framing | Expert verification workflows; unified story (trust + HRA + AI tooling); auditable outcomes | Nelson Smith + Dr. Thad Perry (and/or Mike Idengren) | LSARS entity + relevant principals |
-| **HRA** | Dr. Thad Perry (interpretation); LSA Digital team (implementation/validation) | Why methodology + auditability matter; how to communicate risk credibly | HARP2 parity validation; test evidence; precision/coverage statements (only if cited) | Dr. Thad Perry + LSA Digital implementer | Usually product/company only (avoid individual tags if claims are sensitive) |
+| **LSARS** | Nelson Smith; Dr. Thad Perry; Mike Idengren | Permitting risk + community trust framing; health risk interpretation; enterprise delivery framing | Expert verification workflows; unified story (trust + HSRA + AI tooling); auditable outcomes | Nelson Smith + Dr. Thad Perry (and/or Mike Idengren) | LSARS entity + relevant principals |
+| **HSRA** | Dr. Thad Perry (interpretation); LSA Digital team (implementation/validation) | Why methodology + auditability matter; how to communicate risk credibly | HARP2 parity validation; test evidence; precision/coverage statements (only if cited) | Dr. Thad Perry + LSA Digital implementer | Usually product/company only (avoid individual tags if claims are sensitive) |
 | **MEDICODA** | Partner clinics (anonymous unless approved); LSA Digital team | Workflow realities (burnout, auditing); why human oversight stays in control | Human final decision loop; real-time auditing; why SLMs (specificity + privacy) | Clinic reviewer (if approved) + LSA Digital implementer | Usually company/product; clinic individuals only with explicit approval |
 | **EPMS** | LSA Digital product management experts | AI-assisted discovery while PM intent remains the driver | Market research in days; scope validation; competitive intelligence (cite product page); **MCP/agentic dev assist** only with captured artifacts | LSA Digital product owner | Company/product |
 | **Human‑AI Concept Lab** | LSA Digital enterprise process experts | Process mining/recommendations with humans in control | Process analysis/mining; human-in-the-loop control; enterprise scalability framing | LSA Digital product owner | Company/product |
@@ -70,7 +70,7 @@ Use this table as the **single glance view** for assigning writing agents, selec
   - Expert verification workflows
   - Community trust + health risk + AI tooling unified platform story (as shown on LSARS site)
 
-### HRA (Health Risk Assessment)
+### HSRA (Health & Social Risk Assessment)
 - Product page: `https://www.lsadigital.com/products/hra`
 - Primary experts:
   - Dr. Thad Perry (via LSARS partnership context) — interpretability/health informatics framing
@@ -127,7 +127,7 @@ Use this table as the **single glance view** for assigning writing agents, selec
 ## Review + approvals (operational)
 - Default SME reviewers by product:
   - LSARS: Nelson Smith + Dr. Thad Perry (and/or Mike Idengren)
-  - HRA: Dr. Thad Perry (interpretation) + LSA Digital implementer
+  - HSRA: Dr. Thad Perry (interpretation) + LSA Digital implementer
   - MEDICODA: clinic reviewer (if approved) + LSA Digital implementer
   - EPMS/ReimagineIt/Concept Lab: LSA Digital product owner
   - CCN: Dr. Thad Perry
@@ -141,7 +141,7 @@ Use this table as the **single glance view** for assigning writing agents, selec
 
 ### Product-specific tagging rules:
 - **LSARS**: Nelson Smith, Thad Perry, Mike Idengren, Julian Smith can be tagged (after pre-coordination)
-- **HRA**: Only Thad Perry can be tagged (after pre-coordination)
+- **HSRA**: Only Thad Perry can be tagged (after pre-coordination)
 - **MEDICODA**: Nobody can be tagged yet (product/company tags only)
 - **EPMS / Human-AI Concept Lab / ReimagineIt**: Only LSA Digital and Mike Idengren can be tagged
 - **CCN (Clinical Care Navigators)**: Only Thad Perry can be tagged (after pre-coordination)

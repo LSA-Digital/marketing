@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-028
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Experts+AI
 - **Audience**: business
 - **Status**: draft
@@ -21,7 +21,7 @@ In high-vulnerability tracts, the question is whether people can reliably reach 
 We built LSARS + Smart Mobility workflows that connect vulnerability data to access plans, then publish proof that access actually improved.
 
 **How it works:**
-- **Vulnerability mapping**: identify heat and medical vulnerability hotspots using HRA + SDOH context.
+- **Vulnerability mapping**: identify heat and medical vulnerability hotspots using HSRA + SDOH context.
 - **Access plan**: define shuttles, park-and-ride integration, mobility vouchers, and routing support.
 - **Public reporting**: track access KPIs (coverage, usage, reliability) and keep the audit trail.
 

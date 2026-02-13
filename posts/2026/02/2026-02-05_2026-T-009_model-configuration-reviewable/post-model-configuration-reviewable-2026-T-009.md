@@ -4,7 +4,7 @@
 - **Post ID**: 2026-T-009
 - **Channel**: LinkedIn post
 - **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: AI technology
 - **Audience**: technical
 - **Status**: approved

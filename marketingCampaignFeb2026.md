@@ -31,7 +31,7 @@ Enterprise architects, eng leads, platform teams, AI/ML leads, security/complian
 
 ## Offer + conversion path (keep it simple)
 - **Primary CTA**: “Book a 20–30 min working session” (map your idea to Develop/Deploy/Disrupt + pilot path).
-- **Secondary CTA**: “Request a demo” (LSARS / HRA / EPMS / ReimagineIt / MEDICODA).
+- **Secondary CTA**: “Request a demo” (LSARS / HSRA / EPMS / ReimagineIt / MEDICODA).
 - **Proof CTA**: “See the artifacts” (short clips + screenshots + brief technical notes).
 
 ---
@@ -48,7 +48,7 @@ Anchor partnership/proof:
 
 Products to spotlight under this theme:
 - **LSARS** (expert verification + permitting/compliance workflows): `https://www.lsadigital.com/products/lsars` and `https://lsars.com/`
-- **HRA** (regulatory-grade health risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
+- **HSRA** (regulatory-grade health & social risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
 - **MEDICODA** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
 
 High-performing formats:
@@ -114,7 +114,7 @@ Brand and portfolio:
 
 Products:
 - LSARS: `https://www.lsadigital.com/products/lsars`
-- HRA: `https://www.lsadigital.com/products/hra`
+- HSRA: `https://www.lsadigital.com/products/hra`
 - EPMS: `https://www.lsadigital.com/products/epms`
 - MEDICODA: `https://www.lsadigital.com/products/medicoda`
 - Human‑AI Concept Lab: `https://www.lsadigital.com/products/human-ai-optimizer`
@@ -202,8 +202,8 @@ Week 1
 - **Longer artifact (weekly)**: 1–2 page “Artifact drop” PDF: outreach system architecture (roles → agents → tools → governance) + 3 key lessons
 
 Week 2
-- **Mon post**: Theme 1: HRA — what “parity validated” means (explain simply + show evidence types)
-- **Tue clip**: HRA evidence types walkthrough (tests/parity/audit trail) in 60–90s (no over-claims)
+- **Mon post**: Theme 1: HSRA — what “parity validated” means (explain simply + show evidence types)
+- **Tue clip**: HSRA evidence types walkthrough (tests/parity/audit trail) in 60–90s (no over-claims)
 - **Wed post**: Theme 2: ReimagineIt — clarity score prevents fast wrong solutions
 - **Thu clip**: “Clarity score” demo snippet / storyboard (60–90s)
 - **Fri post**: Theme 3: Speed with compliance & scale — how humans steer + approve (review queues + audit logs)
@@ -220,7 +220,7 @@ Week 3
 Week 4
 - **Mon post**: Theme 3: Speed vs compliance — practical checklist (auditability, tests, approvals)
 - **Tue clip**: “What makes Human‑AI enterprise-ready?” (short, concrete; 60–90s)
-- **Wed post**: Theme 1+2: LSARS unified platform story (trust + HRA + AI tooling)
+- **Wed post**: Theme 1+2: LSARS unified platform story (trust + HSRA + AI tooling)
 - **Thu clip**: LSARS workflow “before → after” (60–90s)
 - **Fri post**: Theme 1: Experts + AI — how to request SME soundbites + review flow (lightweight process, artifact-first)
 - **Longer artifact (weekly)**: End-of-month round-up: “Feb artifacts” gallery post (links + 1 paragraph per artifact)
@@ -284,7 +284,7 @@ Every 2 weeks:
 
 ## Additional planning angles (recommended)
 - ICP slices + message matrix:
-  - “Ops bottleneck” (ReimagineIt), “Permit risk” (LSARS/HRA), “PM discovery speed” (EPMS), “Compliance-heavy workflow” (Human‑AI Concept Lab), “Clinical admin burden” (MEDICODA)
+  - “Ops bottleneck” (ReimagineIt), “Permit risk” (LSARS/HSRA), “PM discovery speed” (EPMS), “Compliance-heavy workflow” (Human‑AI Concept Lab), “Clinical admin burden” (MEDICODA)
 - Proof library:
   - “Artifact gallery” page: screenshots, short clips, diagrams, validation/testing evidence
 - Objection handling posts:

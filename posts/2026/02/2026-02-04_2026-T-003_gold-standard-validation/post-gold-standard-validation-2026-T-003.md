@@ -4,7 +4,7 @@
 - **Post ID**: 2026-T-003
 - **Channel**: LinkedIn post
 - **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: AI technology
 - **Audience**: technical
 - **Status**: approved
@@ -38,4 +38,3 @@ See how we approach regulatory-grade validation: https://lsadigital.com
   - `./assets/` (placeholder for: validation report example, parity test output screenshot)
 - Remote:
   - https://www.lsadigital.com/products/hra
-

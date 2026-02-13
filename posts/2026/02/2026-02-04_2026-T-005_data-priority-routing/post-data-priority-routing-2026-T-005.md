@@ -18,7 +18,7 @@
 
 The fastest way to lose trust in an AI system is to give a nonsense answer (hallucinate).
 
-For the LSARS Health Risk Assessment & Permitting solution, "all permitting is local", and frequently, local information is more important than generic national information.  We implemented **data-priority routing** so the AI Agents answer questions from the highest-confidence, domain-appropriate sources first, and only expands scope when it has to.
+For the LSARS Health & Social Risk Assessment (HSRA) + Permitting solution, "all permitting is local", and frequently, local information is more important than generic national information.  We implemented **data-priority routing** so the AI Agents answer questions from the highest-confidence, domain-appropriate sources first, and only expands scope when it has to.
 
 When review capacity is the constraint, the system has to reduce rework—not add another portal. Priority routing creates a shared evidence trail: fewer nonsense answers, clearer provenance, and fewer “which version is true?” loops.
 
@@ -40,4 +40,3 @@ If you want the pattern (and a concrete routing rubric) as an artifact, see `htt
   - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
-

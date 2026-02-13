@@ -16,7 +16,7 @@
 ## Post
 AI agents are not good at guessing what you mean.  In a ChatGPT back-and-forth dialog, you can just correct it.  In an autonomous production system, the AI agents have to go by guardrails and rules.
 
-For our partners' LSARS Permitting + Community Health Risk Assessment solution, we documented the AI context fields with a **data manifest** so the system can use domain data correctly (and reviewers can tell what it used), instead of relying on “implicit semantics.”
+For our partners' LSARS Permitting + Community Health & Social Risk Assessment (HSRA) solution, we documented the AI context fields with a **data manifest** so the system can use domain data correctly (and reviewers can tell what it used), instead of relying on “implicit semantics.”
 
 The manifest is part of the product. Treat it like code.
 

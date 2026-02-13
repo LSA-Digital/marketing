@@ -5,7 +5,7 @@
 - **Status**: draft
 - **Type**: Business
 - **Expert**: Nelson Smith + Dr. Thad Perry
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Artifacts**: Use SDOH to identify barriers (transport, childcare, language, education), then pair paid apprenticeships with real supports and publish completion + local spend + procurement metrics so 'few jobs' skepticism is addressed with evidence.
 
 # "Jobs" isn't a magic word—access is
@@ -27,4 +27,3 @@ We built SDOH-driven workforce targeting to identify and remove barriers to entr
 **Result:** Workforce commitments turn from vague promises into audited local victories.
 
 Build the workforce at https://lsars.com
-

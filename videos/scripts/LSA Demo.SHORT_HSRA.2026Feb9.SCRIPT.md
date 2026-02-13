@@ -27,7 +27,7 @@ So to show the difference here between California's mode and EPA, if I switch th
  
 ## Scene 6:
 **Speaker:** Keith WH/Standing Bkgr
-Thanks Mike, that was a great overview of the Health Risk Assessment system! Now, let's see an overview of the Social Vulnerability Index. Can you tell us why that's important?
+Thanks Mike, that was a great overview of the Health & Social Risk Assessment system! Now, let's see an overview of the Social Vulnerability Index. Can you tell us why that's important?
 **Speaker:** Mike Idengren
  Sure, Keith. A community that already has health risks will be even more vulnerable to disease and healthcare costs -- for example, if they don't have vehicle access, then it's difficult to get to the doctor for prevention or treatment -- and that causes medical conditions to get even worse.
  
@@ -93,4 +93,3 @@ And it's suggesting an indoor quality program and integrated Behavioral Health. 
 **Speaker:** Keith WH/Standing Bkgr
  Thank you for attending our demo. We look forward to discussing how we can partner with your organization to deliver faster permits and happier, healthier communities. Contact us at hello at LSA DIGITAL dot com for more information!
  
-

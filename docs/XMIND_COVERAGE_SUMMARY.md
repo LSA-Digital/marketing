@@ -100,7 +100,7 @@ These topics already have post-ids and are ready for content creation:
 - 2026-B-015: How does Smart Mobility + LSARS improve workforce access for apprenticeships (SDOH-driven)?
 - 2026-B-016: How does LSARS make water use and drought triggers transparent (potable vs reclaimed)?
 - 2026-B-017: How does LSARS make noise commitments enforceable (decibel limits + continuous monitoring)?
-- 2026-B-018: How does LSARS handle diesel backup generator credibility (construction + testing) with HRA baseline risk?
+- 2026-B-018: How does LSARS handle diesel backup generator credibility (construction + testing) with HSRA baseline risk?
 - 2026-B-019: How does LSARS make rural-region workforce commitments believable (apprenticeships + supports + reporting)?
 
 ### Technology Posts (2026-T-XXX)

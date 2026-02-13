@@ -18,7 +18,7 @@
 
 “Aligned with the regulator” is not a statement you get to make. It’s something you have to *show*.
 
-For the LSARS Health Risk Assessment + Permitting solution, we built reporting in context of **every locality in the U.S.** - so reviewers can see the full chain—**calculations, assumptions, and citations (**not just a possibly-hallucinated conclusion**).
+For the LSARS Health & Social Risk Assessment (HSRA) + Permitting solution, we built reporting in context of **every locality in the U.S.** - so reviewers can see the full chain—**calculations, assumptions, and citations (**not just a possibly-hallucinated conclusion**).
 
 That matters because alignment isn’t one-size-fits-all:
 

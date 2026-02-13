@@ -4,7 +4,7 @@
 - **Post ID**: 2026-B-009
 - **Channel**: LinkedIn post
 - **Target page**: [LSARS](https://www.linkedin.com/company/lsars)
-- **Product**: LSARS, HRA
+- **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
 - **Status**: approved
