@@ -9,11 +9,21 @@ Key Messaging Themes Updated 2026-02-12
 | LOCATION_INTELLIGENCE    | LSARS       | Fast, accurate community data for siting + planning                      | Speed and reliability of baseline data matter for planning the right permit location: health conditions, local economy and labor supply, traffic patterns. |
 | RISK_INVESTMENTS         | LSARS, HSRA | Health + social risk assessment data to target community investments     | Use HSRA/SDOH evidence to decide what investments matter most (e.g., mobility solutions when access to care is constrained, especially in high-exposure areas). |
 | REGULATORY_ALIGNMENT     | LSARS, HSRA | Regulatory-aligned sources and calculations                              | LSARS follows regulatory standards by using aligned data sources and methods (e.g., US EPA and California OEHHA). |
-| TRANSPARENT_REPORTS      | LSARS, HSRA | Live, location-aware reports that explain calculations with citations    | Build trust in outputs with inspectable calculations and citation pills so reviewers can validate sources and methods quickly. |
+| COMMUNITY_TRANSPARENCY   | LSARS, HSRA | Live, location-aware reports that explain calculations with citations    | Build trust in outputs with inspectable calculations and citation pills so reviewers can validate sources and methods quickly. |
 | AGENT_GUARDRAILS         | LSARS, HSRA | Trusted AI agents with anti-hallucination controls and escalation levels | Build trust in answers by routing questions to multiple specialized agents with scoped access to the right data and defined escalation for complex questions. |
+| UTILITY                  | LSARS       | Utility permitting acceleration and grid integration                     | Speed utility approvals by connecting infrastructure plans to community benefit commitments and regulatory requirements. |
+| SMART_MOBILITY           | LSARS, HSRA | Mobility solutions that reduce health access barriers                    | Target transportation investments where SDOH data shows access to care is constrained, improving community health outcomes. |
+| JOBS                     | LSARS       | Local workforce development and apprenticeship tracking                  | Create verifiable local hiring commitments with progress tracking from training through employment. |
+| ECONOMY                  | LSARS       | Community economic impact and benefit measurement                        | Quantify and track how permitting delivers local economic value through spending, jobs, and supply chain opportunities. |
+| TRANSPORTATION           | LSARS, HSRA | Construction and operational traffic impact management                   | Model, monitor, and mitigate transportation impacts from construction through operations with enforceable commitments. |
+| GOVERNMENT               | LSARS       | Government efficiency and interagency coordination                       | Help agencies do more with less by streamlining review workflows and improving data sharing across departments. |
+| DATA_CENTER              | LSARS, HSRA | Data center specific permitting and community integration                | Address unique data center permitting challenges: water, power, noise, and community benefit agreements at scale. |
+| TECH_SECURITY            | LSARS, HSRA | Security-first architecture and zero-trust compliance                    | Build trust through auditable systems with security controls that exceed regulatory requirements. |
+| TECH_UX                  | LSARS       | Agentic UX and just-in-time information delivery                         | Deliver the right information at the right time through AI agents that adapt to user context and needs. |
 
 ## Change Log
 
 - 2026-02-12: Created initial theme table and labels; added change log section.
 - 2026-02-12: Added Product column (LSARS vs LSARS+HSRA) to theme table.
 - 2026-02-12: Standardized acronym usage to HSRA.
+- 2026-02-13: Renamed TRANSPARENT_REPORTS to COMMUNITY_TRANSPARENCY. Added 9 new theme tags: UTILITY, SMART_MOBILITY, JOBS, ECONOMY, TRANSPORTATION, GOVERNMENT, DATA_CENTER, TECH_SECURITY, TECH_UX.

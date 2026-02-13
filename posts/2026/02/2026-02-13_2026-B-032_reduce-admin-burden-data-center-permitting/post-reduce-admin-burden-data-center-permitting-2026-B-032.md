@@ -11,12 +11,12 @@ Data center permits rarely stall because nobody did the work. They stall because
 
 Evidence lives in too many places: PDFs, email threads, spreadsheets, and "latest_v7_FINAL" attachments. Every handoff creates rework.
 
-We built LSARS Permit Intelligence to turn permitting into a single, auditable workflow: shared dashboards, reviewer-ready evidence packages, and bounded AI assistance that keeps the citation trail intact.
+We built LSARS Permit Intelligence to turn permitting into a single, auditable workflow: shared dashboards (including a community dashboard), reviewer-ready evidence packages, and bounded agentic AI workflow that keeps the citation trail intact.
 
 **How it works:**
 - **Structured intake**: ingest core documents, extract key parameters, and preserve citations back to source.
-- **Shared workflow dashboard**: turn requirements into owners, decision gates, and reviewer-ready checklists.
-- **Change control + packaging**: when inputs change, we show the delta and regenerate only what changed, without losing the audit trail.
+- **Workflow + dashboards**: turn requirements into owners, decision gates, and reviewer-ready checklists, with a community dashboard for commitments.
+- **Agentic AI + change control**: when inputs change, we show the delta and regenerate only what changed, without losing citations or the audit trail.
 
 **Why this matters for stakeholders:**
 - **Permit Requestor** Reduces back-and-forth and avoids expensive late-stage surprises.
