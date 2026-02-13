@@ -7,7 +7,7 @@
 - **Product**: LSARS
 - **Theme**: Experts+AI
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **Expert**: Nelson Smith + Dr. Thad Perry (and/or Mike Idengren)
 - **CTA**: book a working session
