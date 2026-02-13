@@ -30,7 +30,14 @@ We built a Permit Intelligence workflow that turns CBA commitments into **tracka
 If you’re serious about accountability, you need a system that makes follow-through visible. We’ll show you the workflow in a working session: https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Commitment intake template (fields → measurable commitments)
+- Milestone + SLA board screenshot/mock
+- Example “issue → resolution” public log entry (redacted/mock)

@@ -31,7 +31,18 @@ Result: more credible investment planning, fewer surprises, and fewer "trust col
 If you want to see how CPS works, request a demo at [lsars.com](https://lsars.com).
 
 ## Artifacts
-- Local:
-  - `./assets/README.md` (placeholder for CPS driver breakdown screenshot)
 - Remote:
   - https://lsars.com/
+
+## Post asset ideas
+
+### Missing assets (add before publish)
+
+- [ ] CPS screenshot — probability of hitting date + driver breakdown
+- [ ] “Real blockers” graphic (grid/water/noise/baseline health burden/transparency)
+- [ ] LSARS branded header image (optional)
+
+### Notes
+
+- Keep visuals stakeholder-friendly (minimal jargon)
+- If showing a score, show the *drivers* (bounds + drivers, not just a number)

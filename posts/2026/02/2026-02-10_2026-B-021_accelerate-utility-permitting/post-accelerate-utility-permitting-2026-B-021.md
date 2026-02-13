@@ -30,7 +30,10 @@ We built LSARS to accelerate utility permitting by turning the permit stack into
 If you want to pressure-test your permit path and identify the real blockers, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Diagram: example "permit stack" dependency map
+- [ ] Screenshot: evidence package / reviewer-ready summary (redacted)

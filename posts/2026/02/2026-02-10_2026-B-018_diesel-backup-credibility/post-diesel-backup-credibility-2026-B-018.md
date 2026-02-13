@@ -27,3 +27,7 @@ We integrated diesel backup testing schedules and construction emissions into th
 **Result:** Credibility is maintained by acknowledging and managing the dirty parts of clean infra.
 
 See the model at https://lsars.com
+
+## Post asset ideas
+
+- [ ] Diagram/Screenshot for diesel-backup-credibility

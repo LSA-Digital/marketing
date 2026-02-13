@@ -30,7 +30,10 @@ We built LSARS dashboards that ingest Smart Mobility feeds so agencies can see p
 If you want to see what one-click visibility looks like, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: agency dashboard view (permit status + mobility compliance signals)
+- [ ] Diagram: feed -> dashboard -> alert -> resolution flow

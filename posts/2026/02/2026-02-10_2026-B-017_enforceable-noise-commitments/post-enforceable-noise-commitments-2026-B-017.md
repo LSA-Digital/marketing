@@ -28,3 +28,6 @@ We built continuous noise monitoring into the Permit Intelligence Portal to make
 
 Hear the difference at https://lsars.com
 
+## Post asset ideas
+
+- [ ] Diagram/Screenshot for enforceable-noise-commitments

@@ -31,7 +31,14 @@ We built a way to use health-risk + SDOH context to identify where transportatio
 If you want transportation commitments that are defensible—and measurable—we’ll walk through a working example with you. https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Map mock: areas with highest transportation barrier signal
+- Example recommendation list (routes/vouchers/shuttles) with rationale fields
+- Outcomes dashboard mock: usage + completion + access proxy metrics

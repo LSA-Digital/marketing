@@ -31,8 +31,14 @@ The principle is simple: if review capacity is the constraint, the system has to
 If you want to see what this looks like in practice, book a working session at `https://lsars.com`.
 
 ## Artifacts
-
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+No assets have been created for this post yet.
+
+If we want visuals for LinkedIn, capture one of these:
+- Screenshot/mock of the “shared evidence” review packet structure (redacted)
+- Simple diagram: applicant → evidence packet → agency review loop (auditable trail)
+- One slide: “No new government software purchase required” (what that means operationally)

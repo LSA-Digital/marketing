@@ -30,7 +30,10 @@ We built LSARS to help permit requestors move faster by turning NIMBY concerns i
 If you want to map your project to a pilot-ready plan, book a 20-30 min working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: "issue map" (grid / water / noise / land use -> evidence + owner)
+- [ ] Screenshot: commitment scorecard example (commitment -> milestone -> proof)

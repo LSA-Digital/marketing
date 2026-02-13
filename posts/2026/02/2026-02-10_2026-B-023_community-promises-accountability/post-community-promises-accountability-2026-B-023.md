@@ -30,7 +30,10 @@ We built LSARS with a community portal that shows promises vs. delivery: spendin
 If you want to see what accountability looks like in a real permitting workflow, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: community portal view (commitments -> milestones -> proof)
+- [ ] Screenshot: complaint intake / triage / closure workflow

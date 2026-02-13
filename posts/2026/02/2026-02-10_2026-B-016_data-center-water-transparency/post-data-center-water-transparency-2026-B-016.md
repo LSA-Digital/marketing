@@ -28,3 +28,6 @@ We built the LSARS Water Dashboard to turn drought triggers and reclamation comm
 
 See the dashboard at https://lsars.com
 
+## Post asset ideas
+
+- [ ] Diagram/Screenshot for data-center-water-transparency

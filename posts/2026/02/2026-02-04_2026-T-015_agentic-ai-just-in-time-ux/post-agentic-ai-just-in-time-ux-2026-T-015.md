@@ -30,7 +30,14 @@ The critical design choice: **“just-in-time” isn’t about clever prompts—
 If you’re designing AI systems people must trust, start with orchestration and permissions—not model tricks. See the artifacts: https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Agent graph diagram: lead agent + specialist agents + permissions boundaries
+- Example escalation trigger list (what causes specialist invocation)
+- Example redacted conversation trace showing provenance + handoffs

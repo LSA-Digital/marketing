@@ -43,8 +43,12 @@ Implicit agent configuration—scattered across code, prompts, and tribal knowle
 https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://www.lsadigital.com/products/lsars
   - https://lsadigital.com
+
+## Post asset ideas
+
+- [ ] Diagram showing agent configuration dimensions (purpose, data, tools, guardrails, collaboration)
+- [ ] Example agent config file or schema showing explicit permissions
+- [ ] Architecture diagram showing multi-agent system with clear boundaries and handoff rules

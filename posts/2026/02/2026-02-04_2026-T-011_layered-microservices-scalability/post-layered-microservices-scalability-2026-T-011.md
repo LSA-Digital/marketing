@@ -30,7 +30,14 @@ The critical design choice: **the conversational layer is downstream of parity +
 If you’re building AI-enabled systems in regulated domains, “microservices” isn’t the point—**audit-friendly ownership is**. See the artifacts at https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- 6-layer architecture diagram (L1–L6) with APIs and artifacts per layer
+- Example API contract snippet for one layer (inputs/outputs + versioning)
+- One validation artifact example: “layer output → expected values → citations”

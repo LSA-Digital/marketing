@@ -32,7 +32,14 @@ The critical design choice: **the graph is a reviewable artifact** (what’s a n
 If you’re building decision systems for communities, you need network models—not just better charts. See the artifacts: https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Graph schema one-pager: node/edge types + feature fields + data sources
+- Example “network effect” visualization (mock)
+- Assumptions checklist (what the graph includes/excludes)

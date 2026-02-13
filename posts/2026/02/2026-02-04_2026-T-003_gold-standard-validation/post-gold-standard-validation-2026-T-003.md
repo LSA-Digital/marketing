@@ -34,7 +34,13 @@ In domains where correctness is the whole point, validation has to be more than 
 See how we approach regulatory-grade validation: https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/` (placeholder for: validation report example, parity test output screenshot)
 - Remote:
   - https://www.lsadigital.com/products/hra
+
+## Post asset ideas
+
+### Missing assets to add
+
+- [ ] **Validation report example** — Sample report showing formulas, intermediate values, citations
+- [ ] **Parity test output screenshot** — Example of HARP2 comparison results
+- [ ] **Regression test dashboard** — Showing continuous validation status

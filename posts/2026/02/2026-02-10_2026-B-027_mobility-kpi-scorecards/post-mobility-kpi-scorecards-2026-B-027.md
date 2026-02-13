@@ -30,7 +30,10 @@ We built LSARS scorecards that publish mobility KPIs people actually care about 
 If you want a CBA scorecard that holds up in public, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: mobility KPI scorecard (red/green + trends)
+- [ ] Screenshot: escalation / issue tracking view for KPI violations

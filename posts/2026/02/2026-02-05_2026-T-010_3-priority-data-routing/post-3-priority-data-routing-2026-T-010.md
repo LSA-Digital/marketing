@@ -36,7 +36,17 @@ The research agent is gated and auditable. Every tool call is logged. Every exte
 See how priority-based routing improves AI reliability at https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsadigital.com/
+
+## Post asset ideas
+
+### Needed assets
+- [ ] Architecture diagram showing P1 → P2 → P3 routing flow
+- [ ] Example showing same question answered at different priority levels
+- [ ] Code snippet or config showing advisor model (no tools) vs research model (with tools)
+
+### Notes
+- Emphasize the "no tool-calling for primary advisor" as a deliberate security/reliability choice
+- Could show latency/cost comparison between P1, P2, P3 responses
+- Consider showing the data manifest concept (how context is pre-loaded for P2)

@@ -30,8 +30,6 @@ This is one of the simplest ways to increase answer quality *without* adding too
 If you want a concrete manifest template + rubric as an artifact, see `https://lsadigital.com`.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
 
@@ -52,3 +50,12 @@ If you want a concrete manifest template + rubric as an artifact, see `https://l
   - `utm_medium=organic`
   - `utm_campaign=feb_2026_human_ai`
   - `utm_content=data_manifest`
+
+## Post asset ideas
+
+No assets have been created for this post yet.
+
+Good artifacts for engineers:
+- A 1-page data manifest template (field name, meaning, units, source, constraints, examples)
+- “Before/after” example: same prompt with/without manifest (showing why implicit semantics fails)
+- Diagram: domain dataset → manifest → model context → provenance in answer

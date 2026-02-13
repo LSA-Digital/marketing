@@ -34,8 +34,12 @@ Security that depends on perfect configuration isn't security, it's just hope.
 See how we approach security architecture: https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/` (placeholder for: architecture diagram showing proxy/service isolation)
 - Remote:
   - https://lsars.com/
   - https://www.lsadigital.com/products/lsars
+
+## Post asset ideas
+
+- [ ] Architecture diagram showing unified reverse proxy
+- [ ] Service isolation diagram (no shared file systems)
+- [ ] Traffic flow diagram (ingress → proxy → services)

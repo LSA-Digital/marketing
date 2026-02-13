@@ -30,7 +30,10 @@ We built LSARS + Smart Mobility workflows that turn SDOH into targeted, measurab
 If you want to turn SDOH into commitments that actually land, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: SDOH barrier map -> recommended mobility investments
+- [ ] Screenshot: KPI view (access / usage / service reliability)

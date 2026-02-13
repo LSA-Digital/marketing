@@ -32,7 +32,18 @@ Result: stakeholders get fewer surprises, engineering gets fewer "rewrite this f
 If you want the approach and artifacts, start at [lsadigital.com](https://lsadigital.com).
 
 ## Artifacts
-- Local:
-  - `./assets/README.md` (placeholder for bounds+drivers diagram)
 - Remote:
   - https://www.lsadigital.com/products/lsars
+
+## Post asset ideas
+
+### Missing assets (add before publish)
+
+- [ ] Simple diagram: “single number” vs “bounds + drivers”
+- [ ] Example “driver list” visual (top 3 drivers + short explanation)
+- [ ] LSA Digital branded header image (optional)
+
+### Notes
+
+- Diagrams should be readable on mobile
+- Keep it implementation-agnostic (pattern over stack)

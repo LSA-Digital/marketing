@@ -33,7 +33,14 @@ We built a way to turn a hand-wavy timeline into a bounded forecast that teams c
 If your timeline is a guess, the rest of your plan is too. We’ll walk through a bounded-timeline workflow in a working session: https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Example “approval-by-date” probability curve (mock)
+- “Top uncertainty drivers” panel (what moved the spread)
+- One-page scenario table: investment/mitigation option → timeline risk delta

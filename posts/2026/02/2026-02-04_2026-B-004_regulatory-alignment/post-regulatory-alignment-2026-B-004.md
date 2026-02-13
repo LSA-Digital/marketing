@@ -34,8 +34,14 @@ This isn't about being flexible for flexibility's sake. It's about producing res
 If you're working across jurisdictions or need calculations that align with specific regulatory standards, let's talk: https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/` (placeholder for: EPA vs OEHHA comparison diagram, calculation methodology screenshot)
 - Remote:
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
+
+## Post asset ideas
+
+### Missing assets to add
+
+- [ ] **EPA vs OEHHA comparison diagram** — Visual showing key methodology differences
+- [ ] **Calculation methodology screenshot** — Example of mode selection in LSARS UI
+- [ ] **Transparency example** — Screenshot showing calculation details/citations

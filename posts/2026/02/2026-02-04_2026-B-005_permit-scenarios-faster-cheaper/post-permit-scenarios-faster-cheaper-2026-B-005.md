@@ -31,9 +31,15 @@ The shift isn't "more AI." It's *cheaper iteration with receipts*—so permittin
 If you're stuck in the cycle of "one model run → one report → one fight," book a working session with us at `https://lsars.com`.
 
 ## Artifacts
-
-- Local:
-  - `./assets/workflow-diagram.png` (TBD)
-  - `./assets/scenario-compare.png` (TBD)
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+### Asset checklist (missing)
+
+- [ ] Redacted example permit PDF used in scenario testing
+- [ ] Workflow diagram: PDF ingest → structured extraction → scenario runs → auditable deltas
+- [ ] Screenshot(s) of scenario run comparison (inputs, assumptions, outputs)
+- [ ] Example “delta to baseline risk” view (redacted)
+- [ ] Optional: 15–30s demo clip (silent) showing “run 100 scenarios” experience

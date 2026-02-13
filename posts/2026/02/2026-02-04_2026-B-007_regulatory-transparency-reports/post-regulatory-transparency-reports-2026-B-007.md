@@ -31,9 +31,6 @@ The point isn’t to generate an answer the user wants: it is to give the an ans
 If you want to see what “show your work” looks like in a real permitting workflow, book a working session at `https://lsars.com`.
 
 ## Artifacts
-
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
 
@@ -57,3 +54,12 @@ If you want to see what “show your work” looks like in a real permitting wor
   - `utm_medium=organic`
   - `utm_campaign=feb_2026_human_ai`
   - `utm_content=reg_transparency_reports`
+
+## Post asset ideas
+
+No assets have been created for this post yet.
+
+Good candidates for LinkedIn:
+- Redacted screenshot/mock of the “report bundle” showing sections for assumptions, calculations, and citations
+- One-slide visual: “Show your work” as a trust requirement (not a nice-to-have)
+- Simple diagram: map context → report generation → reviewer verification loop

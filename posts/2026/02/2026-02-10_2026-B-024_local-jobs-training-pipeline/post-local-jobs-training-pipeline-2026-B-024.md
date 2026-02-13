@@ -30,7 +30,10 @@ We built LSARS to make workforce commitments measurable: training pipeline, coho
 If you want to design a workforce plan that holds up under scrutiny, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: workforce program definition (roles -> requirements -> pathway)
+- [ ] Screenshot: cohort dashboard (enrollment / completion / local hire proof)

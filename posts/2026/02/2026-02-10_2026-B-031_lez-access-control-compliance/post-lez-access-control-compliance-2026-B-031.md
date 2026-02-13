@@ -30,7 +30,10 @@ We built LSARS scorecards that connect access control and LEZ compliance signals
 If you want LEZ commitments that hold up under scrutiny, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: LEZ rule definition -> compliance KPI scorecard
+- [ ] Diagram: access-control events -> compliance evaluation -> public reporting

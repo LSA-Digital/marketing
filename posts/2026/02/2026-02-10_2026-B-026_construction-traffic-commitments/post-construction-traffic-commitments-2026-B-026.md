@@ -30,7 +30,10 @@ We built Smart Mobility + LSARS workflows to make traffic commitments measurable
 If you want to make traffic commitments enforceable (not aspirational), book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: route + delivery window policy as structured rules
+- [ ] Screenshot: violations -> corrective action -> closure workflow

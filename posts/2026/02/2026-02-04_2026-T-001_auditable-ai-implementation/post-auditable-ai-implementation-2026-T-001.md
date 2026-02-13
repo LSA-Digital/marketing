@@ -31,8 +31,20 @@ Result: faster answers for common questions, controlled escalation for edge case
 If you want the patterns and supporting artifacts, start at [lsadigital.com](https://lsadigital.com).
 
 ## Artifacts
-- Local:
-  - `./assets/README.md` (placeholder for architecture diagram)
 - Remote:
   - https://www.lsadigital.com/products/lsars
   - https://www.lsadigital.com/products/hra
+
+## Post asset ideas
+
+### Missing assets (add before publish)
+
+- [ ] Architecture diagram — 3-tier priority routing (P1/P2/P3)
+- [ ] Zero-trust boundary diagram (optional)
+- [ ] Validation report with KaTeX formulas screenshot
+
+### Asset guidelines
+
+- LinkedIn image dimensions: 1200×627 px (1.91:1 ratio)
+- Technical diagrams: keep labels readable at small sizes
+- Use LSA Digital brand colors if available

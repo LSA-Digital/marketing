@@ -34,8 +34,12 @@ Static audit reports work for stable, single-jurisdiction environments. But when
 Ready to see what auditable compliance looks like in practice? https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
   - https://www.lsadigital.com/products/lsars
+
+## Post asset ideas
+
+- [ ] Screenshot of LSARS contextual report showing calculations + citations
+- [ ] Comparison visual: static audit report vs. dynamic contextual report
+- [ ] Example citation format showing regulatory standard reference

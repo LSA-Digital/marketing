@@ -30,7 +30,10 @@ We built Smart Mobility + LSARS workflows that make parking rules enforceable an
 If you want to reduce parking-driven opposition with evidence (not arguments), book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: parking rule set + monitoring dashboard
+- [ ] Screenshot: complaint -> resolution audit trail

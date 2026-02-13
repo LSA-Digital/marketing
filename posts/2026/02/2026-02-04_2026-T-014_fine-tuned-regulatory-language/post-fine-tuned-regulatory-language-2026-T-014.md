@@ -32,7 +32,14 @@ The critical design choice: **fine-tuning never replaces provenance**—outputs 
 If you’re building AI for regulated text, optimize for reviewability—not fluency. See the artifacts: https://lsadigital.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsadigital.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Corpus inventory list (doc types + versioning approach)
+- Evaluation rubric (citation accuracy, extraction correctness, review time)
+- Example redacted prompt/output pair showing citations + traceable inputs

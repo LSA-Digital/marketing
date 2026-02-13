@@ -32,8 +32,12 @@ For permit requestors, this means submissions that don't get kicked back for met
 Parity isn't a marketing claim. It's 797 pollutants, tested and documented, every time the underlying data changes.
 
 ## Artifacts
-- Local:
-  - `./assets/` (placeholder for: HARP2 parity validation report, 3-way comparison screenshot)
 - Remote:
   - https://lsars.com/
   - https://www.lsadigital.com/products/hra
+
+## Post asset ideas
+
+- [ ] HARP2 parity validation report example (showing 5 significant figure match)
+- [ ] 3-way comparison screenshot (LSARS OEHHA vs LSARS EPA vs HARP2)
+- [ ] Pollutant count visualization (797 pollutants validated)

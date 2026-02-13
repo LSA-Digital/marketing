@@ -31,7 +31,17 @@ We built an SDOH-driven workflow to turn energy affordability promises into **ta
 If you’re negotiating (or reviewing) community commitments, we can show what it looks like to make them verifiable end-to-end. Book a working session at https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Tract-level “energy burden → commitment targeting” example (screenshot or table)
+- Commitment delivery report mock (before/after) showing:
+  - geography (tract / neighborhood)
+  - commitment type (weatherization, HVAC, bill credit)
+  - delivery status + timestamps
+- One-page workflow diagram: “SDOH → commitments → verification”

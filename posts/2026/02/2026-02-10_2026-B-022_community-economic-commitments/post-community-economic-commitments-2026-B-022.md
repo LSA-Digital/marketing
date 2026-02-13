@@ -30,7 +30,10 @@ We built LSARS to turn economic development promises into an execution system: c
 If you want to design commitments that communities can verify, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: structured commitment plan (programs + milestones + owners)
+- [ ] Screenshot: spend vs delivery dashboard (redacted example)

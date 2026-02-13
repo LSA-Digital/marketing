@@ -39,9 +39,14 @@ Training signals matter as much as algorithms. The kinds of evidence we'd expect
 If you want to see the artifacts we use to keep optimization auditable, start here: `https://lsadigital.com`.
 
 ## Artifacts
-
-- Local:
-  - `./assets/constraint-ledger-example.png` (TBD)
-  - `./assets/run-summary-example.png` (TBD)
 - Remote:
   - `https://lsadigital.com`
+
+## Post asset ideas
+
+### Asset checklist (missing)
+
+- [ ] One-page diagram: objective + constraints + audit log for mitigation optimization
+- [ ] Example “constraint ledger” (what was fixed vs optimized), redacted
+- [ ] Example run summary (candidate strategies compared), redacted
+- [ ] Optional: short “artifact bundle” link list (internal doc, screenshot, spec excerpt)

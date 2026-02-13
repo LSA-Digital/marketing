@@ -36,8 +36,18 @@ It's in everyone's interest to get permits approved faster—permit requestors g
 If you're navigating data center permitting and want to see how measurable commitments can accelerate approvals, let's talk: https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/` (placeholder for: energy burden map, water dashboard screenshot, noise monitoring example)
 - Remote:
   - https://lsars.com/
 
+## Post asset ideas
+
+### Missing assets to add
+
+- [ ] **Energy burden map** — SDOH visualization showing high energy-burden neighborhoods
+- [ ] **Water dashboard screenshot** — Example of caps, usage, drought triggers display
+- [ ] **Noise monitoring example** — Decibel tracking or acoustic design visualization
+- [ ] **Permit Intelligence Portal screenshot** — Showing commitment tracking/scorecard
+
+### Notes
+
+These assets should be anonymized or use example data unless client approval is obtained.

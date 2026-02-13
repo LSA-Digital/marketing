@@ -30,7 +30,14 @@ We built an SDOH-driven way to pair workforce programs with practical transporta
 If you’re making workforce promises, we’ll show how to make them auditable end-to-end. https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - `https://lsars.com`
+
+## Post asset ideas
+
+Add any supporting artifacts for this post here.
+
+### Suggested assets
+- Barrier analysis mock: where transportation blocks participation
+- Mobility support menu (shuttle/park-and-ride/voucher) tied to workforce programs
+- Metrics mock: usage + completion + retention proxy measures

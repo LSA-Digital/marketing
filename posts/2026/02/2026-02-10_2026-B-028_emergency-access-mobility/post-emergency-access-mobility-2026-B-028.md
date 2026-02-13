@@ -30,7 +30,10 @@ We built LSARS + Smart Mobility workflows that connect vulnerability data to acc
 If you want to pressure-test your access plan against real tract-level vulnerability, book a working session at https://lsars.com.
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com
+
+## Post asset ideas
+
+- [ ] Screenshot: vulnerability hotspots -> access plan mapping
+- [ ] Screenshot: emergency access KPI view (coverage / usage / reliability)

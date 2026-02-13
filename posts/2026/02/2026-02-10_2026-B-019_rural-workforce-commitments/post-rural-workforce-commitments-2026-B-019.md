@@ -27,3 +27,7 @@ We built SDOH-driven workforce targeting to identify and remove barriers to entr
 **Result:** Workforce commitments turn from vague promises into audited local victories.
 
 Build the workforce at https://lsars.com
+
+## Post asset ideas
+
+- [ ] Diagram/Screenshot for rural-workforce-commitments

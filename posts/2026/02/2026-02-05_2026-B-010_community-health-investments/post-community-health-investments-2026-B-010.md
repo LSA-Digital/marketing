@@ -36,7 +36,16 @@ The result: permit negotiations grounded in evidence, not speculation—and comm
 See how data-driven community health investments accelerate permitting at https://lsars.com
 
 ## Artifacts
-- Local:
-  - `./assets/README.md`
 - Remote:
   - https://lsars.com/
+
+## Post asset ideas
+
+### Needed assets
+- [ ] Map visualization showing HSRA + SDOH overlay by census tract
+- [ ] Example of targeted investment matching (SDOH gap → specific intervention)
+- [ ] Before/after comparison of generic vs. data-driven community benefits
+
+### Notes
+- Consider showing a specific community example (anonymized if needed)
+- Could visualize the HSRA baseline → SDOH layer → investment recommendation flow
