@@ -4,7 +4,6 @@
 - **Post ID**: 2026-T-015
 - **Channel**: LinkedIn post
 - **Target page**: [LSA Digital](https://www.linkedin.com/company/lsadigital/)
-- **Product**: LSARS
 - **Theme**: AI technology
 - **Audience**: technical
 - **Poster**: company page

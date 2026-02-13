@@ -2,9 +2,7 @@
 
 - **ID**: 2026-B-016
 - **Date**: 2026-02-10
-- **Status**: draft/delayed
 - **Type**: Business
-- **Product**: LSARS
 - **Artifacts**: Publish a simple public water dashboard (caps, potable vs reclaimed, drought-trigger operating rules, compliance history) so the community isn't asked to rely on verbal assurances.
 
 # Water transparency that communities can verify

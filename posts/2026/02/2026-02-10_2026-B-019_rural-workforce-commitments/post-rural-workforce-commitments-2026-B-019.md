@@ -2,9 +2,7 @@
 
 - **ID**: 2026-B-019
 - **Date**: 2026-02-10
-- **Status**: draft
 - **Type**: Business
-- **Product**: LSARS, HSRA
 - **Artifacts**: Use SDOH to identify barriers (transport, childcare, language, education), then pair paid apprenticeships with real supports and publish completion + local spend + procurement metrics so 'few jobs' skepticism is addressed with evidence.
 
 # "Jobs" isn't a magic word—access is

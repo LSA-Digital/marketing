@@ -2,9 +2,7 @@
 
 - **ID**: 2026-B-017
 - **Date**: 2026-02-10
-- **Status**: draft/delayed
 - **Type**: Business
-- **Product**: LSARS
 - **Artifacts**: Convert 'the hum will never stop' into measurable commitments: setbacks, acoustic design, decibel limits, continuous monitoring, and public scorecards tracked in the Permit Intelligence Portal.
 
 # Make the "hum" measurable and managed
