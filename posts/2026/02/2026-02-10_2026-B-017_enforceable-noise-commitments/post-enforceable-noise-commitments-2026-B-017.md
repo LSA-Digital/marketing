@@ -2,14 +2,14 @@
 
 - **ID**: 2026-B-017
 - **Date**: 2026-02-10
-- **Status**: draft
+- **Status**: draft/delayed
 - **Type**: Business
 - **Product**: LSARS
 - **Artifacts**: Convert 'the hum will never stop' into measurable commitments: setbacks, acoustic design, decibel limits, continuous monitoring, and public scorecards tracked in the Permit Intelligence Portal.
 
 # Make the "hum" measurable and managed
 
-The "hum" is the #1 community fear for data centers. PDF acoustic reports don't fix it—enforceable data does.
+The "hum" noise pollution is a major data center complaint for local communities. PDF acoustic reports won't fix it.
 
 We built continuous noise monitoring into the Permit Intelligence Portal to make decibel limits enforceable and transparent.
 
@@ -23,7 +23,7 @@ We built continuous noise monitoring into the Permit Intelligence Portal to make
 - **Permit Requestor** Proves compliance to avoid costly injunctions.
 - **Government** Reduces noise complaint triage time.
 
-**Result:** Noise becomes a managed metric, not a project-killing emotional argument.
+**Result:** Noise becomes a managed metric, not a project-killing complaint.
 
 Hear the difference at https://lsars.com
 

@@ -7,7 +7,7 @@
 - **Product**: LSARS
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: draft/delayed
 - **Poster**: company page
 - **CTA**: book a working session
 - **Depends on**: —

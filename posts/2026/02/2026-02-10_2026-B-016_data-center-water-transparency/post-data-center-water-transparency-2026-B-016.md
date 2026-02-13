@@ -2,16 +2,16 @@
 
 - **ID**: 2026-B-016
 - **Date**: 2026-02-10
-- **Status**: draft
+- **Status**: draft/delayed
 - **Type**: Business
 - **Product**: LSARS
 - **Artifacts**: Publish a simple public water dashboard (caps, potable vs reclaimed, drought-trigger operating rules, compliance history) so the community isn't asked to rely on verbal assurances.
 
 # Water transparency that communities can verify
 
-Verbal assurances about data center water use don't build trust—data does. When communities fear drought impact, "we promise to be efficient" isn't enough.
+Verbal assurances about data center water use don't build trust - data does. When communities fear drought impact, "we promise to be efficient" isn't enough.
 
-We built the LSARS Water Dashboard to turn drought triggers and reclamation commitments into public, verifiable records.
+We built the LSARS Water Use Dashboard to turn drought triggers and reclamation commitments into public, verifiable records.
 
 **How it works:**
 - **Drought Triggers**: Automatic operating rule adjustments based on state drought levels.

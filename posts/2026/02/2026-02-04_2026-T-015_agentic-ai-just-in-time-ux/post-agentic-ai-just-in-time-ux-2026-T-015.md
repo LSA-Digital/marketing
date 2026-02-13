@@ -7,7 +7,6 @@
 - **Product**: LSARS
 - **Theme**: AI technology
 - **Audience**: technical
-- **Status**: draft
 - **Poster**: company page
 - **CTA**: see artifacts
 - **Depends on**: 2026-B-015

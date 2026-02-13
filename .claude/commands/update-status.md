@@ -19,4 +19,4 @@ When the user invokes this command:
 5. Confirm the update
 6. git commit / push changes
 
-Valid status values: `draft`, `in_review`, `approved`, `published`, `rejected`
+Valid status values: `draft`, `draft/delayed`, `in_review`, `approved`, `published`, `rejected`

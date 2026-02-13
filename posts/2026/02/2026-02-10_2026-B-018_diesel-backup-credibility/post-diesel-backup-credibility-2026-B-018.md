@@ -2,7 +2,7 @@
 
 - **ID**: 2026-B-018
 - **Date**: 2026-02-10
-- **Status**: draft
+- **Status**: draft/delayed
 - **Type**: Business
 - **Product**: LSARS, HSRA
 - **Artifacts**: Even if normal operations are clean, diesel backup and construction emissions can be politically material in high-burden tracts. LSARS anchors the conversation in baseline HSRA + cumulative burden and tracks mitigation/compliance transparently.
