@@ -7,35 +7,27 @@
 - **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **Expert**: Dr. Thad Perry + Mike Idengren (and/or Nelson Smith)
 - **CTA**: book a working session
 - **Depends on**: —
 
 ## Post
-“We created jobs” isn’t a commitment.
+“We created jobs” isn’t enough.  People have to be able to get to work.
 
 If transportation is the barrier, the real commitment is **workforce access**—and you need evidence that it worked.
 
-We built an SDOH-driven way to pair workforce programs with practical transportation support (shuttles, park-and-ride, vouchers) and publish the metrics that make the promise believable.
+With the combination of our Health & Social Risk Assessment and Permit Intelligence AI systems, we built a social health metrics-driven way to pair workforce programs with practical transportation support (shuttles, park-and-ride, vouchers) and publish the metrics that make the promise believable.
 
 **How it works:**
 - **Detect barriers**: identify where transportation blocks participation.
-- **Pair programs with access**: attach mobility options to apprenticeship pathways.
+- **Pair programs with access**: attach mobility options to apprenticeship pathways, for realistic community job training outcomes.
 - **Publish outcomes**: completion + usage metrics so commitments don’t dissolve into PR.
 
 **Result:** workforce commitments become measurable, reviewable, and easier to defend in high-trust permitting contexts.
 
-If you’re making workforce promises, we’ll show how to make them auditable end-to-end. https://lsars.com
-
-## Artifacts
-- Remote:
-  - `https://lsars.com`
-
-## Post asset ideas
-
-Add any supporting artifacts for this post here.
+If you’re making workforce promises, we’ll show how to make them transaprent and accountaable, end-to-end. https://lsars.com
 
 ### Suggested assets
 - Barrier analysis mock: where transportation blocks participation
