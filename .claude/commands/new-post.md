@@ -97,6 +97,12 @@ When creating from Mind map mode, check the XMind relationships for links betwee
 - File: `post-[slug]-[postid].md`
 - Include: Title, Metadata, Post text, Artifacts
 
+**Metadata standards**: See `AGENTS.md` "POST METADATA GUIDELINES" section. Individual post files must ONLY contain:
+- `Post ID`: The post identifier
+- `CTA`: Call-to-action link
+
+All other metadata (Status, Product, Themes, Expert, Audience, etc.) is tracked exclusively in `post-index.md`.
+
 ### 8. Create companion files as needed
 - `links.md` for remote links with UTM variants
 - `notes.md` for SME review notes and open questions
