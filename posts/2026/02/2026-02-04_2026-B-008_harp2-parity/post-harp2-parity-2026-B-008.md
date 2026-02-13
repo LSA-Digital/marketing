@@ -7,7 +7,7 @@
 - **Product**: LSARS, HSRA
 - **Theme**: Compliance+scale
 - **Audience**: business
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **Expert**: Mike Idengren
 - **CTA**: book a working session
@@ -30,8 +30,6 @@ Here's what that means in practice:
 For permit requestors, this means submissions that don't get kicked back for methodology questions. For regulators, it means outputs that match the tool they're trained to review. For communities, it means transparency built on the same foundation as regulatory enforcement.
 
 Parity isn't a marketing claim. It's 797 pollutants, tested and documented, every time the underlying data changes.
-
-If your current HSRA workflow involves explaining why your numbers are "similar to" what regulators expect, let's talk: https://lsars.com
 
 ## Artifacts
 - Local:
