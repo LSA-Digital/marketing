@@ -9,7 +9,7 @@
 
 "It creates jobs" is a tired line if locals can't access them due to skills or transport gaps.
 
-We built SDOH-driven workforce targeting to identify and remove barriers to entry for rural communities.
+The LSA Digital Health & Social Risk Assessment AI Solution builds social metrics-driven workforce targeting to identify and remove barriers to entry for rural communities.
 
 **How it works:**
 - **Barrier ID**: Maps transport, childcare, and education gaps in the local labor pool.
@@ -21,7 +21,7 @@ We built SDOH-driven workforce targeting to identify and remove barriers to entr
 - **Permit Requestor** "Economic benefit" becomes an irrefutable fact.
 - **Government** Sees actual ROI on tax incentives.
 
-**Result:** Workforce commitments turn from vague promises into audited local victories.
+**Result:** Workforce commitments turn from vague promises into transparent, accountable local victories.
 
 Build the workforce at https://lsars.com
 
