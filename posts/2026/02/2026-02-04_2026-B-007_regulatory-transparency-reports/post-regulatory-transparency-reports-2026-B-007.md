@@ -4,7 +4,6 @@
 
 - **Post ID**: 2026-B-007
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 

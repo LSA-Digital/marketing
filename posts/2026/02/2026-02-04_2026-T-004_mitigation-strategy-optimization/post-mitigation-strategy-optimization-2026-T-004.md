@@ -4,7 +4,6 @@
 
 - **Post ID**: 2026-T-004
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-005
 
 ## Post
 

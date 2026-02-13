@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-009
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 

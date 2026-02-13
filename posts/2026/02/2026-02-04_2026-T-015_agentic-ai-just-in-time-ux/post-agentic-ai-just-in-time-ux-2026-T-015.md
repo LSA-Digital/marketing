@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-015
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-015
 
 ## Post
 Most “agentic UX” fails the same way: it either overwhelms the user with context, or it hides the reasoning behind a black box.

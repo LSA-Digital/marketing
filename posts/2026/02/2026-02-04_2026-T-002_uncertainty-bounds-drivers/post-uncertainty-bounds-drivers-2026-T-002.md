@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-002
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
-- **Depends on**: 2026-B-002 (permitability-score)
 
 ## Post
 

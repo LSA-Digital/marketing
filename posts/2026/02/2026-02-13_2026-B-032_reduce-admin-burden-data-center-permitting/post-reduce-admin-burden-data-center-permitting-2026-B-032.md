@@ -2,9 +2,7 @@
 
 ## Metadata
 - **Post ID**: 2026-B-032
-- **Status**: draft
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Data center permits rarely stall because nobody did the work. They stall because the work can't be reviewed.
@@ -25,6 +23,10 @@ We built LSARS Permit Intelligence to turn permitting into a single, auditable w
 
 **Result:** less churn, fewer surprises, and a faster path to a defensible permit.
 
+## Real-life example
+
+PW Digital Gateway hearings in Prince William County, Virginia show the admin failure mode: late amended filings, thousands of pages, and staff needing time to independently verify changes before commenting. LSARS reduces this churn with one versioned record, clear deltas, and citations that stay attached to the evidence.
+
 If you want to see what an auditable permit workflow looks like for your project, book a working session at https://lsars.com.
 
 ## Artifacts
@@ -36,3 +38,9 @@ If you want to see what an auditable permit workflow looks like for your project
 - [ ] Screenshot: Permit Intelligence workflow dashboard (owners / gates / evidence status)
 - [ ] Screenshot: evidence package with citations back to source (redacted)
 - [ ] Diagram: change-control "delta" view (what changed, what stays valid)
+
+## Citations / Sources
+- https://lsars.com/
+- https://www.lsadigital.com/products/lsars
+- https://www.pwcva.gov/department/planning-office/pw-digital-gateway
+- https://wtop.com/virginia/2023/11/prince-william-planning-commission-begins-contentious-pw-digital-gateway-hearings/

@@ -2,16 +2,16 @@
 
 ## Metadata
 - **Post ID**: 2026-B-034
-- **Status**: draft
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 The fastest way to lose a month on a utility project is to say "minor alignment change" and then rediscover (the hard way) which permits and exhibits that change just invalidated.
 
-Concrete example: a substation upgrade plus a ~3-mile 115kV line extension to serve a new 50-60MW load. Someone shifts the alignment to avoid one parcel. Now your crossing exhibits change, your environmental footprint may change, and multiple agencies are suddenly reviewing different versions of the truth.
+Concrete example (from a public docket): the Hingham Electrical Infrastructure Reliability Project (EFSB 24-01 / D.P.U. 24-135) proposes an approximately 3.2-mile underground 115 kV transmission line across Weymouth and Hingham, connecting a new tap station in Weymouth to a new substation in Hingham.
 
-We built LSARS to keep utility permitting moving when plans change by treating change as a first-class, auditable event.
+The filings describe multiple route options (a Preferred "Broad Street Route" and a Noticed Alternative "Lake Street Route"). In projects like this, changing the route or construction method is not a single edit: it cascades into traffic control planning, wetlands-related conditions (including Orders of Conditions), and re-packaging evidence so reviewers can confirm the new version is consistent.
+
+We built LSARS to help utility teams keep permitting moving when plans change by treating change as a first-class, auditable event.
 
 **How it works:**
 - **Versioned evidence**: lock each submittal to the exact drawings, GIS layers, and assumptions it was based on.
@@ -31,6 +31,10 @@ If you want to pressure-test your permit stack and your change-control plan, boo
 - [ ] Screenshot: delta view (what changed + impacted permits/exhibits), redacted
 - [ ] Diagram: change event -> impacted permits -> updated reviewer packet (simple 1-slide)
 
-## Citations
+## Citations / Sources
 - https://lsars.com/
 - https://www.lsadigital.com/products/lsars
+- https://www.mass.gov/info-details/hmlp-reliability-project
+- https://heirp.com/regulatory-filings-2/
+- https://heirp.com/wp-content/uploads/2024/11/HMLP_ZE_Petition_FINAL.pdf (Project components; see p. 2)
+- https://heirp.com/wp-content/uploads/2024/11/HMLP_EFSB_Petition_20241111-1.pdf (Broad Street Route and Lake Street Route; see pp. 17-18 and 107-111; Orders of Conditions; see pp. 149-150)

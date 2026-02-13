@@ -2,6 +2,6 @@
 
 This post is stronger with one concrete artifact. Suggested captures (redact as needed):
 
-- Dependency map: data center permit stack + utility upgrade dependencies (substation + 115kV line crossings)
-- Reviewer-ready evidence packet excerpt (inputs table + citations to source docs)
-- Change delta view: route/load change -> impacted permits/exhibits
+- Issue map: objections -> evidence required -> owner -> decision gate
+- Commitment register excerpt: promise -> metric -> milestone -> proof link (with timestamps)
+- Public scorecard view: red/green commitment status + most recent verification evidence

@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-014
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-014
 
 ## Post
 If your model can write regulatory-sounding text, that’s not the win.

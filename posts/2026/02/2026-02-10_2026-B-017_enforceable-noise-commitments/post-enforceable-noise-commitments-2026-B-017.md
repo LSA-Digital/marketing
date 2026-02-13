@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-017
 - **CTA**: Learn more at [lsars.com](https://lsars.com)
-- **Depends on**: —
 
 # Make the "hum" measurable and managed
 
@@ -23,8 +22,18 @@ We built continuous noise monitoring into the Permit Intelligence Portal to make
 
 **Result:** Noise becomes a managed metric, not a project-killing complaint.
 
+## Real-life example
+
+In 2024, Fairfax County updated data center zoning to require a noise study before site plan approval and again post-construction, along with stronger equipment enclosure/screening. That's the bar: measurable compliance that can be verified, not just assurances.
+
 Hear the difference at https://lsars.com
 
 ## Post asset ideas
 
 - [ ] Diagram/Screenshot for enforceable-noise-commitments
+
+## Citations / Sources
+- https://lsars.com/
+- https://www.lsadigital.com/products/lsars
+- https://www.hklaw.com/en/insights/publications/2024/09/fairfax-county-virginia-approves-updated-zoning-regulations
+- https://www.ffxnow.com/2024/09/11/fairfax-county-board-approves-new-data-center-regulations-promise-further-review/

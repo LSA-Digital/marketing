@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-030
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Parking spillover is small on paper and massive in real life.

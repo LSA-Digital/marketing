@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-031
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Rules on paper are not compliance. Compliance is data.

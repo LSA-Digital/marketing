@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-016
 - **CTA**: See the dashboard at [lsars.com](https://lsars.com)
-- **Depends on**: —
 
 # Water transparency that communities can verify
 
@@ -23,8 +22,19 @@ We built the LSARS Water Use Dashboard to turn drought triggers and reclamation 
 
 **Result:** Permits move faster when water impact is a known quantity, not a black box.
 
+## Real-life example
+
+Tucson's City Council unanimously killed the proposed "Project Blue" data center amid public opposition and concerns about water use. Tucson then moved to require large water-use applications to become public records and to go through a mayor-and-council vote. In drought-stressed regions, water uncertainty becomes permit risk.
+
 See the dashboard at https://lsars.com
 
 ## Post asset ideas
 
 - [ ] Diagram/Screenshot for data-center-water-transparency
+
+## Citations / Sources
+- https://lsars.com/
+- https://www.lsadigital.com/products/lsars
+- https://www.kgun9.com/news/local-news/tucson-kills-project-blue-data-center
+- https://www.kjzz.org/fronteras-desk/2025-08-21/after-ousting-project-blue-tucson-adopts-new-city-regulations-for-large-water-users
+- https://tucsonaz.hylandcloud.com/221agendaonline/Documents/ViewDocument/ORDINANCE%2012188.pdf?meetingId=1869&documentType=Agenda&itemId=76205&publishId=177936&isSection=false

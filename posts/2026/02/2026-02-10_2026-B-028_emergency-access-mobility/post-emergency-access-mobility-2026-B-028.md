@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-028
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 "Cooling centers exist" is not the point.

@@ -28,6 +28,57 @@ Marketing content and campaign management for LSA Digital products.
 
 ---
 
+## POST METADATA GUIDELINES
+
+Individual post files should contain MINIMAL metadata. All authoritative metadata lives in `post-index.md`.
+
+### Allowed in Individual Post Files (2 fields only):
+
+| Field | Purpose | Example |
+|-------|---------|---------|
+| **Post ID** | Reference identifier for the post | `- **Post ID**: 2026-B-001` |
+| **CTA** | Call-to-action specific to this post | `- **CTA**: book a working session at [lsars.com](https://lsars.com)` |
+
+### NOT Allowed in Individual Post Files:
+
+The following fields are tracked in `post-index.md` only and should NEVER appear in individual post files:
+
+- Status (draft, approved, published, etc.)
+- Depends on (dependencies are tracked in post-index.md "Depends On" column)
+- Product (LSARS, HSRA)
+- Themes (tags like AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY)
+- Expert (assigned experts)
+- Audience (business/tech)
+- Target Platforms (LSARS, LSA Digital)
+- Publish dates
+- Channel, Theme, Poster, etc.
+
+### Post File Structure:
+
+```markdown
+# Post Title
+
+## Metadata
+- **Post ID**: 2026-B-001
+- **CTA**: book a working session at [lsars.com](https://lsars.com)
+
+## Post
+...content...
+```
+
+### Authoritative Source:
+
+**post-index.md** is the single source of truth for:
+- Status tracking
+- Dependencies (Depends On column)
+- Theme tags
+- Product assignments
+- Expert assignments
+- Audience targeting
+- Publication platforms
+
+---
+
 ## MCP TOOLS (via lazy-mcp proxy)
 
 Tools are lazy-loaded through the `lazy-mcp` proxy. Only 2 meta-tools load at startup:
@@ -85,3 +136,4 @@ If proxy fails: delete `.mcp.json` and restart OpenCode.
 | Date | Author | Change |
 |------|--------|--------|
 | 2026-02-10 | Sisyphus | Created AGENTS.md with lazy-mcp proxy setup. Uses global config at ~/dev/common/lazy-mcp/. |
+| 2026-02-13 | Sisyphus | Standardized post metadata: only Post ID and CTA allowed in individual posts. All other metadata lives in post-index.md. |

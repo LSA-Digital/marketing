@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-003
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 
@@ -43,3 +42,13 @@ If you're navigating data center permitting and want to see how measurable commi
 ### Notes
 
 These assets should be anonymized or use example data unless client approval is obtained.
+
+## Real-life example
+
+PW Digital Gateway hearings in Prince William County, Virginia surfaced the trust gap: flexibility vs. accountability, plus "new vs. old" application confusion after late amendments. LSARS closes that gap by versioning commitments and attaching proof to each promise so stakeholders can verify what changed.
+
+## Citations / Sources
+- https://lsars.com/
+- https://www.lsadigital.com/products/lsars
+- https://www.pwcva.gov/department/planning-office/pw-digital-gateway
+- https://wtop.com/virginia/2023/11/prince-william-planning-commission-begins-contentious-pw-digital-gateway-hearings/

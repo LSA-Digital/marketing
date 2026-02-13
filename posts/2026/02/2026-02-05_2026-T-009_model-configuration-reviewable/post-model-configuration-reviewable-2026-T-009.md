@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-009
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-009
 
 ## Post
 

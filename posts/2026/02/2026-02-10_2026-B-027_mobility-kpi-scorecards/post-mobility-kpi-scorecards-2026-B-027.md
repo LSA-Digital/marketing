@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-027
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 If the public cannot understand the KPI, it will not build trust.

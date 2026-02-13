@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-012
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Uncertainty is the enemy when permitting for large capital infrastructure, like Data Centers.  “When will the permit be approved?” is the wrong question.

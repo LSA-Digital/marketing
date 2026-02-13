@@ -2,9 +2,7 @@
 
 ## Metadata
 - **Post ID**: 2026-B-022
-- **Status**: approved
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Community economic commitments do not fail because people do not care.

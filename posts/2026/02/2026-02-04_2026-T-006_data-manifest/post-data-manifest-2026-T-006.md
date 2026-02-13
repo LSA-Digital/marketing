@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-006
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-007
 
 ## Post
 AI agents are not good at guessing what you mean.  In a ChatGPT back-and-forth dialog, you can just correct it.  In an autonomous production system, the AI agents have to go by guardrails and rules.

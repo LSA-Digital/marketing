@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-019
 - **CTA**: Build the workforce at [lsars.com](https://lsars.com)
-- **Depends on**: —
 
 # "Jobs" isn't a magic word—access is
 

@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-026
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Construction traffic can turn "support" into "opposition" in a week.

@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-011
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Most “community benefit” plans fail for one simple reason: you can’t tell *who* benefited, *when*, or *whether it matched the need*.

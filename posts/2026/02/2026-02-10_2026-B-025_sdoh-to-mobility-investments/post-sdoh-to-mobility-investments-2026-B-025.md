@@ -2,9 +2,7 @@
 
 ## Metadata
 - **Post ID**: 2026-B-025
-- **Status**: approved
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Mobility commitments fail when they are generic.

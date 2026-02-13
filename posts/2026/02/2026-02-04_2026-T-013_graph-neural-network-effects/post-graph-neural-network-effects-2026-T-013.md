@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-013
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-013
 
 ## Post
 Neighborhoods can't be understood with a simple spreadsheet table.

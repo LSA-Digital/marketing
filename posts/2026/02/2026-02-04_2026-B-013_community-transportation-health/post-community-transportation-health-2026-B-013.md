@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-013
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 When transportation is unreliable, “access to care” becomes a slogan—not a reality.

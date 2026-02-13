@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-014
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 Community Benefit Agreements can fail quietly — especially when commitments aren’t written and run with clear metrics, monitoring, and enforcement.

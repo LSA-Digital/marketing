@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-012
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-012
 
 ## Post
 Don't just calculate a statistical “confidence interval” and call it done.

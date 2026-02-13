@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-B-015
 - **CTA**: book a working session
-- **Depends on**: —
 
 ## Post
 “We created jobs” isn’t enough.  People have to be able to get to work.

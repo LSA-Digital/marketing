@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-001
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
-- **Depends on**: 2026-B-001 (auditable-ai-trust)
 
 ## Post
 

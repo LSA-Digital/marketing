@@ -3,7 +3,6 @@
 ## Metadata
 - **Post ID**: 2026-T-011
 - **CTA**: see artifacts
-- **Depends on**: 2026-B-011
 
 ## Post
 If you can’t explain **which system produced which number**, you can’t scale trust—you only scale confusion.
