@@ -7,15 +7,17 @@
 - **Depends on**: —
 
 ## Post
-Most data center permits do not stall on engineering. They stall on trust and administrative burden.
+Most data center permits do not stall on engineering. They stall on trust and accountability.
 
-When the objections are about grid costs, water scarcity, noise, land use, and "who is accountable if this goes sideways," vague commitments just create more back-and-forth.
+We see this pattern in the Erason data center permits: trust and labor supply questions become the bottleneck ("who is accountable if this goes sideways, and who will actually do the work?").
 
-We built LSARS to help permit requestors move faster by turning objections and concerns into measurable commitments with an evidence trail, and reducing adminsitrative burden with shared commerical-government dashboards and Agentic AI workflow.
+When the objections are about grid costs, water scarcity, noise, land use, and local jobs, vague commitments just create more back-and-forth.
+
+We built LSARS to help permit requestors move faster by turning objections and concerns into measurable commitments with an evidence trail, so stakeholders can verify progress instead of re-litigating claims.
 
 **How it works:**
 - **Issue map**: we translate community and agency concerns into specific evidence requirements (what has to be measured, reported, and enforced).
-- **Commitment design**: we use baseline and permit-projected Health & Social Risk Assessment context to propose investments that match the local objections (energy affordability, water triggers, noise controls, site buffers).
+- **Commitment design**: we turn each promise into owners, milestones, and proof requirements (including workforce plans that are actually buildable).
 - **Execution + proof**: commitments become tracked milestones and public scorecards, so stakeholders can verify progress instead of re-litigating claims.
 
 **Result:** fewer surprises, fewer "trust us" debates, and a clearer path to a defensible permit.

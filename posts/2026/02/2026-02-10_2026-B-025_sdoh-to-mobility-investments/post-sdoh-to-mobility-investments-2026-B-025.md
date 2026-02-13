@@ -2,6 +2,7 @@
 
 ## Metadata
 - **Post ID**: 2026-B-025
+- **Status**: approved
 - **CTA**: book a working session
 - **Depends on**: —
 
@@ -10,7 +11,10 @@ Mobility commitments fail when they are generic.
 
 "We'll improve transportation" does not help if the real barrier is no-vehicle households, disability access, language isolation, or heat vulnerability.
 
-We built LSARS + Smart Mobility workflows that turn SDOH into targeted, measurable mobility investments.
+We built a 3-part solution that delivers targeted, measurable mobility investments. 
+- AI Health & Social Risk Assessment
+- LSARS Permit Intelligence
+- Smart Mobility solutions 
 
 **How it works:**
 - **Barrier map**: identify the highest-friction tracts (no vehicle, elderly/disabled concentration, language isolation).
@@ -20,10 +24,6 @@ We built LSARS + Smart Mobility workflows that turn SDOH into targeted, measurab
 **Result:** investments are defensible (rooted in need) and trust-building (measured over time).
 
 If you want to turn SDOH into commitments that actually land, book a working session at https://lsars.com.
-
-## Artifacts
-- Remote:
-  - https://lsars.com
 
 ## Post asset ideas
 
