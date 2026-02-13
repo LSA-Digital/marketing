@@ -7,18 +7,18 @@
 - **Product**: LSARS, HSRA
 - **Theme**: AI technology
 - **Audience**: technical
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **Expert**: Mike Idengren (and/or LSA Digital implementer)
 - **CTA**: see artifacts
 - **Depends on**: 2026-B-012
 
 ## Post
-Most teams ship a “confidence score” and call it done.
+Don't just calculate a statistical “confidence interval” and call it done.
 
-But if you can’t answer **what the uncertainty means** and **what’s driving it**, you’re not shipping confidence—you’re shipping ambiguity.
+If you can’t answer **what the uncertainty means** and **what’s driving it**, you’re not shipping confidence—you’re shipping ambiguity.
 
-We designed an uncertainty-quantification approach that produces *bounds + drivers* that humans can review.
+For LSARS Permit Intelligence, we designed an uncertainty-quantification approach that produces *bounds + drivers* that humans can review.
 
 **How it works:**
 - **Multiple lenses**: ensembles (e.g., Monte Carlo + sensitivity analysis + Bayesian structures) to estimate variance instead of hiding it.
@@ -29,10 +29,6 @@ The critical design choice: **uncertainty outputs must be explainable artifacts*
 
 **Result:** reviewers get bounded, defensible estimates—and engineers get a roadmap for where to invest in better data.
 
-If you’re building high-stakes AI, don’t ship “confidence.” Ship bounds, drivers, and reviewable evidence. See the artifacts: https://lsadigital.com
+If you’re building high-stakes AI, don’t ship “confidence.” Ship bounds, drivers, and reviewable evidence.
 
-## Artifacts
-- Local:
-  - `./assets/README.md`
-- Remote:
-  - `https://lsadigital.com`
+
