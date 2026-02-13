@@ -14,11 +14,11 @@
 - **Depends on**: —
 
 ## Post
-“When will the permit be approved?” is the wrong question.
+Uncertainty is the enemy when permitting for large capital infrastructure, like Data Centers.  “When will the permit be approved?” is the wrong question.
 
 The question is: **what’s the probability of hitting a date—and what’s driving the spread?**
 
-We built a way to turn a hand-wavy timeline into a bounded forecast that teams can actually plan around.
+We built a way to turn a hand-wavy timeline into a bounded forecast that teams can actually plan around.  It's called the Community Permitability Score.
 
 **How it works:**
 - **Probability, not a point estimate**: forecast the likelihood of approval by date (not a single “ETA”).
