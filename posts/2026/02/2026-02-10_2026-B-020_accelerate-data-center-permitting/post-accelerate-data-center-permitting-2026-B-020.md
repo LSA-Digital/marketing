@@ -7,20 +7,22 @@
 - **Depends on**: —
 
 ## Post
-Most data center permits do not stall on engineering. They stall when the project collides with trust, timelines, and the utility upgrade path.
+Most data center permits do not stall on engineering. They stall on trust and accountability.
 
-Concrete scenario: a new 50-60MW facility needs power. That often means a substation transformer upgrade plus a short 115kV line extension. Suddenly you're coordinating local grading/building permits, parcel easements, a state DOT encroachment (highway crossing), a railroad crossing package, and (if you touch jurisdictional waters) federal/state water approvals. Different agencies. Different formats. Different clocks.
+We see this pattern in the Erason data center permits: the hard questions are less "can you build it?" and more "what exactly are you committing to, who is accountable if this goes sideways, and how will progress be proven?"
 
-We built LSARS to help permit requestors move faster by turning that whole stack into a single, auditable workflow: clear dependencies, versioned evidence, and reviewer-ready packages.
+When the objections are about grid costs, water scarcity, noise, land use, and local jobs, vague commitments just create more back-and-forth.
+
+We built LSARS to help permit requestors move faster by turning objections and concerns into measurable commitments with an evidence trail, so stakeholders can verify progress instead of re-litigating claims.
 
 **How it works:**
-- **Critical path map**: define permits, agencies, crossings, ROW steps, and decision gates so teams stop doing work in the wrong order.
-- **Evidence packaging**: ingest core documents, extract key parameters, and produce traceable summaries (with citations back to source).
-- **Change control**: when route, load, or assumptions change, we show the delta and keep the evidence trail intact.
+- **Issue map**: we translate community and agency concerns into specific evidence requirements (what has to be measured, reported, and enforced).
+- **Commitment design**: we turn each promise into owners, milestones, and proof requirements.
+- **Execution + proof**: commitments become tracked milestones and public scorecards, so stakeholders can verify progress instead of re-litigating claims.
 
-**Result:** less churn, fewer surprises, and a faster path to a defensible permit.
+**Result:** fewer surprises, fewer "trust us" debates, and a clearer path to a defensible permit.
 
-If you want to pressure-test your permit path (including the utility upgrade path), book a 20-30 min working session at https://lsars.com.
+If you want to map your project to a pilot-ready plan, book a 20-30 min working session at https://lsars.com.
 
 ## Artifacts
 - Remote:
@@ -28,9 +30,8 @@ If you want to pressure-test your permit path (including the utility upgrade pat
   - https://www.lsadigital.com/products/lsars
 
 ## Post asset ideas
-- [ ] Diagram: data center permit stack with utility upgrade dependencies (substation + line crossings)
-- [ ] Screenshot: reviewer-ready evidence package excerpt (redacted)
-- [ ] Screenshot: change delta / impact report view (redacted)
+- [ ] Screenshot: "issue map" (grid / water / noise / land use -> evidence + owner)
+- [ ] Screenshot: commitment scorecard example (commitment -> milestone -> proof)
 
 ## Citations
 - https://lsars.com/
