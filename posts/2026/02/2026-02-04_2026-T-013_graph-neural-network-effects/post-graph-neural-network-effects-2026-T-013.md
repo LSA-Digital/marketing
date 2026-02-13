@@ -14,9 +14,9 @@
 - **Depends on**: 2026-B-013
 
 ## Post
-Most “community analytics” treat neighborhoods like independent rows in a table.
+Neighborhoods can't be understood with a simple spreadsheet table.
 
-But communities behave like networks: commute flows, referral patterns, and mobility access create **spillover effects** that simple models miss.
+Communities behave like networks: commute flows, referral patterns, and mobility access create **spillover effects** that simple models miss.
 
 We designed a graph-based approach to model how interventions propagate through connected places.
 

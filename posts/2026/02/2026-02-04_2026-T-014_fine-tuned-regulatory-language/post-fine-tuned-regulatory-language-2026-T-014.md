@@ -7,7 +7,7 @@
 - **Product**: LSARS
 - **Theme**: AI technology
 - **Audience**: technical
-- **Status**: draft
+- **Status**: approved
 - **Poster**: company page
 - **Expert**: Keith Mangold + Mike Idengren (and/or LSA Digital implementer)
 - **CTA**: see artifacts
@@ -18,7 +18,7 @@ If your model can write regulatory-sounding text, that’s not the win.
 
 The win is: **it can cite the right sources, extract the right clauses, and stay reviewable under pressure.**
 
-We designed a domain-specific fine-tuning approach for regulatory and permitting language that keeps auditability as a first-class constraint.
+For the Health & Social Risk Assessment AI solution, we designed a domain-specific fine-tuning approach for regulatory and permitting language that keeps auditability as a first-class constraint.
 
 **How it works:**
 - **Curated corpus**: guidance, standards, permitting docs, and agreement templates—kept versioned and attributable.
@@ -29,15 +29,7 @@ The critical design choice: **fine-tuning never replaces provenance**—outputs 
 
 **Result:** better domain fit *and* fewer ungrounded claims, because the system is trained and evaluated against what reviewers actually care about.
 
-If you’re building AI for regulated text, optimize for reviewability—not fluency. See the artifacts: https://lsadigital.com
-
-## Artifacts
-- Remote:
-  - `https://lsadigital.com`
-
-## Post asset ideas
-
-Add any supporting artifacts for this post here.
+If you're working on regulatory AI, let's talk.  https://lsadigital.com
 
 ### Suggested assets
 - Corpus inventory list (doc types + versioning approach)

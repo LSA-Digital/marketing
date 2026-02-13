@@ -14,11 +14,11 @@
 - **Depends on**: —
 
 ## Post
-Community Benefit Agreements often fail quietly.
+Community Benefit Agreements (CBAs) often fail quietly.
 
-Not because the intent was bad—but because the commitments never become an execution system.
+Not because the intent was bad, but because the commitments don't get consistent, automated transparency and accountability.
 
-We built a Permit Intelligence workflow that turns CBA commitments into **trackable work** with milestones, SLAs, and published resolution evidence.
+We built a Permit Intelligence workflow that turns CBA commitments into **trackable work** with milestones, SLAs, and visible dashboards.
 
 **How it works:**
 - **Structured intake**: commitments are captured as measurable items (not paragraphs in a PDF).
@@ -28,14 +28,6 @@ We built a Permit Intelligence workflow that turns CBA commitments into **tracka
 **Result:** commitments stop being PR and start being something communities and reviewers can verify.
 
 If you’re serious about accountability, you need a system that makes follow-through visible. We’ll show you the workflow in a working session: https://lsars.com
-
-## Artifacts
-- Remote:
-  - `https://lsars.com`
-
-## Post asset ideas
-
-Add any supporting artifacts for this post here.
 
 ### Suggested assets
 - Commitment intake template (fields → measurable commitments)
