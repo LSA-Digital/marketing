@@ -7,7 +7,7 @@
 
 # Credibility means counting the backup generators too
 
-"Clean" data centers still have diesel backups. Ignoring them destroys credibility. Communities know they exist, so we track them.
+"Clean" data centers still have diesel backups. Ignoring them hurts credibility. Communities know they exist, so we track them.
 
 We integrated diesel backup testing schedules and construction emissions into the HSRA baseline model.
 
