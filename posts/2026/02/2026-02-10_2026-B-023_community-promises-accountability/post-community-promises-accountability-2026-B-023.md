@@ -2,6 +2,7 @@
 
 ## Metadata
 - **Post ID**: 2026-B-023
+- **Status**: approved
 - **CTA**: book a working session
 - **Depends on**: —
 
@@ -13,7 +14,7 @@ The fastest way to lose a community is to make commitments that live in PDFs and
 We built LSARS with a community portal that shows promises vs. delivery: spending, milestones, outcomes, and a public resolution trail.
 
 **How it works:**
-- **Structured commitments**: convert CBA language into trackable records (what, when, who owns it).
+- **Structured commitments**: convert Community Benefit Agreement (CBA) language into trackable records (what, when, who owns it).
 - **Evidence trail**: attach proof (documents, monitoring data, approvals) so the record is defensible.
 - **Scorecards + resolution**: publish progress and close the loop on complaints with an audit trail.
 
