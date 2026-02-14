@@ -5,9 +5,11 @@
 - **CTA**: book a working session
 
 ## Post
-Permitting agencies do not need another portal.
+Permitting agencies do not need to buy another complex workflow system.
 
 They need visibility inside the workflow they already run, without buying new government software or expanding headcount.
+
+We already have real-world patterns for this: cities share planned closures and incidents to reach drivers fast, and work-zone data standards exist to make authoritative feeds reusable. The gap is tying those signals to permit commitments and review steps.
 
 We built LSARS dashboards that ingest Smart Mobility feeds so agencies can see permit status plus mobility compliance signals in one place.
 
@@ -20,11 +22,11 @@ We built LSARS dashboards that ingest Smart Mobility feeds so agencies can see p
 
 If you want to see what one-click visibility looks like, book a working session at https://lsars.com.
 
-## Artifacts
-- Remote:
-  - https://lsars.com
-
 ## Post asset ideas
 
 - [ ] Screenshot: agency dashboard view (permit status + mobility compliance signals)
 - [ ] Diagram: feed -> dashboard -> alert -> resolution flow
+
+## Citations / Sources
+- https://www.waze.com/wazeforcities (Example: city-to-driver communication for closures, hazards, and traffic events)
+- https://ops.fhwa.dot.gov/wz/wzdx/index.htm (FHWA Work Zone Data Exchange; standard for sharing authoritative work zone activity data)
