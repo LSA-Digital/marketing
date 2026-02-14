@@ -4,9 +4,10 @@
 - **Post ID**: 2026-B-018
 - **CTA**: See the model at [lsars.com](https://lsars.com)
 
-# Credibility means counting the backup generators too
+## Post
+Credibility means counting the backup generators, too.
 
-"Clean" data centers still have diesel backups. Ignoring them hurts credibility. Communities know they exist, so we track them.
+"Clean" data centers still have diesel backups. Communities know they exist, so we track them.
 
 We integrated diesel backup testing schedules and construction emissions into the HSRA baseline model.
 
@@ -22,9 +23,7 @@ We integrated diesel backup testing schedules and construction emissions into th
 
 **Result:** Credibility is maintained by acknowledging and managing the dirty parts of clean infra.
 
-## Real-life example
-
-Virginia DEQ's APG-576 sets minimum permit expectations for diesel engine-generator sets, and a 2026 proposed revision adds presumptive BACT requirements for generators at data center stationary sources. Backup power is now explicitly in the regulatory spotlight, so it has to be in the trust conversation too.
+Real-world example: Virginia DEQ's APG-576 sets minimum permit expectations for diesel engine-generator sets, and a 2026 proposed revision adds presumptive BACT requirements for generators at data center stationary sources.
 
 See the model at https://lsars.com
 

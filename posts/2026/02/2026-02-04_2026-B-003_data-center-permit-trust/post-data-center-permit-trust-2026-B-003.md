@@ -10,11 +10,13 @@ Data center permit fights are rarely about pollutants—they're about trust.
 
 Communities don't oppose projects because of marginal air quality impacts. They oppose them because of grid cost fears, water scarcity concerns, the constant hum of cooling systems, and a history of broken promises.
 
+Real-world example: reporting on PW Digital Gateway hearings in Prince William County, Virginia described "flexibility vs. accountability" and confusion over late amended applications. When stakeholders can't verify which version is real, every claim gets re-litigated.
+
 LSARS addresses these real blockers head-on by making commitments measurable and enforceable—not just words in a press release.
 
 Here's how:
 
-- **Energy burden analysis**: We use SDOH data to identify neighborhoods most vulnerable to utility rate increases, then design targeted investments (weatherization, bill credits, efficiency upgrades) that address ratepayer fears with evidence.
+- **Energy burden analysis**: We use local social health data to identify neighborhoods most vulnerable to utility rate increases, then design targeted investments (weatherization, bill credits, efficiency upgrades) that address ratepayer fears with evidence.
 
 - **Water transparency**: Instead of verbal assurances, we publish dashboards showing caps, potable vs. reclaimed usage, drought-trigger operating rules, and compliance history—so communities can verify, not just trust.
 
@@ -22,13 +24,10 @@ Here's how:
 
 The result: permit timelines that don't stall on NIMBY opposition, because commitments are credible from day one.
 
-It's in everyone's interest to get permits approved faster—permit requestors get certainty, communities get enforceable benefits, and agencies get fewer re-litigated facts. LSARS makes that possible by turning trust into a system, not a handshake.
+It's in everyone's interest to get permits approved faster—permit requestors get certainty, communities get enforceable benefits, and agencies get fewer re-litigated facts. LSARS makes that possible by turning trust into a system, so deliverables are committed, visible and up to date.
 
 If you're navigating data center permitting and want to see how measurable commitments can accelerate approvals, let's talk: https://lsars.com
 
-## Artifacts
-- Remote:
-  - https://lsars.com/
 
 ## Post asset ideas
 
@@ -42,10 +41,6 @@ If you're navigating data center permitting and want to see how measurable commi
 ### Notes
 
 These assets should be anonymized or use example data unless client approval is obtained.
-
-## Real-life example
-
-PW Digital Gateway hearings in Prince William County, Virginia surfaced the trust gap: flexibility vs. accountability, plus "new vs. old" application confusion after late amendments. LSARS closes that gap by versioning commitments and attaching proof to each promise so stakeholders can verify what changed.
 
 ## Citations / Sources
 - https://lsars.com/

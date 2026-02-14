@@ -3,5 +3,10 @@
   "disabled_mcps": ["context7"],
   "claude_code": {
     "hooks": true
+  },
+  "agents": {
+    "librarian": {
+      "model": "anthropic/claude-sonnet-4-5"
+    }
   }
 }

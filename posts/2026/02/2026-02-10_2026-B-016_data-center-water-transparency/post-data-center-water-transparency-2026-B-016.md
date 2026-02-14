@@ -4,7 +4,9 @@
 - **Post ID**: 2026-B-016
 - **CTA**: See the dashboard at [lsars.com](https://lsars.com)
 
-# Water transparency that communities can verify
+## Post
+
+### Water transparency that communities can verify
 
 Verbal assurances about data center water use don't build trust - data does. When communities fear drought impact, "we promise to be efficient" isn't enough.
 
@@ -22,9 +24,7 @@ We built the LSARS Water Use Dashboard to turn drought triggers and reclamation 
 
 **Result:** Permits move faster when water impact is a known quantity, not a black box.
 
-## Real-life example
-
-Tucson's City Council unanimously killed the proposed "Project Blue" data center amid public opposition and concerns about water use. Tucson then moved to require large water-use applications to become public records and to go through a mayor-and-council vote. In drought-stressed regions, water uncertainty becomes permit risk.
+Real-world example: Tucson's City Council unanimously killed the proposed "Project Blue" data center amid concerns about water use. Tucson then adopted an ordinance requiring large water-use applications to become public records and to go through a mayor-and-council vote.
 
 See the dashboard at https://lsars.com
 

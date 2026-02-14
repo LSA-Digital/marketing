@@ -9,6 +9,8 @@ Data center permits rarely stall because nobody did the work. They stall because
 
 Evidence lives in too many places: PDFs, email threads, spreadsheets, and "latest_v7_FINAL" attachments. Every handoff creates rework.
 
+Real-world example: PW Digital Gateway hearings in Prince William County, Virginia surfaced the review bottleneck - late amended filings, confusion over "new vs. old" application materials, and staff needing time to independently verify thousands of changes before commenting.
+
 We built LSARS Permit Intelligence to turn permitting into a single, auditable workflow: shared dashboards (including a community dashboard), reviewer-ready evidence packages, and bounded agentic AI workflow that keeps the citation trail intact.
 
 **How it works:**
@@ -22,10 +24,6 @@ We built LSARS Permit Intelligence to turn permitting into a single, auditable w
 - **Communities** See commitments tracked with proof, not buried in documents.
 
 **Result:** less churn, fewer surprises, and a faster path to a defensible permit.
-
-## Real-life example
-
-PW Digital Gateway hearings in Prince William County, Virginia show the admin failure mode: late amended filings, thousands of pages, and staff needing time to independently verify changes before commenting. LSARS reduces this churn with one versioned record, clear deltas, and citations that stay attached to the evidence.
 
 If you want to see what an auditable permit workflow looks like for your project, book a working session at https://lsars.com.
 

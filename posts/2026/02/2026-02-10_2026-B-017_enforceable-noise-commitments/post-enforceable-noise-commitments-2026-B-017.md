@@ -4,7 +4,9 @@
 - **Post ID**: 2026-B-017
 - **CTA**: Learn more at [lsars.com](https://lsars.com)
 
-# Make the "hum" measurable and managed
+## Post
+
+### Make the "hum" measurable and managed
 
 The "hum" noise pollution is a major data center complaint for local communities. PDF acoustic reports won't fix it.
 
@@ -22,9 +24,7 @@ We built continuous noise monitoring into the Permit Intelligence Portal to make
 
 **Result:** Noise becomes a managed metric, not a project-killing complaint.
 
-## Real-life example
-
-In 2024, Fairfax County updated data center zoning to require a noise study before site plan approval and again post-construction, along with stronger equipment enclosure/screening. That's the bar: measurable compliance that can be verified, not just assurances.
+Real-world example: Fairfax County approved a data center zoning ordinance amendment that requires pre- and post-construction noise studies for compliance with the Noise Ordinance, along with stronger equipment enclosure/screening to reduce noise impacts.
 
 Hear the difference at https://lsars.com
 
@@ -35,5 +35,6 @@ Hear the difference at https://lsars.com
 ## Citations / Sources
 - https://lsars.com/
 - https://www.lsadigital.com/products/lsars
+- https://www.fairfaxcounty.gov/news/board-supervisors-approve-new-data-center-zoning-ordinance-amendment
 - https://www.hklaw.com/en/insights/publications/2024/09/fairfax-county-virginia-approves-updated-zoning-regulations
 - https://www.ffxnow.com/2024/09/11/fairfax-county-board-approves-new-data-center-regulations-promise-further-review/
