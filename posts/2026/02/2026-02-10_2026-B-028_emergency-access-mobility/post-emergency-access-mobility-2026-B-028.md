@@ -9,12 +9,16 @@
 
 In high-vulnerability tracts, the question is whether people can reliably reach them (or clinics) during heat events and emergencies.
 
-Some transit agencies already offer fare-free rides to cooling centers during extreme heat. The missing piece in many permit commitments is making that access plan targeted, measurable, and reviewable.
+Some transit agencies already offer fare-free rides to cooling centers during extreme heat.
+
+Real-world examples: VTA and VIA have offered free rides to cooling centers during high temperatures, and Massachusetts publishes statewide cooling center guidance to help local agencies plan public access.
+
+The missing piece in many permit commitments is making that access plan targeted, measurable, and reviewable.
 
 We built LSARS + Smart Mobility workflows that connect vulnerability data to access plans, then publish proof that access actually improved.
 
 **How it works:**
-- **Vulnerability mapping**: identify heat and medical vulnerability hotspots using the  Health and Social Risk Assessment engine (HSRA).
+- **Vulnerability mapping**: identify heat and medical vulnerability hotspots using the Health and Social Risk Assessment engine (HSRA).
 - **Access plan**: define shuttles, park-and-ride integration, mobility vouchers, and routing support.
 - **Public reporting**: track access Key Performance Indicators (KPIs)... such as coverage, usage, reliability... and keep the audit trail.
 

@@ -9,6 +9,10 @@ The curb is where a project meets real life: drop-offs, deliveries, loading, sta
 
 Permits often include curb-related conditions (delivery windows, no-parking zones, designated loading). The failure mode is when those conditions stay implicit, unmeasured, and unenforced.
 
+Real-world example: Washington, DC combined curb inventory and enforcement in a commercial loading zone management program to improve loading zone availability and reduce double parking. DDOT also publishes loading zone rules and operating hours so curb access is predictable.
+
+And curb rules are increasingly describable as structured policy data (e.g., the Curb Data Specification), which makes enforcement and public reporting scalable.
+
 We built Smart Mobility + LSARS workflows that treat curb policy like an executable rulebook: clear rules, measurable compliance, and a public resolution trail.
 
 **How it works:**

@@ -11,6 +11,8 @@ Low Emission Zone (LEZ) policies and access-control commitments are often writte
 
 Many real-world LEZ programs already rely on automated enforcement and publish compliance data. The permitting opportunity is to treat that same data exhaust as a proof trail: defined rules, measured exceptions, and corrective action.
 
+Real-world example: London's ULEZ publishes compliance data and evaluation reporting. That's the bar for turning LEZ commitments into something stakeholders can verify.
+
 We built LSARS scorecards that connect access control and LEZ compliance signals to a public, auditable proof trail.
 
 **How it works:**

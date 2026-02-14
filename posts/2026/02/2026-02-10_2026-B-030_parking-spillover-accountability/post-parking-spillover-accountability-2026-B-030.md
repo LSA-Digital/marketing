@@ -11,6 +11,10 @@ If neighborhoods experience months of disruption with no clear enforcement, the 
 
 Cities already run Residential Permit Parking programs to reduce non-resident spillover near high-demand areas. Construction staging and workforce parking can trigger the same quality-of-life fight—fast.
 
+Real-world example: Austin's Residential Permit Parking program is designed to reduce non-resident spillover in residential areas.
+
+And curb rules are increasingly describable as structured policy data (e.g., the Curb Data Specification), which makes enforcement and public reporting scalable.
+
 We built Smart Mobility + LSARS workflows that make parking rules enforceable and outcomes visible: policies, monitoring, and public resolution.
 
 **How it works:**
@@ -18,7 +22,7 @@ We built Smart Mobility + LSARS workflows that make parking rules enforceable an
 - **Monitoring**: track utilization and violations so the conversation is grounded in facts.
 - **Resolution**: publish complaints, corrective actions, and closure so issues do not linger.
 
-**Result:** quality-of-life commitments become measurable, which reduces durable NIMBY coalitions.
+**Result:** quality-of-life commitments become measurable, which reduces pushback from NIMBY groups.
 
 If you want to reduce parking-driven opposition with evidence (not arguments), book a working session at https://lsars.com.
 
