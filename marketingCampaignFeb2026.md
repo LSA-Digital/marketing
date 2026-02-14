@@ -3,18 +3,20 @@
 ### Purpose
 Generate interest from **business + technical audiences** in the LSA Digital brand, and convert that interest into **qualified conversations** that lead to **custom Human‑AI solution development** work.
 
-### North Star positioning (rebrand anchor)
+### Principles:  North Star positioning (rebrand anchor)
 - **Core thesis**: **Enterprise Heritage. Startup Velocity.**
 - **Operating model**: Human‑AI **Develop → Deploy → Disrupt** concept-to-scale cycle.
 - **Differentiator**: aim for speed **and** compliance/scale (the “LSA Zone”), not “fast prototypes that die in governance.”
+- **Experience first** Everything must show experience to differentiate from “armchair quarterbacks”  who post stuff but haven’t actually done this before
+- **Dual audiences** Must differentiate between tech / business audiences 
 
-Primary sources:
+Primary sources for high-level LSA Digital & product messaging
 - `https://www.lsadigital.com/`
 - `https://www.lsadigital.com/products`
 
 ### Constraints
 - **Low budget**: rely on partner reposts, founder networks, and repurposing one artifact into many formats.
-- **Content must be “what we did”**: real artifacts (screenshots, demo clips, architectures, tests, validation, workflow steps) first; “lessons learned” second.
+- **Show evidence**: when practical, use real artifacts (screenshots, demo clips, architectures, tests, validation, workflow steps) first; “lessons learned” second.
 
 ---
 
@@ -36,13 +38,20 @@ Enterprise architects, eng leads, platform teams, AI/ML leads, security/complian
 
 ---
 
-## Content pillars (themes)
-### Theme 1 — Experts + AI (Human‑in‑the‑Loop done for real)
+### Messaging Themes (tags)
+
+see @messagingThemes.md for more granular messaging themes.  These can be tagged per-post.  They are more narrow than "Content Pillars" below.
+
+-- 
+
+## Content pillars 
+
+### Pillar 1 — Experts + AI (Human‑in‑the‑Loop done for real)
 **Message**: AI accelerates; experts provide judgment + safety. We design workflows where **AI proposes and experts dispose**.
 
 Anchor partnership/proof:
 - LSARS principals on `https://lsars.com/`:
-  - **Nelson Smith** (Principal; 35+ yrs environmental mass tort; lead counsel for opioids and environmental lawsuits)
+  - **Nelson Smith** (Principal; 35+ yrs environmental & legal / mass tort)
   - **Dr. Thad Perry** (Principal; 30+ yrs healthcare informatics & research; backed by clinical experts)
   - **Mike Idengren** (Principal; 28+ yrs digital transformation + AI tech; Human‑AI.com founder)
 
@@ -56,33 +65,21 @@ High-performing formats:
 - Expert review/verification step (what is checked, how, and why)
 - Validation/evidence posts (parity, tests, E2E, audit trail)
 
-### Theme 2 — AI technology (agentic + productized + enterprise-aware)
+### Pillar 2 — AI technology (agentic + productized + enterprise-aware)
 **Message**: We don’t just “use AI,” we build **systems**—agentic workflows, measurable outputs, governance hooks, and product UX where humans drive intent.
 
 Anchor proof:
 - Human‑in‑the‑Loop outreach system webinar recap: `https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap`
   - Includes: GQM method, agentic architecture, integrations (GPT‑4o, Apify, Tavily, Google CSE), closed feedback loop demo.
 
-Products to spotlight under this theme:
-- **EPMS** (AI-assisted product discovery + roadmap planning): `https://www.lsadigital.com/products/epms`
-- **ReimagineIt** (AI-guided discovery interview + “clarity score” + blueprint generation): `https://www.lsadigital.com/products/reimagineit`
-- **Human‑AI Concept Lab** (process analysis/mining + recommendations + human control): `https://www.lsadigital.com/products/human-ai-optimizer`
 
 High-performing formats:
 - Simple architecture diagrams (roles → agents → tools → data → governance)
 - “How we evaluated it” (tests, parity checks, regression harness, E2E)
 - “How humans steer it” (intent capture, review queues, audit logs, approvals)
 
-#### EPMS “MCP for developers” angle (artifact-capture requirement)
-You called out a key differentiator: **PM intent in the EPMS UI can drive developer workflows via MCP** (agentic assistance that stays aligned to product intent).
 
-To keep this campaign aligned with the “what we did” rule, treat this as an **artifact capture requirement before publishing**:
-- Screenshot/clip of the PM intent entry point in EPMS
-- Screenshot/clip of the MCP-driven developer assist (what tool calls happen, what gets produced)
-- 1 paragraph on boundaries (what is automated vs what is human-approved)
-- 1 paragraph on governance/auditability (how we trace intent → output)
-
-### Theme 3 (recommended) — Speed with compliance & scale
+### Pillar 3 (recommended) — Speed, security & compliance at scale
 **Message**: “Fast” doesn’t mean fragile. We design for pilot readiness and enterprise realities (security, auditability, integration).
 Use carefully phrased claims (“in progress”, “prototype”, “public beta”) and show artifacts.
 
