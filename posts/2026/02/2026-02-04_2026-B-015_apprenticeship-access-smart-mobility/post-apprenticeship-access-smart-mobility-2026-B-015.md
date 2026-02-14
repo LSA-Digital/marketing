@@ -5,9 +5,11 @@
 - **CTA**: book a working session
 
 ## Post
-“We created jobs” isn’t enough.  People have to be able to get to work.
+“We created jobs” isn’t enough. People have to be able to get to work.
 
 If transportation is the barrier, the real commitment is **workforce access**—and you need evidence that it worked.
+
+Transit agencies are already deploying on-demand, first-mile/last-mile services to close access gaps. If you don’t connect workforce programs to a concrete access plan, participation becomes the weak link.
 
 With the combination of our Health & Social Risk Assessment and Permit Intelligence AI systems, we built a social health metrics-driven way to pair workforce programs with practical transportation support (shuttles, park-and-ride, vouchers) and publish the metrics that make the promise believable.
 
@@ -18,9 +20,12 @@ With the combination of our Health & Social Risk Assessment and Permit Intellige
 
 **Result:** workforce commitments become measurable, reviewable, and easier to defend in high-trust permitting contexts.
 
-If you’re making workforce promises, we’ll show how to make them transaprent and accountaable, end-to-end. https://lsars.com
+If you’re making workforce promises, we’ll show how to make them transparent and accountable, end-to-end. https://lsars.com
 
 ### Suggested assets
 - Barrier analysis mock: where transportation blocks participation
 - Mobility support menu (shuttle/park-and-ride/voucher) tied to workforce programs
 - Metrics mock: usage + completion + retention proxy measures
+
+## Citations / Sources
+- https://www.metro.net/micro/ (Example of on-demand, first-mile/last-mile microtransit operated by a public transit agency)
