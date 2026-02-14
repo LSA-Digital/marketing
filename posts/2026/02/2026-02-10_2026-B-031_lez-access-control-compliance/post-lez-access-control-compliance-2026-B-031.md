@@ -9,6 +9,8 @@ Rules on paper are not compliance. Compliance is data.
 
 Low Emission Zone (LEZ) policies and access-control commitments are often written into permits, but without measurement they turn into endless debates.
 
+Many real-world LEZ programs already rely on automated enforcement and publish compliance data. The permitting opportunity is to treat that same data exhaust as a proof trail: defined rules, measured exceptions, and corrective action.
+
 We built LSARS scorecards that connect access control and LEZ compliance signals to a public, auditable proof trail.
 
 **How it works:**
@@ -28,3 +30,7 @@ If you want LEZ commitments that hold up under scrutiny, book a working session 
 
 - [ ] Screenshot: LEZ rule definition -> compliance KPI scorecard
 - [ ] Diagram: access-control events -> compliance evaluation -> public reporting
+
+## Citations / Sources
+- https://tfl.gov.uk/modes/driving/ultra-low-emission-zone/ulez-compliance-data (Example: published LEZ compliance data)
+- https://www.london.gov.uk/sites/default/files/2025-03/London-wide%20ULEZ%20One%20Year%20Report_Mar2025.pdf (Example: published evaluation report including compliance and program outcomes)
