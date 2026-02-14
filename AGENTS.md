@@ -64,7 +64,39 @@ The following fields are tracked in `post-index.md` only and should NEVER appear
 
 ## Post
 ...content...
+
+## Artifacts
+- Remote:
+  - https://lsars.com
+
+## Post asset ideas
+- [ ] Screenshot: example
+
+## Citations / Sources
+- https://example.com/source (when citing specific data, reports, or public records)
 ```
+
+### Citations / Sources Section
+
+When a post cites specific external data, public records, reports, or regulatory filings, include a **"Citations / Sources"** section at the end of the post file. This provides transparency and allows readers to verify claims.
+
+**When to include:**
+- Citing specific public dockets, permits, or regulatory filings
+- Referencing government reports or environmental impact statements
+- Using data from official utility or agency websites
+- Any claim that could benefit from a verifiable source
+
+**Format:**
+```markdown
+## Citations / Sources
+- https://www.mass.gov/info-details/hmlp-reliability-project
+- https://heirp.com/wp-content/uploads/2024/11/HMLP_ZE_Petition_FINAL.pdf (Project components; see pp. 2 and 5)
+- https://heirp.com/wp-content/uploads/2024/11/HMLP_EFSB_Petition_20241111-1.pdf (Broad Street Route and Lake Street Route; see pp. 17-18 and 107-111; MassDOT Work Zone Safety reference; see p. 148; Orders of Conditions; see pp. 149-150; MBTA railroad operations constraints; see pp. 52 and 85)
+```
+
+Include brief context in parentheses for PDFs or complex documents (page numbers, specific sections).
+
+**Example post with citations:** `posts/2026/02/2026-02-10_2026-B-021_accelerate-utility-permitting/post-accelerate-utility-permitting-2026-B-021.md`
 
 ### Authoritative Source:
 
@@ -137,3 +169,4 @@ If proxy fails: delete `.mcp.json` and restart OpenCode.
 |------|--------|--------|
 | 2026-02-10 | Sisyphus | Created AGENTS.md with lazy-mcp proxy setup. Uses global config at ~/dev/common/lazy-mcp/. |
 | 2026-02-13 | Sisyphus | Standardized post metadata: only Post ID and CTA allowed in individual posts. All other metadata lives in post-index.md. |
+| 2026-02-14 | Sisyphus | Added Citations / Sources section guidelines to document when and how to include source references in post files. |
