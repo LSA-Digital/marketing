@@ -6,6 +6,8 @@
 
 ## Post
 
+This is based on threat modeling and boundary design we've had to do in real systems - for example, tool authorization and identity boundaries in compliance-heavy workflows.
+
 Prompt injection isn't a "prompt" problem.
 
 It's a boundary problem.

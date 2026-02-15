@@ -6,6 +6,8 @@
 
 ## Post
 
+This comes from production-minded agent builds we've done - for example, enforcing per-tool policy boundaries and scoped credentials so CI/CD can stay fast without becoming risky.
+
 The safest agent is the one that can't do the dangerous thing.
 
 Even by accident.

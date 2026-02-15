@@ -6,6 +6,8 @@
 
 ## Post
 
+This is a workflow rule we use in practice - for example, in this repo we enforce "CONTEXT7 FIRST" so agents look up authoritative docs instead of guessing.
+
 Even strong models still do something expensive and unnecessary:
 
 This is true even for today's most sophisticated models (e.g., Claude 4.6).

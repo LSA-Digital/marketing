@@ -6,6 +6,8 @@
 
 ## Post
 
+This comes from how we actually build - for example, we regularly switch between Cursor, Claude, ChatGPT Codex, and open-source agents like OpenCode to get different strengths and failure modes.
+
 Most teams pick an agent stack the way they pick a CSS framework: one choice, forever.
 
 That's not how this era works.

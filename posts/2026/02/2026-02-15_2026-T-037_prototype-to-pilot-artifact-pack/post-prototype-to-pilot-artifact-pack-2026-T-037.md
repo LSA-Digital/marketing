@@ -6,6 +6,8 @@
 
 ## Post
 
+This is based on real pilot work we've done - for example, the Human-in-the-Loop outreach system build shows why architecture, evidence, and governance artifacts matter before you scale.
+
 The difference between a cool prototype and a pilot-ready system is rarely more code.
 
 It's receipts.

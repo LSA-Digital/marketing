@@ -6,6 +6,8 @@
 
 ## Post
 
+We learned this the hard way building agentic workflows (for example, EPMS + our Human-in-the-Loop outreach system architecture): the human experience and the agent experience are coupled.
+
 If your product has agents, you have two user experiences.
 
 One for humans.

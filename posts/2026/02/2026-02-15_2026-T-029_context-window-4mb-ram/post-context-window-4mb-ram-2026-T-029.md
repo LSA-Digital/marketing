@@ -6,6 +6,8 @@
 
 ## Post
 
+This comes directly from building with agents in real repos - for example, keeping durable artifacts (briefs, manifests, decision logs) so work survives context compression.
+
 If you're building with agents and you feel like you're back in the 90s squeezing code into 4MB of RAM...
 
 You're not crazy.

@@ -6,6 +6,8 @@
 
 ## Post
 
+This isn't theory - we've used this dial while building real systems (for example, EPMS workflows and our Human-in-the-Loop outreach system build).
+
 Vibe coding is powerful.
 
 It's also how teams accidentally ship fragile systems.

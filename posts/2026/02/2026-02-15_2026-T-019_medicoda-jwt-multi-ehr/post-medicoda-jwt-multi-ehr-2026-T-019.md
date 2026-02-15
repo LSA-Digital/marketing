@@ -6,6 +6,8 @@
 
 ## Post
 
+Example from work we've shipped: in MEDICODA, we proved architecture and scalability with secure JWT boundaries and multiple EHR integrations.
+
 The moment a tool-using agent touches regulated data, identity stops being a detail.
 
 If your auth story is "just use an API key," you're building a demo.

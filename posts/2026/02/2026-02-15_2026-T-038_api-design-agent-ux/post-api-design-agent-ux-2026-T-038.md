@@ -6,6 +6,8 @@
 
 ## Post
 
+We've had to build AUX-first tool surfaces ourselves - for example, EPMS uses an MCP/tool layer so agents can reliably read/write artifacts and workflows without fragile glue code.
+
 An API can be usable by a human developer...
 
 And still be unusable by an agent.

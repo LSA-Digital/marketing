@@ -6,6 +6,8 @@
 
 ## Post
 
+We've built this in EPMS - for example, exposing an MCP server alongside the product UI so both Human-UX (HUX) and Agent-UX (AUX) are first-class from day 0.
+
 Most "AI product" roadmaps have the same failure mode:
 
 You ship a chat experience (Human-UX (HUX)).
@@ -31,9 +33,9 @@ That creates a dead-end: the agent can do 20% of the workflow and a human still 
 
 If you're building agentic workflows and want real delivery speed, start with the surfaces:
 
-Human-UX (HUX) for intent.
+Human-UX (HUX): the interface where humans execute (create, review, decide, approve, intervene).
 
-Agent-UX (AUX) for execution.
+Agent-UX (AUX): the interface where agents execute (tool calls, schemas, permissions, error contracts, audit events).
 
 https://lsadigital.com
 

@@ -6,6 +6,8 @@
 
 ## Post
 
+This is from real workflow engineering we did in MEDICODA - for example, the capture mode (iPhone voice vs direct entry) changes the entire loop.
+
 Most "AI workflow" posts assume a static pipeline.
 
 Real operations don't work that way.

@@ -6,6 +6,8 @@
 
 ## Post
 
+We've had to do this for real - for example, parity/validation work (like HSRA/HARP2-style validation) forces you to treat evals as first-class artifacts, not vibes.
+
 The demo worked.
 
 Once.

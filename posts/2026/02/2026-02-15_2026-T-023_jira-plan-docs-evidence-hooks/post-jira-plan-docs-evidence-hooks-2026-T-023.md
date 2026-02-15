@@ -6,6 +6,8 @@
 
 ## Post
 
+This is how we've kept speed sustainable in real delivery - for example, pairing Jira tickets with lightweight plan docs and requiring evidence hooks like Playwright screenshots for UI work.
+
 "Move fast" dies the moment nobody can answer:
 
 What changed?

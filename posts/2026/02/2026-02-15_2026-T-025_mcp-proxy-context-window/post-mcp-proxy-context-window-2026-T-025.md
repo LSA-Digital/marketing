@@ -6,6 +6,8 @@
 
 ## Post
 
+We've built around this in real agentic workflows - for example, our Human-in-the-Loop outreach system build had many moving parts, and reliable context rehydration was the difference between "fast" and "fragile." 
+
 If your agent forgets key context, that's not a prompt problem.
 
 It's a system design problem.

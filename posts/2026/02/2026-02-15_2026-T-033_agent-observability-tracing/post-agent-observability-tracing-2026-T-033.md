@@ -6,6 +6,8 @@
 
 ## Post
 
+This comes from builds we've done - for example, in our Human-in-the-Loop outreach system architecture we had to trace tool calls across multiple integrations to debug and improve the loop.
+
 Agentic systems don't just need monitoring.
 
 They need observability.

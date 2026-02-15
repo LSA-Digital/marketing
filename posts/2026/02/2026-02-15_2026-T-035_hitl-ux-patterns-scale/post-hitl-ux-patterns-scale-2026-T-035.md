@@ -6,6 +6,8 @@
 
 ## Post
 
+We've built this - for example, our Human-in-the-Loop outreach system architecture included a closed feedback loop where humans review and steer instead of trusting blind autonomy.
+
 "Human-in-the-loop" is often treated like a safety brake.
 
 So teams avoid it.

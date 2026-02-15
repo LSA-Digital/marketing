@@ -6,6 +6,8 @@
 
 ## Post
 
+We do this because we've had to do it in real systems (for example, multi-service and multi-agent builds like LSARS/HSRA): once risk rises, hidden assumptions become expensive.
+
 If you have tool-using agents, architecture docs stop being "nice to have."
 
 They become the shared contract between:

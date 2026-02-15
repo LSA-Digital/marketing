@@ -172,6 +172,9 @@ Approval tracking: check the box when a synopsis is approved for a full post wri
 - [x] #TECH_UX, #AGENTICAI_DEVOPS - Designing APIs for agents: idempotency, schema contracts, error messages that teach recovery, and why Agent-UX (AUX) is now a first-class product surface.
 - [x] #TECH_SECURITY, #AGENTICAI_DEVOPS - Sandboxed tool execution in the real world: ephemeral credentials, scoped permissions, and per-tool policy enforcement (with an example policy and audit trail).
 
+- [x] #TECH_SECURITY, #FUTUREAI_DEVOPS - Automated compliance: continuous control monitoring + evidence capture (we use Drata.com) so compliance doesn't become a quarterly scramble.
+- [x] #TECH_SECURITY, #AGENTICAI_DEVOPS - Security bug evidence loop: any security bug requires documentation proving it was fixed (e.g., Jira ticket analysis + verification evidence), so audits are painless and engineering stays honest.
+
 ---
 
 ## Content rules (non‑negotiables)

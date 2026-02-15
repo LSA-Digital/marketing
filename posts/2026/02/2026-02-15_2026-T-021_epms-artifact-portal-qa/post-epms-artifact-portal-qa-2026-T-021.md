@@ -6,6 +6,8 @@
 
 ## Post
 
+We've built this pattern in EPMS - for example, storing product truth as living artifacts (markdown, live spreadsheets, videos, decks) that a chatbot can answer questions from in real time.
+
 Every product team says they want alignment.
 
 Then the truth gets scattered across:

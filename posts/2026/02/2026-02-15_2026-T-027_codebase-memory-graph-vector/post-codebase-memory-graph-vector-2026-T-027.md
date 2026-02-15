@@ -6,6 +6,8 @@
 
 ## Post
 
+This is something we built for our own agentic development environment - for example, combining a graph view (graph-code + Memgraph) with a vector index (Qdrant) so agents can answer real codebase questions.
+
 Humans ask:
 
 "Where is this defined?"

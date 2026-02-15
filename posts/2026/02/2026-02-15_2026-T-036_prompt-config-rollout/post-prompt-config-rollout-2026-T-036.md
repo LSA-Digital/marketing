@@ -6,6 +6,8 @@
 
 ## Post
 
+This is how we've run production behavior changes - for example, treating agent configuration as reviewable infrastructure and rolling changes out with canaries and rollback.
+
 Most teams treat prompts and agent config like notes.
 
 Then they "tweak" something on Friday.

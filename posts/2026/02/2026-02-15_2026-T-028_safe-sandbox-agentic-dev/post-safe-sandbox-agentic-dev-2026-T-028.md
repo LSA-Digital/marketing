@@ -6,6 +6,8 @@
 
 ## Post
 
+We use these rules because we've built real systems where mistakes are expensive - for example, LSARS/HSRA-style workflows with sensitive data and tight security boundaries.
+
 The fastest way to kill Vibe Engineering is a single incident:
 
 "The agent touched prod."
