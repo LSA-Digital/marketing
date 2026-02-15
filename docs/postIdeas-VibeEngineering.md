@@ -12,7 +12,7 @@ Branding on marketing materials
 
 Post examples
 
-* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS  - EPMS has MCP server , for a specific reason:  product managers want to use the AI , but developers will have agents that need to interface at api layer, so this is what we mean by AI-first:  built from the ground up to deliver an optimal User Experience and Agent User experience
+* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS  - EPMS has MCP server , for a specific reason:  product managers want to use the AI , but developers will have agents that need to interface at api layer, so this is what we mean by AI-first:  built from the ground up to deliver an optimal Human-UX (HUX) and Agent-UX (AUX)
 * #AGENTICAI_DEVOPS - architecture and scalability proven with MEDICODAX secure jwt interface with multiple EHRs
 * #AGENTICAI_FIRST - AI workflow - dynamic adaptation to ground conditions- MEDICODAX (iPhone or direct entry?) and audit agent follow up
 * #FUTUREAI_PRODDEV - Investor / product management portal answers - what are the ideas ?  What’s the most important messaging ?  AI chatbot answers questions

@@ -23,10 +23,12 @@ Key Messaging Themes Updated 2026-02-12
 | FUTUREAI_PRODDEV         | [ALL]       | The future of Agentic AI Product Development                             | How we use Agentic AI to dramatically accelerate idea/research, prototype, to scaled, secure, compliant & reliable solutions                                                 |
 | AGENTICAI_FIRST          | [ALL]       | Agentic AI as a first consideration, anytime developing a solution.      | What we really mean by Agentic AI helping to maximizing development speed, quality, with minimal cost, and building solutions that accomodate maximum AI agent contribution. |
 | AGENTICAI_DEVOPS         | [ALL]       | Agentic-AI + DevOps                                                      | How we did it & best practice tips (pure tech audience)                                                                                                                      |
+| FUTUREAI_DEVOPS          | [ALL]       | The future of AI DevOps (agents as first-class operators)                | How teams adapt CE/CI/CD for tool-using agents: context rehydration, eval gates, observability, policy boundaries, and Agent-UX (AUX) surfaces that keep delivery fast and safe. |
 
 * Change Log
 
 - 2026-02-14: Added Future of AI, Agentic AI FIRST, Agentic AI Devops
+- 2026-02-15: Added FUTUREAI_DEVOPS theme label
 - 2026-02-12: Created initial theme table and labels; added change log section.
 - 2026-02-12: Added Product column (LSARS vs LSARS+HSRA) to theme table.
 - 2026-02-12: Standardized acronym usage to HSRA.

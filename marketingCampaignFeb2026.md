@@ -42,7 +42,7 @@ Enterprise architects, eng leads, platform teams, AI/ML leads, security/complian
 
 see @messagingThemes.md for more granular messaging themes.  These can be tagged per-post.  They are more narrow than "Content Pillars" below.
 
--- 
+---
 
 ## Content pillars 
 
@@ -67,51 +67,110 @@ High-performing formats:
 - Expert review/verification step (what is checked, how, and why)
 - Validation/evidence posts (parity, tests, E2E, audit trail)
 
-### Pillar 2 - AI Product Development and Vibe Engineering 
+### Pillar 2 — Vibe Engineering (Vibe Coding + Production-Grade Engineering)
 
-**Objective** :  Get more software development contracts, differentiating LSA Digital from competition.
-**Message**: We don't just "use AI," we build **systems**—agentic workflows, measurable outputs, governance hooks, and product UX where humans drive intent.
+**Objective**: Get more software development contracts by proving we can explore and prototype at maximum speed (vibe coding) *and* ship reliable, secure, scalable systems when the idea proves feasible.
+**Message**: Most ideas are infeasible. Vibe coding is powerful because it helps you test assumptions fast and stop early.
+
+Our differentiator is **the balance**: we treat "vibe" and "engineering" as a dial that shifts as risk increases.
+- Early: move fast, generate options, validate feasibility, keep claims bounded.
+- Later: add the receipts that make it production-ready (evals, observability, governance hooks, security boundaries, release gates).
+- Heuristic: if it touches real users, real data, or real money, the dial moves toward engineering (and we can show exactly what changed).
+- Human-UX (HUX) + Agent-UX (AUX): we are formalizing this because good Agent-UX (AUX) enables agents to use tools/APIs predictably, which improves Human-UX (HUX) for developers, which results in higher quality and faster product delivery.
 
 
-Products to spotlight under this theme:
+**Products to spotlight under this theme:**
 - **LSARS** (expert verification + permitting/compliance workflows): `https://www.lsadigital.com/products/lsars` and `https://lsars.com/`
 - **HSRA** (regulatory-grade health & social risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
+- **EPMS** (AI-assisted product management + evidence + artifacts): `https://www.lsadigital.com/products/epms`
 - **MEDICODAX** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
 
 
-Anchor proof:
+**Anchor proof:**
 - Human‑in‑the‑Loop outreach system webinar recap: `https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap`
   - Includes: GQM method, agentic architecture, integrations (GPT‑4o, Apify, Tavily, Google CSE), closed feedback loop demo.
 
-High-performing formats:
+**High-performing formats:**
 - Simple architecture diagrams (roles → agents → tools → data → governance)
 - “How we evaluated it” (tests, parity checks, regression harness, E2E)
 - “How humans steer it” (intent capture, review queues, audit logs, approvals)
 
-How we will do it:  Show our Agentic AI-first approach combined with proven Devops practices to “vibe engineer” secure, stable and scalable solutions.
+How we will do it: Show the dial in action, with concrete artifacts at each stage, so "fast" doesn't mean "fragile".
 
-Branding on marketing materials
+Language note (external): we use **Vibe Engineering** on purpose, but we define it every time: vibe coding for exploration + production-grade engineering for shipping.
+
+**Branding on marketing materials**
 
 * LSA Digital logo
 * Relevant product "spotlight"
 * Make clear if it is business / tech audience 
 
-Post synopsis examples
+---
+**Initial post article synopses**
 
-* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS  - EPMS has MCP server, for a specific reason:  product managers want to use the AI , but developers will have agents that need to interface at api layer.  This is what we mean by AGENTICAI_DEVOPS:  solutions must be built from the ground up to deliver an optimal User Experience and Agent User experience, not just "bolting on" a subset of MCP features (which is what we see now, even with major vendors - such as atlassian - MANY functions are missing)
-* #AGENTICAI_DEVOPS, #TECH_SECURITY - architecture and scalability proven with MEDICODAX secure jwt tokens & interface with multiple EHRs
-* #AGENTICAI_FIRST [PRODUCTS: MEDICODAX] - Dynamic AI workflow - process optimization for ground conditions, e.g., are we capturing physician notes with iPhone or direct entry?  If iphone voice capture, AI agent scans notes and checks system to see if documentation matches the physician notes intent; if not, alerts pushed for staff to make sure documentation gets done in specific time frame
-* #FUTUREAI_PRODDEV [PRODUCTS: EPMS] - Investor / product management portal stores markdown documents, live spreadsheets, videos, infographics, slide decks to describe the product as it is evoloved.  AI Chatbot answers questions in real time using the data compiled:  what are the ideas ?  What are the product value proposition KPIs and what solution features should be prioritized to hit them?  What’s the most important messaging ?  What is the financial impact, and is it feasible?  
-* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - [PRODUCTS: EPMS] - The rapid AI-Assisted product lifecycle: It starts with an idea, and people research in ChatGPT naturally conversation, and use MCP to inteface with EPMS. PRODUCT ITERATION 1 - [80% vibe/20% engineer] developers create "skin-deep" mockups & UI demos.  PRODUCT IERATION 2 - [60% vibe/40% engineer] these get sharpened with product management & stakeholders into a prototype ; ITERATION 3 - [40% vibe/60% engineer] MVP funded for pilot; note that any technology usage with production users/data must have day0-pilot release security/compliance assured; ITERATION 4 - [20% vibe/80% engineer] pivot from pilot lessons learned; scale up
-* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - Real-time development & product management alignment means we cannot just "vibe" everything; Even in 60% vibe mode, Jira tickets and lightweight planning docs should be created for every user story. We use claude/opencode commands to automate this, reinforced with hooks to make sure plans are created and updated to standards (for example, playwright screenshot evidence is required for any UI tickets).  Plan markdown docs are stored locally, and they reference jira ticket numbers; Jira tickets contain high-level information and status updates; local repo plan is more detailed for agent to rapidly revise with A/C.  for auto plan updates - keep Jira tickets in sync with the system build priorities and commits
-* #AGENTICAI_DEVOPS - Architecture planning documents are recommended at 40% engineer balance, and required at 60%.  They provide guidance for both AI agents and humans by outlining key technology, components, security, data, interface and high-level compliance frameworks.  They should be "just-enough", and "enough" grows as the vibe engineering balance shifts more towards engineering and less vibing.  As needed, supplementary compliance, business process, and other relevant system-level documentation will be helpful to guide agents.  Tech debt guidance include weekly architecture/system design doc sweeps and re-optimization of AGENTS.md, commands, skills, and other agent guidance docs (these tend to get bloated as agents "tack more stuff on" during the heat of vibe engineering).
-* #AGENTICAI_DEVOPS - use MCP proxy for lightweight context window mgt (now built in with some products like claude)
-* #AGENTICAI_DEVOPS, #AGENTICAI_FIRST - Get out of your comfort zone (e.g., Cursor, Claude, ChatGPT Codex), and try open-source tools such as opencode / kimi code for agent diversity and faster features; for example, opencode will frequently include fast tab-switching to new, day-0 frontier-challenging models (e.g., Kimi K2.5 recently) that are incredibly cheap, fast, and frequently "almost" as good (good enough?) as much more expensive frontier models (Opus, ChatGPT Codex). 
-* #FUTUREAI_DEVOPS - Humans use AI to ask questions and expect relevant answers in return.  AI Agents need to do the same thing in your dev environment, EVERY time the context window is compressed.  Cursor has tools built int o allow this, but we have created the same capability  with open-source tools such as graph-code and memgraph, representing our code base in vector space (Qdrant)
-* #FUTUREAI_PRODDEV, #TECH_SECURITY - safe sandbox tips
-* #FUTUREAI_PRODDEV - managing context windows feels like managing 4MB of RAM in the 90’s
-* #TECH_SECURITY - zero trust and reverse proxy example (leverage mike's post)
-* CONTEXT7!  MUST HAVE!  Even today's most sophisticated models (Claude 4.6) still unnecessarily try to solve problems by themselves.  
+Approval tracking: check the box when a synopsis is approved for a full post write.
+
+- [x] #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS, #TECH_UX - [PRODUCTS: EPMS] - EPMS has an MCP server for a specific reason: design Human-UX (HUX) and Agent-UX (AUX) together from day 0 (not bolted-on tooling).
+  - Detail (use in post): EPMS has MCP server, for a specific reason:  product managers want to use the AI , but developers will have agents that need to interface at api layer.  This is what we mean by AGENTICAI_DEVOPS:  solutions must be built from the ground up to deliver an optimal User Experience and Agent User experience, not just "bolting on" a subset of MCP features (which is what we see now, even with major vendors - such as atlassian - MANY functions are missing)
+  - Terminology: "User Experience" = Human-UX (HUX); "Agent User experience" = Agent-UX (AUX).
+
+- [x] #TECH_UX, #AGENTICAI_DEVOPS, #FUTUREAI_PRODDEV - Human-UX (HUX) vs Agent-UX (AUX): what they mean, why we now use them together, and how they power a fast yet high-quality DevOps CE/CI/CD cycle.
+  - Definitions: CE/CI/CD = Continuous Exploration / Continuous Integration / Continuous Deployment.
+  - Note (use in post): Deployment is not the same as delivery/release to end users; product decides if/when and to which users deployed code is exposed.
+  - Core idea: great Agent-UX (AUX) reduces tool friction and failure modes, which improves Human-UX (HUX) for developers and operators.
+  - Payoff: tighter iteration loops + fewer regressions because the agent workflow is designed, tested, and observable (not improvised).
+
+- [x] #AGENTICAI_DEVOPS, #TECH_SECURITY - [PRODUCTS: MEDICODAX] - Architecture and scalability proven with secure JWT tokens + multiple EHR integrations.
+  - Detail (use in post): architecture and scalability proven with MEDICODAX secure jwt tokens & interface with multiple EHRs
+
+- [x] #AGENTICAI_FIRST [PRODUCTS: MEDICODAX] - Dynamic AI workflow: process optimization for ground conditions (capture mode changes the whole loop).
+  - Detail (use in post): Dynamic AI workflow - process optimization for ground conditions, e.g., are we capturing physician notes with iPhone or direct entry?  If iphone voice capture, AI agent scans notes and checks system to see if documentation matches the physician notes intent; if not, alerts pushed for staff to make sure documentation gets done in specific time frame
+
+- [x] #FUTUREAI_PRODDEV [PRODUCTS: EPMS] - Investor / product management portal as a living artifact system + real-time Q&A.
+  - Detail (use in post): Investor / product management portal stores markdown documents, live spreadsheets, videos, infographics, slide decks to describe the product as it is evoloved.  AI Chatbot answers questions in real time using the data compiled:  what are the ideas ?  What are the product value proposition KPIs and what solution features should be prioritized to hit them?  What’s the most important messaging ?  What is the financial impact, and is it feasible?
+
+- [x] #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - [PRODUCTS: EPMS] - The Vibe Engineering dial mapped to CE/CI/CD (Continuous Exploration / Continuous Integration / Continuous Deployment): CE naturally lives at 80/20 or 60/40 vibe/engineering; CI/CD pulls you toward 40/60 and 20/80 as risk increases.
+  - Detail (use in post): The rapid AI-Assisted product lifecycle: It starts with an idea, and people research in ChatGPT naturally conversation, and use MCP to inteface with EPMS. PRODUCT ITERATION 1 - [80% vibe/20% engineer] developers create "skin-deep" mockups & UI demos.  PRODUCT IERATION 2 - [60% vibe/40% engineer] these get sharpened with product management & stakeholders into a prototype ; ITERATION 3 - [40% vibe/60% engineer] MVP funded for pilot; note that any technology usage with production users/data must have day0-pilot release security/compliance assured; ITERATION 4 - [20% vibe/80% engineer] pivot from pilot lessons learned; scale up
+  - Alignment (use in post): CE = Continuous Exploration (80/20, 60/40). CI/CD = Continuous Integration / Continuous Deployment (40/60 or 20/80 depending on product maturity).
+  - Note (use in post): Deployment is not the same as delivery/release; product controls release timing and audience (e.g., flags, staged rollout).
+
+- [x] #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - Real-time development & product management alignment: why we cannot just "vibe" everything.
+  - Detail (use in post): Real-time development & product management alignment means we cannot just "vibe" everything; Even in 60% vibe mode, Jira tickets and lightweight planning docs should be created for every user story. We use claude/opencode commands to automate this, reinforced with hooks to make sure plans are created and updated to standards (for example, playwright screenshot evidence is required for any UI tickets).  Plan markdown docs are stored locally, and they reference jira ticket numbers; Jira tickets contain high-level information and status updates; local repo plan is more detailed for agent to rapidly revise with A/C.  for auto plan updates - keep Jira tickets in sync with the system build priorities and commits
+
+- [x] #AGENTICAI_DEVOPS - Architecture planning documents: recommended at 40% engineer balance, required at 60%.
+  - Detail (use in post): Architecture planning documents are recommended at 40% engineer balance, and required at 60%.  They provide guidance for both AI agents and humans by outlining key technology, components, security, data, interface and high-level compliance frameworks.  They should be "just-enough", and "enough" grows as the vibe engineering balance shifts more towards engineering and less vibing.  As needed, supplementary compliance, business process, and other relevant system-level documentation will be helpful to guide agents.  Tech debt guidance include weekly architecture/system design doc sweeps and re-optimization of AGENTS.md, commands, skills, and other agent guidance docs (these tend to get bloated as agents "tack more stuff on" during the heat of vibe engineering).
+
+- [x] #AGENTICAI_DEVOPS - MCP proxy for lightweight context window management.
+  - Detail (use in post): use MCP proxy for lightweight context window mgt (now built in with some products like claude)
+
+- [x] #AGENTICAI_DEVOPS, #AGENTICAI_FIRST - Agent/tool diversity: get out of your comfort zone (Cursor, Claude, ChatGPT Codex) + open-source agents (OpenCode / kimi code).
+  - Detail (use in post): Get out of your comfort zone (e.g., Cursor, Claude, ChatGPT Codex), and try open-source tools such as opencode / kimi code for agent diversity and faster features; for example, opencode will frequently include fast tab-switching to new, day-0 frontier-challenging models (e.g., Kimi K2.5 recently) that are incredibly cheap, fast, and frequently "almost" as good (good enough?) as much more expensive frontier models (Opus, ChatGPT Codex).
+
+- [x] #FUTUREAI_DEVOPS - Humans expect answers. Agents need the same inside the dev environment when context compresses.
+  - Detail (use in post): Humans use AI to ask questions and expect relevant answers in return.  AI Agents need to do the same thing in your dev environment, EVERY time the context window is compressed.  Cursor has tools built int o allow this, but we have created the same capability  with open-source tools such as graph-code and memgraph, representing our code base in vector space (Qdrant)
+
+- [x] #FUTUREAI_PRODDEV, #TECH_SECURITY - Safe sandbox tips.
+  - Detail (use in post): safe sandbox tips
+
+- [x] #FUTUREAI_PRODDEV - Managing context windows feels like managing 4MB of RAM in the 90’s.
+  - Detail (use in post): managing context windows feels like managing 4MB of RAM in the 90’s
+
+- [x] #TECH_SECURITY - Zero trust and reverse proxy example.
+  - Detail (use in post): zero trust and reverse proxy example (leverage mike's post)
+
+- [x] #AGENTICAI_FIRST - CONTEXT7! MUST HAVE!
+  - Detail (use in post): Even today's most sophisticated models (Claude 4.6) still unnecessarily try to solve problems by themselves.
+
+**Additional synopses (recommended to win dev contracts)**
+
+- [x] #AGENTICAI_DEVOPS, #FUTUREAI_PRODDEV - The agent evaluation harness: why your AI demo fails in production, and how we build regression tests for tool-using workflows (golden tasks, mocks, model-change baselines, pass/fail thresholds).
+- [x] #AGENTICAI_DEVOPS, #FUTUREAI_PRODDEV - Observability for agentic systems: tracing tool calls end-to-end (latency/cost budgets, retry reasons, error taxonomies) so teams can answer "why did it do that?" in minutes.
+- [x] #AGENTICAI_DEVOPS, #TECH_SECURITY - Agent security threat model: prompt injection, tool authorization, least-privilege tokens, network egress control, and audit logs (what we enforce by architecture, not policy).
+- [x] #TECH_UX, #AGENTICAI_FIRST - Human-in-the-loop UX patterns that scale: approval gates, review queues, escalation levels, and "safe defaults" that keep humans in control without becoming a bottleneck.
+- [x] #AGENTICAI_DEVOPS - Prompt/config is infrastructure: versioning, code review, rollout/canaries, and “break-glass” rollback for agent behavior changes.
+- [x] #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - From prototype to pilot-ready in 2–4 weeks: the artifact pack we ship (architecture diagram, eval plan, security boundaries, runbook, demo script) and why it de-risks stakeholder buy-in.
+- [x] #TECH_UX, #AGENTICAI_DEVOPS - Designing APIs for agents: idempotency, schema contracts, error messages that teach recovery, and why Agent-UX (AUX) is now a first-class product surface.
+- [x] #TECH_SECURITY, #AGENTICAI_DEVOPS - Sandboxed tool execution in the real world: ephemeral credentials, scoped permissions, and per-tool policy enforcement (with an example policy and audit trail).
 
 ---
 
