@@ -47,6 +47,8 @@ see @messagingThemes.md for more granular messaging themes.  These can be tagged
 ## Content pillars 
 
 ### Pillar 1 — Experts + AI (Human‑in‑the‑Loop done for real)
+
+Objective:  Attract pilot projects and/or investors for major solutions (especially HSRA, LSARS, MEDICODAX)
 **Message**: AI accelerates; experts provide judgment + safety. We design workflows where **AI proposes and experts dispose**.
 
 Anchor partnership/proof:
@@ -58,30 +60,58 @@ Anchor partnership/proof:
 Products to spotlight under this theme:
 - **LSARS** (expert verification + permitting/compliance workflows): `https://www.lsadigital.com/products/lsars` and `https://lsars.com/`
 - **HSRA** (regulatory-grade health & social risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
-- **MEDICODA** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
+- **MEDICODAX** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
 
 High-performing formats:
-- “Before → after” workflow screenshots
+- "Before → after" workflow screenshots
 - Expert review/verification step (what is checked, how, and why)
 - Validation/evidence posts (parity, tests, E2E, audit trail)
 
-### Pillar 2 — AI technology (agentic + productized + enterprise-aware)
-**Message**: We don’t just “use AI,” we build **systems**—agentic workflows, measurable outputs, governance hooks, and product UX where humans drive intent.
+### Pillar 2 - AI Product Development and Vibe Engineering 
+
+**Objective** :  Get more software development contracts, differentiating LSA Digital from competition.
+**Message**: We don't just "use AI," we build **systems**—agentic workflows, measurable outputs, governance hooks, and product UX where humans drive intent.
+
+
+Products to spotlight under this theme:
+- **LSARS** (expert verification + permitting/compliance workflows): `https://www.lsadigital.com/products/lsars` and `https://lsars.com/`
+- **HSRA** (regulatory-grade health & social risk analysis; validated parity): `https://www.lsadigital.com/products/hra`
+- **MEDICODAX** (coding force-multiplier; clinics + SLMs): `https://www.lsadigital.com/products/medicoda`
+
 
 Anchor proof:
 - Human‑in‑the‑Loop outreach system webinar recap: `https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap`
   - Includes: GQM method, agentic architecture, integrations (GPT‑4o, Apify, Tavily, Google CSE), closed feedback loop demo.
-
 
 High-performing formats:
 - Simple architecture diagrams (roles → agents → tools → data → governance)
 - “How we evaluated it” (tests, parity checks, regression harness, E2E)
 - “How humans steer it” (intent capture, review queues, audit logs, approvals)
 
+How we will do it:  Show our Agentic AI-first approach combined with proven Devops practices to “vibe engineer” secure, stable and scalable solutions.
 
-### Pillar 3 (recommended) — Speed, security & compliance at scale
-**Message**: “Fast” doesn’t mean fragile. We design for pilot readiness and enterprise realities (security, auditability, integration).
-Use carefully phrased claims (“in progress”, “prototype”, “public beta”) and show artifacts.
+Branding on marketing materials
+
+* LSA Digital logo
+* Relevant product "spotlight"
+* Make clear if it is business / tech audience 
+
+Post synopsis examples
+
+* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS  - EPMS has MCP server, for a specific reason:  product managers want to use the AI , but developers will have agents that need to interface at api layer.  This is what we mean by AGENTICAI_DEVOPS:  solutions must be built from the ground up to deliver an optimal User Experience and Agent User experience, not just "bolting on" a subset of MCP features (which is what we see now, even with major vendors - such as atlassian - MANY functions are missing)
+* #AGENTICAI_DEVOPS, #TECH_SECURITY - architecture and scalability proven with MEDICODAX secure jwt tokens & interface with multiple EHRs
+* #AGENTICAI_FIRST [PRODUCTS: MEDICODAX] - Dynamic AI workflow - process optimization for ground conditions, e.g., are we capturing physician notes with iPhone or direct entry?  If iphone voice capture, AI agent scans notes and checks system to see if documentation matches the physician notes intent; if not, alerts pushed for staff to make sure documentation gets done in specific time frame
+* #FUTUREAI_PRODDEV [PRODUCTS: EPMS] - Investor / product management portal stores markdown documents, live spreadsheets, videos, infographics, slide decks to describe the product as it is evoloved.  AI Chatbot answers questions in real time using the data compiled:  what are the ideas ?  What are the product value proposition KPIs and what solution features should be prioritized to hit them?  What’s the most important messaging ?  What is the financial impact, and is it feasible?  
+* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - [PRODUCTS: EPMS] - The rapid AI-Assisted product lifecycle: It starts with an idea, and people research in ChatGPT naturally conversation, and use MCP to inteface with EPMS. PRODUCT ITERATION 1 - [80% vibe/20% engineer] developers create "skin-deep" mockups & UI demos.  PRODUCT IERATION 2 - [60% vibe/40% engineer] these get sharpened with product management & stakeholders into a prototype ; ITERATION 3 - [40% vibe/60% engineer] MVP funded for pilot; note that any technology usage with production users/data must have day0-pilot release security/compliance assured; ITERATION 4 - [20% vibe/80% engineer] pivot from pilot lessons learned; scale up
+* #FUTUREAI_PRODDEV, #AGENTICAI_DEVOPS - Real-time development & product management alignment means we cannot just "vibe" everything; Even in 60% vibe mode, Jira tickets and lightweight planning docs should be created for every user story. We use claude/opencode commands to automate this, reinforced with hooks to make sure plans are created and updated to standards (for example, playwright screenshot evidence is required for any UI tickets).  Plan markdown docs are stored locally, and they reference jira ticket numbers; Jira tickets contain high-level information and status updates; local repo plan is more detailed for agent to rapidly revise with A/C.  for auto plan updates - keep Jira tickets in sync with the system build priorities and commits
+* #AGENTICAI_DEVOPS - Architecture planning documents are recommended at 40% engineer balance, and required at 60%.  They provide guidance for both AI agents and humans by outlining key technology, components, security, data, interface and high-level compliance frameworks.  They should be "just-enough", and "enough" grows as the vibe engineering balance shifts more towards engineering and less vibing.  As needed, supplementary compliance, business process, and other relevant system-level documentation will be helpful to guide agents.  Tech debt guidance include weekly architecture/system design doc sweeps and re-optimization of AGENTS.md, commands, skills, and other agent guidance docs (these tend to get bloated as agents "tack more stuff on" during the heat of vibe engineering).
+* #AGENTICAI_DEVOPS - use MCP proxy for lightweight context window mgt (now built in with some products like claude)
+* #AGENTICAI_DEVOPS, #AGENTICAI_FIRST - Get out of your comfort zone (e.g., Cursor, Claude, ChatGPT Codex), and try open-source tools such as opencode / kimi code for agent diversity and faster features; for example, opencode will frequently include fast tab-switching to new, day-0 frontier-challenging models (e.g., Kimi K2.5 recently) that are incredibly cheap, fast, and frequently "almost" as good (good enough?) as much more expensive frontier models (Opus, ChatGPT Codex). 
+* #FUTUREAI_DEVOPS - Humans use AI to ask questions and expect relevant answers in return.  AI Agents need to do the same thing in your dev environment, EVERY time the context window is compressed.  Cursor has tools built int o allow this, but we have created the same capability  with open-source tools such as graph-code and memgraph, representing our code base in vector space (Qdrant)
+* #FUTUREAI_PRODDEV, #TECH_SECURITY - safe sandbox tips
+* #FUTUREAI_PRODDEV - managing context windows feels like managing 4MB of RAM in the 90’s
+* #TECH_SECURITY - zero trust and reverse proxy example (leverage mike's post)
+* CONTEXT7!  MUST HAVE!  Even today's most sophisticated models (Claude 4.6) still unnecessarily try to solve problems by themselves.  
 
 ---
 
