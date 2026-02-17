@@ -1,4 +1,4 @@
-# The Vibe Engineering Dial: Map 80/20 -> 20/80 to CE/CI/CD
+# The Vibe Engineering Dial: Why Most AI Ideas Should Be Killed
 
 ## Metadata
 - **Post ID**: 2026-T-022
@@ -6,49 +6,29 @@
 
 ## Post
 
-This isn't theory - we've used this dial while building real systems (for example, EPMS workflows and our Human-in-the-Loop outreach system build).
+Vibe coding is the fastest way to explore a new idea, but it's also the fastest way to ship a disaster. At LSA Digital, we use Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—to manage this risk. The core of this approach is a dial that moves from 80/20 (vibe/engineering) during Continuous Exploration (CE) to 20/80 during CI/CD.
 
-Vibe coding is powerful.
+The most important part of CE isn't finding what works; it's killing what doesn't. During EPMS development, we prototyped a natural-language query builder that let agents compose arbitrary database queries from product manager questions. Three days in, the eval harness showed it hallucinated join paths on 40% of multi-entity queries. We killed it and built structured search tools instead—14 of them, each scoped to one entity or relationship type. The structured approach passed 556 tests. The "smart" one would have shipped bugs as features.
 
-It's also how teams accidentally ship fragile systems.
-
-The move is not "vibe" or "engineering." It's a dial.
-
-We use a simple framing:
-
-- **80/20 (vibe/engineering):** Continuous Exploration (CE). Kill infeasible ideas early.
-- **60/40:** prototype with enough structure to learn the right lessons.
-- **40/60:** Continuous Integration / Continuous Deployment (CI/CD) starts to dominate.
-- **20/80:** production discipline (security, reliability, auditability) becomes non-negotiable.
-
-Note: **deployment is not delivery/release.** Product controls if/when deployed code is exposed to end users (and which ones).
-
-Here's how it shows up in a real lifecycle:
-
-- **Start:** people research in natural conversation (often in ChatGPT), then use MCP to interface with EPMS so the work becomes an artifact.
-- **Iteration 1 (80/20):** "skin-deep" mockups and UI demos.
-- **Iteration 2 (60/40):** sharpen with product management + stakeholders into a prototype.
-- **Iteration 3 (40/60):** MVP funded for a pilot; anything touching real users/data needs day-0 pilot security/compliance.
-- **Iteration 4 (20/80):** pivot from pilot lessons learned; scale up.
-
-**What changes as the dial shifts (the receipts):**
-- **Artifacts:** from sketches -> workflows -> architecture diagrams -> runbooks.
-- **Evals/tests:** from "does it work" -> regression harness -> end-to-end coverage.
-- **Security:** from sandbox -> scoped tokens -> least privilege by default.
-- **Observability:** from none -> traces -> budgets and alerts.
-
-The critical design choice: **CE isn't an excuse to be sloppy.** It's permission to be fast *where the risk is low*.
-
-If you're trying to move fast without paying the production penalty later, set the dial deliberately and show the artifacts that justify it.
-
-https://lsadigital.com
+This is why we insist that deployment is not delivery/release. We deploy early to test assumptions, but we only release when the engineering dial has moved toward production discipline. As Keith Mangold often points out, early automation fails because it lacks the guardrails of a mature agentic architecture. By setting the dial deliberately, we ensure that our exploration is fast and our delivery is reliable. We don't just build what's possible; we build what's provable. If an idea can't survive our eval harness, it doesn't deserve to reach your users.
 
 ## Artifacts
 - Remote:
   - https://www.lsadigital.com/insights/how-we-built-a-human-in-the-loop-ai-system-webinar-recap
   - https://lsadigital.com
 
+## Screenshots
+
+### EPMS Kanban Board (The System That Survived)
+![EPMS Kanban board showing the structured product system that replaced the killed natural-language query builder](assets/epms-kanban-survived.png)
+*The Kanban board represents the 14 structured tools that passed 556 tests—the system that survived the dial turn.*
+
+### Structured Product Data Tools
+![Structured product data that replaced the killed natural-language query builder](assets/epms-structured-tools.png)
+*Each of the 14 tools is scoped to one entity or relationship type, eliminating hallucinated join paths.*
+
 ## Post asset ideas
-- [ ] One graphic: the Vibe Engineering dial with CE/CI/CD mapping
-- [ ] Table: what artifacts are required at 80/20 vs 60/40 vs 40/60 vs 20/80
-- [ ] Example: "deployment != release" rollout sketch (flags, staged rollout)
+- [ ] Diagram: The Vibe Engineering dial mapping CE/CI/CD to 80/20 -> 20/80
+- [ ] Case study: The "Kill Story" of the natural-language query builder vs. structured tools
+- [ ] Checklist: Eval harness requirements for moving the dial from 80/20 to 60/40
+

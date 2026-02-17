@@ -1,4 +1,4 @@
-# Ground Conditions Change the Workflow. Your Agent Should Notice.
+# Adapting to the Ground Truth: The MEDICODA Workflow Story
 
 ## Metadata
 - **Post ID**: 2026-T-020
@@ -6,40 +6,31 @@
 
 ## Post
 
-This is from real workflow engineering we did in MEDICODA - for example, the capture mode (iPhone voice vs direct entry) changes the entire loop.
+In medical coding, the "ground truth" isn't a static document; it's a moving target. When we built MEDICODA, we realized that a rigid AI pipeline would fail the moment it hit the real-world variability of physician documentation. This is where Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—becomes a competitive advantage.
 
-Most "AI workflow" posts assume a static pipeline.
+We designed a 3-step AI pipeline that adapts based on the capture mode. Whether it's voice capture via MobileEMNote or direct entry through EMClaimPacket, the system adjusts its logic. The pipeline first extracts data using gpt-4o-mini, then grades the Medical Decision Making (MDM) with gpt-4o, and finally generates a compliant attestation with gpt-4o-mini. This isn't just a prompt trick; it's a production-grade workflow backed by 203 test functions across 29 files.
 
-Real operations don't work that way.
-
-In MEDICODA, the capture mode changes the entire loop:
-
-Are we capturing physician notes with iPhone voice capture?
-
-Or direct entry?
-
-If it's iPhone voice capture, the workflow has to account for drift between intent and documentation.
-
-**What we built:** a dynamic AI workflow that adapts to ground conditions.
-
-**How it works:**
-- **Ingest:** an agent scans the captured notes.
-- **Intent check:** it checks the system to see if documentation matches physician intent.
-- **Escalate:** if it doesn't match, alerts are pushed so staff can fix documentation within a specific time frame.
-
-This is also where Human-UX (HUX) and Agent-UX (AUX) collide:
-
-If the agent can't reliably read the right artifacts, write the right tasks, and trigger the right alerts (AUX), humans end up doing manual reconciliation (bad HUX).
-
-The critical design choice: **adaptation is a product feature, not a prompt trick.** It lives in tool contracts, audit trails, and escalation rules.
-
-https://lsadigital.com
+The real story, however, is in the auditability. We implemented audit logging using SQLAlchemy event listeners to track every state change and adaptation. If a physician's intent captured via voice drifts from the final documentation, the system notices and triggers a status workflow for manual reconciliation. By building this level of observability into the core architecture, we ensure that our Continuous Exploration (CE) of new capture methods is always anchored to a reliable, auditable engineering foundation. We don't just ship AI; we ship workflows that survive the messy reality of clinical operations.
 
 ## Artifacts
 - Remote:
   - https://www.lsadigital.com/products/medicoda
 
+## Screenshots
+
+### Dashboard Time Savings Metrics
+![Dashboard showing AI pipeline time savings metrics](assets/medicoda-dashboard-time-savings.png)
+*Quantified impact of the 3-step AI pipeline on physician documentation time.*
+
+### Mobile Queue Voice Submission Workflow
+![Mobile Queue showing voice submission workflow for MobileEMNote path](assets/medicoda-mobile-queue-voice.png)
+*Voice capture via MobileEMNote triggers the Extract → Grade → Attest pipeline with real-time adaptation.*
+
+### E&M Record Wizard Direct Entry
+![E&M Record wizard showing structured entry workflow for EMClaimPacket path](assets/medicoda-wizard-direct-entry.png)
+*Direct entry through EMClaimPacket follows the same 3-step pipeline with different input handling.*
+
 ## Post asset ideas
-- [ ] Flow diagram: iPhone voice capture path vs direct entry path
-- [ ] Screenshot/mock: alert pushed to staff with "intent mismatch" reason
-- [ ] Example: escalation policy for time-bound documentation follow-up
+- [ ] Diagram: The 3-step AI pipeline (Extract -> Grade -> Attest) with model assignments
+- [ ] Workflow map: MobileEMNote (voice) vs. EMClaimPacket (direct) status transitions
+- [ ] Code snippet: SQLAlchemy event listener implementation for audit logging

@@ -1,46 +1,30 @@
-# If You Can't Answer "Why Did It Do That?" You Can't Operate It.
+# Beyond Logs: Tracing Agent Intent Through 13 API Routers
 
 ## Metadata
 - **Post ID**: 2026-T-033
-- **CTA**: see artifacts
+- **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post
 
-This comes from builds we've done - for example, in our Human-in-the-Loop outreach system architecture we had to trace tool calls across multiple integrations to debug and improve the loop.
+Monitoring an agentic system with standard logs is like trying to understand a movie by looking at a single frame every ten minutes. You might see the state, but you'll miss the story. In production, observability means being able to answer "Why did it do that?" at any point in a complex workflow. This requires more than just text files; it requires structured logging with request ID correlation that follows an intent from the initial prompt through every tool call and calculation layer.
 
-Agentic systems don't just need monitoring.
+In our LSARS architecture, a single user request might traverse 13 API routers and 4 distinct calculation layers. Without a unified trace timeline, debugging a failure becomes an exercise in guesswork. We implement end-to-end tracing that captures tool inputs and outputs, latency, and cost budgets per step. If an agent decides to retry a failed tool call or escalate to a human, the "why" is preserved in the trace. We use a specific error taxonomy to differentiate between transient failures that can be auto-recovered and structural failures that require a hard stop.
 
-They need observability.
-
-Because when something goes wrong, the real question is:
-
-What did it try?
-
-Which tools did it call?
-
-What context did it use?
-
-And what did it do next?
-
-We treat tool call tracing as a first-class feature of production systems.
-
-**What we trace end-to-end:**
-- **Tool calls:** inputs/outputs (redacted when needed).
-- **Latency and cost budgets:** per step and per workflow.
-- **Retries and fallbacks:** why it backed off or escalated.
-- **Error taxonomy:** failures that can be fixed vs failures that must be blocked.
-
-The critical design choice: **"agent logs" are not enough.** You need traces you can follow from intent -> tool -> outcome.
-
-That's how you keep speed *and* control as the Vibe Engineering dial shifts toward CI/CD.
-
-https://lsadigital.com
+This level of technical depth is essential for maintaining control as you move from "vibe coding" exploration to production-grade CI/CD. By correlating request IDs across our 9 Docker microservices, we can reconstruct the exact context the agent used to make a decision. This isn't just for debugging; it's for optimization. When you can see the trace of a 7,294-line MCP server interaction, you can identify bottlenecks and refine tool permissions with surgical precision.
 
 ## Artifacts
 - Remote:
   - https://lsadigital.com
 
 ## Post asset ideas
-- [ ] Screenshot: a tool-call trace timeline for one workflow
-- [ ] List: the 5 questions every agent trace must answer
-- [ ] Diagram: intent capture -> orchestration -> tools -> audit log
+- [ ] Screenshot: A trace timeline showing request ID correlation across services
+- [ ] Example: Structured log entry with intent and tool metadata
+- [ ] Diagram: The 4 calculation layers and how traces flow through them
+
+### Screenshots
+
+![Pennsylvania view showing the 4-layer calculation architecture in action](assets/lsars-pa-layered-architecture.png)
+*Pennsylvania view — 4-layer calculation architecture in action*
+
+![Health Risk Advisor chatbot showing observable agent request/response interaction](assets/lsars-chatbot-observable.png)
+*Health Risk Advisor chatbot — observable agent request/response interaction*

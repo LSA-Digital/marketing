@@ -1,39 +1,36 @@
-# Sandboxed Tool Execution: How Agents Stay Fast Without Becoming Dangerous
+# Production Runtime Sandboxing: Hardening the Agent Boundary
 
 ## Metadata
 - **Post ID**: 2026-T-039
-- **CTA**: see artifacts
+- **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post
 
-This comes from production-minded agent builds we've done - for example, enforcing per-tool policy boundaries and scoped credentials so CI/CD can stay fast without becoming risky.
+While a development sandbox is for exploration, a production sandbox is for enforcement. In Vibe Engineering, we use vibe coding for rapid exploration, but we rely on production-grade engineering to ensure that runtime execution is safe, predictable, and isolated. When agents move from Continuous Exploration (CE) into live CI/CD environments, the tool boundary must be impenetrable.
 
-The safest agent is the one that can't do the dangerous thing.
+Our production architecture for LSARS/HSRA utilizes 9 Docker microservices with strict network isolation. This isn't just about security; it's about ensuring that complex calculations—like the validation of 797 pollutants for HARP2 parity—happen in a controlled environment where side effects are impossible.
 
-Even by accident.
+**Production Sandbox Enforcement Rules:**
+- **Network Egress Control:** We block all arbitrary outbound calls. Agents can only interact with the specific internal services they are authorized to use.
+- **Ephemeral Scoped Credentials:** Tools operate using short-lived tokens that are scoped to the minimum permissions required for the task.
+- **Execution Isolation:** Every tool call runs in a constrained runtime with a limited blast radius. If a tool fails or is compromised, the rest of the system remains unaffected.
+- **Audit Logging by Default:** Every action is recorded with request ID correlation, connecting the agent's intent to the specific policy decision and outcome.
 
-"Be careful" is not a control.
-
-So for production-grade agentic systems, we sandbox tool execution with policy enforcement.
-
-**What this looks like:**
-- **Ephemeral credentials:** short-lived tokens scoped to the minimum needed.
-- **Per-tool policies:** what the agent can do, when, and under what conditions.
-- **Execution isolation:** tools run in constrained environments with limited blast radius.
-- **Network egress control:** block arbitrary outbound calls unless explicitly allowed.
-- **Audit logs by default:** every action records identity + policy decision.
-
-The critical design choice: **don't put safety in prompts. Put it in the tool boundary.**
-
-That's what makes CI/CD safe at speed.
-
-https://lsadigital.com
+With over 2,669 test functions validating these boundaries, we ensure that "be careful" is never our only line of defense. Safety is built into the infrastructure, not the prompt.
 
 ## Artifacts
 - Remote:
   - https://lsadigital.com
 
 ## Post asset ideas
-- [ ] Architecture diagram: policy layer in front of tools
-- [ ] Example: a tool policy snippet (allowed actions + escalation rules)
-- [ ] Diagram: ephemeral credential lifecycle for agent tool calls
+- [ ] Diagram: Network isolation between the 9 Docker microservices
+- [ ] Example: A production tool policy (JSON) showing egress blocks
+- [ ] Trace view: Request ID correlation across microservice boundaries
+
+### Screenshots
+
+![LSARS with Florida loaded — the microservice architecture running in sandboxed Docker containers](assets/lsars-fl-sandboxed-app.png)
+*LSARS with Florida loaded — microservice architecture running in sandboxed Docker containers*
+
+![Welcome modal showing the isolated application entry point](assets/lsars-sandboxed-entry.png)
+*Welcome modal — isolated application entry point*

@@ -1,4 +1,4 @@
-# Humans Expect Answers. Agents Need the Same Inside Your Codebase.
+# The Day Our Agent Stopped Guessing: Building Codebase Memory
 
 ## Metadata
 - **Post ID**: 2026-T-027
@@ -6,38 +6,32 @@
 
 ## Post
 
-This is something we built for our own agentic development environment - for example, combining a graph view (graph-code + Memgraph) with a vector index (Qdrant) so agents can answer real codebase questions.
+We were three weeks into the LSARS build when the "vibe" hit a wall. We had 9 microservices, 13 API routers, and a growing pile of 2,669+ test functions. Our agents were fast, but they were starting to hallucinate internal dependencies. They were "vibe coding" on top of a system they no longer fully understood.
 
-Humans ask:
+The problem wasn't the model's intelligence; it was its memory. To fix it, we built a codebase memory layer that combined structural logic with semantic intuition.
 
-"Where is this defined?"
+We started with **Graph-code + Memgraph**. This gave our agents a literal map of the codebase—a symbol graph that tracked every function call, class inheritance, and microservice boundary. If an agent wanted to know what depended on the `aermod` service, it didn't have to grep; it just queried the graph.
 
-"What depends on it?"
+But maps only tell you where things are, not what they *mean*. So we added **Qdrant** for semantic vectors. This allowed agents to search for "intuition"—finding relevant code patterns or old plan docs based on meaning rather than just keywords.
 
-"Why did we build it this way?"
-
-And they expect answers.
-
-Agents need the same ability inside a dev environment, especially when context windows compress.
-
-We built a "codebase memory" layer using open-source tooling (graph-code + Memgraph) and a vector index (Qdrant) so agents can retrieve both structure and meaning.
-
-**How it works:**
-- **Graph memory:** symbols, relationships, dependencies (the map).
-- **Vector memory:** semantic recall across docs, plans, and code (the intuition).
-- **Artifact-first retrieval:** plans and manifests are prioritized before guessing.
-
-The critical design choice: **if an agent can't reliably rehydrate context, it will invent it.**
-
-So we don't ask agents to be "smarter." We give them a better environment.
-
-https://lsadigital.com
+The result? Our agents stopped guessing. They started every task by "rehydrating" their context from the graph and the vector store. This is the essence of "Vibe Engineering": we give the agent the freedom to explore at high speed, but we anchor that exploration to a ground truth that lives inside the infrastructure, not just the prompt.
 
 ## Artifacts
 - Remote:
   - https://lsadigital.com
 
 ## Post asset ideas
-- [ ] Diagram: graph (structure) + vector (meaning) retrieval working together
-- [ ] Example: "where is X defined" answered with links to code + plan doc
-- [ ] Screenshot: a retrieval trace showing why a source was selected
+- [ ] Diagram: The Codebase Memory Layer (Graph + Vector + Agent)
+- [ ] Screenshot: A Memgraph visualization of microservice dependencies
+- [ ] Example: A Qdrant search result finding a relevant refactor pattern
+
+### Screenshots
+
+![LSARS with California loaded, showing the scale and complexity agents must understand](assets/lsars-california-complexity.png)
+*LSARS with California loaded — the scale and complexity agents must understand*
+
+![Hotspot Analysis panel showing analytical capability built on codebase memory](assets/lsars-hotspot-analysis.png)
+*Hotspot Analysis panel — analytical capability built on codebase memory*
+
+![Health Risk Advisor AI chatbot powered by graph and vector memory](assets/lsars-health-risk-advisor.png)
+*Health Risk Advisor AI chatbot — the agent surface powered by graph + vector memory*

@@ -1,4 +1,4 @@
-# Human-UX (HUX) and Agent-UX (AUX) Are Now One System
+# HUX and AUX Are Not Buzzwords. They Are System Design Constraints.
 
 ## Metadata
 - **Post ID**: 2026-T-018
@@ -6,39 +6,27 @@
 
 ## Post
 
-We learned this the hard way building agentic workflows (for example, EPMS + our Human-in-the-Loop outreach system architecture): the human experience and the agent experience are coupled.
+Stop treating Human-UX (HUX) and Agent-UX (AUX) as a terminology exercise. They are the two primary system design constraints for any modern agentic application. If you build for humans but ignore the agents, you are designing a system that will inevitably fail when you try to automate it.
 
-If your product has agents, you have two user experiences.
+At LSA Digital, we use Vibe Engineering—vibe coding for Continuous Exploration (CE) + production-grade CI/CD engineering for shipping.  Human-UX is the interface for humans to review, decide, and intervene. Agent-UX is the interface for agents to execute via tool calls, schemas, and permissions. The problem is that most teams treat AUX as an afterthought, exposing a few random endpoints and calling it an "agent integration."
 
-One for humans.
-
-One for agents.
-
-We use the terms on purpose:
-
-- **Human-UX (HUX):** the experience for product managers, reviewers, and operators.
-- **Agent-UX (AUX):** the experience for tool-using agents (APIs, schemas, errors, permissions, workflows).
-
-The reason we talk about them together is simple: **bad Agent-UX (AUX) makes Human-UX (HUX) worse.**
-
-When an agent can't reliably call tools (or gets ambiguous errors, partial permissions, non-idempotent endpoints), humans end up doing the worst kind of work: debugging invisible behavior.
-
-This is why we connect HUX/AUX to the DevOps CE/CI/CD cycle:
-
-- **CE (Continuous Exploration):** fast loops where 80/20 or 60/40 vibe/engineering makes sense.
-- **CI/CD (Continuous Integration / Continuous Deployment):** when the workflow touches real systems and the dial moves toward 40/60 or 20/80.
-
-Note: **deployment is not delivery/release.** Product decides if/when deployed code is exposed to end users (and which ones).
-
-**Result:** when AUX is deliberate, your CE loops get faster and your CI/CD loops get safer. You don't pay the "agent tax" later.
-
-https://lsadigital.com
+In EPMS, we proved that AUX requires the same level of engineering rigor as HUX. We implemented two distinct auth methods (API Key and X-API-Key MCP OAuth), to ensure that every agentic action is authenticated and scoped. We backed this with 556 test functions to ensure that when an agent calls a tool, the result is predictable and idempotent. When your AUX is broken, your HUX suffers because humans end up debugging invisible agent failures instead of doing high-value work. By treating HUX and AUX as a single, coupled system design problem, we ensure that Continuous Exploration (CE) leads to reliable CI/CD without the "agent tax" that kills most AI projects.
 
 ## Artifacts
 - Remote:
   - https://www.lsadigital.com/products/epms
 
+## Screenshots
+
+### EPMS Kanban as HUX Interface
+![EPMS Kanban board serving as the human-facing interface](assets/epms-hux-kanban.png)
+*Human-UX (HUX) is the interface where humans review, decide, and intervene.*
+
+### Product Data Accessible to Both HUX and AUX
+![Product detail showing data accessible by both HUX and AUX surfaces](assets/epms-product-data-hux-aux.png)
+*The same product data serves both human and agent interfaces with different auth methods and response formats.*
+
 ## Post asset ideas
-- [ ] One-page definition card: HUX vs AUX (with examples)
-- [ ] Diagram: CE loops (80/20, 60/40) vs CI/CD loops (40/60, 20/80)
-- [ ] Example: an API error message rewritten for better Agent-UX (AUX)
+- [ ] Diagram: The coupling of HUX and AUX in a shared system design
+- [ ] Comparison: Standard API error vs. AUX-optimized error with recovery hints
+- [ ] Checklist: System design requirements for a production-grade AUX surface

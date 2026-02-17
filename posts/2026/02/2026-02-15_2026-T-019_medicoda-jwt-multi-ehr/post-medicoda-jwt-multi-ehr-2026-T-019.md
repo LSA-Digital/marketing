@@ -1,4 +1,4 @@
-# "Just Use an API Key" Doesn't Work for Agents. Draw JWT Boundaries.
+# Scaling Trust Across Epic and eClinicalWorks with JWT RS384
 
 ## Metadata
 - **Post ID**: 2026-T-019
@@ -6,31 +6,31 @@
 
 ## Post
 
-Example from work we've shipped: in MEDICODA, we proved architecture and scalability with secure JWT boundaries and multiple EHR integrations.
+When we started building MEDICODA, we knew that "just use an API key" was a non-starter for medical data. To handle 11 FHIR R4 resource types across multiple EHR vendors like Epic and eClinicalWorks, we had to build a robust identity layer from the ground up. This is Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—applied to the most sensitive data boundaries.
 
-The moment a tool-using agent touches regulated data, identity stops being a detail.
+The story of our multi-EHR integration is one of moving from rapid prototyping to strict cryptographic enforcement. We implemented JWT RS384 authentication to ensure that every agentic tool call was signed and verifiable. But the real challenge was the drift in token lifecycles between vendors. Epic tokens have a 1-hour lifetime with a 60-second refresh buffer, while eClinicalWorks tokens expire in just 5 minutes (300 seconds). 
 
-If your auth story is "just use an API key," you're building a demo.
-
-In MEDICODA, we proved architecture and scalability with secure JWT boundaries and multiple EHR integrations.
-
-**How it works (the parts that matter):**
-- **Scoped JWTs:** tokens represent *who/what* is acting, with explicit scopes for *what* they can do.
-- **Short-lived credentials:** minimize blast radius; rotate aggressively.
-- **EHR isolation:** integrations don't share trust by accident; each boundary is intentional.
-- **Audit-ready trails:** every tool call can be traced back to an identity and permission set.
-
-The critical design choice: **agents should not be "special."** They should authenticate like any other actor, with stricter boundaries because they're automated.
-
-That's Vibe Engineering in practice: you can explore quickly, but once the workflow touches real systems, the dial moves toward engineering and the receipts show up in auth, isolation, and audit logs.
-
-https://lsadigital.com
+Managing these disparate constraints required a production-grade engineering mindset. We couldn't just "vibe" our way through token rotation in a regulated environment. We built a centralized auth manager that handles these specific vendor requirements while maintaining a unified interface for our AI pipeline. By drawing these hard JWT boundaries, we ensured that our Continuous Exploration (CE) of new medical workflows never compromised the security of the underlying patient data. We proved that you can move fast in healthcare, provided your engineering dial is set to 80/20 for the right parts of the system.
 
 ## Artifacts
 - Remote:
   - https://www.lsadigital.com/products/medicoda
 
+## Screenshots
+
+### MEDICODA Dashboard with EHR Integration
+![MEDICODA dashboard showing EHR integration and time savings metrics](assets/medicoda-dashboard-ehr-integration.png)
+*Real-time integration with Epic and eClinicalWorks, tracking time savings across the medical coding pipeline.*
+
+### Audit Logs with JWT Security Trail
+![Audit logs showing JWT-secured operation trail](assets/medicoda-audit-logs-security.png)
+*Every agentic tool call is signed and verifiable, with complete audit trails for compliance.*
+
+### User Authentication Context
+![User context showing authenticated identity and role information](assets/medicoda-user-auth-context.png)
+*JWT RS384 authentication ensures every action is tied to a verified identity with scoped permissions.*
+
 ## Post asset ideas
-- [ ] Diagram: JWT scopes and tool permissions for an agent vs a human user
-- [ ] Example: token lifecycle (issue, rotate, revoke) for agent tools
-- [ ] Checklist: "what must be true before an agent can touch EHR APIs"
+- [ ] Diagram: JWT RS384 flow between MEDICODA and Epic/eCW
+- [ ] Table: Token lifecycle comparison (Epic vs. eCW) and refresh logic
+- [ ] Code snippet: Scoped FHIR R4 resource access control in MEDICODA
