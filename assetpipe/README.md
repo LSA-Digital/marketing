@@ -7,7 +7,7 @@ Playwright capture scripts for marketing post assets. Each script contains `asyn
 | Script | Product | Posts | Assets |
 |--------|---------|-------|--------|
 | `lsars-captures.js` | LSARS HRA (localhost:3230) | T-024, T-027, T-029, T-032, T-033, T-039 | Map views, hotspot analysis, chatbot, architecture |
-| `medicoda-captures.js` | MEDICODA / HAI-EM (localhost:3000) | T-019, T-020, T-035 | Dashboard, audit logs, mobile queue, wizard |
+| `medicodax-captures.js` | MEDICODAX / HAI-EM (localhost:3000) | T-019, T-020, T-035 | Dashboard, audit logs, mobile queue, wizard |
 | `epms-captures.js` | EPMS (localhost:5173) | T-017, T-018, T-021, T-022, T-038 | Kanban, product detail, guest portal, MCP tools |
 
 ## Codebase-Derived Assets (no script needed)

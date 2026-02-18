@@ -24,12 +24,12 @@
 - [ ] **EPMS Interview Mode Screenshot** — Screenshot of MCP tool response with formatted output, lettered options (A/B/C/D), and checklist tracking. Posts: T-017, T-035.
 - [ ] **EPMS Tool Coverage Checklist** — One-page table: "What agents must be able to do end-to-end" with checkmarks for each of 14 tools. Posts: T-017, T-038.
 
-### MEDICODA (Posts: T-019, T-020)
+### MEDICODAX (Posts: T-019, T-020)
 
-- [ ] **MEDICODA JWT Scope Diagram** — Diagram showing token flow: Epic (1-hour tokens, RS384) vs eCW (5-minute tokens, RS384), with scoped FHIR resource access per tenant. Posts: T-019, T-034.
-- [ ] **MEDICODA 3-Step Pipeline Diagram** — Flow: "Extract Structure (gpt-4o-mini) -> Grade MDM (gpt-4o) -> Generate Attestation (gpt-4o-mini)" with local rules engine at step 2. Posts: T-020, T-032.
-- [ ] **MEDICODA Voice vs Direct Entry Flow** — Two-lane diagram: iPhone voice path (MobileEMNote -> AI scan -> intent check -> escalate) vs direct entry path (EMClaimPacket -> structured entry). Posts: T-020.
-- [ ] **MEDICODA EHR Tenant Configuration Screenshot** — Screenshot of EHR admin showing Epic + eCW tenants with connection status, FHIR resource verification, sync status. Posts: T-019.
+- [ ] **MEDICODAX JWT Scope Diagram** — Diagram showing token flow: Epic (1-hour tokens, RS384) vs eCW (5-minute tokens, RS384), with scoped FHIR resource access per tenant. Posts: T-019, T-034.
+- [ ] **MEDICODAX 3-Step Pipeline Diagram** — Flow: "Extract Structure (gpt-4o-mini) -> Grade MDM (gpt-4o) -> Generate Attestation (gpt-4o-mini)" with local rules engine at step 2. Posts: T-020, T-032.
+- [ ] **MEDICODAX Voice vs Direct Entry Flow** — Two-lane diagram: iPhone voice path (MobileEMNote -> AI scan -> intent check -> escalate) vs direct entry path (EMClaimPacket -> structured entry). Posts: T-020.
+- [ ] **MEDICODAX EHR Tenant Configuration Screenshot** — Screenshot of EHR admin showing Epic + eCW tenants with connection status, FHIR resource verification, sync status. Posts: T-019.
 
 ### LSARS/HSRA (Posts: T-024, T-025, T-027, T-028, T-030, T-032, T-033, T-034, T-039, T-040, T-041)
 
@@ -119,8 +119,8 @@
 | EPMS MCP Tool List | T-017, T-038 |
 | EPMS Artifact Library | T-021, T-037 |
 | EPMS Guest Chat Q&A | T-021, T-035 |
-| MEDICODA JWT Scope Diagram | T-019, T-034 |
-| MEDICODA 3-Step Pipeline | T-020, T-032 |
+| MEDICODAX JWT Scope Diagram | T-019, T-034 |
+| MEDICODAX 3-Step Pipeline | T-020, T-032 |
 | LSARS 4-Layer Architecture | T-024, T-033 |
 | LSARS HARP2 Parity Trace | T-032 |
 | Graph-Code Architecture | T-027 |

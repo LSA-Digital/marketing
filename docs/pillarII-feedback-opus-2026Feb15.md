@@ -66,7 +66,7 @@ Nearly every post starts with "We've built this" or "This is from real work we d
 
 **Recommendation:** For each post, add at least one concrete "receipt" — a specific fact that couldn't be written by someone who hadn't done the work. Examples:
 - "When we built the EPMS MCP server, we started with 12 tool endpoints. After the first agent integration test, we cut it to 7 — the other 5 were redundant once we got schema contracts right."
-- "Our first MEDICODA JWT implementation used 24-hour tokens. After a threat model review, we moved to 15-minute tokens with refresh. The change took 2 days and broke 3 integration tests."
+- "Our first MEDICODAX JWT implementation used 24-hour tokens. After a threat model review, we moved to 15-minute tokens with refresh. The change took 2 days and broke 3 integration tests."
 
 ### 4. Missing the "stop early" narrative
 
@@ -106,11 +106,11 @@ Some pairs cover substantially the same ground:
 
 Almost every post is attributed to Mike and Keith. For Pillar II credibility, these posts would benefit from:
 - A Keith Mangold perspective on agentic architecture decisions (he's listed in expert alignment for exactly this)
-- Product-specific expert context (Dr. Thad Perry on MEDICODA clinical workflows, Nelson Smith on compliance/regulatory trust patterns)
+- Product-specific expert context (Dr. Thad Perry on MEDICODAX clinical workflows, Nelson Smith on compliance/regulatory trust patterns)
 
 Right now the content reads as one voice. The campaign's "partner-forward" strategy and "no AI consultancy could post this" rule both argue for incorporating expert perspectives.
 
-**Recommendation:** For the MEDICODA posts (T-019, T-020), consider adding a brief "why this matters clinically" perspective from Dr. Perry or a clinic partner. For security/compliance posts (T-030, T-034, T-039, T-040, T-041), Keith's architectural perspective would add weight. These don't need to be quotes — even "Keith's rule of thumb: if the agent can reach it, assume it will touch it" adds a real human voice.
+**Recommendation:** For the MEDICODAX posts (T-019, T-020), consider adding a brief "why this matters clinically" perspective from Dr. Perry or a clinic partner. For security/compliance posts (T-030, T-034, T-039, T-040, T-041), Keith's architectural perspective would add weight. These don't need to be quotes — even "Keith's rule of thumb: if the agent can reach it, assume it will touch it" adds a real human voice.
 
 ### 7. CTA inconsistency
 
@@ -132,8 +132,8 @@ The "see artifacts" CTA points nowhere specific — these posts link to generic 
 | Post | Product | What's missing |
 |---|---|---|
 | **T-017** (EPMS MCP HUX/AUX) | EPMS | No EPMS screenshot, no MCP tool list, no "here are the 7 tools we ship." This is the flagship Pillar II/EPMS post and it has zero product evidence. |
-| **T-019** (MEDICODA JWT) | MEDICODA | No architecture diagram showing JWT boundary. No evidence of multi-EHR integration. Claims "architecture and scalability proven" — where's the proof? |
-| **T-020** (MEDICODA dynamic workflow) | MEDICODA | No workflow diagram. The iPhone voice capture vs direct entry adaptation is a compelling story — but it's told abstractly. A flow diagram would make this 5x more credible. |
+| **T-019** (MEDICODAX JWT) | MEDICODAX | No architecture diagram showing JWT boundary. No evidence of multi-EHR integration. Claims "architecture and scalability proven" — where's the proof? |
+| **T-020** (MEDICODAX dynamic workflow) | MEDICODAX | No workflow diagram. The iPhone voice capture vs direct entry adaptation is a compelling story — but it's told abstractly. A flow diagram would make this 5x more credible. |
 | **T-021** (EPMS artifact portal) | EPMS | Claims EPMS stores and indexes artifacts with chatbot Q&A. No screenshot of the artifact library. No example Q&A exchange. This is a "show, don't tell" opportunity being wasted. |
 
 **Priority action:** T-017 and T-021 are the most important EPMS posts for Pillar II. Getting even one real screenshot into each would meaningfully improve credibility.
@@ -189,7 +189,7 @@ The "see artifacts" CTA points nowhere specific — these posts link to generic 
 5. **Add specific numbers/dates/decisions to "we did this" claims** (at least one concrete receipt per post)
 6. **Resolve CTA inconsistency** (remove "see artifacts" until artifacts exist)
 7. **Consolidate or sharpen overlapping post pairs** (T-025/T-029, T-028/T-039, T-030/T-034)
-8. **Add expert voices to product-specific posts** (Keith on architecture; Dr. Perry on MEDICODA clinical context)
+8. **Add expert voices to product-specific posts** (Keith on architecture; Dr. Perry on MEDICODAX clinical context)
 9. **Create a T-037 "artifact pack" one-pager as a real downloadable** (highest-conversion Pillar II asset)
 10. **Add the webinar recap link to more posts** (it's the anchor proof — only 2 of 25 posts link to it)
 

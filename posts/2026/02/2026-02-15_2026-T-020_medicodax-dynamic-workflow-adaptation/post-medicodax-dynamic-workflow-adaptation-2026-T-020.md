@@ -1,4 +1,4 @@
-# Adapting to the Ground Truth: The MEDICODA Workflow Story
+# Adapting to the Ground Truth: The MEDICODAX Workflow Story
 
 ## Metadata
 - **Post ID**: 2026-T-020
@@ -6,7 +6,7 @@
 
 ## Post
 
-In medical coding, the "ground truth" isn't a static document; it's a moving target. When we built MEDICODA, we realized that a rigid AI pipeline would fail the moment it hit the real-world variability of physician documentation. This is where Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—becomes a competitive advantage.
+In medical coding, the "ground truth" isn't a static document; it's a moving target. When we built MEDICODAX, we realized that a rigid AI pipeline would fail the moment it hit the real-world variability of physician documentation. This is where Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—becomes a competitive advantage.
 
 We designed a 3-step AI pipeline that adapts based on the capture mode. Whether it's voice capture via MobileEMNote or direct entry through EMClaimPacket, the system adjusts its logic. The pipeline first extracts data using gpt-4o-mini, then grades the Medical Decision Making (MDM) with gpt-4o, and finally generates a compliant attestation with gpt-4o-mini. This isn't just a prompt trick; it's a production-grade workflow backed by 203 test functions across 29 files.
 
@@ -19,15 +19,15 @@ The real story, however, is in the auditability. We implemented audit logging us
 ## Screenshots
 
 ### Dashboard Time Savings Metrics
-![Dashboard showing AI pipeline time savings metrics](assets/medicoda-dashboard-time-savings.png)
+![Dashboard showing AI pipeline time savings metrics](assets/medicodax-dashboard-time-savings.png)
 *Quantified impact of the 3-step AI pipeline on physician documentation time.*
 
 ### Mobile Queue Voice Submission Workflow
-![Mobile Queue showing voice submission workflow for MobileEMNote path](assets/medicoda-mobile-queue-voice.png)
+![Mobile Queue showing voice submission workflow for MobileEMNote path](assets/medicodax-mobile-queue-voice.png)
 *Voice capture via MobileEMNote triggers the Extract → Grade → Attest pipeline with real-time adaptation.*
 
 ### E&M Record Wizard Direct Entry
-![E&M Record wizard showing structured entry workflow for EMClaimPacket path](assets/medicoda-wizard-direct-entry.png)
+![E&M Record wizard showing structured entry workflow for EMClaimPacket path](assets/medicodax-wizard-direct-entry.png)
 *Direct entry through EMClaimPacket follows the same 3-step pipeline with different input handling.*
 
 ## Post asset ideas

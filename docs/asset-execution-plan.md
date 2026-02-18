@@ -12,7 +12,7 @@
 | Category | Posts | Assets per Post | Total Assets | Method |
 |----------|-------|-----------------|--------------|--------|
 | LSARS screenshots | 6 | 2-3 | 16 | Playwright (`assetpipe/lsars-captures.js`) |
-| MEDICODA screenshots | 3 | 3 | 9 | Playwright (`assetpipe/medicoda-captures.js`) |
+| MEDICODAX screenshots | 3 | 3 | 9 | Playwright (`assetpipe/medicodax-captures.js`) |
 | EPMS screenshots | 5 | 2-3 | 12 | Playwright (`assetpipe/epms-captures.js`) |
 | Codebase-derived | 11 | 2-3 | 28 | Code snippets, Mermaid diagrams, markdown tables |
 | **Total** | **25** | **2-3** | **~65** | |
@@ -43,9 +43,9 @@ Script: `assetpipe/lsars-captures.js` | URL: `http://localhost:3230` | Auth: non
 
 ---
 
-## Batch 2: MEDICODA Screenshots (3 posts, 9 assets)
+## Batch 2: MEDICODAX Screenshots (3 posts, 9 assets)
 
-Script: `assetpipe/medicoda-captures.js` | URL: `http://localhost:3000` | Auth: auto-login
+Script: `assetpipe/medicodax-captures.js` | URL: `http://localhost:3000` | Auth: auto-login
 
 | Post | Asset | Type | Filename | What It Shows |
 |------|-------|------|----------|---------------|
@@ -126,7 +126,7 @@ No Playwright needed — these are code snippets, Mermaid diagrams, and markdown
 ## Execution Order
 
 1. **Batch 1 (LSARS)** — No auth, simplest. Run all `lsars-captures.js` functions.
-2. **Batch 2 (MEDICODA)** — Auto-login. Run all `medicoda-captures.js` functions.
+2. **Batch 2 (MEDICODAX)** — Auto-login. Run all `medicodax-captures.js` functions.
 3. **Batch 3 (EPMS)** — Requires auth header. Run all `epms-captures.js` functions.
 4. **Batch 4 (Codebase)** — Read source files, write Mermaid/snippets/tables directly into posts.
 5. **Embed all** — After all assets exist, inject `![alt](assets/filename.png)` into every post.

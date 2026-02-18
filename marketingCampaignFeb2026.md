@@ -33,7 +33,7 @@ Enterprise architects, eng leads, platform teams, AI/ML leads, security/complian
 
 ## Offer + conversion path (keep it simple)
 - **Primary CTA**: “Book a 20–30 min working session” (map your idea to Develop/Deploy/Disrupt + pilot path).
-- **Secondary CTA**: “Request a demo” (LSARS / HSRA / EPMS / ReimagineIt / MEDICODA).
+- **Secondary CTA**: “Request a demo” (LSARS / HSRA / EPMS / ReimagineIt / MEDICODAX).
 - **Proof CTA**: “See the artifacts” (short clips + screenshots + brief technical notes).
 
 ---
@@ -205,7 +205,7 @@ Products:
 - LSARS: `https://www.lsadigital.com/products/lsars`
 - HSRA: `https://www.lsadigital.com/products/hra`
 - EPMS: `https://www.lsadigital.com/products/epms`
-- MEDICODA: `https://www.lsadigital.com/products/medicoda`
+- MEDICODAX: `https://www.lsadigital.com/products/medicoda`
 - Human‑AI Concept Lab: `https://www.lsadigital.com/products/human-ai-optimizer`
 - ReimagineIt: `https://www.lsadigital.com/products/reimagineit`
 
@@ -299,7 +299,7 @@ Week 2
 - **Longer artifact (weekly)**: Blog/insight-style post: “What parity validation means (and what it doesn’t)” + screenshots/artifacts
 
 Week 3
-- **Mon post**: Theme 1: MEDICODA — clinic partnership realities (burnout, accuracy, auditing)
+- **Mon post**: Theme 1: MEDICODAX — clinic partnership realities (burnout, accuracy, auditing)
 - **Tue clip**: Human final decision loop + real-time auditing (60–90s)
 - **Wed post**: Theme 2: EPMS — AI-assisted discovery while PM intent stays in control
 - **Thu clip**: “From idea to pilot-ready” mapped to Develop/Deploy/Disrupt (60–90s; avoid over-claims)
@@ -373,7 +373,7 @@ Every 2 weeks:
 
 ## Additional planning angles (recommended)
 - ICP slices + message matrix:
-  - “Ops bottleneck” (ReimagineIt), “Permit risk” (LSARS/HSRA), “PM discovery speed” (EPMS), “Compliance-heavy workflow” (Human‑AI Concept Lab), “Clinical admin burden” (MEDICODA)
+  - “Ops bottleneck” (ReimagineIt), “Permit risk” (LSARS/HSRA), “PM discovery speed” (EPMS), “Compliance-heavy workflow” (Human‑AI Concept Lab), “Clinical admin burden” (MEDICODAX)
 - Proof library:
   - “Artifact gallery” page: screenshots, short clips, diagrams, validation/testing evidence
 - Objection handling posts:

@@ -23,12 +23,12 @@ Keith's perspective on why early automation fails is simple: teams ship autonomy
 
 ### Screenshots
 
-![MEDICODA dashboard with Claims Defender and Missing Docs Agent sidebar — AI assistants, not replacements](assets/medicoda-agent-sidebar-hitl.png)
-*MEDICODA dashboard — Claims Defender and Missing Docs Agent sidebar (AI assistants, not replacements)*
+![MEDICODAX dashboard with Claims Defender and Missing Docs Agent sidebar — AI assistants, not replacements](assets/medicodax-agent-sidebar-hitl.png)
+*MEDICODAX dashboard — Claims Defender and Missing Docs Agent sidebar (AI assistants, not replacements)*
 
-![Claims Defender panel open showing AI Denial Defense presenting evidence for human review](assets/medicoda-claims-defender-evidence.png)
+![Claims Defender panel open showing AI Denial Defense presenting evidence for human review](assets/medicodax-claims-defender-evidence.png)
 *Claims Defender panel — AI Denial Defense presenting evidence for human review*
 
-![Missing Docs Agent panel showing documentation gap identification](assets/medicoda-missing-docs-tracker.png)
+![Missing Docs Agent panel showing documentation gap identification](assets/medicodax-missing-docs-tracker.png)
 *Missing Docs Agent panel — documentation gap identification*
 

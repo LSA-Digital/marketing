@@ -1,5 +1,5 @@
 /**
- * MEDICODA / HAI-EM Screenshot Captures
+ * MEDICODAX / HAI-EM Screenshot Captures
  * Product: Human-AI E&M Coder (localhost:3000)
  * Auth: Auto-login (no action needed)
  *
@@ -14,7 +14,7 @@
  */
 
 // ============================================================
-// T-019: MEDICODA JWT & Multi-EHR
+// T-019: MEDICODAX JWT & Multi-EHR
 // Assets: JWT flow, token lifecycle, FHIR access control
 // ============================================================
 

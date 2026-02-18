@@ -14,7 +14,7 @@ All Playwright capture scripts live in **`assetpipe/`** at the project root.
 assetpipe/
 ├── README.md                  # Index of scripts and what they capture
 ├── lsars-captures.js          # LSARS HRA screenshot sequences
-├── medicoda-captures.js       # MEDICODA / HAI-EM screenshot sequences
+├── medicodax-captures.js       # MEDICODAX / HAI-EM screenshot sequences
 ├── epms-captures.js           # EPMS screenshot sequences (includes auth bypass)
 └── examples/                  # Example output from previous runs (reference PNGs)
 ```
@@ -46,7 +46,7 @@ All three product UIs must be running before capturing screenshots.
 | Service | Container Name | URL | Health Check |
 |---------|---------------|-----|--------------|
 | **LSARS HRA** | `lsars-hra-ui-dev` | `http://localhost:3230` | `curl -s -o /dev/null -w "%{http_code}" http://localhost:3230` → 200 |
-| **MEDICODA (HAI-EM)** | `hai-em-frontend` | `http://localhost:3000` | `curl -s -o /dev/null -w "%{http_code}" http://localhost:3000` → 307 (redirect to /dashboard) |
+| **MEDICODAX (HAI-EM)** | `hai-em-frontend` | `http://localhost:3000` | `curl -s -o /dev/null -w "%{http_code}" http://localhost:3000` → 307 (redirect to /dashboard) |
 | **EPMS** | `epms-ui-dev` + `epms-epms-1` | `http://localhost:5173` | `curl -s -o /dev/null -w "%{http_code}" http://localhost:5173` → 200 |
 
 #### Starting Services
@@ -55,7 +55,7 @@ All three product UIs must be running before capturing screenshots.
 # LSARS HRA (usually already running)
 cd ~/dev/lsars-hra && docker compose up -d ui-dev
 
-# MEDICODA
+# MEDICODAX
 cd ~/dev/em-lab && docker compose up -d frontend
 
 # EPMS — CRITICAL: both ui-dev AND the backend API must be running
@@ -91,7 +91,7 @@ Verify the proxy works: `curl -s -o /dev/null -w "%{http_code}" http://localhost
 ### LSARS HRA
 No authentication required. The welcome modal appears on first load — dismiss it by clicking "Enter System" or navigate past it.
 
-### MEDICODA (HAI-EM)
+### MEDICODAX (HAI-EM)
 Auto-login. Navigating to `http://localhost:3000` redirects to `/dashboard` and logs in as a demo user (e.g., Gladys Carrins, Certified Coder, or Beverly Eubanks depending on config).
 
 ### EPMS — Proxy Auth Bypass
@@ -226,7 +226,7 @@ await page.screenshot({ path: `${SCREENSHOT_DIR}/filename.png` });
 
 ### 1. UI Screenshots (Playwright)
 
-**Source:** Running web applications (LSARS, MEDICODA, EPMS)
+**Source:** Running web applications (LSARS, MEDICODAX, EPMS)
 **Tool:** Playwright MCP `browser_take_screenshot` or `browser_run_code`
 **Best for:** Dashboards, forms, data tables, chat interfaces, map views
 
@@ -348,7 +348,7 @@ MUST NOT DO:
 | Hotspot Analysis | Click "Hotspot Analysis" button | Analysis panel |
 | Health Risk Advisor | Click chatbot button (bottom-right) | AI chat panel |
 
-### MEDICODA / HAI-EM (localhost:3000)
+### MEDICODAX / HAI-EM (localhost:3000)
 
 | Page | URL | What's Visible |
 |------|-----|----------------|
@@ -374,6 +374,6 @@ MUST NOT DO:
 | Product | Path | Key Directories for Assets |
 |---------|------|---------------------------|
 | **EPMS** | `~/dev/epms/` | `mcp/server.py` (MCP tools), `backend/app/api/` (routers), `backend/app/models/` (Pydantic), `frontend/src/` |
-| **MEDICODA** | `~/dev/em-lab/` | `backend/app/` (FHIR client, audit), `frontend/src/` |
+| **MEDICODAX** | `~/dev/em-lab/` | `backend/app/` (FHIR client, audit), `frontend/src/` |
 | **LSARS HRA** | `~/dev/lsars-hra/` | `apps/ui/e2e/` (Playwright tests), `apps/backend/` (API), `AGENTS.md` |
 | **Lazy-MCP** | `~/dev/common/lazy-mcp/` | `config.json` (5-server proxy config) |

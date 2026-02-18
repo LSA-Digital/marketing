@@ -8,7 +8,7 @@
 
 Prompt injection is often framed as a "prompt engineering" problem, but that's a dangerous oversimplification. In a production-grade agentic system, prompt injection is a threat modeling problem. If your security strategy relies on asking the model to "be nice," you've already lost. We reframe agent security by focusing on attack trees—mapping out exactly how an adversary might use an agent to hijack goals, misuse tools, or exfiltrate sensitive data.
 
-When we designed the security for MEDICODA, we didn't just look at controls; we looked at the entire threat landscape of EHR integrations. We implemented JWT RS384 authentication with strict token lifetimes—1 hour for Epic and a mere 5 minutes for eCW. This ensures that even if a token is compromised, the window for misuse is minimal. We also enforce scoped FHIR resource access per tenant, meaning an agent can never "drift" into data it isn't explicitly authorized to see.
+When we designed the security for MEDICODAX, we didn't just look at controls; we looked at the entire threat landscape of EHR integrations. We implemented JWT RS384 authentication with strict token lifetimes—1 hour for Epic and a mere 5 minutes for eCW. This ensures that even if a token is compromised, the window for misuse is minimal. We also enforce scoped FHIR resource access per tenant, meaning an agent can never "drift" into data it isn't explicitly authorized to see.
 
 By treating security as an architecture discipline, we build boundaries that are enforced by code, not by policy docs. Every action an agent takes is recorded via SQLAlchemy event listeners for comprehensive audit logging. This allows us to trace every decision back to a specific identity and policy check. When you understand the attack tree—from prompt injection to tool misuse—you can design a system that is resilient by default. Security isn't about blocking features; it's about building the right boundaries so you can ship with confidence.
 
@@ -40,7 +40,7 @@ graph TD
     D --> D2[Via side channels\ntiming or error messages]
 ```
 
-### Table: Token Lifetime Comparison (MEDICODA FHIR Client)
+### Table: Token Lifetime Comparison (MEDICODAX FHIR Client)
 
 | Parameter | Epic | eClinicalWorks |
 |---|---|---|

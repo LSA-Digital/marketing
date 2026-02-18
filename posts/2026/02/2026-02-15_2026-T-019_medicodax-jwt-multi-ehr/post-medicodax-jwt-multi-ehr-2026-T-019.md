@@ -6,7 +6,7 @@
 
 ## Post
 
-When we started building MEDICODA, we knew that "just use an API key" was a non-starter for medical data. To handle 11 FHIR R4 resource types across multiple EHR vendors like Epic and eClinicalWorks, we had to build a robust identity layer from the ground up. This is Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—applied to the most sensitive data boundaries.
+When we started building MEDICODAX, we knew that "just use an API key" was a non-starter for medical data. To handle 11 FHIR R4 resource types across multiple EHR vendors like Epic and eClinicalWorks, we had to build a robust identity layer from the ground up. This is Vibe Engineering—vibe coding for exploration + production-grade engineering for shipping—applied to the most sensitive data boundaries.
 
 The story of our multi-EHR integration is one of moving from rapid prototyping to strict cryptographic enforcement. We implemented JWT RS384 authentication to ensure that every agentic tool call was signed and verifiable. But the real challenge was the drift in token lifecycles between vendors. Epic tokens have a 1-hour lifetime with a 60-second refresh buffer, while eClinicalWorks tokens expire in just 5 minutes (300 seconds). 
 
@@ -18,19 +18,19 @@ Managing these disparate constraints required a production-grade engineering min
 
 ## Screenshots
 
-### MEDICODA Dashboard with EHR Integration
-![MEDICODA dashboard showing EHR integration and time savings metrics](assets/medicoda-dashboard-ehr-integration.png)
+### MEDICODAX Dashboard with EHR Integration
+![MEDICODAX dashboard showing EHR integration and time savings metrics](assets/medicodax-dashboard-ehr-integration.png)
 *Real-time integration with Epic and eClinicalWorks, tracking time savings across the medical coding pipeline.*
 
 ### Audit Logs with JWT Security Trail
-![Audit logs showing JWT-secured operation trail](assets/medicoda-audit-logs-security.png)
+![Audit logs showing JWT-secured operation trail](assets/medicodax-audit-logs-security.png)
 *Every agentic tool call is signed and verifiable, with complete audit trails for compliance.*
 
 ### User Authentication Context
-![User context showing authenticated identity and role information](assets/medicoda-user-auth-context.png)
+![User context showing authenticated identity and role information](assets/medicodax-user-auth-context.png)
 *JWT RS384 authentication ensures every action is tied to a verified identity with scoped permissions.*
 
 ## Post asset ideas
-- [ ] Diagram: JWT RS384 flow between MEDICODA and Epic/eCW
+- [ ] Diagram: JWT RS384 flow between MEDICODAX and Epic/eCW
 - [ ] Table: Token lifecycle comparison (Epic vs. eCW) and refresh logic
-- [ ] Code snippet: Scoped FHIR R4 resource access control in MEDICODA
+- [ ] Code snippet: Scoped FHIR R4 resource access control in MEDICODAX
