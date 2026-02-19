@@ -1,12 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
-  "disabled_mcps": ["context7"],
+  "disabled_mcps": [
+    "context7"
+  ],
   "claude_code": {
     "hooks": true
   },
   "agents": {
     "librarian": {
-      "model": "anthropic/claude-sonnet-4-5"
+      "model": "anthropic/claude-sonnet-4-6"
     }
-  }
+  },
+  "_migrations": [
+    "model-version:anthropic/claude-sonnet-4-5->anthropic/claude-sonnet-4-6"
+  ]
 }
