@@ -2,6 +2,12 @@
 
 ## Metadata
 - **Post ID**: 2026-T-013
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: LOCATION_INTELLIGENCE, RISK_INVESTMENTS, SMART_MOBILITY
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Relationship**: No direct relationship, but leave this article as future placeholder after LSARS-532 Permit Location Optimizer has made some progress.
 - **CTA**: see artifacts
 
 ## Post

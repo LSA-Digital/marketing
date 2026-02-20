@@ -2,6 +2,12 @@
 
 ## Metadata
 - **Post ID**: 2026-B-016
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: COMMUNITY_TRANSPARENCY, DASHBOARD_ACCOUNTABILITY, DATA_CENTER
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Relationship**: We have not yet developed a water use dashboard.
 - **CTA**: See the dashboard at [lsars.com](https://lsars.com)
 
 ## Post

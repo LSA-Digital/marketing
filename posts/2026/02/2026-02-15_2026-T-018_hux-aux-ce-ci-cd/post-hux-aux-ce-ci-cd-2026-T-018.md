@@ -2,6 +2,12 @@
 
 ## Metadata
 - **Post ID**: 2026-T-018
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: TECH_UX, AGENTICAI_DEVOPS, FUTUREAI_PRODDEV
+- **Expert**: Mike
+- **Depends On**: —
+- **Relationship**: Defines HUX vs AUX; why they power the CE/CI/CD loop
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

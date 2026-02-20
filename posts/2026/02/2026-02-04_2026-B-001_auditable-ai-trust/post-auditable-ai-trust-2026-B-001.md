@@ -2,6 +2,11 @@
 
 ## Metadata
 - **Post ID**: 2026-B-001
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY
+- **Expert**: Nelson, Thad, Mike
+- **Depends On**: —
 - **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post
