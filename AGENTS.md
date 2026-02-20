@@ -21,37 +21,16 @@ Marketing content and campaign management for LSA Digital products.
 
 ## RULES
 
-| Rule | Description |
-|------|-------------|
-| **CONTEXT7 FIRST** | Tech research starts with Context7 (via lazy-mcp proxy), not web search. |
-| **CONSISTENT VOICE** | Maintain LSA Digital brand voice across all content. |
+| Rule                       | Description                                                              |
+| -------------------------- | ------------------------------------------------------------------------ |
+| **CONTEXT7 FIRST**   | Tech research starts with Context7 (via lazy-mcp proxy), not web search. |
+| **CONSISTENT VOICE** | Maintain LSA Digital brand voice across all content.                     |
 
 ---
 
 ## POST METADATA GUIDELINES
 
-Individual post files should contain MINIMAL metadata. All authoritative metadata lives in `post-index.md`.
-
-### Allowed in Individual Post Files (2 fields only):
-
-| Field | Purpose | Example |
-|-------|---------|---------|
-| **Post ID** | Reference identifier for the post | `- **Post ID**: 2026-B-001` |
-| **CTA** | Call-to-action specific to this post | `- **CTA**: book a working session at [lsars.com](https://lsars.com)` |
-
-### NOT Allowed in Individual Post Files:
-
-The following fields are tracked in `post-index.md` only and should NEVER appear in individual post files:
-
-- Status (draft, approved, published, etc.)
-- Depends on (dependencies are tracked in post-index.md "Depends On" column)
-- Product (LSARS, HSRA)
-- Themes (tags like AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY)
-- Expert (assigned experts)
-- Audience (business/tech)
-- Target Platforms (LSARS, LSA Digital)
-- Publish dates
-- Channel, Theme, Poster, etc.
+Individual post files should contain MINIMAL metadata. All authoritative metadata lives in `squawk-index.md`.
 
 ### Post File Structure:
 
@@ -81,12 +60,14 @@ The following fields are tracked in `post-index.md` only and should NEVER appear
 When a post cites specific external data, public records, reports, or regulatory filings, include a **"Citations / Sources"** section at the end of the post file. This provides transparency and allows readers to verify claims.
 
 **When to include:**
+
 - Citing specific public dockets, permits, or regulatory filings
 - Referencing government reports or environmental impact statements
 - Using data from official utility or agency websites
 - Any claim that could benefit from a verifiable source
 
 **Format:**
+
 ```markdown
 ## Citations / Sources
 - https://www.mass.gov/info-details/hmlp-reliability-project
@@ -101,6 +82,7 @@ Include brief context in parentheses for PDFs or complex documents (page numbers
 ### Authoritative Source:
 
 **post-index.md** is the single source of truth for:
+
 - Status tracking
 - Dependencies (Depends On column)
 - Theme tags
@@ -114,6 +96,7 @@ Include brief context in parentheses for PDFs or complex documents (page numbers
 ## MCP TOOLS (via lazy-mcp proxy)
 
 Tools are lazy-loaded through the `lazy-mcp` proxy. Only 2 meta-tools load at startup:
+
 - `get_tools_in_category(path)` — Discover tools in a category
 - `execute_tool(tool_path, arguments)` — Execute a discovered tool
 
@@ -129,13 +112,13 @@ Tools are lazy-loaded through the `lazy-mcp` proxy. Only 2 meta-tools load at st
 
 ### Tool Categories (5 shared servers)
 
-| Category | Tools | Use For | When |
-|----------|-------|---------|------|
-| `atlassian` | 43 | Jira tickets, Confluence pages | Content planning, docs |
-| `chrome-devtools` | 26 | Browser automation, screenshots | Visual content capture |
-| `context7` | 2 | Library documentation lookup | Tech research |
-| `epms` | 23 | Product management data | Product info for content |
-| `google-workspace` | 32 | Gmail, Calendar, Drive, Docs, Sheets | Content collaboration |
+| Category             | Tools | Use For                              | When                     |
+| -------------------- | ----- | ------------------------------------ | ------------------------ |
+| `atlassian`        | 43    | Jira tickets, Confluence pages       | Content planning, docs   |
+| `chrome-devtools`  | 26    | Browser automation, screenshots      | Visual content capture   |
+| `context7`         | 2     | Library documentation lookup         | Tech research            |
+| `epms`             | 23    | Product management data              | Product info for content |
+| `google-workspace` | 32    | Gmail, Calendar, Drive, Docs, Sheets | Content collaboration    |
 
 ### Technology Questions
 
@@ -153,11 +136,11 @@ If proxy fails: delete `.mcp.json` and restart OpenCode.
 
 ## AGENTS
 
-| Agent | Model | Use For |
-|-------|-------|---------|
-| **Sisyphus** | claude-opus-4-5 | Primary orchestrator |
-| **librarian** | gemini-2.5-flash | Web search, external docs |
-| **document-writer** | gemini-3-pro-preview | Content creation |
+| Agent                     | Model                | Use For                   |
+| ------------------------- | -------------------- | ------------------------- |
+| **Sisyphus**        | claude-opus-4-5      | Primary orchestrator      |
+| **librarian**       | gemini-2.5-flash     | Web search, external docs |
+| **document-writer** | gemini-3-pro-preview | Content creation          |
 
 **Config:** `.opencode/oh-my-opencode.json`
 
@@ -165,8 +148,8 @@ If proxy fails: delete `.mcp.json` and restart OpenCode.
 
 ## Changelog
 
-| Date | Author | Change |
-|------|--------|--------|
-| 2026-02-10 | Sisyphus | Created AGENTS.md with lazy-mcp proxy setup. Uses global config at ~/dev/common/lazy-mcp/. |
+| Date       | Author   | Change                                                                                                                   |
+| ---------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 2026-02-10 | Sisyphus | Created AGENTS.md with lazy-mcp proxy setup. Uses global config at ~/dev/common/lazy-mcp/.                               |
 | 2026-02-13 | Sisyphus | Standardized post metadata: only Post ID and CTA allowed in individual posts. All other metadata lives in post-index.md. |
-| 2026-02-14 | Sisyphus | Added Citations / Sources section guidelines to document when and how to include source references in post files. |
+| 2026-02-14 | Sisyphus | Added Citations / Sources section guidelines to document when and how to include source references in post files.        |
