@@ -20,15 +20,10 @@ Create a new marketing post folder **and draft the post content**, following the
 - [ ] Post folder created: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - [ ] Post file created: `post-[slug]-[postid].md` with complete draft
 - [ ] `assets/` directory created (with README.md if assets are missing)
+- [ ] Git commit created with post files
+- [ ] Changes pushed to remote (`origin`) — required BEFORE Squawk ingestion (Squawk fetches assets from GitHub)
 - [ ] Squawk ingestion complete (`upsert_document_draft` + `update_post_draft`)
 - [ ] Squawk CUID recorded (document CUID and post CUID)
-- [ ] Git commit created with post + mindmap updates
-- [ ] Changes pushed to remote (`origin`)
-
-### Required for Mind Map mode
-- [ ] XMind label applied directly using: `python3 scripts/update_xmind_labels.py <xmind-file> <node-id> <post-id>`
-- [ ] Label verified using XMind MCP `search_nodes` with `searchIn: ["labels"]`
-- [ ] If node has relationships to other topic areas, identify and create linked post pairs
 
 ### Verification
 - [ ] Squawk `get_content_item` confirms document and post exist with correct metadata
@@ -41,13 +36,9 @@ Create a new marketing post folder **and draft the post content**, following the
 - `slug` is optional. If missing, generate one from the user's working title/idea (kebab-case).
 - `date` is optional. If missing, default to today in `YYYY-MM-DD`.
 
-### 2. Choose creation mode (ask in a single message, then proceed)
-- **Guided**: user answers prompts; agent drafts from scratch
-- **Mind map**: agent pulls from an XMind node (recommended when the topic already exists in `docs/mindmaps/`)
+### 2. Run intake
 
-### 3. Run intake
-
-**If Guided mode**, minimum required inputs:
+Minimum required inputs:
 - **Working title or idea** (1–2 sentences)
 - **Audience**: business | technical | mixed
 - **Theme**: Experts+AI | AI technology | Compliance+scale
@@ -59,36 +50,19 @@ Create a new marketing post folder **and draft the post content**, following the
   - Tech posts (LSA Digital channel): use `https://lsadigital.com`
 - **Poster** (company page | founder | SME)
 
-**If Mind map mode**, minimum required inputs:
-- **XMind file path** (default: `docs/mindmaps/LSARS_posts_v2.xmind`)
-- **Which node to pull from**: node title/path (preferred) or node ID
-- Then use the XMind MCP tools to extract the node subtree and draft the post.
-
-**Automatic post type detection from mind map location**:
-The mind map structure determines the post type automatically—do NOT ask the user:
-- **Tech post (T-type)**: Nodes under `LSARS > Technology` (includes AI / Best Practices and all other Technology sub-nodes)
-- **Business post (B-type)**: All other top-level topic areas (Permit Requestor, Regulatory Alignment, Communities, Data Centers, Smart Mobility, "How does LSARS help Governments...", etc.)
-
-**IMPORTANT**: Never pull a business post from any node under `LSARS > Technology`. All Technology nodes produce tech posts, regardless of their specific content.
-
 Apply sensible defaults based on type:
 - **Business posts**: Audience=business, Theme=Experts+AI or Compliance+scale, CTA=book a working session
 - **Tech posts**: Audience=technical, Theme=AI technology, CTA=see artifacts or request a demo
 
-**Check for linked post pairs**:
-When creating from Mind map mode, check the XMind relationships for links between:
-- AI/Best Practices nodes (tech posts) ↔ Business outcome nodes (business posts)
-- If a relationship exists (e.g., "evidenced by", "enables", "builds", "supports"), create BOTH posts as a pair with the tech post depending on the business post.
-
-### 4. Supporting material collection
+### 3. Supporting material collection
 - **Remote links** (product pages, partner sites, prior posts, specs)
 - **Local assets**: If unavailable, create `assets/README.md` with a checklist of needed items
 
-### 5. SME alignment
+### 4. SME alignment
 - Read `lsaProductExpertAlignment.md` and pick the **default reviewer(s)** based on the product(s).
 - If LSARS/HRA-heavy, note that tagging principals requires pre-coordination.
 
-### 6. Determine the Post ID
+### 5. Determine the Post ID
 - Scan the `posts/2026/02/` directory for existing post IDs to find the next available number.
 - ID format: `YYYY-T-NNN` where `T` = `B` (business) or `T` (tech)
 - Pattern:
@@ -97,16 +71,31 @@ When creating from Mind map mode, check the XMind relationships for links betwee
   ```
 - Increment the highest existing number by 1. If no posts of that type exist yet, start at 001.
 
-### 7. Create the post folder and file
+### 6. Create the post folder and file
 - Directory: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - File: `post-[slug]-[postid].md`
 - Include: Title, Metadata, Post text, Artifacts
 
 **Metadata standards**: See `docs/post-pipeline.md` for the full lifecycle. Post files contain only Post ID + CTA. All other metadata (Status, Product, Themes, Expert, Audience, etc.) is sent to Squawk via ingestion.
 
-### 8. Create companion files as needed
+### 7. Create companion files as needed
 - `links.md` for remote links with UTM variants
 - `notes.md` for SME review notes and open questions
+
+### 8. Git commit + push (BEFORE Squawk ingestion)
+
+**Squawk fetches assets from the remote GitHub repo, so changes must be pushed first.**
+
+1. Stage the new post folder:
+   - `git add posts/2026/02/<folder>/`
+2. Commit:
+   - `posts: add <short-title> (<post-id>)`
+3. Push to remote:
+   - `git push`
+
+Guardrails:
+- Never commit secrets (e.g., `.env`, credentials, API keys).
+- If `.env` or other sensitive files appear in `git status`, explicitly exclude them with `git reset HEAD <file>` before committing.
 
 ### 9. Ingest into Squawk MCP
 
@@ -150,64 +139,21 @@ execute_tool("squawk.get_content_item", {"id": "<document-cuid>", "itemType": "d
 ```
 
 **Squawk unavailability fallback**: If Squawk MCP calls fail (timeout, connection error):
-1. Complete post creation locally (folder, file, assets, XMind label).
+1. Complete post creation locally (folder, file, assets).
 2. Log warning: "⚠ Squawk ingestion failed. Run `/update-post <post-id> content` to ingest later."
 3. Do NOT block the commit/push.
 
-### 10. Update XMind with Post ID label (REQUIRED for Mind map mode)
-
-**This is NOT optional. The agent MUST update the XMind file synchronously as part of post creation.**
-
-**Step 10a: Apply the label**
+### 10. Rebuild squawk-index.md
 ```bash
-python3 scripts/update_xmind_labels.py docs/mindmaps/LSARS_posts_v2.xmind <node-id> <post-id>
+PATH="/Users/idengrenme/.local/share/fnm/node-versions/v20.19.5/installation/bin:$PATH" node scripts/build-squawk-index.js
 ```
-
-Example:
-```bash
-python3 scripts/update_xmind_labels.py docs/mindmaps/LSARS_posts_v2.xmind 85bee37e6bab4e0a8b5c7ad50b 2026-B-003
-```
-
-**Step 10b: Verify the label was applied**
-Use the XMind MCP to confirm:
-```
-search_nodes(
-  path: "docs/mindmaps/LSARS_posts_v2.xmind",
-  query: "<post-id>",
-  searchIn: ["labels"]
-)
-```
-
-**If verification fails**, the post creation is incomplete. Debug and retry before proceeding.
 
 ### 11. Confirm results
 Output a completion summary showing:
 - Created folder path and primary file
 - Post ID assigned
 - Squawk document CUID and post CUID
-- XMind node labeled (confirmed by search)
 - Any items still needed (assets, SME review, etc.)
-
-### 12. Git commit + push (REQUIRED)
-
-**Do not end the command until changes are committed and pushed.**
-
-1. Verify what will be committed:
-   - `git status`
-   - `git diff`
-2. Stage ALL outstanding changes:
-   - `git add .`
-   - This includes the new post folder(s), XMind files, and any other modified files in the repository
-3. Create a commit with a clear message. Suggested format:
-   - `posts: add <short-title> (<post-id>)`
-   - If a linked tech/business pair was created, include both IDs in one commit message.
-   - If other files beyond the post are included, mention them briefly if significant
-4. Push to remote:
-   - `git push`
-
-Guardrails:
-- Never commit secrets (e.g., `.env`, credentials, API keys).
-- If `.env` or other sensitive files appear in `git status`, explicitly exclude them with `git reset HEAD <file>` before committing.
 
 ---
 

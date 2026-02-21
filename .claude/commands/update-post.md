@@ -99,15 +99,24 @@ execute_tool("squawk.update_post_draft", {
 ```
 
 **For `content` field:**
-Re-ingest the post file:
-```
-execute_tool("squawk.upsert_document_draft", {
-  "filePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
-  "referenceContext": {
-    "postId": "<post-id>"
-  }
-})
-```
+1. First, commit and push any local changes so Squawk can fetch from the remote repo (it discovers assets from the GitHub `assets/` folder):
+   ```bash
+   git add posts/2026/02/<folder>/
+   git commit -m "posts: update <post-id> content"
+   git push
+   ```
+2. Then re-ingest the post file:
+   ```
+   execute_tool("squawk.upsert_document_draft", {
+     "rawMarkdown": "<full post file content>",
+     "sourcePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+     "sourceRepoUrl": "https://github.com/LSA-Digital/marketing",
+     "referenceContext": {
+       "postId": "<post-id>"
+     }
+   })
+   ```
+   **Note:** `rawMarkdown` is required (read the post file and pass its content). Squawk uses `sourceRepoUrl` + `sourcePath` to fetch images from the `assets/` directory on GitHub.
 
 ### 4. Verify the update
 ```
@@ -115,8 +124,11 @@ execute_tool("squawk.get_content_item", {"id": "<document-cuid>", "itemType": "d
 ```
 Confirm the field was updated in the response.
 
-### 5. Suggest index rebuild
-After any update, suggest: "Run `node scripts/build-squawk-index.js` to refresh squawk-index.md."
+### 5. Rebuild squawk-index.md
+After any update, rebuild the local index automatically:
+```bash
+PATH="/Users/idengrenme/.local/share/fnm/node-versions/v20.19.5/installation/bin:$PATH" node scripts/build-squawk-index.js
+```
 
 ## Expert CUIDs
 
