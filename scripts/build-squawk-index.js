@@ -36,6 +36,18 @@ const mapping = {
   "2026-B-038":"cmlvjjpfq000004kv3b4f2xic","2026-T-045":"cmlvjkcsb000304kvdmxigw5j"
 };
 
+// Discover any posts in MCP cache not in hardcoded mapping
+for (const item of mcp.items) {
+  const titleMatch = (item.title || '').match(/2026-[BT]-\d+/);
+  if (titleMatch) {
+    const pid = titleMatch[0];
+    if (!mapping[pid]) {
+      console.warn(`Warning: Post ${pid} found in MCP cache but not in hardcoded mapping. Adding dynamically.`);
+      mapping[pid] = item.id;
+    }
+  }
+}
+
 // Parse post-index.md
 const postIndex = {};
 const piContent = fs.readFileSync("/Users/idengrenme/dev/marketing/post-index.md", "utf8");
@@ -173,7 +185,7 @@ const header = `# Squawk Index
 
 > **Auto-generated from Squawk MCP** — Do not edit manually. Rebuilt from scratch on each sync.
 > 
-> Last rebuilt: 2026-02-21
+> Last rebuilt: ${new Date().toISOString().slice(0, 10)}
 
 | Post ID | Title | Assets Preview | Review Status | Readiness | Readiness Notes | Audience | Product | Expert | Themes | Depends On | Dep. Name | Relationship | Repost By | Updated |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

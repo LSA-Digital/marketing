@@ -20,9 +20,9 @@ Create a new marketing post folder **and draft the post content**, following the
 - [ ] Post folder created: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - [ ] Post file created: `post-[slug]-[postid].md` with complete draft
 - [ ] `assets/` directory created (with README.md if assets are missing)
-- [ ] `post-index.md` updated with new row
-- [ ] `post-index.md` "Next IDs" incremented
-- [ ] Git commit created with post + index + mindmap updates
+- [ ] Squawk ingestion complete (`upsert_document_draft` + `update_post_draft`)
+- [ ] Squawk CUID recorded (document CUID and post CUID)
+- [ ] Git commit created with post + mindmap updates
 - [ ] Changes pushed to remote (`origin`)
 
 ### Required for Mind Map mode
@@ -31,7 +31,7 @@ Create a new marketing post folder **and draft the post content**, following the
 - [ ] If node has relationships to other topic areas, identify and create linked post pairs
 
 ### Verification
-- [ ] Verify post-index.md row matches post file metadata
+- [ ] Squawk `get_content_item` confirms document and post exist with correct metadata
 
 ---
 
@@ -89,27 +89,70 @@ When creating from Mind map mode, check the XMind relationships for links betwee
 - If LSARS/HRA-heavy, note that tagging principals requires pre-coordination.
 
 ### 6. Determine the Post ID
-- Read `post-index.md` to find the next available ID.
+- Scan the `posts/2026/02/` directory for existing post IDs to find the next available number.
 - ID format: `YYYY-T-NNN` where `T` = `B` (business) or `T` (tech)
+- Pattern:
+  ```bash
+  ls posts/2026/02/ | grep -oP '2026-[BT]-\d+' | sort | tail -1
+  ```
+- Increment the highest existing number by 1. If no posts of that type exist yet, start at 001.
 
 ### 7. Create the post folder and file
 - Directory: `posts/YYYY/MM/YYYY-MM-DD_[postid]_slug/`
 - File: `post-[slug]-[postid].md`
 - Include: Title, Metadata, Post text, Artifacts
 
-**Metadata standards**: See `AGENTS.md` "POST METADATA GUIDELINES" section. Individual post files must ONLY contain:
-- `Post ID`: The post identifier
-- `CTA`: Call-to-action link
-
-All other metadata (Status, Product, Themes, Expert, Audience, etc.) is tracked exclusively in `post-index.md`.
+**Metadata standards**: See `docs/post-pipeline.md` for the full lifecycle. Post files contain only Post ID + CTA. All other metadata (Status, Product, Themes, Expert, Audience, etc.) is sent to Squawk via ingestion.
 
 ### 8. Create companion files as needed
 - `links.md` for remote links with UTM variants
 - `notes.md` for SME review notes and open questions
 
-### 9. Update post-index.md
-- Add new row with: Post ID, Name, Link, Status, Type, Product, Depends On, Dependency Name
-- Increment "Next IDs" section
+### 9. Ingest into Squawk MCP
+
+**Step 9a**: Ingest via `upsert_document_draft`:
+```javascript
+execute_tool("squawk.upsert_document_draft", {
+  "filePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "referenceContext": {
+    "postId": "<post-id>",
+    "audience": "<business|technical>",
+    "products": "<product-name>",
+    "experts": "<expert-names>",
+    "themes": "<THEME_TAG_1, THEME_TAG_2>",
+    "sourceRepoUrl": "https://github.com/lsadigital/marketing"
+  }
+})
+```
+Returns: `{ documentId, postId }` — save the documentId (document CUID) and postId (post CUID).
+
+**Step 9b**: Set expert and product via `update_post_draft`:
+```javascript
+execute_tool("squawk.update_post_draft", {
+  "postId": "<returned-post-cuid>",
+  "expertId": "<expert-cuid-from-table-below>",
+  "productId": "<product-cuid-from-table-below>"
+})
+```
+
+**Step 9c**: If post has dependencies, set dependency:
+```javascript
+execute_tool("squawk.update_post_draft", {
+  "postId": "<returned-post-cuid>",
+  "dependsOnPostId": "<dependency-post-cuid>"
+})
+```
+Note: dependency post CUID can be found by searching `squawk-index.md` for the dependency post ID.
+
+**Step 9d**: Verify ingestion:
+```javascript
+execute_tool("squawk.get_content_item", {"id": "<document-cuid>", "itemType": "document"})
+```
+
+**Squawk unavailability fallback**: If Squawk MCP calls fail (timeout, connection error):
+1. Complete post creation locally (folder, file, assets, XMind label).
+2. Log warning: "⚠ Squawk ingestion failed. Run `/update-post <post-id> content` to ingest later."
+3. Do NOT block the commit/push.
 
 ### 10. Update XMind with Post ID label (REQUIRED for Mind map mode)
 
@@ -141,6 +184,7 @@ search_nodes(
 Output a completion summary showing:
 - Created folder path and primary file
 - Post ID assigned
+- Squawk document CUID and post CUID
 - XMind node labeled (confirmed by search)
 - Any items still needed (assets, SME review, etc.)
 
@@ -153,7 +197,7 @@ Output a completion summary showing:
    - `git diff`
 2. Stage ALL outstanding changes:
    - `git add .`
-   - This includes the new post folder(s), `post-index.md`, XMind files, and any other modified files in the repository
+   - This includes the new post folder(s), XMind files, and any other modified files in the repository
 3. Create a commit with a clear message. Suggested format:
    - `posts: add <short-title> (<post-id>)`
    - If a linked tech/business pair was created, include both IDs in one commit message.
@@ -164,6 +208,28 @@ Output a completion summary showing:
 Guardrails:
 - Never commit secrets (e.g., `.env`, credentials, API keys).
 - If `.env` or other sensitive files appear in `git status`, explicitly exclude them with `git reset HEAD <file>` before committing.
+
+---
+
+## Expert CUIDs
+
+| Expert | CUID |
+|--------|------|
+| Keith Mangold | cml8m3t3e00020ys4ml0dfbl8 |
+| Mike Idengren | cmksysncp000c67s4v38u04d0 |
+| Nelson Smith | cmksysdl4000a67s4m1u7625r |
+| Thad Perry | cmksysl3d000b67s4rd4kuhbq |
+
+## Product CUIDs
+
+| Product | CUID |
+|---------|------|
+| LSARS Permit Intelligence | cmksy89a7000367s4e634xb3k |
+| Health Risk Assessment (HSRA) | cml77dhiy000g623jup13ylgk |
+| EPMS | cmlqx3cm3000hh8s4ujarwpcx |
+| ReimagineIt | cmksy7vqw000267s45kk14jq3 |
+| MEDICODAX | cmlqx2xq1000gh8s4vkijzvid |
+| Human-AI Concept Lab | cmlqx3u2q000ih8s4xcorgqim |
 
 ---
 
