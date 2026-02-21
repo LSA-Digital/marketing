@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-018
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: RISK_INVESTMENTS, REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY, DATA_CENTER
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Need feature to track/report on diesel generators separately
+- **Assets**: —
 - **CTA**: See the model at [lsars.com](https://lsars.com)
 
 ## Post

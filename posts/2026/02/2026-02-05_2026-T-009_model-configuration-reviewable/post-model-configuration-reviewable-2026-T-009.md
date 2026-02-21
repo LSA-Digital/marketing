@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-009
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENT_GUARDRAILS, REGULATORY_ALIGNMENT
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-009
+- **Dependency Name**: Compliance Across Standards Isn't About Checking Boxes
+- **Relationship**: Reviewable agent config makes compliance behavior traceable across standards
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

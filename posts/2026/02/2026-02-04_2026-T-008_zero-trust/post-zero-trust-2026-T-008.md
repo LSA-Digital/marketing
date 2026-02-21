@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-008
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_SECURITY, AGENT_GUARDRAILS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: service-isolation-diagram.png
 - **CTA**: see artifacts
 
 ## Post

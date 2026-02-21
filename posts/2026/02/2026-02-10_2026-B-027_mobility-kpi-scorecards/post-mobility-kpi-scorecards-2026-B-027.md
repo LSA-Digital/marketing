@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-027
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: DASHBOARD_ACCOUNTABILITY, COMMUNITY_TRANSPARENCY, SMART_MOBILITY
+- **Expert**: Keith, Mike, Nelson, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

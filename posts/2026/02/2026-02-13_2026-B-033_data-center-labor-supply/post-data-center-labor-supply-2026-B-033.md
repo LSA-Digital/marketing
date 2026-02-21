@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-033
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: LOCATION_INTELLIGENCE, SHARED_BENEFIT, DATA_CENTER, JOBS
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Uses Permit Location Optimizer example (LSARS-532) to plan workforce and timeline tradeoffs
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

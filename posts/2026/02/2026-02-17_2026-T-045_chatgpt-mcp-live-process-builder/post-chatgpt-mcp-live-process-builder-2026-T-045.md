@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-045
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-038
+- **Dependency Name**: Your Process Documents Are Dead the Day They're Written
+- **Relationship**: ProcessNodesUpdate architecture, streaming preview with ontoolinputpartial, sandboxed 4-channel comms
+- **Assets**: —
 - **CTA**: see how we build AI process tools at [lsadigital.com](https://lsadigital.com)
 
 ## Post

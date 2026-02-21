@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-002
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: LOCATION_INTELLIGENCE, COMMUNITY_TRANSPARENCY, AGENT_GUARDRAILS
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-002
+- **Dependency Name**: Permit dates aren't dates. They're probabilities.
+- **Relationship**: Adds bounds + drivers so a timeline score is explainable and defensible
+- **Assets**: —
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 
 ## Post

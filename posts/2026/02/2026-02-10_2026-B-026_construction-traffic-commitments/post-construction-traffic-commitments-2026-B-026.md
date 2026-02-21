@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-026
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: SMART_MOBILITY, DASHBOARD_ACCOUNTABILITY, SHARED_BENEFIT, TRANSPORTATION
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

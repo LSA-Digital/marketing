@@ -1,8 +1,15 @@
 # Route questions by data priority (highest-confidence first)
 
 ## Metadata
-
 - **Post ID**: 2026-T-005
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-006
+- **Dependency Name**: Governments can do more with less—without buying new software
+- **Relationship**: Priority routing reduces hallucinations and rework in constrained reviews
+- **Assets**: tier-diagram.png
 - **CTA**: see artifacts
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-041
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_SECURITY, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Security bugs require Jira ticket analysis + verification evidence to close the compliance loop
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

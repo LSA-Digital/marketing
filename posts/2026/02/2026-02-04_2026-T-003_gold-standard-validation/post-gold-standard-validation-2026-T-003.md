@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-003
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: REGULATORY_ALIGNMENT
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-004
+- **Dependency Name**: Regulatory Alignment Isn't One-Size-Fits-All
+- **Relationship**: Gold-standard parity validation underpins credible EPA/OEHHA alignment
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

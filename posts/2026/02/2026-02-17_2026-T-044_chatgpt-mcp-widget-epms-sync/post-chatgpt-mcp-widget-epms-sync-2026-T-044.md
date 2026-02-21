@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-044
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS, TECH_UX
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-037
+- **Dependency Name**: Product Research Dies in the Tab Where It Happened
+- **Relationship**: MCP App architecture: Node.js proxy, 4-channel comms, HUX+AUX design, 102 integration tests
+- **Assets**: —
 - **CTA**: see how we build AI product tools at [lsadigital.com](https://lsadigital.com)
 
 ## Post

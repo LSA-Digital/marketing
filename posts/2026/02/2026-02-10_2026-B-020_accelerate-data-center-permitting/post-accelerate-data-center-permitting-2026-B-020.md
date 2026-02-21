@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-020
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: DASHBOARD_ACCOUNTABILITY, LOCATION_INTELLIGENCE, DATA_CENTER, UTILITY
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: infographic.png
 - **CTA**: book a working session
 
 ## Post

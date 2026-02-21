@@ -7,7 +7,9 @@
 - **Themes**: TECH_UX, AGENTICAI_DEVOPS, FUTUREAI_PRODDEV
 - **Expert**: Mike
 - **Depends On**: —
+- **Dependency Name**: —
 - **Relationship**: Defines HUX vs AUX; why they power the CE/CI/CD loop
+- **Assets**: epms-hux-kanban.png, epms-product-data-hux-aux.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

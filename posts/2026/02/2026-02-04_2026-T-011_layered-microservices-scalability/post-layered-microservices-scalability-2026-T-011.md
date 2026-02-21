@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-011
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: COMMUNITY_TRANSPARENCY, DASHBOARD_ACCOUNTABILITY
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-011
+- **Dependency Name**: Energy affordability commitments that communities can verify
+- **Relationship**: Scales tract-level delivery reporting while keeping the commitment audit trail
+- **Assets**: 6-layer-architecture-diagram.png
 - **CTA**: see artifacts
 
 ## Post

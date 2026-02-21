@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-031
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY, DASHBOARD_ACCOUNTABILITY, SMART_MOBILITY, TRANSPORTATION
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Need more SMART MOBILITY demo development for real-time integration of traffic, parking, incident response signals and display related KPIs on relevant stakeholder dashboards (Community Dashboard, Gov Transportation agency, etc)
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

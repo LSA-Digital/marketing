@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-016
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: COMMUNITY_TRANSPARENCY, DASHBOARD_ACCOUNTABILITY, SMART_MOBILITY, TRANSPORTATION
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-035
+- **Dependency Name**: Your Work Zone Plan Isn't Real Until It's a Feed
+- **Relationship**: Shows how standard feeds + versioned rule schemas produce auditable mobility commitment compliance
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

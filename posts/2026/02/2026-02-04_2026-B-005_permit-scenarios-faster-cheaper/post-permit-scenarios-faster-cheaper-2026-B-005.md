@@ -1,8 +1,15 @@
 # Flexible, faster permit options - over 100x the speed!
 
 ## Metadata
-
 - **Post ID**: 2026-B-005
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: SHARED_BENEFIT, COMMUNITY_TRANSPARENCY
+- **Expert**: Nelson, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

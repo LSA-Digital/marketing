@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-004
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: epa-vs-oehha-comparison-diagram.png
 - **CTA**: book a working session
 
 ## Post

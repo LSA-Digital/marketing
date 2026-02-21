@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-042
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: ColGREP semantic code search replaces keyword grep for AI agents; ColBERT embeddings, hybrid search, fswatch auto-index
+- **Assets**: —
 - **CTA**: see how we build AI DevOps workflows at [lsadigital.com](https://lsadigital.com)
 
 ## Post

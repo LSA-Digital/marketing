@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-012
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: LOCATION_INTELLIGENCE, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike
+- **Depends On**: 2026-B-012
+- **Dependency Name**: Permit approvals shouldn't be surprises. Bound the date.
+- **Relationship**: Produces explainable date bounds plus uncertainty drivers for planning
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

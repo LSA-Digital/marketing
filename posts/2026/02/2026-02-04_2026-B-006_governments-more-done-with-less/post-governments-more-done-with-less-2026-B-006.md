@@ -1,8 +1,15 @@
 # Governments can do more with less—without buying new software
 
 ## Metadata
-
 - **Post ID**: 2026-B-006
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: SHARED_BENEFIT, GOVERNMENT
+- **Expert**: Nelson, Thad, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Need AI commercial-government workflow demo for single permit
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

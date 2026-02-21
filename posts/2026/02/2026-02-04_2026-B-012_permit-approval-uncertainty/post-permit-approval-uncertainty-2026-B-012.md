@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-012
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: LOCATION_INTELLIGENCE, COMMUNITY_TRANSPARENCY, SHARED_BENEFIT
+- **Expert**: Nelson, Julian, Thad, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-009
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

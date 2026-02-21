@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-010
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: RISK_INVESTMENTS, LOCATION_INTELLIGENCE, SHARED_BENEFIT
+- **Expert**: Nelson, Julian, Thad, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: before-after-comparison-of-generic-vs.png
 - **CTA**: book a working session
 
 ## Post

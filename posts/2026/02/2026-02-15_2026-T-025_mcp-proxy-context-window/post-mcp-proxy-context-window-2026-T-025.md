@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-025
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, AGENTICAI_FIRST
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: MCP proxy patterns for lightweight context rehydration
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-023
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: DASHBOARD_ACCOUNTABILITY, COMMUNITY_TRANSPARENCY
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

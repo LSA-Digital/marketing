@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-029
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: LOCATION_INTELLIGENCE, SHARED_BENEFIT, SMART_MOBILITY, GOVERNMENT
+- **Expert**: Nelson, Mike, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Need more SMART MOBILITY demo development for real-time integration of traffic, parking, incident response signals and display related KPIs on relevant stakeholder dashboards (Community Dashboard, Gov Transportation agency, etc)
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

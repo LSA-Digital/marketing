@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-015
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: RISK_INVESTMENTS, SHARED_BENEFIT, SMART_MOBILITY, JOBS
+- **Expert**: Thad, Nelson, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

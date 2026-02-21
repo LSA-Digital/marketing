@@ -1,8 +1,15 @@
 # Regulatory transparency that reviewers can verify
 
 ## Metadata
-
 - **Post ID**: 2026-B-007
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: COMMUNITY_TRANSPARENCY, REGULATORY_ALIGNMENT
+- **Expert**: Nelson, Julian, Thad, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

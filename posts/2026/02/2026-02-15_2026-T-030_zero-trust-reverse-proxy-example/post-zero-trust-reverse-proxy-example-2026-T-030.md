@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-030
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_SECURITY
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-T-008
+- **Dependency Name**: The Best Security Configuration Is the One You Can't Misconfigure
+- **Relationship**: Zero trust principles; reverse proxy/IAP as one example; acknowledge PEP patterns inside the perimeter
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

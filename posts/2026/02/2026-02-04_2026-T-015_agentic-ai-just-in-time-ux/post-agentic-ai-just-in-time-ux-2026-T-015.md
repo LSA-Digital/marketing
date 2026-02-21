@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-015
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: TECH_UX, AGENT_GUARDRAILS
+- **Expert**: Keith, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

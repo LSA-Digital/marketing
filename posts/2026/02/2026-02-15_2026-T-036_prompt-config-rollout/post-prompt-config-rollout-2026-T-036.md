@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-036
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-T-009
+- **Dependency Name**: Agent Configuration Is the New Infrastructure. Treat It That Way.
+- **Relationship**: Extends agent config as infrastructure with rollout/canary/rollback mechanics
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-023
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Jira + lightweight plan docs + evidence hooks even in 60/40 mode
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

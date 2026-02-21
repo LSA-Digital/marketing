@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-029
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: FUTUREAI_PRODDEV
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Tactics for packing/caching/rehydrating context without losing correctness
+- **Assets**: lsars-ny-full-ui.png, lsars-welcome-context-summary.png, lsars-zip-search-boston.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

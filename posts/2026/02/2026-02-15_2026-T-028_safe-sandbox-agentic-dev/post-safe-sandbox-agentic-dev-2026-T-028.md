@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-028
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: FUTUREAI_PRODDEV, TECH_SECURITY
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Practical sandbox rules so CE stays fast without production incidents
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -7,6 +7,9 @@
 - **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY
 - **Expert**: Nelson, Thad, Mike
 - **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session at [lsars.com](https://lsars.com)
 
 ## Post

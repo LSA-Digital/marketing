@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-028
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: RISK_INVESTMENTS, LOCATION_INTELLIGENCE, SMART_MOBILITY
+- **Expert**: Thad, Mike, Nelson, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-040
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_SECURITY, FUTUREAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Automated compliance via continuous control monitoring (Drata); evidence stays current as systems change
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

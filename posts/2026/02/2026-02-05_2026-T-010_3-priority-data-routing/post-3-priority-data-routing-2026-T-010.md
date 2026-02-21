@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-010
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENT_GUARDRAILS, RISK_INVESTMENTS
+- **Expert**: Mike
+- **Depends On**: 2026-B-010
+- **Dependency Name**: Healthier Communities Start with Better Data
+- **Relationship**: Grounds investment answers in authoritative HSRA/SDOH evidence before LLMs
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

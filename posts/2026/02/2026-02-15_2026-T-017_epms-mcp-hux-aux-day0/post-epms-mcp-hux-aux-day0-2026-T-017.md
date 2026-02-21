@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-017
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS, TECH_UX
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: EPMS MCP server rationale; HUX/AUX as first-class product surfaces
+- **Assets**: epms-kanban-hux.png, epms-mcp-tool-list.png, epms-navigation-routes.png, epms-product-detail-entities.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

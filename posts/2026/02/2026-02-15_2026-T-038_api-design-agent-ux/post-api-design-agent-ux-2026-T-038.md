@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-038
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: TECH_UX, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: AUX-first API/tool design: idempotency, schema contracts, recovery-friendly errors
+- **Assets**: epms-entity-relationships.png, epms-kanban-api-surface.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

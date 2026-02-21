@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-032
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: DASHBOARD_ACCOUNTABILITY, COMMUNITY_TRANSPARENCY, DATA_CENTER, GOVERNMENT
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Split from 2026-B-020; focuses on Permit Intelligence workflow + dashboards
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-038
+- **Audience**: business
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Business case for live process design inside ChatGPT; diagrams build as you discuss
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

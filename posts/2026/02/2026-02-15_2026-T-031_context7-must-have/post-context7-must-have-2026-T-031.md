@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-031
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_FIRST
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Agents should "look up" authoritative docs before implementing
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

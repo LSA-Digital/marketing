@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-033
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, FUTUREAI_PRODDEV
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Trace tool calls end-to-end (latency/cost budgets, retries, error taxonomy)
+- **Assets**: lsars-chatbot-observable.png, lsars-pa-layered-architecture.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

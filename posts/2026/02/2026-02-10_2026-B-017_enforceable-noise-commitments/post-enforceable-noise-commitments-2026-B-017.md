@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-017
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: DASHBOARD_ACCOUNTABILITY, COMMUNITY_TRANSPARENCY, DATA_CENTER
+- **Expert**: Nelson, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: Learn more at [lsars.com](https://lsars.com)
 
 ## Post

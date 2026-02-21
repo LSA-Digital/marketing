@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-037
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Pilot-ready deliverable: architecture diagram + eval plan + security boundaries + runbook
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

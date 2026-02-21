@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-034
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: COMMUNITY_TRANSPARENCY, UTILITY
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Need demo-ready AI workflow engine for complex permit process orchestration
+- **Assets**: HMLP_EFSB_Petition_20241111-1.pdf, HMLP_ZE_Petition_FINAL.pdf
 - **CTA**: book a working session
 
 ## Post

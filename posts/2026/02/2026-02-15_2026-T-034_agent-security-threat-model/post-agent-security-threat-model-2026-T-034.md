@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-034
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, TECH_SECURITY
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Prompt injection + tool authorization + egress control as architecture (not policy)
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-026
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, AGENTICAI_FIRST
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Agent/tool diversity as a speed + quality strategy
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-002
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: LOCATION_INTELLIGENCE, SHARED_BENEFIT, COMMUNITY_TRANSPARENCY
+- **Expert**: Nelson, Julian, Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: lsars-branded-header-image.png
 - **CTA**: request a demo at [lsars.com](https://lsars.com)
 
 ## Post

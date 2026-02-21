@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-022
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, AGENTICAI_DEVOPS
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Dial framing mapped to Continuous Exploration vs CI/CD (Continuous Integration / Continuous Deployment)
+- **Assets**: epms-kanban-survived.png, epms-structured-tools.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

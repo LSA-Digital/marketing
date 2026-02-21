@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-020
+- **Audience**: tech
+- **Product**: MEDICODAX
+- **Themes**: AGENTICAI_FIRST, TECH_UX
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Dynamic workflow adaptation (iPhone voice capture vs direct entry)
+- **Assets**: medicodax-dashboard-time-savings.png, medicodax-mobile-queue-voice.png, medicodax-wizard-direct-entry.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

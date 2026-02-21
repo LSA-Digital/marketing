@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-001
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike, Keith
+- **Depends On**: 2026-B-001
+- **Dependency Name**: Trust Through Auditable AI
+- **Relationship**: Advisor/research-agent split makes the audit trail inspectable
+- **Assets**: zero-trust-boundary-diagram.png
 - **CTA**: see artifacts at [lsadigital.com](https://lsadigital.com)
 
 ## Post

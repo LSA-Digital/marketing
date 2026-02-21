@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-039
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_SECURITY, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Per-tool policy enforcement + ephemeral credentials + isolated execution for production agents
+- **Assets**: lsars-fl-sandboxed-app.png, lsars-sandboxed-entry.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-014
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY, REGULATORY_ALIGNMENT
+- **Expert**: Keith, Mike
+- **Depends On**: 2026-B-014
+- **Dependency Name**: CBAs fail when they stay in PDFs
+- **Relationship**: Improves clause extraction + citations so CBAs become executable commitments
+- **Assets**: corpus-inventory-list.png, evaluation-rubric.png
 - **CTA**: see artifacts
 
 ## Post

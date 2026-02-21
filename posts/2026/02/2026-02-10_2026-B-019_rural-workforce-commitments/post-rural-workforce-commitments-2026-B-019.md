@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-019
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: DASHBOARD_ACCOUNTABILITY, SHARED_BENEFIT, JOBS
+- **Expert**: Nelson, Julian, Thad
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Pending detailed mapping of HSRA recommendations to specific community incentive structure investments & KPI tracking
+- **Assets**: —
 - **CTA**: Build the workforce at [lsars.com](https://lsars.com)
 
 # "Jobs" isn't a magic word—access is

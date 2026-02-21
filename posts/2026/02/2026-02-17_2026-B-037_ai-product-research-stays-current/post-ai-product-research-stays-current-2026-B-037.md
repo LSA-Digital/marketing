@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-037
+- **Audience**: business
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Business case for bidirectional ChatGPT-EPMS research sync; product data stays current
+- **Assets**: —
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

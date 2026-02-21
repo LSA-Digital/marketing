@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-035
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: TECH_UX, AGENTICAI_FIRST
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: HITL UX patterns: approval gates, review queues, escalation levels
+- **Assets**: medicodax-agent-sidebar-hitl.png, medicodax-claims-defender-evidence.png, medicodax-missing-docs-tracker.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

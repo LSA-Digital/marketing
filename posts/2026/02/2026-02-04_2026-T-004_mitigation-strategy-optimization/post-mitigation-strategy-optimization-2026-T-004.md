@@ -1,8 +1,15 @@
 # Reinforcement learning for mitigation strategy discovery—only if it's auditable.
 
 ## Metadata
-
 - **Post ID**: 2026-T-004
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY
+- **Expert**: Mike
+- **Depends On**: 2026-B-005
+- **Dependency Name**: Flexible, faster permit options - over 100x the speed!
+- **Relationship**: Auditable optimization explores mitigation scenarios fast without losing receipts
+- **Assets**: one-page-diagram.png
 - **CTA**: see artifacts
 
 ## Post

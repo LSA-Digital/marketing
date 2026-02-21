@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-025
+- **Audience**: business
+- **Product**: LSARS, HSRA
+- **Themes**: RISK_INVESTMENTS, DASHBOARD_ACCOUNTABILITY, SMART_MOBILITY
+- **Expert**: Thad, Mike, Nelson, Julian
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

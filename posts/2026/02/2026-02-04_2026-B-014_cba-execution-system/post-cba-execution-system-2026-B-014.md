@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-014
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: DASHBOARD_ACCOUNTABILITY, COMMUNITY_TRANSPARENCY
+- **Expert**: Nelson, Julian, Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: delayed - we need to work on the actual Permit Intelligence community dashboard to back this up
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

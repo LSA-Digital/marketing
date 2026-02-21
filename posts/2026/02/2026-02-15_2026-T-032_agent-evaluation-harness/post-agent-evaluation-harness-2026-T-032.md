@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-032
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, FUTUREAI_PRODDEV
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Regression testing + pass/fail thresholds for tool-using workflows
+- **Assets**: lsars-ca-risk-data.png, lsars-methodology-selector.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

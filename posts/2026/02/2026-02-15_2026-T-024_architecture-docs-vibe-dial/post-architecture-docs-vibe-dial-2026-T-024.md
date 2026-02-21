@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-024
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Just-enough architecture docs recommended at 40% engineering and required at 60%
+- **Assets**: lsars-ma-county-drilldown.png, lsars-map-full-view.png, lsars-welcome-methodology.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

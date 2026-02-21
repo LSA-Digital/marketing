@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-B-022
+- **Audience**: business
+- **Product**: LSARS
+- **Themes**: SHARED_BENEFIT, ECONOMY, DASHBOARD_ACCOUNTABILITY
+- **Expert**: Nelson, Julian, Mike, Thad
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: —
+- **Assets**: —
 - **CTA**: book a working session
 
 ## Post

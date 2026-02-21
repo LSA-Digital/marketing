@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-006
+- **Audience**: tech
+- **Product**: LSARS
+- **Themes**: COMMUNITY_TRANSPARENCY, AGENT_GUARDRAILS
+- **Expert**: Mike
+- **Depends On**: 2026-B-007
+- **Dependency Name**: Regulatory transparency that reviewers can verify
+- **Relationship**: Explicit fields/units/provenance make report inputs verifiable by reviewers
+- **Assets**: —
 - **CTA**: see artifacts
 
 ## Post

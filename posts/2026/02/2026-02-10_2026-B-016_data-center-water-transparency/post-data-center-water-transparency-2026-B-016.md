@@ -7,7 +7,9 @@
 - **Themes**: COMMUNITY_TRANSPARENCY, DASHBOARD_ACCOUNTABILITY, DATA_CENTER
 - **Expert**: Nelson, Julian, Mike
 - **Depends On**: —
+- **Dependency Name**: —
 - **Relationship**: We have not yet developed a water use dashboard.
+- **Assets**: —
 - **CTA**: See the dashboard at [lsars.com](https://lsars.com)
 
 ## Post

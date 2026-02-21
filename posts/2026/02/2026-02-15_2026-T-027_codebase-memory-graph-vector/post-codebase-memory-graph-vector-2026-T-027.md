@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-027
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: FUTUREAI_DEVOPS, AGENTICAI_DEVOPS
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Codebase memory (graph + vector) so agents can rehydrate context reliably
+- **Assets**: lsars-california-complexity.png, lsars-health-risk-advisor.png, lsars-hotspot-analysis.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

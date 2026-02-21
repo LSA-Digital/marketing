@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-021
+- **Audience**: tech
+- **Product**: EPMS
+- **Themes**: FUTUREAI_PRODDEV, TECH_UX
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: EPMS as a living artifact system + real-time Q&A
+- **Assets**: epms-artifact-library.png, epms-feature-overview.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post

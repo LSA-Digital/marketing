@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-043
+- **Audience**: tech
+- **Product**: LSARS, HSRA
+- **Themes**: AGENTICAI_DEVOPS, TECH_SECURITY
+- **Expert**: Mike, Keith
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: Code-Pathfinder MCP tools for transitive call graph analysis; 9 tools, <100ms, lazy-loaded via proxy
+- **Assets**: —
 - **CTA**: see how we build secure AI DevOps workflows at [lsadigital.com](https://lsadigital.com)
 
 ## Post

@@ -2,6 +2,14 @@
 
 ## Metadata
 - **Post ID**: 2026-T-019
+- **Audience**: tech
+- **Product**: MEDICODAX
+- **Themes**: AGENTICAI_DEVOPS, TECH_SECURITY
+- **Expert**: Mike
+- **Depends On**: —
+- **Dependency Name**: —
+- **Relationship**: JWT boundaries + multi-EHR integrations as the engineering half of Vibe Engineering
+- **Assets**: medicodax-audit-logs-security.png, medicodax-dashboard-ehr-integration.png, medicodax-user-auth-context.png
 - **CTA**: book a working session at [lsadigital.com](https://lsadigital.com)
 
 ## Post
