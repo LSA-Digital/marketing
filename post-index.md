@@ -1,3 +1,11 @@
+> **⚠ DEPRECATED** — This file is no longer maintained. All post metadata now lives in **Squawk MCP**.
+> 
+> - To view posts: `squawk-index.md` (auto-generated) or `/list-posts`
+> - To update posts: `/update-post <post-id> <field> <value>`
+> - For the full content lifecycle: `docs/post-pipeline.md`
+> 
+> This file is kept as a read-only archive for historical reference.
+
 # Post Index
 
 | Post ID    | Squawk CUID                    | Name                                                                                                                         | Link                                                                                                                                  | Status        | Audience | Target Platforms   | Product     | Themes                                                              | Depends On | Dependency Name                                                | Relationship / Comments                                                                                                                | Expert                      |

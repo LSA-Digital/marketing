@@ -5,8 +5,10 @@ These commands work in Claude CLI. Type `/` followed by the command name.
 ## Available Commands
 
 - `/new-post` - Create a new marketing post
-- `/list-posts` - List all posts (optionally filtered by status)
-- `/update-status` - Update a post's status
+- `/list-posts` - List all posts from squawk-index.md or Squawk MCP (--live)
+- `/update-post` - Update post metadata and status via Squawk
+
+**Note**: All post commands route through Squawk MCP. See `docs/post-pipeline.md` for the full content lifecycle.
 
 ## Adding New Commands
 

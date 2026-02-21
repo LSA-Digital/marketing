@@ -6,6 +6,27 @@
 
 ---
 
+## Pipeline Context
+
+Asset creation is **Stage 3** of the content lifecycle. See `docs/post-pipeline.md` for the full pipeline.
+
+**When to create assets**: After the post draft exists and before review/approval.
+
+**Assets are filesystem-only**: Asset files are NOT stored in Squawk MCP. Squawk stores only the post markdown content and metadata. Assets live in `posts/2026/02/<post-folder>/assets/`.
+
+**How assets appear in squawk-index.md**: The build script (`scripts/build-squawk-index.js`) automatically scans each post's `./assets/` directory when rebuilding the index. No manual registration needed — just put files in the `assets/` directory and run the build script.
+
+**Asset rendering in squawk-index.md**:
+
+| File Type | Rendered As |
+|-----------|------------|
+| PNG/JPG/GIF/SVG | `<a href="..."><img src="..." width="180"></a>` (hyperlinked thumbnail) |
+| PDF | `[📄 filename](path)` (clickable link) |
+| MP4/WEBM | `<video width="120" controls>...</video>` |
+| None | `—` |
+
+---
+
 ## Reusable Scripts & Examples
 
 All Playwright capture scripts live in **`assetpipe/`** at the project root.
@@ -318,6 +339,27 @@ MUST NOT DO:
 - Do NOT use JPEG format (PNG for text legibility)
 - Do NOT use absolute paths in markdown image references
 - Do NOT skip mkdir — Playwright errors with ENOENT if directory missing
+```
+
+**After adding assets**: If the post body now references the images, re-ingest the post into Squawk:
+
+```
+execute_tool("squawk.upsert_document_draft", {
+  "filePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "referenceContext": {
+    "postId": "<post-id>",
+    "audience": "<business|technical>",
+    "products": "<product-name>",
+    "experts": "<expert-names>",
+    "themes": "<THEME_TAG_1, THEME_TAG_2>"
+  }
+})
+```
+
+Then rebuild squawk-index.md to see the new asset thumbnails:
+
+```bash
+PATH="/Users/idengrenme/.local/share/fnm/node-versions/v20.19.5/installation/bin:$PATH" node scripts/build-squawk-index.js
 ```
 
 ---
