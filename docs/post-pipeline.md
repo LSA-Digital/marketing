@@ -170,4 +170,4 @@ The file `post-index.md` is fully deprecated and archived. It was previously use
 - **Source of Truth:** All metadata now lives in the Squawk MCP database.
 - **Derived View:** The `squawk-index.md` file provides a read-only view of the Squawk data, reconstructed from scratch during each sync.
 
-Do not edit `post-index.md` or use it for any pipeline operations.
+Do not edit `post-index.md`. It is read by `scripts/build-squawk-index.js` as a transitional data source for historical columns (audience, product, themes, expert) that are not yet returned by the Squawk MCP `list_review_queue` response. As Squawk becomes the complete SoT for all columns, this dependency will be removed.
