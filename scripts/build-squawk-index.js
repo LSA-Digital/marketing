@@ -118,7 +118,7 @@ function getAssetsPreview(pid) {
     const ext = path.extname(f).toLowerCase();
     const relPath = `${relBase}/${dirName}/assets/${f}`;
     if (IMAGE_EXTS.has(ext)) {
-      images.push(`<img src="${relPath}" width="60">`);
+      images.push(`<a href="${relPath}"><img src="${relPath}" width="180"></a>`);
     } else if (ext === ".pdf") {
       const label = f.length > 25 ? f.slice(0, 22) + "..." : f;
       pdfs.push(`[📄 ${label}](${relPath})`);
