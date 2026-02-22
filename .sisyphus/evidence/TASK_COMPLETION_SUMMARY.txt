@@ -1,0 +1,67 @@
+TASK: Update docs/squawk-migration-process.md with 5 surgical additions
+STATUS: ✅ COMPLETE
+
+CHANGES MADE:
+=============
+
+1. ✅ Rule 7: Readiness Gate (NEW)
+   - Added after Rule 6 (Title Linkification)
+   - Specifies: Do NOT approve if readinessScore ≠ "ready"
+   - Includes action table for ready/needs_work/empty states
+   - Includes grandfathering note for 20 existing approved posts
+   - Location: Lines 158-173
+
+2. ✅ Rule 4: Updated with Rendering Exclusion Note
+   - Added "Rendering exclusions" section after Rule 4 table
+   - Documents which fields are excluded from squawk-index.md
+   - Lists: Doc Status, Critical, Posts, Published, Squawk CUID
+   - Clarifies these remain queryable via MCP
+   - Location: Lines 143-148
+
+3. ✅ Summary Table: Updated with new entries
+   - Entry 6: Updated to note exclusion from rendering
+   - Entry 7: NEW - Readiness Gate rule
+   - Entry 8: Title linkification (renumbered from 7)
+   - Entry 9: NEW - Excluded columns
+   - Entry 10: Drop Target Platforms (renumbered from 8)
+   - Total entries: 10 (was 8)
+   - Location: Lines 188-200
+
+4. ✅ Excluded Columns Section (NEW)
+   - Added after Summary Table
+   - Documents 5 excluded fields with query methods
+   - Table format: Column | Squawk Field | How to Query
+   - Location: Lines 202-208
+
+5. ✅ Rule 8: Asset Preview Column (NEW)
+   - Added after Excluded Columns section
+   - Scanning rules for assets directory
+   - Rendering specifications by file type
+   - Multi-asset cap logic (3 images + count)
+   - Path format (relative to repo root)
+   - Viewer specification (Markdown Preview Enhanced)
+   - Location: Lines 210-245
+
+VERIFICATION:
+=============
+✅ grep -c "Readiness Gate" = 2 (rule definition + summary table)
+✅ grep -i "excluded.*column|column.*excluded|excluded from" = 5 matches
+✅ grep -c "Asset Preview" = 1
+✅ Summary Table has 10 entries (verified with grep "^| [0-9]")
+✅ Rule 4 no longer implies Doc Status/Critical/Posts/Published appear in squawk-index.md
+✅ All changes are surgical edits (no file rewrite)
+✅ No migration steps modified
+✅ No existing Rules 1-6 text changed (only additions)
+
+EVIDENCE FILES CREATED:
+=======================
+- .sisyphus/evidence/task-1-readiness-gate-rule.txt (count: 2)
+- .sisyphus/evidence/task-1-column-exclusion-doc.txt (5 lines)
+- .sisyphus/evidence/task-1-rule4-consistency.txt (Rule 4 section excerpt)
+- .sisyphus/evidence/TASK_COMPLETION_SUMMARY.txt (this file)
+
+FILE STATS:
+===========
+Original: 571 lines
+Updated: 625 lines (+54 lines)
+All changes within Merge Rules section (lines 73-245)

@@ -1,0 +1,17 @@
+./squawk-index-beforeMigration.md
+./posts/_template/post.md
+./posts/README.md
+./XMIND_TOOLS_INDEX.md
+./.sisyphus/plans/squawk-index-updates.md
+./.sisyphus/plans/post-pipeline-impl.md
+./.sisyphus/notepads/post-pipeline-impl/learnings.md
+./.claude/commands/update-mindmap-node.md
+./.claude/commands/new-post.md
+./.claude/commands/update-status.md
+./docs/squawk-migration-process.md
+./docs/XMIND_ANALYSIS_GUIDE.md
+./docs/post-pipeline.md
+./scripts/create_batch_posts_1.py
+./scripts/build-squawk-index.js
+./scripts/create_batch_posts_v2.py
+./AGENTS.md

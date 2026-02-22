@@ -1,0 +1,1 @@
+-rw-r--r--  1 idengrenme  staff  9033 Feb 20 20:41 scripts/build-squawk-index.js

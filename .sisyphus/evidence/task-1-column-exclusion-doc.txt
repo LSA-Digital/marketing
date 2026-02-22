@@ -1,0 +1,5 @@
+**Rendering exclusions:** The following fields are maintained by Squawk but **excluded from squawk-index.md** for readability. They remain queryable via `get_content_item` or `list_review_queue`:
+| 6 | Do not touch | Repost By, Doc Status, Critical, Posts, Published count, Updated — excluded from squawk-index.md rendering |
+| 9 | Excluded columns | Squawk CUID, Doc Status, Critical, Posts, Published — in Squawk but not rendered in squawk-index.md |
+### Excluded Columns
+The following Squawk fields are available via MCP but excluded from `squawk-index.md` for readability:

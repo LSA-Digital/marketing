@@ -1,0 +1,29 @@
+### Rule 4: Do Not Touch (Squawk-Maintained Fields)
+
+These fields are read-only from Squawk. Never overwrite during migration:
+
+| Field | Maintained By |
+|-------|--------------|
+| Repost By | Squawk (derived from publishing profiles + AI suggestions) |
+| Doc Status | Squawk (INGESTED, etc.) |
+| Critical (concern count) | Squawk (AI readiness assessment) |
+| Posts (count) | Squawk (auto-counted) |
+| Published (count) | Squawk (auto-counted) |
+| Updated | Squawk (auto-timestamped) |
+| Readiness Score | Squawk (AI assessment, except `needs_work` override for delayed posts) |
+| Readiness Notes | Squawk (AI summary), BUT overwritten with `DELAYED:` prefix when post-index status is `draft/delayed` or `draft/updated` |
+
+**Rendering exclusions:** The following fields are maintained by Squawk but **excluded from squawk-index.md** for readability. They remain queryable via `get_content_item` or `list_review_queue`:
+- Doc Status (always `INGESTED` after migration)
+- Critical concern count
+- Posts count
+- Published posts count
+- Squawk CUID (document ID — available in the CUID mapping table in this doc)
+
+### Rule 5: Drop Target Platforms
+
+Target Platforms column is **no longer tracked**. Squawk handles distribution as part of its core publishing responsibilities. This column does not appear in squawk-index.md.
+
+### Rule 6: Title Linkification
+
+Use the document's `sourcePath` from Squawk to construct a local markdown link. The Title field in squawk-index.md should be a clickable link to the post's markdown file:

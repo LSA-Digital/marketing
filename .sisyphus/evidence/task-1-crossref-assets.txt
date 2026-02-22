@@ -1,0 +1,1 @@
+Create visual evidence to support the post claims. Refer to `docs/asset-creation-pipeline.md` for the full procedure.

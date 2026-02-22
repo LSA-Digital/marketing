@@ -1,0 +1,1 @@
+The file `post-index.md` is fully deprecated and archived. It was previously used as the manual source of truth for post metadata. 
