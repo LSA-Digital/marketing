@@ -3,7 +3,7 @@
 **Last Updated:** 2026-03-09
 **Jira Ticket:** [MKT-1](https://lsadigital.atlassian.net/browse/MKT-1)
 **Type:** Story
-**Status:** Research package and EPMS entity enrichment completed; checklist save-path remains blocked by EPMS bug(s)
+**Status:** Completed; HSRA research package and EPMS entity enrichment delivered, with checklist save-path follow-up tracked in `EPMS-182`
 
 ---
 
@@ -483,6 +483,7 @@ Instead:
 | 2026-03-09 | EPMS Pass 1 Partial | Merged ChatGPT Deep Research into the local HSRA package, uploaded 5 research records into EPMS, created 5 customer-question entities, and drafted several safe sections. Section-save endpoints still show an EPMS backend template-generation bug for some saves. |
 | 2026-03-09 | Extended | Added follow-up work for EPMS bug filing, save-research-only uploads, overall summary creation, Mermaid enrichment, and full entity-based enrichment. |
 | 2026-03-09 | Enriched | Added the overall summary and Mermaid diagrams, uploaded additional HSRA research via `epms.save_research`, created capability/stakeholder/persona/JTBD/metric/risk/pilot/marketing entities, and filed `EPMS-182` for MCP/save-path and schema issues. |
+| 2026-03-09 | Completed | Committed and pushed the HSRA plan and research artifacts, then closed `MKT-1` while leaving platform follow-up on `EPMS-182`. |
 
 ---
 
