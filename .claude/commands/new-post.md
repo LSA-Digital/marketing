@@ -102,14 +102,15 @@ Guardrails:
 **Step 9a**: Ingest via `upsert_document_draft`:
 ```javascript
 execute_tool("squawk.upsert_document_draft", {
-  "filePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "rawMarkdown": "<full markdown content of the post file>",
+  "sourcePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "sourceRepoUrl": "https://github.com/LSA-Digital/marketing.git",
   "referenceContext": {
     "postId": "<post-id>",
     "audience": "<business|technical>",
     "products": "<product-name>",
     "experts": "<expert-names>",
-    "themes": "<THEME_TAG_1, THEME_TAG_2>",
-    "sourceRepoUrl": "https://github.com/lsadigital/marketing"
+    "themes": "<THEME_TAG_1, THEME_TAG_2>"
   }
 })
 ```

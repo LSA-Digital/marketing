@@ -80,7 +80,9 @@ execute_tool("squawk.update_post_draft", {
 Re-ingest the post with updated themes:
 ```
 execute_tool("squawk.upsert_document_draft", {
-  "filePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "rawMarkdown": "<full markdown content of the post file>",
+  "sourcePath": "posts/2026/02/<folder>/post-<slug>-<postid>.md",
+  "sourceRepoUrl": "https://github.com/LSA-Digital/marketing.git",
   "referenceContext": {
     "postId": "<post-id>",
     "themes": "<new-theme-tags>"
