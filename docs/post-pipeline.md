@@ -80,7 +80,7 @@ Squawk performs an automated AI assessment of every ingested document.
 
 ## Stage 6: Approval
 
-Finalize the document for the publication queue.
+Finalize the document for approval.
 
 1. **Verification:** Ensure all assets are present and the text aligns with the LSA Digital voice.
 2. **Tool Call:** Execute `approve_content_item` with the document CUID.
@@ -106,7 +106,6 @@ Rebuild the derived `squawk-index.md` to reflect the current state of the pipeli
 |------|---------|
 | `upsert_document_draft` | Create or update a document from markdown |
 | `update_post_draft` | Set post-level fields (expert, product, dependency) |
-| `link_theme_source` | Link document to messaging theme (not used in regular workflow) |
 | `approve_content_item` | Approve document for publish |
 | `get_content_item` | Read back a document or post by CUID |
 | `list_review_queue` | List all documents with review metadata |
@@ -114,8 +113,6 @@ Rebuild the derived `squawk-index.md` to reflect the current state of the pipeli
 | `list_products` | Get product CUIDs |
 | `list_messaging_themes` | Get theme CUIDs |
 | `get_sync_status` | Check repo sync state |
-| `push_content_item` | Push approved doc assets to GitHub |
-| `approve_and_push_one` | Approve and push in one call |
 
 ### Expert CUIDs
 
