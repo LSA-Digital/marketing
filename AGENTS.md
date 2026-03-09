@@ -37,7 +37,7 @@ Marketing content and campaign management for LSA Digital products.
 
 ## POST METADATA GUIDELINES
 
-Individual post files should contain MINIMAL metadata. All authoritative metadata lives in `squawk-index.md`.
+Individual post files should contain MINIMAL metadata. All authoritative metadata lives in **Squawk MCP**. `squawk-index.md` is a derived view rebuilt from Squawk on each sync.
 
 ### Post File Structure:
 
