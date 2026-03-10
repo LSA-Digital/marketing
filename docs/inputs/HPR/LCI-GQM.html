@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LCI Question-Data Cluster Map</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; color: #1a1a2e; line-height: 1.5; }
+.header { background: linear-gradient(135deg, #1B3A5C 0%, #2E75B6 100%); color: white; padding: 2rem 2rem 1.5rem; }
+.header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }
+.header p { opacity: 0.85; font-size: 0.95rem; max-width: 800px; }
+.controls { background: white; border-bottom: 1px solid #e0e0e0; padding: 1rem 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; position: sticky; top: 0; z-index: 100; }
+.controls label { font-weight: 600; font-size: 0.85rem; color: #555; }
+.controls select, .controls input { padding: 0.4rem 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-size: 0.85rem; }
+.controls input[type=text] { width: 250px; }
+.filter-group { display: flex; align-items: center; gap: 0.4rem; }
+.legend { display: flex; gap: 1.2rem; margin-left: auto; font-size: 0.8rem; }
+.legend-item { display: flex; align-items: center; gap: 0.3rem; }
+.legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+.dot-individual { background: #4472C4; }
+.dot-household { background: #548235; }
+.dot-neighborhood { background: #BF8F00; }
+.container { max-width: 1400px; margin: 0 auto; padding: 1.5rem; }
+.stats-bar { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.stat-card { background: white; border-radius: 8px; padding: 0.8rem 1.2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-align: center; flex: 1; min-width: 120px; }
+.stat-num { font-size: 1.8rem; font-weight: 700; color: #1B3A5C; }
+.stat-label { font-size: 0.75rem; color: #777; text-transform: uppercase; letter-spacing: 0.05em; }
+.goal-card { background: white; border-radius: 12px; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); overflow: hidden; transition: all 0.2s; }
+.goal-card.collapsed .goal-body { display: none; }
+.goal-header { padding: 1.2rem 1.5rem; cursor: pointer; display: flex; align-items: flex-start; gap: 1rem; border-left: 5px solid; }
+.goal-header:hover { background: #fafbfc; }
+.goal-id { background: #1B3A5C; color: white; font-weight: 700; font-size: 0.8rem; padding: 0.2rem 0.6rem; border-radius: 4px; white-space: nowrap; margin-top: 0.15rem; }
+.goal-content { flex: 1; }
+.goal-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.3rem; }
+.goal-why { font-size: 0.85rem; color: #555; font-style: italic; }
+.goal-toggle { font-size: 1.3rem; color: #999; transition: transform 0.2s; margin-top: 0.15rem; }
+.goal-card:not(.collapsed) .goal-toggle { transform: rotate(90deg); }
+.goal-body { padding: 0 1.5rem 1.5rem; }
+.question-row { border: 1px solid #e8e8e8; border-radius: 8px; margin-top: 0.8rem; overflow: hidden; }
+.question-header { padding: 0.8rem 1rem; cursor: pointer; display: flex; align-items: flex-start; gap: 0.8rem; background: #fafbfc; }
+.question-header:hover { background: #f0f4f8; }
+.q-id { font-weight: 700; color: #2E75B6; font-size: 0.8rem; white-space: nowrap; margin-top: 0.1rem; }
+.q-text { flex: 1; font-size: 0.92rem; font-weight: 500; }
+.q-count { background: #e8f0fe; color: #2E75B6; font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 10px; white-space: nowrap; margin-top: 0.1rem; }
+.q-toggle { color: #bbb; font-size: 1.1rem; margin-top: 0.1rem; }
+.question-row:not(.collapsed) .q-toggle { transform: rotate(90deg); }
+.question-row.collapsed .data-elements { display: none; }
+.data-elements { padding: 0.5rem 1rem 0.8rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.data-tag { padding: 0.3rem 0.7rem; border-radius: 5px; font-size: 0.78rem; font-weight: 500; }
+.tag-individual { background: #e8f0fe; color: #1a56a8; border: 1px solid #c5d8f0; }
+.tag-household { background: #e8f5e9; color: #2e6b30; border: 1px solid #c3e0c4; }
+.tag-neighborhood { background: #fff8e1; color: #8a6d00; border: 1px solid #eedfa0; }
+.tag-unknown { background: #f3f3f3; color: #666; border: 1px solid #ddd; }
+.no-results { text-align: center; padding: 3rem; color: #999; font-size: 1.1rem; }
+.goal-colors { --g1: #e74c3c; --g2: #2ecc71; --g3: #3498db; --g4: #f39c12; --g5: #9b59b6; --g6: #1abc9c; --g7: #e67e22; --g8: #34495e; }
+</style>
+</head>
+<body class="goal-colors">
+<div class="header">
+<h1>LCI Question-Data Cluster Map</h1>
+<p>Interactive exploration of how Life Circumstances Intelligence data elements cluster around strategic goals and actionable questions. Click any goal or question to expand/collapse. Use filters to explore by data level or search across all content.</p>
+</div>
+<div class="controls">
+<div class="filter-group">
+<label>Goal:</label>
+<select id="goalFilter"><option value="all">All Goals</option><option value="G1">G1: Reduce Healthcare Costs Through Early Intervention...</option><option value="G2">G2: Improve Employee Engagement & Behavior Change...</option><option value="G3">G3: Address Social Determinants That Block Health Prog...</option><option value="G4">G4: Optimize Communication & Outreach Strategies...</option><option value="G5">G5: Predict & Prevent Chronic Disease Escalation...</option><option value="G6">G6: Ensure Equitable Access to Care Across Populations...</option><option value="G7">G7: Support EAP & Behavioral Health Program Design...</option><option value="G8">G8: Enable Population Health Benchmarking & Reporting...</option></select></div>
+<div class="filter-group">
+<label>Data Level:</label>
+<select id="levelFilter"><option value="all">All Levels</option><option value="Individual">Individual</option><option value="Household">Household</option><option value="Neighborhood">Neighborhood</option></select>
+</div>
+<div class="filter-group">
+<label>Search:</label>
+<input type="text" id="searchBox" placeholder="Search questions or data elements...">
+</div>
+<div class="legend">
+<div class="legend-item"><div class="legend-dot dot-individual"></div>Individual</div>
+<div class="legend-item"><div class="legend-dot dot-household"></div>Household</div>
+<div class="legend-item"><div class="legend-dot dot-neighborhood"></div>Neighborhood</div>
+</div>
+</div>
+<div class="container">
+<div class="stats-bar">
+<div class="stat-card"><div class="stat-num">8</div><div class="stat-label">Strategic Goals</div></div>
+<div class="stat-card"><div class="stat-num">29</div><div class="stat-label">Questions</div></div>
+<div class="stat-card"><div class="stat-num">200</div><div class="stat-label">Data Elements</div></div>
+<div class="stat-card"><div class="stat-num" id="visibleCount">29</div><div class="stat-label">Showing</div></div>
+</div>
+<div id="goalContainer">
+<div class="goal-card" data-goal="G1">
+<div class="goal-header" style="border-left-color: #e74c3c;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #e74c3c;">G1</span>
+<div class="goal-content">
+<div class="goal-title">Reduce Healthcare Costs Through Early Intervention</div>
+<div class="goal-why">The LCI study found that 70% of a population fell into moderate-to-low capacity/interest segments, and healthcare costs were concentrated in these higher-risk engagement segments. Early identification saves employers and plans millions annually.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q1">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q1</span>
+<span class="q-text">Which individuals have the highest concentration of SDOH risk flags that predict costly health events?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">SDOH_Total_risk_level</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">High SDOH Risk Index</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Access_to_Care_risk_level</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Access_to_Medication_risk_level</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Housing_Instability_risk_level</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Food_Insecurity_risk_level</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q2">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q2</span>
+<span class="q-text">What is the distribution of healthcare costs across engagement segments (High/Moderate/Low Capacity × Interest)?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Context Group</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Chronic Disease Diagnosis</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Emergency Room Admission</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Hospital Admission</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q3">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q3</span>
+<span class="q-text">Which life circumstance flags (living alone, limited income, etc.) are most predictive of emergency room use?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Limited Income</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Impoverished</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">No Insurance Coverage</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Emergency Room Admission</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone/Chronic Disease Diagnosis</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G2">
+<div class="goal-header" style="border-left-color: #2ecc71;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #2ecc71;">G2</span>
+<div class="goal-content">
+<div class="goal-title">Improve Employee Engagement & Behavior Change</div>
+<div class="goal-why">Generic wellness programs fail because they ignore individual readiness. The LCI model's 9-segment engagement framework (High/Moderate/Low Capacity × High/Moderate/Low Interest) enables precision targeting that dramatically improves response rates.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q4">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q4</span>
+<span class="q-text">How is our population distributed across the 9 engagement segments (capacity × interest)?</span>
+<span class="q-count">4 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Context Group</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Numeric Scale">Interest in Health and Wellness</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Text (Preventive/Indifferent)">Health and Wellness Orientation Profile</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q5">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q5</span>
+<span class="q-text">Which individuals have high capacity but low interest in health — and what would motivate them?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Numeric Scale">Interest in Health and Wellness</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Numeric Scale">Interest in Fitness</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Numeric Scale">Interest in Diet</span><span class="data-tag tag-household" data-level="Household" title="Household: Text">Household Structure</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Numeric">Educational Attainment</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q6">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q6</span>
+<span class="q-text">What household structures correlate with lower capacity to address health challenges?</span>
+<span class="q-count">7 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-household" data-level="Household" title="Household: Text">Household Structure</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Number of Adults</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Number of Children</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Single Parent with Children</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone</span><span class="data-tag tag-household" data-level="Household" title="Household: Binary">Senior Adult in Household</span><span class="data-tag tag-household" data-level="Household" title="Household: Numeric">Estimated Household Income</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q7">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q7</span>
+<span class="q-text">Which individuals are technology-savvy enough for digital health interventions vs. those who need traditional outreach?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Low/Medium/High">Technology Sophistication</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Fitness Device Wearer</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Low Adoption of Technology</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Social Media Engagement</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">TrueTouch Engagement models</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G3">
+<div class="goal-header" style="border-left-color: #3498db;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #3498db;">G3</span>
+<div class="goal-content">
+<div class="goal-title">Address Social Determinants That Block Health Progress</div>
+<div class="goal-why">More than half of health outcomes are influenced by life circumstances. Without understanding these barriers, even the best clinical interventions fail for the people who need them most.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q8">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q8</span>
+<span class="q-text">What percentage of our population faces food insecurity, and what specific barriers exist (distance, income, diet quality)?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Food_Insecurity_risk_level</span><span class="data-tag tag-individual" data-level="Individual" title="Food Security: Binary">Likelihood of Poor Diet</span><span class="data-tag tag-individual" data-level="Individual" title="Food Security: Binary">Likelihood of Inconsistent Healthy Meals</span><span class="data-tag tag-household" data-level="Household" title="Food Security: Binary">Beyond Driving Distance to Grocery</span><span class="data-tag tag-individual" data-level="Individual" title="Food Security: Binary">Financial barrier accessing food</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q9">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q9</span>
+<span class="q-text">Which individuals face housing instability and what does that instability look like (overcrowding, cost burden, frequent moves)?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Housing_Instability_risk_level</span><span class="data-tag tag-individual" data-level="Individual" title="Housing: Binary">Patterns of frequent address change</span><span class="data-tag tag-individual" data-level="Individual" title="Housing: Binary">Living below federal poverty level</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Insufficient income for utilities</span><span class="data-tag tag-household" data-level="Household" title="Housing: Binary">Living in overcrowded conditions</span><span class="data-tag tag-household" data-level="Household" title="Household: Numeric">Length of Residence</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q10">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q10</span>
+<span class="q-text">Where are transportation barriers preventing access to healthcare and pharmacy services?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Access_to_Care_risk_level</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">No vehicle present</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">Not walking distance to public transit</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">Not driving distance to provider</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">Unlikely to afford transportation</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">Unlikely to walk to health services</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q11">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q11</span>
+<span class="q-text">Which individuals face compounding risks (e.g., lives alone + limited income + chronic disease)?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone/Limited Income</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone/Impoverished</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone/Chronic Disease Diagnosis</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone/Aging</span><span class="data-tag tag-individual" data-level="Individual" title="Cultural: Binary">Minority Status/Limited Income</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Some High School/Limited Income</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G4">
+<div class="goal-header" style="border-left-color: #f39c12;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #f39c12;">G4</span>
+<div class="goal-content">
+<div class="goal-title">Optimize Communication & Outreach Strategies</div>
+<div class="goal-why">The LCI study showed that higher-risk segments prefer direct mail, online display, and mobile video on weekday/weekend evenings. Using the wrong channel means your message never arrives.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q12">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q12</span>
+<span class="q-text">What are the preferred communication channels for each engagement segment?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Communication: Text">Preferred Communication Channels</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">TrueTouch Engagement models</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Text">Optimal Contact Timing</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Text">Preferred Messaging Strategies</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Text">Receptivity to Media</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q13">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q13</span>
+<span class="q-text">When is the best time to reach high-risk engagement populations?</span>
+<span class="q-count">3 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Communication: Text">Optimal Contact Timing</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Time of Day model</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q14">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q14</span>
+<span class="q-text">Which social media platforms are most effective for reaching different demographic segments?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Social Media Engagement</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">Social Media - YouTube</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">Social Media - Facebook</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">Social Media - Instagram</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">Social Media - LinkedIn</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">Social Media - Twitter</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q15">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q15</span>
+<span class="q-text">What consumer behavior profiles (brand loyalty, deal-seeking, etc.) can inform health messaging strategy?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Savvy Researchers</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Brand Loyalists</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Deal Seekers</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Quality Matters</span><span class="data-tag tag-individual" data-level="Individual" title="Communication: Numeric Scale">TrueTouch Organic and Natural</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G5">
+<div class="goal-header" style="border-left-color: #9b59b6;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #9b59b6;">G5</span>
+<div class="goal-content">
+<div class="goal-title">Predict & Prevent Chronic Disease Escalation</div>
+<div class="goal-why">Chronic disease is the #1 driver of healthcare costs. Neighborhood environmental exposures (lead, ozone, particulate matter) combined with individual SDOH risks create compounding effects that can be modeled and intervened upon.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q16">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q16</span>
+<span class="q-text">Which neighborhoods have elevated chronic disease prevalence, and which individuals living there also have personal risk flags?</span>
+<span class="q-count">7 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">COPD prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Depression prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Diabetes prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Heart disease prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">High blood pressure prevalence</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Chronic Disease Diagnosis</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Two or more Chronic Disease Diagnoses</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q17">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q17</span>
+<span class="q-text">What environmental exposures (lead, ozone, particulate matter) correlate with chronic disease in our population?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Environmental: Low/Medium/High">Exposure to Lead</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Environmental: Low/Medium/High">Airborne Particulate Matter</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Environmental: Low/Medium/High">Ozone</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Hazardous Waste Proximity</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Environmental: Low/Medium/High">Drinking Water Non-Compliance</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Environmental: Low/Medium/High">Nitrogen Dioxide</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q18">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q18</span>
+<span class="q-text">Which individuals show behavioral health risk indicators alongside life circumstance challenges?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Behavioral Health Diagnosis</span><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Two or More Behavioral Health Diagnoses</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Limited Income</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Depression prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Score">Social Vulnerability Index</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G6">
+<div class="goal-header" style="border-left-color: #1abc9c;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #1abc9c;">G6</span>
+<div class="goal-content">
+<div class="goal-title">Ensure Equitable Access to Care Across Populations</div>
+<div class="goal-why">Health equity is both a moral imperative and a cost driver. Populations with access barriers generate higher emergency and acute care costs. Closing gaps improves outcomes and reduces spending.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q19">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q19</span>
+<span class="q-text">Which cultural and language barriers exist in our population that impede healthcare engagement?</span>
+<span class="q-count">8 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Text">Language Preference</span><span class="data-tag tag-individual" data-level="Individual" title="Cultural: Binary">Non-English Language Preference</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Text">Ethnicity</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Text">Country of Origin</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Numeric Scale">Assimilation Estimate</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Cultural (Neighborhood): Percent">Limited English Proficiency</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Cultural (Neighborhood): Percent">Foreign Born Population</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Cultural (Neighborhood): Score">Diversity Index</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q20">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q20</span>
+<span class="q-text">What proportion of our population lives in medically underserved areas?</span>
+<span class="q-count">4 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Binary">Medically Underserved Area</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Access_to_Care_risk_level</span><span class="data-tag tag-household" data-level="Household" title="Transportation: Binary">Not driving distance to provider</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Uninsured population concentrations</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q21">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q21</span>
+<span class="q-text">How do economic disparities (income inequality, poverty, unemployment) vary across our employee population?</span>
+<span class="q-count">7 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Limited Income</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Impoverished</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Median Household Income</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Economic (Neighborhood): Percent">Unemployment Rate</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Economic (Neighborhood): Low/Medium/High">Income Inequality</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Economic (Neighborhood): Binary">People Living in Poverty</span><span class="data-tag tag-household" data-level="Household" title="Household: Numeric">Household Poverty Income Estimate</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q22">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q22</span>
+<span class="q-text">Which individuals face intersecting vulnerabilities (minority + poverty + limited education + unsafe neighborhood)?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Cultural: Binary">Minority Status/Limited Income</span><span class="data-tag tag-individual" data-level="Individual" title="Cultural: Binary">Minority Status/Impoverished</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Some High School/Limited Income</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Score">Social Vulnerability Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Low/Medium/High">Social Deprivation Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Personal Safety: Low/Medium/High">Personal Crime Index</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G7">
+<div class="goal-header" style="border-left-color: #e67e22;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #e67e22;">G7</span>
+<div class="goal-content">
+<div class="goal-title">Support EAP & Behavioral Health Program Design</div>
+<div class="goal-why">Employee assistance programs historically struggle to engage those who need them most. LCI data reveals which populations are structurally resistant to outreach, enabling redesigned approaches.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q23">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q23</span>
+<span class="q-text">Which population segments are structurally resistant to engagement, and what barriers cause that resistance?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span><span class="data-tag tag-household" data-level="Household" title="Household: Binary">Healthcare Engagement Risks</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Low Health Interest</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Low Fitness Interest</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Indifferent Health and Wellbeing Outlook</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Binary">Low Adoption of Technology</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q24">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q24</span>
+<span class="q-text">What personal safety risks (crime, violence) exist in neighborhoods where our employees live?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Personal Safety: Low/Medium/High">Total Crime Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Personal Safety: Low/Medium/High">Personal Crime Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Personal Safety: Low/Medium/High">Property Crime Index</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">High Propensity for Murder</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">High Propensity for Assault</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">High Propensity for Personal Crimes</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q25">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q25</span>
+<span class="q-text">Which employees are most likely to benefit from targeted behavioral health support based on life circumstance flags?</span>
+<span class="q-count">6 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Health Status: Binary">Behavioral Health Diagnosis</span><span class="data-tag tag-individual" data-level="Individual" title="Living Situation: Binary">Lives Alone</span><span class="data-tag tag-individual" data-level="Individual" title="Economic: Binary">Limited Income</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Housing_Instability_risk_level</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Food_Insecurity_risk_level</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Score">Social Vulnerability Index</span></div>
+</div></div></div>
+<div class="goal-card" data-goal="G8">
+<div class="goal-header" style="border-left-color: #34495e;" onclick="toggleGoal(this)">
+<span class="goal-id" style="background: #34495e;">G8</span>
+<div class="goal-content">
+<div class="goal-title">Enable Population Health Benchmarking & Reporting</div>
+<div class="goal-why">Organizations need to understand their population's risk profile compared to benchmarks to justify investments, measure progress, and report to stakeholders.</div>
+</div>
+<span class="goal-toggle">&#9654;</span>
+</div>
+<div class="goal-body">
+<div class="question-row collapsed" data-qid="Q26">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q26</span>
+<span class="q-text">What is the overall SDOH risk profile of our population compared to national/regional benchmarks?</span>
+<span class="q-count">4 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-unknown" data-level="Unknown" title=": ">SDOH_Total_risk_level</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Score">Social Vulnerability Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Low/Medium/High">Social Deprivation Index</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Social (Neighborhood): Score">Deprivation Index</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q27">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q27</span>
+<span class="q-text">How does our population's chronic disease prevalence compare across neighborhoods?</span>
+<span class="q-count">7 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">COPD prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Depression prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Diabetes prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Heart disease prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Kidney Disease prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Arthritis prevalence</span><span class="data-tag tag-neighborhood" data-level="Neighborhood" title="Chronic Disease (Neighborhood): Rate">Stroke prevalence</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q28">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q28</span>
+<span class="q-text">What are the Mosaic lifestyle segment distributions, and how do they correlate with health engagement?</span>
+<span class="q-count">5 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">Mosaic Group Assignment</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">Mosaic Cluster Assignment</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Context Group</span><span class="data-tag tag-individual" data-level="Individual" title="Segmentation: Text">HPR Engagement Segment</span><span class="data-tag tag-individual" data-level="Individual" title="Engagement: Numeric Scale">Interest in Health and Wellness</span></div>
+</div>
+<div class="question-row collapsed" data-qid="Q29">
+<div class="question-header" onclick="toggleQuestion(this)">
+<span class="q-id">Q29</span>
+<span class="q-text">What are the demographic and household profiles of our highest-risk subpopulations?</span>
+<span class="q-count">8 elements</span>
+<span class="q-toggle">&#9654;</span>
+</div>
+<div class="data-elements"><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Numeric">Age</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Text">Race</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Text">Marital Status</span><span class="data-tag tag-individual" data-level="Individual" title="Demographics: Numeric">Educational Attainment</span><span class="data-tag tag-household" data-level="Household" title="Household: Text">Household Structure</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Number of Adults</span><span class="data-tag tag-unknown" data-level="Unknown" title=": ">Number of Children</span><span class="data-tag tag-household" data-level="Household" title="Household: Numeric">Estimated Household Income</span></div>
+</div></div></div></div>
+<div class="no-results" id="noResults" style="display:none;">No questions match your current filters.</div>
+</div>
+
+<script>
+function toggleGoal(el) {
+    el.closest('.goal-card').classList.toggle('collapsed');
+}
+function toggleQuestion(el) {
+    el.closest('.question-row').classList.toggle('collapsed');
+}
+
+const goalFilter = document.getElementById('goalFilter');
+const levelFilter = document.getElementById('levelFilter');
+const searchBox = document.getElementById('searchBox');
+const visibleCount = document.getElementById('visibleCount');
+const noResults = document.getElementById('noResults');
+
+function applyFilters() {
+    const gf = goalFilter.value;
+    const lf = levelFilter.value;
+    const sf = searchBox.value.toLowerCase();
+    let count = 0;
+
+    document.querySelectorAll('.goal-card').forEach(gc => {
+        const gid = gc.dataset.goal;
+        if (gf !== 'all' && gid !== gf) { gc.style.display = 'none'; return; }
+
+        let goalHasVisibleQ = false;
+        gc.querySelectorAll('.question-row').forEach(qr => {
+            const qText = qr.querySelector('.q-text').textContent.toLowerCase();
+            const tags = qr.querySelectorAll('.data-tag');
+            let hasLevel = lf === 'all';
+            let tagTexts = [];
+            tags.forEach(t => {
+                tagTexts.push(t.textContent.toLowerCase());
+                if (t.dataset.level === lf) hasLevel = true;
+            });
+
+            const matchesSearch = sf === '' || qText.includes(sf) || tagTexts.some(t => t.includes(sf));
+            const visible = hasLevel && matchesSearch;
+            qr.style.display = visible ? '' : 'none';
+
+            if (lf !== 'all') {
+                tags.forEach(t => {
+                    t.style.opacity = (t.dataset.level === lf || lf === 'all') ? '1' : '0.3';
+                });
+            } else {
+                tags.forEach(t => { t.style.opacity = '1'; });
+            }
+
+            if (visible) { goalHasVisibleQ = true; count++; }
+        });
+
+        gc.style.display = goalHasVisibleQ ? '' : 'none';
+        if (goalHasVisibleQ && (gf !== 'all' || sf !== '')) gc.classList.remove('collapsed');
+    });
+
+    visibleCount.textContent = count;
+    noResults.style.display = count === 0 ? '' : 'none';
+}
+
+goalFilter.addEventListener('change', applyFilters);
+levelFilter.addEventListener('change', applyFilters);
+searchBox.addEventListener('input', applyFilters);
+</script>
+</body>
+</html>
