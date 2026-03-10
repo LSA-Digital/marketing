@@ -1,0 +1,8 @@
+config.py
+venv/
+mailbox_export.db
+mailbox_export.db-wal
+mailbox_export.db-shm
+exported_emails/
+__pycache__/
+*.pyc
