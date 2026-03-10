@@ -1,0 +1,39 @@
+# Squawk Index - HSRA Planning
+
+> **Manual planning snapshot modeled after `squawk-index.md`** - This is not a Squawk MCP export.
+>
+> Last updated: 2026-03-09
+
+| Post ID | Title | Assets Preview | Review Status | Readiness | Readiness Notes | Audience | Product | Expert | Themes | Depends On | Dep. Name | Relationship | Repost By | Updated |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| HSRA-B-001 | Tennessee is the anchor story. The opportunity is national. | — | PENDING_REVIEW | ready | Explains why Tennessee is the proof story for HSRA while keeping the national argument grounded in demand signals rather than overclaiming deployment. | business | HSRA | Thad | RISK_INVESTMENTS, COMMUNITY_TRANSPARENCY | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-002 | CMS Rural Health Transformation changed the timing for HSRA | — | PENDING_REVIEW | ready | Summarizes why county/community measurement requirements make this a live buying window for state and rural health teams. | business | HSRA | Thad | RISK_INVESTMENTS, GOVERNMENT | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-003 | County averages hide the tracts that need help first | — | PENDING_REVIEW | ready | Shows why county-only reporting misses the neighborhoods where pollution, cancer burden, and social risk converge. | business | HSRA | Thad | LOCATION_INTELLIGENCE, RISK_INVESTMENTS | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-004 | Public-health teams need one view of pollution, health, and SDOH | — | PENDING_REVIEW | ready | Frames HSRA as the integrated decision layer that combines multiple public datasets into one prioritization narrative. | business | HSRA | Thad | RISK_INVESTMENTS, COMMUNITY_TRANSPARENCY | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-005 | An academic-first outreach model earns better first conversations | — | PENDING_REVIEW | needs_work | Explains why Thad's academic voice, public-interest framing, and AHD-style language improve receptivity with state agencies. | business | HSRA | Thad | COMMUNITY_TRANSPARENCY, GOVERNMENT | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-006 | State-first configuration is not a services tax. It is the product fit. | — | PENDING_REVIEW | ready | Clarifies why HSRA should be sold as a public-data baseline plus state-specific configuration and advisory support. | business | HSRA | Mike | REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY | — | — | — | Mike, Thad | 2026-03-09 |
+| HSRA-B-007 | CHNA, CHA, and PHAB work need tract-level evidence, not prettier dashboards | — | PENDING_REVIEW | ready | Connects HSRA to local health department and hospital planning work where tract-level disparity analysis matters. | business | HSRA | Thad | RISK_INVESTMENTS, COMMUNITY_TRANSPARENCY | HSRA-B-003 | County averages hide the tracts that need help first | Builds the institutional planning use case on top of the tract-versus-county argument. | Thad, Mike | 2026-03-09 |
+| HSRA-B-008 | How PopHealthMap helps rural health teams decide where mobile services go first | — | PENDING_REVIEW | needs_work | Uses a concrete resource-allocation scenario to show how ranked tracts can guide screening, mobile care, or outreach placement. | business | HSRA | Thad | RISK_INVESTMENTS, LOCATION_INTELLIGENCE | HSRA-B-002 | CMS Rural Health Transformation changed the timing for HSRA | Extends the funding-pressure story into a direct operational decision example. | Thad, Mike | 2026-03-09 |
+| HSRA-B-009 | EJScreen is gone. States still need tract-level health-linked screening logic. | — | PENDING_REVIEW | needs_work | Positions HSRA as a complement or replacement for states that still need health-linked tract screening after the federal rollback. | business | HSRA | Thad | REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY | — | — | — | Thad, Mike | 2026-03-09 |
+| HSRA-B-010 | Don't buy another dashboard. Buy an auditable prioritization layer. | — | PENDING_REVIEW | ready | Sharpens the buyer message that agencies are purchasing defensible prioritization logic, not just maps or charts. | business | HSRA | Mike | COMMUNITY_TRANSPARENCY, AGENT_GUARDRAILS | HSRA-B-004 | Public-health teams need one view of pollution, health, and SDOH | Converts the integrated-data story into the commercial positioning claim. | Mike, Thad | 2026-03-09 |
+| HSRA-T-001 | HARP2 parity is what makes HSRA claims defensible | — | PENDING_REVIEW | ready | Technical explainer on why parity validation matters for public-sector trust and why methodology beats generic AI confidence. | tech | HSRA | Mike | REGULATORY_ALIGNMENT, AGENT_GUARDRAILS | HSRA-B-010 | Don't buy another dashboard. Buy an auditable prioritization layer. | Provides the technical proof behind the auditability and defensibility claim. | Mike, Thad | 2026-03-09 |
+| HSRA-T-002 | Public-data HSRA vs premium enrichment: keep the baseline clean | — | PENDING_REVIEW | ready | Separates the implemented public-data baseline from optional premium segmentation so the sales story stays claim-safe. | tech | HSRA | Mike | AGENT_GUARDRAILS, REGULATORY_ALIGNMENT | HSRA-B-006 | State-first configuration is not a services tax. It is the product fit. | Adds technical clarity to the offer ladder and optional enrichment logic. | Mike, Thad | 2026-03-09 |
+| HSRA-T-003 | Ranked tracts beat static maps when budgets are tight | — | PENDING_REVIEW | needs_work | Explains how tract ranking turns a map into a decision object for scarce-resource allocation rather than passive visualization. | tech | HSRA | Mike | LOCATION_INTELLIGENCE, RISK_INVESTMENTS | HSRA-B-003 | County averages hide the tracts that need help first | Extends the tract-level business case into a technical decision-support pattern. | Mike, Thad | 2026-03-09 |
+| HSRA-T-004 | The HSRA decision object: pollution + health + SDOH in one view | — | PENDING_REVIEW | ready | Walks through the combined data model and why no single public source gives agencies this integrated tract-level object out of the box. | tech | HSRA | Mike | AGENT_GUARDRAILS, COMMUNITY_TRANSPARENCY | HSRA-B-004 | Public-health teams need one view of pollution, health, and SDOH | Supplies the technical backbone for the integrated-view business story. | Mike, Thad | 2026-03-09 |
+| HSRA-T-005 | Report-ready evidence bundles keep county-level decisions auditable | — | PENDING_REVIEW | needs_work | Describes how methodology notes, report outputs, and cited evidence make buyer decisions easier to defend internally. | tech | HSRA | Mike | COMMUNITY_TRANSPARENCY, AGENT_GUARDRAILS | HSRA-B-010 | Don't buy another dashboard. Buy an auditable prioritization layer. | Supports the business message with explainable output and documentation patterns. | Mike, Thad | 2026-03-09 |
+| HSRA-T-006 | State-first configuration turns national data pressure into a real deployment | — | PENDING_REVIEW | ready | Technical explanation of how HSRA adapts national demand signals into state-specific datasets, scorecards, and outputs. | tech | HSRA | Mike | REGULATORY_ALIGNMENT, COMMUNITY_TRANSPARENCY | HSRA-B-006 | State-first configuration is not a services tax. It is the product fit. | Shows why state-specific adaptation is central to deployment, not an afterthought. | Mike, Thad | 2026-03-09 |
+
+## Notes
+
+- This planning index uses the same column order and dependency semantics as `squawk-index.md`, but it is intentionally manual and strategy-oriented.
+- `Readiness Notes` summarize what each planned content item will be built to explain.
+- `Assets Preview` is set to `—` because this file is for content planning, not asset rendering.
+
+## Sources
+
+- `squawk-index.md`
+- `docs/squawk-migration-process.md`
+- `docs/post-pipeline.md`
+- `docs/strategic-plan/hsra/HSRA-marketing-and-sales-plan.md`
+- `docs/strategic-plan/hsra/HSRA-marketing-and-sales-briefing.md`
+- `messagingThemes.md`
