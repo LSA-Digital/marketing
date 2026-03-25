@@ -1,0 +1,1750 @@
+[
+  {
+    "_meta": {
+      "target_id": "medicodax-001",
+      "rank": 1,
+      "organization": "SimiTree",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://simitreehc.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "William J. Simione, III",
+      "title": "CEO",
+      "linkedin_profile_url": "https://www.linkedin.com/in/william-j-simione-iii-15bb8117/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800.949.0388",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi William - reaching out because your role at SimiTree looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "linkedin_inmail_body": "Hi William,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "email_body": "Hello William J. Simione, III,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://simitreehc.com/contact-us/",
+      "company_email": null,
+      "company_phone": "800.949.0388",
+      "exact_url_verified": true,
+      "department_route": "Strategic, product, or partnership routing",
+      "routing_note": "Use the official contact page after LinkedIn silence; ask for strategic, product, or partnership routing.",
+      "approved_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+      "approved_message_body": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "message": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-002",
+      "rank": 2,
+      "organization": "SimiTree",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://simitreehc.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Zain Jafri",
+      "title": "Chief Product Technology Officer",
+      "linkedin_profile_url": "https://www.linkedin.com/in/zainjafri/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800.949.0388",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Zain - reaching out because your role at SimiTree looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "linkedin_inmail_body": "Hi Zain,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "email_body": "Hello Zain Jafri,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://simitreehc.com/contact-us/",
+      "company_email": null,
+      "company_phone": "800.949.0388",
+      "exact_url_verified": true,
+      "department_route": "Strategic, product, or partnership routing",
+      "routing_note": "Use the official contact page after LinkedIn silence; ask for strategic, product, or partnership routing.",
+      "approved_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+      "approved_message_body": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "message": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-003",
+      "rank": 3,
+      "organization": "SimiTree",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://simitreehc.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Nick Seabrook",
+      "title": "Executive Vice President, Client Development & Strategic Partnerships",
+      "linkedin_profile_url": "https://www.linkedin.com/in/nick-seabrook-b57a7a35/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800.949.0388",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Nick - reaching out because your role at SimiTree looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "linkedin_inmail_body": "Hi Nick,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "email_body": "Hello Nick Seabrook,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://simitreehc.com/contact-us/",
+      "company_email": null,
+      "company_phone": "800.949.0388",
+      "exact_url_verified": true,
+      "department_route": "Strategic, product, or partnership routing",
+      "routing_note": "Use the official contact page after LinkedIn silence; ask for strategic, product, or partnership routing.",
+      "approved_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+      "approved_message_body": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "message": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-004",
+      "rank": 4,
+      "organization": "SimiTree",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://simitreehc.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "J'non Griffin",
+      "title": "Senior Vice President, Coding & OASIS",
+      "linkedin_profile_url": "https://www.linkedin.com/in/jnon-griffin-36560720/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800.949.0388",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi J'non - reaching out because your role at SimiTree looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "linkedin_inmail_body": "Hi J'non,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "email_body": "Hello J'non Griffin,\n\nI am reaching out because your role at SimiTree appears highly relevant to the kind of strategic conversation MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://simitreehc.com/contact-us/",
+      "company_email": null,
+      "company_phone": "800.949.0388",
+      "exact_url_verified": true,
+      "department_route": "Strategic, product, or partnership routing",
+      "routing_note": "Use the official contact page after LinkedIn silence; ask for strategic, product, or partnership routing.",
+      "approved_subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+      "approved_message_body": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home-health coding workflow solution - possible strategic fit",
+        "message": "Hello, I am reaching out because SimiTree appears to sit at the intersection of home health, coding, operations, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, outpatient and ambulatory workflow operators, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-005",
+      "rank": 5,
+      "organization": "McBee",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://mcbeeassociates.com/contact/"
+    },
+    "contact_person": {
+      "name": "Kayla Wormser",
+      "title": "Vice President, Coding & OASIS",
+      "linkedin_profile_url": "https://www.linkedin.com/in/kayla-wormser-430533b9/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "610.964.9680",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Kayla - reaching out because your role at McBee looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "linkedin_inmail_body": "Hi Kayla,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "email_body": "Hello Kayla Wormser,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://mcbeeassociates.com/contact/",
+      "company_email": "info@mcbeeassociates.com",
+      "company_phone": "610.964.9680",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact page after LinkedIn silence; the general inbox remains a fallback, not the first move.",
+      "approved_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+      "approved_message_body": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "message": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-006",
+      "rank": 6,
+      "organization": "McBee",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://mcbeeassociates.com/contact/"
+    },
+    "contact_person": {
+      "name": "Bob Braun",
+      "title": "Senior Vice President, Post-Acute Sales",
+      "linkedin_profile_url": "https://www.linkedin.com/in/braunbob/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "610.964.9680",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Bob - reaching out because your role at McBee looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "linkedin_inmail_body": "Hi Bob,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "email_body": "Hello Bob Braun,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://mcbeeassociates.com/contact/",
+      "company_email": "info@mcbeeassociates.com",
+      "company_phone": "610.964.9680",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact page after LinkedIn silence; the general inbox remains a fallback, not the first move.",
+      "approved_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+      "approved_message_body": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "message": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-007",
+      "rank": 7,
+      "organization": "McBee",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://mcbeeassociates.com/contact/"
+    },
+    "contact_person": {
+      "name": "Jeffrey Silvershein",
+      "title": "Senior Vice President, Strategic Client Development",
+      "linkedin_profile_url": "https://www.linkedin.com/in/jeffrey-silvershein/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "610.964.9680",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Jeffrey - reaching out because your role at McBee looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "linkedin_inmail_body": "Hi Jeffrey,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "email_body": "Hello Jeffrey Silvershein,\n\nI am reaching out because your role at McBee seems especially relevant to a strategic coding workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://mcbeeassociates.com/contact/",
+      "company_email": "info@mcbeeassociates.com",
+      "company_phone": "610.964.9680",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact page after LinkedIn silence; the general inbox remains a fallback, not the first move.",
+      "approved_subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+      "approved_message_body": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX coding and workflow solution - strategic conversation?",
+        "message": "Hello, I am reaching out because McBee appears to combine home-health depth, physician-practice relevance, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across outpatient and home-health settings. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-008",
+      "rank": 8,
+      "organization": "HPS Solutions",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://hpssolutions.com/"
+    },
+    "contact_person": {
+      "name": "Melinda A. Gaboury",
+      "title": "CEO",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "480-857-3900",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "Website route, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Melinda - reaching out because your role at HPS Solutions looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "linkedin_inmail_body": "Hi Melinda,\n\nI am reaching out because your role at Healthcare Provider Solutions appears highly relevant to a serious home care and hospice workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "email_body": "Hello Melinda A. Gaboury,\n\nI am reaching out because your role at Healthcare Provider Solutions appears highly relevant to a serious home care and hospice workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://hpssolutions.com/",
+      "company_email": "info@hpssolutions.com",
+      "company_phone": "480-857-3900",
+      "exact_url_verified": false,
+      "department_route": null,
+      "routing_note": "Use the site route when available; emphasize coding, OASIS, and strategic fit.",
+      "approved_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+      "approved_message_body": "Hello, I am reaching out because Healthcare Provider Solutions appears to have deep home care and hospice relationships across coding, OASIS, consulting, education, and association channels.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "message": "Hello, I am reaching out because Healthcare Provider Solutions appears to have deep home care and hospice relationships across coding, OASIS, consulting, education, and association channels.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-009",
+      "rank": 9,
+      "organization": "HPS Solutions",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://hpssolutions.com/"
+    },
+    "contact_person": {
+      "name": "Robbi D. Funderburk James",
+      "title": "Director of Coding & OASIS Review",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "480-857-3900",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "Website route, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Robbi - reaching out because your role at HPS Solutions looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "linkedin_inmail_body": "Hi Robbi,\n\nI am reaching out because your role at Healthcare Provider Solutions appears highly relevant to a serious home care and hospice workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "email_body": "Hello Robbi D. Funderburk James,\n\nI am reaching out because your role at Healthcare Provider Solutions appears highly relevant to a serious home care and hospice workflow discussion.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://hpssolutions.com/",
+      "company_email": "info@hpssolutions.com",
+      "company_phone": "480-857-3900",
+      "exact_url_verified": false,
+      "department_route": null,
+      "routing_note": "Use the site route when available; emphasize coding, OASIS, and strategic fit.",
+      "approved_subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+      "approved_message_body": "Hello, I am reaching out because Healthcare Provider Solutions appears to have deep home care and hospice relationships across coding, OASIS, consulting, education, and association channels.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Mike Idengren",
+        "email": "mike@lsadigital.com",
+        "company": "LSA Digital",
+        "subject": "MEDICODAX home care and hospice workflow solution - introduction request",
+        "message": "Hello, I am reaching out because Healthcare Provider Solutions appears to have deep home care and hospice relationships across coding, OASIS, consulting, education, and association channels.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and operational realities across home health and adjacent outpatient workflows. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-010",
+      "rank": 10,
+      "organization": "AHCC",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.decisionhealth.com/"
+    },
+    "contact_person": {
+      "name": "Dee Kornetti",
+      "title": "President, AHCC",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "1-800-650-6787",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "AHCC member inbox",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Dee - reaching out because your role at AHCC looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - AHCC / DecisionHealth fit?",
+        "linkedin_inmail_body": "Hi Dee,\n\nI am reaching out because your role in the AHCC / DecisionHealth ecosystem appears highly relevant to where MEDICODAX may fit.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, and it is relevant to both outpatient and home-health coding environments. The most likely path is a strategic buyer, partner, or commercialization relationship with post-close implementation support by LSA Digital. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best education, community, sponsorship, content, or member-introduction route.",
+        "email_subject": "MEDICODAX coding workflow solution - AHCC / DecisionHealth fit?",
+        "email_body": "Hello Dee Kornetti,\n\nI am reaching out because your role in the AHCC / DecisionHealth ecosystem appears highly relevant to where MEDICODAX may fit.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, and it is relevant to both outpatient and home-health coding environments. The most likely path is a strategic buyer, partner, or commercialization relationship with post-close implementation support by LSA Digital. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best education, community, sponsorship, content, or member-introduction route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.decisionhealth.com/",
+      "company_email": "AHCCMembers@decisionhealth.com",
+      "company_phone": "1-800-650-6787",
+      "exact_url_verified": false,
+      "department_route": "Education, community, sponsorship, or member route",
+      "routing_note": "Use AHCC member or institutional route for event, education, or community routing.",
+      "approved_subject": "MEDICODAX coding workflow solution - AHCC / DecisionHealth fit?",
+      "approved_message_body": "Hello, I am reaching out because DecisionHealth and AHCC appear to sit in a strong position within the home-health coding and compliance community.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, and it is relevant to both outpatient and home-health coding environments. The most likely path is a strategic buyer, partner, or commercialization relationship with post-close implementation support by LSA Digital. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best education, community, sponsorship, content, or member-introduction route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "comments": "Message, comments, or inquiry details field",
+        "organization": "Organization or company field if present"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - AHCC / DecisionHealth fit?",
+        "comments": "Hello, I am reaching out because DecisionHealth and AHCC appear to sit in a strong position within the home-health coding and compliance community.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, and it is relevant to both outpatient and home-health coding environments. The most likely path is a strategic buyer, partner, or commercialization relationship with post-close implementation support by LSA Digital. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best education, community, sponsorship, content, or member-introduction route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-011",
+      "rank": 11,
+      "organization": "AAPC",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.aapc.com/partnerships/"
+    },
+    "contact_person": {
+      "name": "Bevan Erickson",
+      "title": "CEO",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/aapc/",
+      "public_email": null,
+      "public_phone": "1-844-825-1679",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "Partnerships form, then chapter route",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Bevan - reaching out because your role at AAPC looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "linkedin_inmail_body": "Hi Bevan,\n\nI am reaching out because your role at AAPC appears highly relevant to coding education, employer solutions, and member-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+        "email_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "email_body": "Hello Bevan Erickson,\n\nI am reaching out because your role at AAPC appears highly relevant to coding education, employer solutions, and member-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.aapc.com/partnerships/",
+      "company_email": "localchapters@aapc.com",
+      "company_phone": "1-844-825-1679",
+      "exact_url_verified": true,
+      "department_route": "Partnerships or business-solutions route",
+      "routing_note": "Use partnerships or business-solutions route, not generic customer-service language.",
+      "approved_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+      "approved_message_body": "Hello, I am reaching out because AAPC appears to have a strong combination of coding education, employer solutions, curriculum licensing, and chapter-based community reach.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "interest": "Partnership, business solutions, or similar routing choice",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "interest": "Partnership",
+        "subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "comments": "Hello, I am reaching out because AAPC appears to have a strong combination of coding education, employer solutions, curriculum licensing, and chapter-based community reach.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-012",
+      "rank": 12,
+      "organization": "AAPC",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.aapc.com/partnerships/"
+    },
+    "contact_person": {
+      "name": "Raemarie Jimenez",
+      "title": "President, Membership & Content",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/aapc/",
+      "public_email": null,
+      "public_phone": "1-844-825-1679",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "Partnerships form, then chapter route",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Raemarie - reaching out because your role at AAPC looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "linkedin_inmail_body": "Hi Raemarie,\n\nI am reaching out because your role at AAPC appears highly relevant to coding education, employer solutions, and member-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+        "email_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "email_body": "Hello Raemarie Jimenez,\n\nI am reaching out because your role at AAPC appears highly relevant to coding education, employer solutions, and member-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.aapc.com/partnerships/",
+      "company_email": "localchapters@aapc.com",
+      "company_phone": "1-844-825-1679",
+      "exact_url_verified": true,
+      "department_route": "Partnerships or business-solutions route",
+      "routing_note": "Use partnerships or business-solutions route, not generic customer-service language.",
+      "approved_subject": "MEDICODAX coding workflow solution - business solutions fit?",
+      "approved_message_body": "Hello, I am reaching out because AAPC appears to have a strong combination of coding education, employer solutions, curriculum licensing, and chapter-based community reach.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "interest": "Partnership, business solutions, or similar routing choice",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "interest": "Partnership",
+        "subject": "MEDICODAX coding workflow solution - business solutions fit?",
+        "comments": "Hello, I am reaching out because AAPC appears to have a strong combination of coding education, employer solutions, curriculum licensing, and chapter-based community reach.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with strong fit across outpatient, ambulatory, and home-health workflows. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best business-solutions, curriculum, training, employer-facing, or member-introduction route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-013",
+      "rank": 13,
+      "organization": "AHIMA",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.ahima.org/"
+    },
+    "contact_person": {
+      "name": "David D. Cella",
+      "title": "CEO",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/ahima/",
+      "public_email": null,
+      "public_phone": "312-233-1100",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "AHIMA for Business route",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi David - reaching out because your role at AHIMA looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "linkedin_inmail_body": "Hi David,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "email_body": "Hello David D. Cella,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.ahima.org/",
+      "company_email": null,
+      "company_phone": "312-233-1100",
+      "exact_url_verified": false,
+      "department_route": "AHIMA for Business or secure inquiry path",
+      "routing_note": "Use AHIMA for Business or secure inquiry path.",
+      "approved_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+      "approved_message_body": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "inquiryType": "Business solutions or secure inquiry route if available",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "inquiryType": "Business Solutions",
+        "subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "comments": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-014",
+      "rank": 14,
+      "organization": "Alliance for Care at Home",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://allianceforcareathome.org/about/contact-us/"
+    },
+    "contact_person": {
+      "name": "Jennifer Sheets",
+      "title": "CEO",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800-646-6460",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website form with routed department",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Jennifer - reaching out because your role at Alliance for Care at Home looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "linkedin_inmail_body": "Hi Jennifer,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "email_body": "Hello Jennifer Sheets,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://allianceforcareathome.org/about/contact-us/",
+      "company_email": null,
+      "company_phone": "800-646-6460",
+      "exact_url_verified": true,
+      "department_route": "Membership",
+      "routing_note": "Use the contact form with department routing such as Membership, Education, or Exhibit/Supporters.",
+      "approved_subject": "MEDICODAX coding workflow solution - member and event fit?",
+      "approved_message_body": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "department": "Membership",
+        "comments": "Message, comments, or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "department": "Membership",
+        "subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "comments": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-015",
+      "rank": 15,
+      "organization": "Alliance for Care at Home",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://allianceforcareathome.org/about/contact-us/"
+    },
+    "contact_person": {
+      "name": "Carrie Hoover",
+      "title": "VP, Education & Events",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800-646-6460",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Education route in contact form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Carrie - reaching out because your role at Alliance for Care at Home looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "linkedin_inmail_body": "Hi Carrie,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "email_body": "Hello Carrie Hoover,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://allianceforcareathome.org/about/contact-us/",
+      "company_email": null,
+      "company_phone": "800-646-6460",
+      "exact_url_verified": true,
+      "department_route": "Education",
+      "routing_note": "Use the contact form with department routing such as Membership, Education, or Exhibit/Supporters.",
+      "approved_subject": "MEDICODAX coding workflow solution - member and event fit?",
+      "approved_message_body": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "department": "Education",
+        "comments": "Message, comments, or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "department": "Education",
+        "subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "comments": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-016",
+      "rank": 16,
+      "organization": "Alliance for Care at Home",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://allianceforcareathome.org/about/contact-us/"
+    },
+    "contact_person": {
+      "name": "Michel'le Anderson",
+      "title": "Manager, Business Development",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "800-646-6460",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Business-development route in contact form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Michel'le - reaching out because your role at Alliance for Care at Home looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "linkedin_inmail_body": "Hi Michel'le,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "email_body": "Hello Michel'le Anderson,\n\nI am reaching out because your role at the Alliance for Care at Home appears highly relevant to home-health ecosystem visibility and introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://allianceforcareathome.org/about/contact-us/",
+      "company_email": null,
+      "company_phone": "800-646-6460",
+      "exact_url_verified": true,
+      "department_route": "Exhibit/Supporters",
+      "routing_note": "Use the contact form with department routing such as Membership, Education, or Exhibit/Supporters.",
+      "approved_subject": "MEDICODAX coding workflow solution - member and event fit?",
+      "approved_message_body": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "department": "Exhibit/Supporters",
+        "comments": "Message, comments, or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "department": "Exhibit/Supporters",
+        "subject": "MEDICODAX coding workflow solution - member and event fit?",
+        "comments": "Hello, I am reaching out because the Alliance for Care at Home appears to be one of the strongest ecosystems for home-health, hospice, finance, and technology visibility.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with home health as a strong immediate lane and outpatient as another viable lane. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best membership, conference, sponsorship, or business-partner route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-017",
+      "rank": 17,
+      "organization": "Greenberg Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://greenberg-advisors.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Brian Greenberg",
+      "title": "CEO & Founder",
+      "linkedin_profile_url": "https://www.linkedin.com/in/brian-greenberg-51a4788/",
+      "linkedin_company_url": null,
+      "public_email": "bgreenberg@greenberg-advisors.com",
+      "public_phone": "301-576-4000",
+      "primary_route": "LinkedIn InMail",
+      "fallback_route": "Website form, then direct email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Brian - reaching out because your role at Greenberg Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "linkedin_inmail_body": "Hi Brian,\n\nI am reaching out because your work at Greenberg Advisors appears highly relevant to the kind of HCIT and revenue-cycle buyer discussion MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "email_body": "Hello Brian Greenberg,\n\nI am reaching out because your work at Greenberg Advisors appears highly relevant to the kind of HCIT and revenue-cycle buyer discussion MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": true,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://greenberg-advisors.com/contact-us/",
+      "company_email": null,
+      "company_phone": "301-576-4000",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact form after LinkedIn attempt; direct executive emails are last fallback.",
+      "approved_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+      "approved_message_body": "Hello, I am reaching out because Greenberg Advisors appears highly relevant at the intersection of HCIT, revenue cycle, and strategic advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "yourMessage": "Hello, I am reaching out because Greenberg Advisors appears highly relevant at the intersection of HCIT, revenue cycle, and strategic advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-018",
+      "rank": 18,
+      "organization": "Greenberg Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://greenberg-advisors.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Zach Eisenberg",
+      "title": "Managing Director",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/greenberg-advisors-llc/",
+      "public_email": "zeisenberg@greenberg-advisors.com",
+      "public_phone": "301-576-4000",
+      "primary_route": "LinkedIn company route plus name search",
+      "fallback_route": "Website form, then direct email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Zach - reaching out because your role at Greenberg Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "linkedin_inmail_body": "Hi Zach,\n\nI am reaching out because your work at Greenberg Advisors appears highly relevant to the kind of HCIT and revenue-cycle buyer discussion MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "email_body": "Hello Zach Eisenberg,\n\nI am reaching out because your work at Greenberg Advisors appears highly relevant to the kind of HCIT and revenue-cycle buyer discussion MEDICODAX needs.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": true,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://greenberg-advisors.com/contact-us/",
+      "company_email": null,
+      "company_phone": "301-576-4000",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact form after LinkedIn attempt; direct executive emails are last fallback.",
+      "approved_subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+      "approved_message_body": "Hello, I am reaching out because Greenberg Advisors appears highly relevant at the intersection of HCIT, revenue cycle, and strategic advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX HCIT and coding workflow solution - fit for your buyer network?",
+        "yourMessage": "Hello, I am reaching out because Greenberg Advisors appears highly relevant at the intersection of HCIT, revenue cycle, and strategic advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-019",
+      "rank": 19,
+      "organization": "VERTESS",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://vertess.com/"
+    },
+    "contact_person": {
+      "name": "Sarah Marks",
+      "title": "Director of Business Development",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "1-201-388-7738",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website route, then phone",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Sarah - reaching out because your role at VERTESS looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "linkedin_inmail_body": "Hi Sarah,\n\nI am reaching out because your healthcare transaction work at VERTESS appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "email_body": "Hello Sarah Marks,\n\nI am reaching out because your healthcare transaction work at VERTESS appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://vertess.com/",
+      "company_email": null,
+      "company_phone": "1-817-793-3773",
+      "exact_url_verified": false,
+      "department_route": null,
+      "routing_note": "Use the contact page after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+      "approved_message_body": "Hello, I am reaching out because VERTESS appears to have meaningful relevance across healthcare transactions, including home health, hospice, and medical billing / revenue cycle categories.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "yourMessage": "Hello, I am reaching out because VERTESS appears to have meaningful relevance across healthcare transactions, including home health, hospice, and medical billing / revenue cycle categories.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-020",
+      "rank": 20,
+      "organization": "VERTESS",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://vertess.com/"
+    },
+    "contact_person": {
+      "name": "Bradley M. Smith",
+      "title": "Managing Director / Partner",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "1-817-793-3773",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website route, then phone",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Bradley - reaching out because your role at VERTESS looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "linkedin_inmail_body": "Hi Bradley,\n\nI am reaching out because your healthcare transaction work at VERTESS appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "email_body": "Hello Bradley M. Smith,\n\nI am reaching out because your healthcare transaction work at VERTESS appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://vertess.com/",
+      "company_email": null,
+      "company_phone": "1-817-793-3773",
+      "exact_url_verified": false,
+      "department_route": null,
+      "routing_note": "Use the contact page after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+      "approved_message_body": "Hello, I am reaching out because VERTESS appears to have meaningful relevance across healthcare transactions, including home health, hospice, and medical billing / revenue cycle categories.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - healthcare transaction fit?",
+        "yourMessage": "Hello, I am reaching out because VERTESS appears to have meaningful relevance across healthcare transactions, including home health, hospice, and medical billing / revenue cycle categories.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in both outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-021",
+      "rank": 21,
+      "organization": "LECO",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.lawrenceevans.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Neil Johnson",
+      "title": "Managing Partner",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "614-448-1304",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website form, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Neil - reaching out because your role at LECO looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "linkedin_inmail_body": "Hi Neil,\n\nI am reaching out because your healthcare transaction work at LECO appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "email_body": "Hello Neil Johnson,\n\nI am reaching out because your healthcare transaction work at LECO appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.lawrenceevans.com/contact-us/",
+      "company_email": "info@lawrenceevans.com",
+      "company_phone": "614-448-1304",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact page only after LinkedIn attempt; direct email is fallback.",
+      "approved_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+      "approved_message_body": "Hello, I am reaching out because LECO appears to have relevant healthcare transaction experience and a credible position for strategic introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "yourMessage": "Hello, I am reaching out because LECO appears to have relevant healthcare transaction experience and a credible position for strategic introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-022",
+      "rank": 22,
+      "organization": "LECO",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.lawrenceevans.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Christopher Luckett",
+      "title": "Director",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "614-448-1304",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website form, then email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Christopher - reaching out because your role at LECO looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "linkedin_inmail_body": "Hi Christopher,\n\nI am reaching out because your healthcare transaction work at LECO appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "email_body": "Hello Christopher Luckett,\n\nI am reaching out because your healthcare transaction work at LECO appears highly relevant to MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.lawrenceevans.com/contact-us/",
+      "company_email": "info@lawrenceevans.com",
+      "company_phone": "614-448-1304",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the contact page only after LinkedIn attempt; direct email is fallback.",
+      "approved_subject": "Strategic buyer-introduction fit for MEDICODAX?",
+      "approved_message_body": "Hello, I am reaching out because LECO appears to have relevant healthcare transaction experience and a credible position for strategic introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "Strategic buyer-introduction fit for MEDICODAX?",
+        "yourMessage": "Hello, I am reaching out because LECO appears to have relevant healthcare transaction experience and a credible position for strategic introductions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution focused on buyer paths across coding firms, outpatient and ambulatory operators, home-health aligned firms, RCM or workflow software companies, and healthcare-focused investors. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-023",
+      "rank": 23,
+      "organization": "Founders Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://foundersib.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Michael White",
+      "title": "Head of Healthcare Group",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/founders-advisors/",
+      "public_email": null,
+      "public_phone": "205.949.2043",
+      "primary_route": "LinkedIn first",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Michael - reaching out because your role at Founders Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "linkedin_inmail_body": "Hi Michael,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "email_body": "Hello Michael White,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://foundersib.com/contact-us/",
+      "company_email": null,
+      "company_phone": "205.949.2043",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the official contact page after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+      "approved_message_body": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "yourMessage": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-024",
+      "rank": 24,
+      "organization": "Founders Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://foundersib.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Thomas Dixon",
+      "title": "Managing Director, Healthcare Group",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/founders-advisors/",
+      "public_email": null,
+      "public_phone": "205.949.2043",
+      "primary_route": "LinkedIn first",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Thomas - reaching out because your role at Founders Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "linkedin_inmail_body": "Hi Thomas,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "email_body": "Hello Thomas Dixon,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://foundersib.com/contact-us/",
+      "company_email": null,
+      "company_phone": "205.949.2043",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the official contact page after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+      "approved_message_body": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "yourMessage": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-025",
+      "rank": 25,
+      "organization": "Founders Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://foundersib.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Chris Weingartner",
+      "title": "Head of Tech & Business Services",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/founders-advisors/",
+      "public_email": null,
+      "public_phone": "205.949.2043",
+      "primary_route": "LinkedIn first",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Chris - reaching out because your role at Founders Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "linkedin_inmail_body": "Hi Chris,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "email_body": "Hello Chris Weingartner,\n\nI am reaching out because your role at Founders Advisors appears highly relevant to a healthcare and technology buyer discussion for MEDICODAX.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://foundersib.com/contact-us/",
+      "company_email": null,
+      "company_phone": "205.949.2043",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the official contact page after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+      "approved_message_body": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - healthcare and technology fit?",
+        "yourMessage": "Hello, I am reaching out because Founders Advisors appears relevant at the intersection of healthcare and technology advisory work.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-026",
+      "rank": 26,
+      "organization": "iMerge Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://imergeadvisors.com/contact/"
+    },
+    "contact_person": {
+      "name": "Michael Gravel",
+      "title": "Founder & Managing Director",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/776521/",
+      "public_email": null,
+      "public_phone": "206-659-7650",
+      "primary_route": "LinkedIn company route plus name search",
+      "fallback_route": "Contact form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Michael - reaching out because your role at iMerge Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "linkedin_inmail_body": "Hi Michael,\n\nI am reaching out because your work at iMerge appears highly relevant to strategic software and workflow transactions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "email_body": "Hello Michael Gravel,\n\nI am reaching out because your work at iMerge appears highly relevant to strategic software and workflow transactions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://imergeadvisors.com/contact/",
+      "company_email": null,
+      "company_phone": "206-659-7650",
+      "exact_url_verified": true,
+      "department_route": "Explore Sell Side Exit Options",
+      "routing_note": "Use the contact page with the sell-side option after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX strategic software solution - sell-side fit?",
+      "approved_message_body": "Hello, I am reaching out because iMerge appears relevant for strategic software transactions where the buyer case depends on product fit rather than just trailing operating-company metrics.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "inquiryType": "Explore Sell Side Exit Options",
+        "yourMessage": "Message or comments field"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "inquiryType": "Explore Sell Side Exit Options",
+        "subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "yourMessage": "Hello, I am reaching out because iMerge appears relevant for strategic software transactions where the buyer case depends on product fit rather than just trailing operating-company metrics.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-027",
+      "rank": 27,
+      "organization": "iMerge Advisors",
+      "lane": "advisor",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://imergeadvisors.com/contact/"
+    },
+    "contact_person": {
+      "name": "Todd Lorbach",
+      "title": "Managing Director",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/776521/",
+      "public_email": null,
+      "public_phone": "206-659-7650",
+      "primary_route": "LinkedIn company route plus name search",
+      "fallback_route": "Contact form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Todd - reaching out because your role at iMerge Advisors looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "linkedin_inmail_body": "Hi Todd,\n\nI am reaching out because your work at iMerge appears highly relevant to strategic software and workflow transactions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "email_body": "Hello Todd Lorbach,\n\nI am reaching out because your work at iMerge appears highly relevant to strategic software and workflow transactions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://imergeadvisors.com/contact/",
+      "company_email": null,
+      "company_phone": "206-659-7650",
+      "exact_url_verified": true,
+      "department_route": "Explore Sell Side Exit Options",
+      "routing_note": "Use the contact page with the sell-side option after LinkedIn attempt.",
+      "approved_subject": "MEDICODAX strategic software solution - sell-side fit?",
+      "approved_message_body": "Hello, I am reaching out because iMerge appears relevant for strategic software transactions where the buyer case depends on product fit rather than just trailing operating-company metrics.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "inquiryType": "Explore Sell Side Exit Options",
+        "yourMessage": "Message or comments field"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "inquiryType": "Explore Sell Side Exit Options",
+        "subject": "MEDICODAX strategic software solution - sell-side fit?",
+        "yourMessage": "Hello, I am reaching out because iMerge appears relevant for strategic software transactions where the buyer case depends on product fit rather than just trailing operating-company metrics.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-028",
+      "rank": 28,
+      "organization": "Synergy Business Brokers",
+      "lane": "backup broker",
+      "message_family": "F3",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://synergybb.com/contact-us/"
+    },
+    "contact_person": {
+      "name": "Blake Taylor",
+      "title": "President & Founder",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/synergy-business-brokers",
+      "public_email": null,
+      "public_phone": "888-750-5950",
+      "primary_route": "LinkedIn name search",
+      "fallback_route": "Website form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Blake - reaching out because your role at Synergy Business Brokers looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - strategic transaction fit?",
+        "linkedin_inmail_body": "Hi Blake,\n\nI am reaching out because your healthcare and technology transaction work appears relevant to the kind of MEDICODAX discussion we are running.\n\nMEDICODAX is not a generic profitable-company sale. It is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply here to schedule a discussion/demo.",
+        "email_subject": "MEDICODAX coding workflow solution - strategic transaction fit?",
+        "email_body": "Hello Blake Taylor,\n\nI am reaching out because your healthcare and technology transaction work appears relevant to the kind of MEDICODAX discussion we are running.\n\nMEDICODAX is not a generic profitable-company sale. It is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://synergybb.com/contact-us/",
+      "company_email": null,
+      "company_phone": "888-750-5950",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "Use the official contact page only if the backup-broker lane is activated.",
+      "approved_subject": "MEDICODAX coding workflow solution - strategic transaction fit?",
+      "approved_message_body": "Hello, I am reaching out because Synergy appears to cover both healthcare and technology transactions and publicly supports a no-fee-until-sold model.\n\nMEDICODAX is not a generic profitable-company sale. It is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "yourMessage": "Message or comments field",
+        "companyName": "Company or organization field if present"
+      },
+      "payload_schema": "advisor_outreach",
+      "payload": {
+        "fullName": "Mike Idengren",
+        "emailAddress": "mike@lsadigital.com",
+        "companyName": "LSA Digital",
+        "subject": "MEDICODAX coding workflow solution - strategic transaction fit?",
+        "yourMessage": "Hello, I am reaching out because Synergy appears to cover both healthcare and technology transactions and publicly supports a no-fee-until-sold model.\n\nMEDICODAX is not a generic profitable-company sale. It is a strategic Human-AI medical coding and workflow solution with viable deployment lanes in outpatient and home-health settings. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. Our preferred path is a strategic transaction that preserves the option for LSA Digital to continue implementation and product development under a post-close SOW. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-029",
+      "rank": 29,
+      "organization": "AHIMA",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.ahima.org/"
+    },
+    "contact_person": {
+      "name": "Jennifer Mueller",
+      "title": "SVP, Health Information Career Advancement",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/ahima/",
+      "public_email": null,
+      "public_phone": "312-233-1100",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "AHIMA business route",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Jennifer - reaching out because your role at AHIMA looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "linkedin_inmail_body": "Hi Jennifer,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "email_body": "Hello Jennifer Mueller,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.ahima.org/",
+      "company_email": null,
+      "company_phone": "312-233-1100",
+      "exact_url_verified": false,
+      "department_route": "AHIMA for Business or secure inquiry path",
+      "routing_note": "Use AHIMA for Business or secure inquiry path.",
+      "approved_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+      "approved_message_body": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "inquiryType": "Business solutions or secure inquiry route if available",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "inquiryType": "Business Solutions",
+        "subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "comments": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "medicodax-030",
+      "rank": 30,
+      "organization": "AHIMA",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "linkedin-first",
+      "contactFormURL": "https://www.ahima.org/"
+    },
+    "contact_person": {
+      "name": "Dana Perrino",
+      "title": "Chief Member Services Officer",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/ahima/",
+      "public_email": null,
+      "public_phone": "312-233-1100",
+      "primary_route": "LinkedIn name search plus company route",
+      "fallback_route": "AHIMA business route",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Dana - reaching out because your role at AHIMA looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "linkedin_inmail_body": "Hi Dana,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "email_body": "Hello Dana Perrino,\n\nI am reaching out because your role at AHIMA appears highly relevant to coding, health information, and employer-facing workflow discussions.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "https://www.ahima.org/",
+      "company_email": null,
+      "company_phone": "312-233-1100",
+      "exact_url_verified": false,
+      "department_route": "AHIMA for Business or secure inquiry path",
+      "routing_note": "Use AHIMA for Business or secure inquiry path.",
+      "approved_subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+      "approved_message_body": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route.",
+      "submitter_name": "Mike Idengren",
+      "submitter_email": "mike@lsadigital.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "inquiryType": "Business solutions or secure inquiry route if available",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "firstName": "Mike",
+        "lastName": "Idengren",
+        "workEmail": "mike@lsadigital.com",
+        "organization": "LSA Digital",
+        "inquiryType": "Business Solutions",
+        "subject": "MEDICODAX coding workflow solution - AHIMA solutions or association route?",
+        "comments": "Hello, I am reaching out because AHIMA appears to have a strong position across health information, coding, revenue cycle, employer solutions, and component associations.\n\nMEDICODAX is a strategic Human-AI medical coding and workflow solution built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models, with relevant outpatient and home-health use cases. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo or point me to the best AHIMA business-solutions, employer-facing, or component-association route."
+      }
+    }
+  }
+]

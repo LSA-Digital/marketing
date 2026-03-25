@@ -1,6 +1,6 @@
 # MEDICODAX Wholesale Marketing and Sales Plan
 
-**Last Updated:** 2026-03-10
+**Last Updated:** 2026-03-11
 
 ## Purpose
 
@@ -11,7 +11,7 @@ This plan defines the 2026 marketing and sales motion for **MEDICODAX wholesale 
 MEDICODAX wholesale should be sold as a **human-AI medical coding platform asset plus specialized continuation team** for healthcare-aligned buyers who need productivity gains, auditability, and multi-EHR flexibility without betting on a black-box coding product. The winning commercial motion is not a broad self-serve SaaS launch. It is:
 
 1. `Asset-quality proof first` - lead with implemented product facts: multi-EHR architecture, audit-first workflow, human final decision loop, and domain-informed workflow adaptation.
-2. `Strategic buyer fit first` - prioritize buyers who already run coding operations, training, home-health workflows, or healthcare IT platforms and can absorb the product into an existing revenue engine.
+2. `Strategic buyer fit first` - prioritize buyers who already run coding operations, outpatient workflows, training, home-health workflows, or healthcare IT platforms and can absorb the product into an existing revenue engine.
 3. `Transaction plus continuation services` - structure outreach so every serious conversation includes the option for LSA Digital to continue platform development, integration, and product scaling after the sale or investment.
 4. `Retail as optional upside` - keep retail and marketplace expansion visible as future upside, but do not let it dilute the 2026 wholesale / enterprise buyer story.
 
@@ -21,7 +21,7 @@ MEDICODAX wholesale should be sold as a **human-AI medical coding platform asset
 | --- | --- | --- | --- |
 | Core MEDICODAX wholesale asset | Product IP, demo-ready workflow, multi-tenant and multi-EHR architecture, buyer-facing product thesis, and diligence package | Medical coding firms, coding/training firms, healthcare workflow platforms, hospital-tech groups, healthcare-aligned investors | Mike Idengren |
 | Continuation development agreement | Ongoing LSA product development, roadmap execution, AI workflow tuning, integration work, security hardening, and implementation support | Strategic buyers or investors that want continuity after transaction | Mike Idengren + LSA Digital team |
-| Domain configuration and rollout support | Workflow design, coding-rules adaptation, buyer onboarding support, SME-guided validation, and implementation planning | Coding operators, training firms, home-health aligned buyers, enterprise pilots | Beverly Eubanks + Mike Idengren |
+| Domain configuration and rollout support | Workflow design, coding-rules adaptation, buyer onboarding support, SME-guided validation, and implementation planning | Coding operators, outpatient-aligned buyers, training firms, home-health aligned buyers, enterprise pilots | Beverly Eubanks + Mike Idengren |
 | Optional expansion path | Retail / marketplace packaging, home-health variants, and enterprise deployments after wholesale buyer alignment | Buyers seeking platform upside beyond internal operations | Mike Idengren |
 
 ## Why Now
@@ -38,6 +38,7 @@ MEDICODAX wholesale should be sold as a **human-AI medical coding platform asset
 | --- | --- | --- | --- | --- |
 | Medical coding and audit firms | Coder shortages, margin pressure, and inconsistent documentation quality across many clients | MEDICODAX is built around human-AI coding support, auditability, and multi-EHR workflows that resemble a service-provider reality | Operator-to-operator note focused on productivity and QA leverage | Asset purchase, minority investment, or pilot-to-transaction path with continuation MSA |
 | Coding education and training firms | Need differentiated technology, modern curriculum, and scalable practical tooling for client services or learner programs | MEDICODAX can become both a production tool and a training / enablement asset | Capability briefing on technology-enabled coding workforce transformation | Strategic investment or licensing / asset deal plus ongoing LSA roadmap support |
+| Outpatient coding, ambulatory RCM, or physician-group workflow operators | Need workflow support that handles high-volume coding variation, documentation quality gaps, and operational pressure across clinic and practice environments | MEDICODAX fits teams that need auditable coding support, flexible workflow logic, and multi-system readiness without a full greenfield build | Operator-focused note centered on throughput, QA, and implementation continuity | Asset purchase, strategic partnership, or pilot-to-transaction path with continuation MSA |
 | Home-health aligned coding, compliance, or consulting groups | Need workflow support that respects documentation variability, home-health realities, and review discipline | Beverly-led domain story and workflow realism give MEDICODAX a credible angle for this segment | Beverly-introduced conversation around workflow pain and audit discipline | Pilot / due-diligence review leading to strategic partnership or acquisition |
 | Healthcare workflow / RCM platform companies | Need differentiated AI workflow capabilities without building from zero | MEDICODAX offers a product asset with multi-EHR, audit trail, and human-in-the-loop position already framed | Product-development or corp-dev outreach tied to build-vs-buy economics | Asset sale, strategic partnership, or minority investment with product integration roadmap |
 | Hospital-tech conglomerates and enterprise healthcare IT groups | Need buyer-ready innovation with clearer operational use than generic AI demos | MEDICODAX provides a specific use case with compliance-aware architecture and future enterprise deployment options | Executive briefing focused on coding operations leverage and continuation team availability | Strategic investment, tuck-in acquisition, or enterprise co-development agreement |
@@ -58,7 +59,7 @@ Use a wave-based approach inside that tier model.
 | Wave | Period | Target profile | Example focus |
 | --- | --- | --- | --- |
 | Wave 0 - Asset packaging | March-April | Internal packaging and first-intro friendly accounts | Diligence room, buyer brief, shortlist, investor thesis, proof assets |
-| Wave 1 - Relationship operators | April-June | Coding firms, training firms, and home-health aligned buyers reachable through existing trust paths | Productivity, compliance, and workflow modernization story |
+| Wave 1 - Relationship operators | April-June | Coding firms, outpatient-aligned buyers, training firms, and home-health aligned buyers reachable through existing trust paths | Productivity, compliance, and workflow modernization story |
 | Wave 2 - Strategic platforms | July-September | RCM software, healthcare workflow vendors, hospital-tech groups, and corp-dev teams | Build-vs-buy economics, tuck-in fit, continuation team availability |
 | Wave 3 - Capital and optional upside | October-December | Healthcare-aligned investors, search buyers, and selected retail-adjacent expansion channels | Transaction close, continuation contract, or recapitalization path |
 
@@ -85,22 +86,22 @@ flowchart LR
     F --> G[Wholesale deployment and expansion]
 
     H[Content and low-cost campaign assets] --> B
-    I[Research, referrals, and intermediary channels] --> B
+    I[Research, referrals, and relationship channels] --> B
 ```
 
 ### Channel Mix
 
 | Channel | Use | Owner | Cadence |
 | --- | --- | --- | --- |
-| Founder-led outreach | First-touch notes to strategic buyers, corp-dev contacts, and investors | Mike Idengren | Weekly |
-| Beverly-led domain outreach | Workflow-credibility conversations for home-health and coding-service aligned buyers | Beverly Eubanks | 2-4 priority touches per month |
-| Intermediary / broker channel | Outreach to healthcare-aware brokers, advisors, success-fee-friendly agents, and referral partners such as Synergy Business Brokers or Sigma Mergers; evaluate iMerge or Founders Advisors for larger strategic processes | Mike Idengren | Weekly during active transaction periods |
-| Asset-listing / buyer-marketplace channel | Selected software deal sites and investor networks such as Acquire.com, plus curated teaser placement through advisors where appropriate | Marketing Manager + Mike Idengren | Monthly refresh |
-| Low-cost digital campaign | LinkedIn posts, short buyer briefs, one-pagers, lightweight video, and email nurture to reinforce deal story | Marketing Manager | 2-3 touches per week |
+| Founder-led outreach | LinkedIn / InMail-first outreach to strategic buyers, corp-dev contacts, named channel leaders, and investors, with contact-form fallback and email only as a later step | Mike Idengren | Weekly |
+| Beverly-led domain outreach | Workflow-credibility conversations for outpatient, home-health, and coding-service aligned buyers | Beverly Eubanks | 2-4 priority touches per month |
+| Relationship and advisor channel | Outreach to home-health, coding, training, and post-acute relationship channels such as SimiTree, McBee, Healthcare Provider Solutions, DecisionHealth / AHCC, and selected strategic advisors | Mike Idengren | Weekly during active transaction periods |
+| Asset-listing / buyer-marketplace channel | Controlled teaser exposure through selected software deal sites and investor networks only as a parallel test, not the primary path | Marketing Manager + Mike Idengren | Monthly refresh |
+| Low-cost digital campaign | LinkedIn posts, short buyer briefs, one-pagers, lightweight video, email nurture, and profile-support content to reinforce deal story | Marketing Manager | 2-3 touches per week |
 | Conference / association / partner channel | Coding, RCM, home-health, and healthcare IT ecosystem visibility for introductions | Mike Idengren + Marketing Manager | Monthly touchpoint plan |
 | Proposal and diligence support | Buyer-specific deck, roadmap, architecture brief, FAQ, and next-step asks | Mike Idengren | As opportunities mature |
 
-Use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md` as the detailed working guide for broker selection, fee-model checks, first-contact outreach, and final intermediary choice.
+Use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md` as the detailed working guide for channel selection, relationship-fit checks, and backup advisor choice. Use `docs/strategic-plan/medicodax/medicodax-tactical-contact-playbook.md` for target-by-target contact routes and outreach copy. Use `docs/strategic-plan/medicodax/medicodax-30-day-outreach-execution-plan.md` for ranked names, personalized InMails, and the live 30-day cadence.
 
 ## Role Ownership
 
@@ -112,7 +113,7 @@ This role is the force multiplier for list-building, follow-up, and process disc
 | --- | --- | --- |
 | Target-account research | 6-8 hrs | 8-12 new buyer or investor contacts with account notes and fit score |
 | Outreach support | 4-5 hrs | Drafts queued, follow-ups scheduled, CRM updated |
-| Referral and broker research | 3-4 hrs | Shortlist of intermediaries, marketplaces, and warm intro paths using the detailed broker guide |
+| Relationship and advisor research | 3-4 hrs | Shortlist of introducers, strategic advisors, association paths, and warm intro routes using the detailed channel guide |
 | Meeting operations | 2-3 hrs | Calendar holds, buyer dossiers, notes, next-step tracker |
 | Pipeline hygiene | 1-2 hrs | Current status, next action, owner, and date for every active account |
 
@@ -120,7 +121,7 @@ This role is the force multiplier for list-building, follow-up, and process disc
 
 - 10-15 qualified named contacts added per month during active build periods
 - 100 percent of active accounts updated within 48 hours of any interaction
-- 6-10 broker, referral, or investor-introduction paths surfaced per quarter
+- 6-10 relationship, referral, or investor-introduction paths surfaced per quarter
 - less than 5 business days between first response and scheduled next step
 
 ### Marketing Manager - primary ownership
@@ -132,7 +133,7 @@ This role turns MEDICODAX product evidence into buyer-facing transaction and mar
 | Campaign execution | 3-4 hrs | 2-3 MEDICODAX wholesale touches per week across social, email, or direct-support assets |
 | Content packaging | 4-5 hrs | One-pagers, buyer deck updates, diligence summaries, landing-page copy |
 | Video and briefing support | 2-3 hrs | Short clips, narrated deck fragments, or webinar-style explainers |
-| Intermediary support | 1-2 hrs | Teaser copy, marketplace summaries, and outreach collateral |
+| Channel support | 1-2 hrs | Teaser copy, marketplace summaries, and outreach collateral |
 | Reporting | 1-2 hrs | Weekly pipeline scorecard and monthly channel readout |
 
 **Marketing Manager KPIs**
@@ -145,13 +146,13 @@ This role turns MEDICODAX product evidence into buyer-facing transaction and mar
 
 ### Beverly Eubanks - credibility and domain oversight
 
-Beverly should stay focused on the highest-leverage domain areas: workflow realism, buyer trust, and home-health or coding-operations credibility.
+Beverly should stay focused on the highest-leverage domain areas: workflow realism, buyer trust, and outpatient, home-health, or coding-operations credibility.
 
 | Responsibility | Weekly time | Why it matters |
 | --- | --- | --- |
 | Review domain-sensitive claims and buyer materials | 1-1.5 hrs | Keeps workflow and compliance language credible |
 | Join selected buyer or investor calls | 1-2 hrs | Converts technical curiosity into operating confidence |
-| Shape segment-specific talk tracks | 0.5-1 hr | Helps distinguish coding-firm, training, and home-health angles |
+| Shape segment-specific talk tracks | 0.5-1 hr | Helps distinguish coding-firm, outpatient, training, and home-health angles |
 | Support proof packaging | 0.5 hr | Makes the product story feel grounded in real coding work |
 | Monthly pipeline review | 0.5 hr | Keeps domain priorities aligned with market outreach |
 
@@ -173,7 +174,7 @@ Mike should own packaging, buyer prioritization, transaction structure, and cont
 | Quarter | Strategic objective | Pipeline target | Revenue motion emphasis |
 | --- | --- | --- | --- |
 | Q1 late / Q2 early (Mar-Apr) | Package MEDICODAX as a buyer-ready wholesale asset and build Tier 1 shortlist | 12 named Tier 1 accounts, 3 warm intro paths, 1-2 live conversations | Asset packaging + awareness |
-| Q2 (May-Jun) | Launch relationship-led outreach into coding, training, and home-health aligned operators | 18-24 cumulative named contacts, 4-5 live conversations, 2-3 first meetings | Discovery + buyer qualification |
+| Q2 (May-Jun) | Launch relationship-led outreach into coding, outpatient, training, and home-health aligned operators | 18-24 cumulative named contacts, 4-5 live conversations, 2-3 first meetings | Discovery + buyer qualification |
 | Q3 (Jul-Sep) | Expand into strategic platforms and convert best accounts into diligence and structure discussions | 26-34 cumulative named contacts, 5-8 substantive meetings, 2-4 active diligence paths | Diligence + structure |
 | Q4 (Oct-Dec) | Close an investment, acquisition, license, or paid continuation-backed strategic deal and package 2027 options | 30-45 cumulative contacts, 2-4 active negotiations, 1-2 closes | Closing + continuation agreement |
 
@@ -186,7 +187,7 @@ Mike should own packaging, buyer prioritization, transaction structure, and cont
 | May | Deepen coding-firm and training-firm outreach; publish first transaction-support assets | Mike + Marketing Manager | 5 | 2 | 1 | 0-1 | 0 |
 | June | Qualify best-fit buyers and capture at least one warm diligence path | Mike | 4 | 1-2 | 1 | 0-1 | 0 |
 | July | Launch Wave 2 to strategic platforms and healthcare workflow companies | Mike + Marketing Manager | 4 | 2 | 1 | 0-1 | 0 |
-| August | Push buyer-specific demos, diligence follow-up, and intermediary channels | Mike + Coordinator | 3 | 1-2 | 1 | 1 | 0 |
+| August | Push buyer-specific demos, diligence follow-up, and relationship channels | Mike + Coordinator | 3 | 1-2 | 1 | 1 | 0 |
 | September | Narrow to highest-probability accounts and structure transaction options | Mike | 2 | 1 | 0-1 | 1 | 0 |
 | October | Move best buyer or investor into formal negotiation and continuation scope | Mike + Beverly | 2 | 1 | 0-1 | 1 | 0-1 |
 | November | Secure anchor agreement or signed term path; package retail upside as optional expansion | Mike | 1-2 | 1 | 0-1 | 1 | 0-1 |
@@ -212,7 +213,7 @@ These are the **base-case targets** for a relationship-led strategic buyer motio
 
 ### Stretch Scenario
 
-If a warm intermediary channel opens quickly or one strategic operator moves faster than expected, a stretch outcome is:
+If a warm relationship channel opens quickly or one strategic operator moves faster than expected, a stretch outcome is:
 
 - 40-55 named contacts
 - 10-12 intro calls
@@ -238,12 +239,12 @@ Owner: **Mike Idengren**
 - Keep claims tied to implemented product facts: auditability, workflow adaptation, human final decision loop, and architecture readiness.
 - Treat retail as optional upside after the core wholesale / enterprise fit is understood.
 
-### 2. Buyer development and intermediary channel buildout
+### 2. Buyer development and relationship channel buildout
 
 Owner: **Coordinator / intern**
 
 - Maintain a rolling list of strategic operators, healthcare software buyers, and healthcare-aligned investors.
-- Track likely referral sources, boutique brokers, software deal intermediaries, and success-fee-friendly introduction paths separately from direct buyers.
+- Track likely referral sources, outpatient, home-health, and coding relationship channels, selective advisors, and backup broker paths separately from direct buyers.
 - Create short dossiers before every outreach wave: buyer type, likely acquisition thesis, who might champion, and whether continuation services are likely attractive.
 - Route all responses into a single scorecard with next action, owner, and transaction stage.
 
@@ -261,7 +262,7 @@ Owner: **Marketing Manager**
   - healthcare IT platform and corp-dev teams
   - investors and sponsors
 - Create one reusable visual or buyer asset per month.
-- Use low-cost channels first: direct email support, LinkedIn posting, lightweight landing-page copy, short narrated briefings, and partner-introduction packets.
+- Use low-cost channels first: LinkedIn outreach, lightweight landing-page copy, short narrated briefings, partner-introduction packets, and approved contact-form support.
 
 ### 4. Meeting conversion, diligence, and transaction ladder
 
@@ -290,13 +291,13 @@ Owner: **Marketing Manager + Beverly Eubanks**
 
 Owner: **Mike Idengren + Marketing Manager**
 
-Detailed broker and advisor comparison, outreach questions, and decision steps live in `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md`.
+Detailed channel, advisor, and backup-broker comparison, outreach questions, and decision steps live in `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md`.
 
-- Use a three-lane channel approach: direct strategic outreach, curated intermediary outreach, and selective asset-listing visibility.
+- Use a three-lane channel approach: direct strategic outreach, relationship-rich introducer channels, and selective asset-listing visibility.
+- Start with SimiTree, McBee, Healthcare Provider Solutions, DecisionHealth / AHCC, AAPC, AHIMA, Alliance for Care at Home style channels, and outpatient-relevant coding or RCM relationships before any traditional broker process.
 - Test software-business marketplaces and investor networks only with a controlled teaser; do not expose sensitive diligence before buyer qualification.
-- Start with low-friction or no-upfront options such as Acquire.com for market testing and success-fee brokers such as Synergy Business Brokers or Sigma Mergers for active buyer search.
-- For larger or more complex strategic processes, consider healthcare IT-focused advisors such as iMerge Advisors or Founders Advisors and Axial access through an advisor if the expected valuation and buyer mix justify the process.
-- Prefer agents, brokers, or advisors that can work on success fee, back-end commission, or low-upfront arrangements when possible; if retainers are required, reserve them for channels with clear healthcare buyer access.
+- Use LECO, VERTESS, Greenberg Advisors, or similar niche advisors as the second lane once relationship-first outreach is active.
+- Keep Synergy, Sigma, and similar brokers as backup coverage only; if retainers are required, reserve them for channels with clear buyer access in coding, home health, RCM, or HCIT.
 - Treat low-cost digital marketing as support for credibility, not as the main deal engine: posts, short videos, founder notes, and lightweight briefing distribution should reinforce direct outreach.
 
 ## 2026 Execution Calendar
@@ -375,8 +376,8 @@ By the end of 2026, MEDICODAX wholesale should have:
 
 - `docs/strategic-plan/Strategic Plan - LSA sales 2026Mar9.md`
 - `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md`
-- `docs/templates/marketing-and-sales-plan-template.md`
-- `docs/templates/marketing-and-sales-briefing-template.md`
+- `docs/strategic-plan/templates/marketing-and-sales-plan-template.md`
+- `docs/strategic-plan/templates/marketing-and-sales-briefing-template.md`
 - `docs/strategic-plan/hsra/HSRA-marketing-and-sales-plan.md`
 - `lsaProductExpertAlignment.md`
 - `marketingCampaignFeb2026.md`

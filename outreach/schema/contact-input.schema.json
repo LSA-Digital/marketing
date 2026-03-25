@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lsadigital.com/schemas/outreach/contact-input.json",
+  "title": "Contact Outreach Input",
+  "description": "Batch input for AI-powered contact form outreach. Each entry contains a _meta object with workflow control and dynamic fields that will be semantically mapped to form elements.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": ["_meta"],
+    "properties": {
+      "_meta": {
+        "type": "object",
+        "description": "Workflow control fields. Never mapped to form elements.",
+        "required": ["contactFormURL"],
+        "properties": {
+          "contactFormURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "The URL of the contact form to fill and submit."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Optional operator notes — context for the agent, not submitted."
+          },
+          "skipCaptcha": {
+            "type": "boolean",
+            "default": false,
+            "description": "If true, skip this entry when CAPTCHA is detected instead of attempting to solve."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": {
+      "type": ["string", "number", "boolean"],
+      "description": "Dynamic form fields. Keys are semantic field names (e.g., 'name', 'email', 'message') that will be AI-mapped to actual form elements."
+    }
+  }
+}

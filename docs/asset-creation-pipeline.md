@@ -103,7 +103,7 @@ Verify the proxy works: `curl -s -o /dev/null -w "%{http_code}" http://localhost
 | **Bash** | Create directories, verify files | `bash(command="mkdir -p ...")` |
 | **Read/Edit** | Embed images into markdown post files | Standard file tools |
 
-**NOT used:** Chrome DevTools MCP — its `savePath` parameter silently fails to save files to disk.
+**Also available:** Chrome DevTools MCP — use `take_screenshot` with `filePath` param (not `savePath`) to save screenshots to disk.
 
 ---
 
@@ -335,7 +335,7 @@ MUST DO:
 - Embed in post markdown with: ![descriptive alt text](assets/<name>.png)
 
 MUST NOT DO:
-- Do NOT use Chrome DevTools MCP for saving screenshots (savePath is broken)
+- Chrome DevTools MCP screenshot param is `filePath` (NOT `savePath` — that was a previous doc error)
 - Do NOT use JPEG format (PNG for text legibility)
 - Do NOT use absolute paths in markdown image references
 - Do NOT skip mkdir — Playwright errors with ENOENT if directory missing
@@ -374,7 +374,7 @@ PATH="/Users/idengrenme/.local/share/fnm/node-versions/v20.19.5/installation/bin
 | Screenshot is blank/white | Page still loading | Add `page.waitForTimeout(2000)` or `browser_wait_for` |
 | Screenshot too small | Viewport size | Use `browser_resize` to set width/height before capture |
 | Playwright not available | MCP not loaded | Load skill first: `skill(name="playwright")` |
-| Chrome DevTools `savePath` ignored | Known bug — parameter is silently dropped | Use Playwright MCP instead |
+| Chrome DevTools screenshot not saving | Wrong param name | Use `filePath` (not `savePath`) |
 
 ---
 

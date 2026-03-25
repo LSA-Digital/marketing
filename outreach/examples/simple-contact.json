@@ -1,0 +1,11 @@
+[
+  {
+    "_meta": {
+      "contactFormURL": "http://localhost:8090/simple-form.html",
+      "notes": "Test fixture: minimal 3-field contact form"
+    },
+    "name": "Alex Rivera",
+    "email": "alex.rivera@lsadigital.com",
+    "message": "Hi, I came across your company and would love to explore a potential collaboration. We specialize in AI-powered enterprise solutions. Would you be open to a brief call next week?"
+  }
+]

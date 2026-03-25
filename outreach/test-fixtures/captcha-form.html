@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Meridian Consulting Group</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, 'Times New Roman', serif; background: #fafaf8; color: #333; }
+    .header { background: #1b2a4a; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+    .header .logo { color: #c9a84c; font-size: 20px; font-weight: 700; letter-spacing: 1px; }
+    .header nav a { color: rgba(255,255,255,0.7); text-decoration: none; margin-left: 28px; font-size: 14px; font-family: -apple-system, sans-serif; }
+    .banner { background: #1b2a4a; color: #fff; padding: 40px 40px 60px; text-align: center; }
+    .banner h1 { font-size: 36px; font-weight: 400; margin-bottom: 8px; }
+    .banner p { color: rgba(255,255,255,0.7); font-family: -apple-system, sans-serif; font-size: 15px; }
+    .container { max-width: 580px; margin: -24px auto 40px; background: #fff; border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); padding: 36px 40px; position: relative; z-index: 1; }
+    .form-group { margin-bottom: 20px; }
+    label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #444; font-family: -apple-system, sans-serif; }
+    input, textarea {
+      width: 100%; padding: 11px 14px; border: 1px solid #d0d0d0; border-radius: 3px;
+      font-size: 14px; font-family: -apple-system, sans-serif; transition: border-color 0.2s;
+    }
+    input:focus, textarea:focus { outline: none; border-color: #1b2a4a; box-shadow: 0 0 0 2px rgba(27,42,74,0.1); }
+    textarea { resize: vertical; min-height: 130px; }
+
+    /* Simulated reCAPTCHA widget */
+    .captcha-widget {
+      border: 1px solid #d3d3d3; border-radius: 3px; background: #f9f9f9;
+      padding: 12px 16px; display: flex; align-items: center; gap: 12px;
+      margin-bottom: 20px; max-width: 304px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .captcha-checkbox-wrapper {
+      width: 28px; height: 28px; border: 2px solid #c1c1c1; border-radius: 3px;
+      background: #fff; cursor: pointer; display: flex; align-items: center;
+      justify-content: center; transition: all 0.2s; flex-shrink: 0;
+    }
+    .captcha-checkbox-wrapper:hover { border-color: #4a90d9; }
+    .captcha-checkbox-wrapper.checked { border-color: #4a90d9; background: #4a90d9; }
+    .captcha-checkmark { display: none; color: #fff; font-size: 18px; font-weight: bold; line-height: 1; }
+    .captcha-checkbox-wrapper.checked .captcha-checkmark { display: block; }
+    .captcha-label { font-size: 14px; color: #555; font-family: -apple-system, sans-serif; user-select: none; }
+    .captcha-branding { margin-left: auto; text-align: center; }
+    .captcha-branding img { display: block; }
+    .captcha-branding .recaptcha-text { font-size: 10px; color: #555; font-family: -apple-system, sans-serif; }
+    .captcha-branding .recaptcha-links { font-size: 8px; color: #888; font-family: -apple-system, sans-serif; }
+    .captcha-branding .recaptcha-links a { color: #888; text-decoration: none; }
+
+    .btn-submit {
+      display: inline-block; background: #1b2a4a; color: #fff; border: none;
+      padding: 12px 40px; border-radius: 3px; font-size: 15px; font-weight: 600;
+      cursor: pointer; font-family: -apple-system, sans-serif; transition: all 0.2s;
+    }
+    .btn-submit:hover:not(:disabled) { background: #2c4270; }
+    .btn-submit:disabled { opacity: 0.4; cursor: not-allowed; }
+    .confirmation {
+      display: none; background: #e8f5e9; border: 1px solid #c8e6c9; color: #2e7d32;
+      padding: 18px; border-radius: 4px; text-align: center; margin-top: 20px;
+      font-family: -apple-system, sans-serif;
+    }
+    .confirmation.show { display: block; }
+    .footer { text-align: center; color: #aaa; font-size: 12px; padding: 24px; font-family: -apple-system, sans-serif; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="logo">MERIDIAN</span>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Insights</a>
+      <a href="#">Contact</a>
+    </nav>
+  </div>
+
+  <div class="banner">
+    <h1>Contact Us</h1>
+    <p>Have a question or want to work with us? Send us a message below.</p>
+  </div>
+
+  <div class="container">
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" placeholder="John Smith" required>
+      </div>
+
+      <div class="form-group">
+        <label for="emailAddress">Email Address</label>
+        <input type="email" id="emailAddress" name="emailAddress" placeholder="john@company.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+      </div>
+
+      <div class="form-group">
+        <label for="yourMessage">Your Message</label>
+        <textarea id="yourMessage" name="yourMessage" placeholder="Please provide details about your inquiry..." required></textarea>
+      </div>
+
+      <!-- Simulated reCAPTCHA widget -->
+      <div class="captcha-widget" role="group" aria-label="CAPTCHA verification">
+        <div class="captcha-checkbox-wrapper" id="captchaBox" role="checkbox" aria-checked="false" aria-label="I'm not a robot" tabindex="0">
+          <span class="captcha-checkmark" aria-hidden="true">&#10003;</span>
+        </div>
+        <span class="captcha-label">I'm not a robot</span>
+        <div class="captcha-branding">
+          <div class="recaptcha-text">reCAPTCHA</div>
+          <div class="recaptcha-links"><a href="#">Privacy</a> - <a href="#">Terms</a></div>
+        </div>
+      </div>
+
+      <button type="submit" id="submitBtn" class="btn-submit" disabled>Submit</button>
+    </form>
+
+    <div id="confirmation" class="confirmation">
+      <strong>Message sent successfully!</strong> We'll review your inquiry and respond within 48 hours.
+    </div>
+  </div>
+
+  <div class="footer">&copy; 2026 Meridian Consulting Group. All rights reserved.</div>
+
+  <script>
+    const captchaBox = document.getElementById('captchaBox');
+    const submitBtn = document.getElementById('submitBtn');
+
+    // Toggle CAPTCHA checkbox
+    captchaBox.addEventListener('click', function() {
+      const isChecked = this.classList.toggle('checked');
+      this.setAttribute('aria-checked', isChecked);
+      submitBtn.disabled = !isChecked;
+    });
+
+    // Also handle keyboard activation
+    captchaBox.addEventListener('keydown', function(e) {
+      if (e.key === ' ' || e.key === 'Enter') {
+        e.preventDefault();
+        this.click();
+      }
+    });
+
+    // Form submission
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      if (submitBtn.disabled) return;
+      const form = this;
+      submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+
+      try {
+        const data = new URLSearchParams(new FormData(form));
+        const res = await fetch('http://localhost:8091/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: data.toString()
+        });
+        const result = await res.json();
+
+        if (result.success) {
+          form.style.display = 'none';
+          document.getElementById('confirmation').classList.add('show');
+        } else {
+          submitBtn.textContent = 'Submit';
+          submitBtn.disabled = false;
+          alert('Failed to send: ' + (result.error || 'Unknown error'));
+        }
+      } catch (err) {
+        submitBtn.textContent = 'Submit';
+        submitBtn.disabled = false;
+        alert('Network error: ' + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

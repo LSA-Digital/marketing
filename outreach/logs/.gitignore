@@ -1,0 +1,4 @@
+# Ignore all execution logs and screenshots (contain PII and session data)
+*
+!.gitignore
+!.gitkeep

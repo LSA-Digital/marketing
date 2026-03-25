@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get in Touch | Acme Solutions</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
+    .page-header { background: #1a5276; color: #fff; padding: 20px 40px; }
+    .page-header h1 { font-size: 20px; font-weight: 500; }
+    .container { max-width: 560px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding: 40px; }
+    h2 { font-size: 24px; margin-bottom: 8px; }
+    .subtitle { color: #666; margin-bottom: 28px; font-size: 14px; }
+    .form-group { margin-bottom: 20px; }
+    label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #444; }
+    input, textarea {
+      width: 100%; padding: 10px 12px; border: 1px solid #ccc; border-radius: 4px;
+      font-size: 14px; font-family: inherit; transition: border-color 0.2s;
+    }
+    input:focus, textarea:focus { outline: none; border-color: #2980b9; box-shadow: 0 0 0 2px rgba(41,128,185,0.15); }
+    textarea { resize: vertical; min-height: 120px; }
+    .btn-submit {
+      display: inline-block; background: #2980b9; color: #fff; border: none; padding: 12px 32px;
+      border-radius: 4px; font-size: 15px; font-weight: 600; cursor: pointer; transition: background 0.2s;
+    }
+    .btn-submit:hover { background: #1a5276; }
+    .confirmation {
+      display: none; background: #d4edda; border: 1px solid #c3e6cb; color: #155724;
+      padding: 16px; border-radius: 4px; text-align: center; margin-top: 20px;
+    }
+    .confirmation.show { display: block; }
+    .footer { text-align: center; color: #999; font-size: 12px; margin-top: 40px; padding-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div class="page-header">
+    <h1>Acme Solutions</h1>
+  </div>
+
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p class="subtitle">We'd love to hear from you. Fill out the form below and we'll get back to you within 24 hours.</p>
+
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+
+    <div id="confirmation" class="confirmation">
+      <strong>Thank you!</strong> Your message has been received. We'll be in touch soon.
+    </div>
+  </div>
+
+  <div class="footer">&copy; 2026 Acme Solutions. All rights reserved.</div>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const form = this;
+      const btn = form.querySelector('.btn-submit');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      try {
+        const data = new URLSearchParams(new FormData(form));
+        const res = await fetch('http://localhost:8091/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: data.toString()
+        });
+        const result = await res.json();
+
+        if (result.success) {
+          form.style.display = 'none';
+          document.getElementById('confirmation').classList.add('show');
+        } else {
+          btn.textContent = 'Send Message';
+          btn.disabled = false;
+          alert('Failed to send: ' + (result.error || 'Unknown error'));
+        }
+      } catch (err) {
+        btn.textContent = 'Send Message';
+        btn.disabled = false;
+        alert('Network error: ' + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

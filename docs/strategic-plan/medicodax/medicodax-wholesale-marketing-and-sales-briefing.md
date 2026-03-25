@@ -1,14 +1,14 @@
 # MEDICODAX Wholesale Strategy Briefing
 
-**Last Updated:** 2026-03-10
+**Last Updated:** 2026-03-11
 
 ## Executive Summary
 
-MEDICODAX wholesale should be marketed in 2026 as a **strategic human-AI medical coding asset plus continuation development team**, not as a broad retail SaaS launch or a BDA-only joint venture story. The strongest path to revenue is to use the current MEDICODAX proof package, multi-EHR workflow story, and coding-operations pain signals as the lead narrative, then run a relationship-led campaign into medical coding and training firms first, home-health aligned operators second, strategic healthcare workflow / RCM buyers third, and healthcare-aligned investors fourth.
+MEDICODAX wholesale should be marketed in 2026 as a **strategic human-AI medical coding asset plus continuation development team**, not as a broad retail SaaS launch or a BDA-only joint venture story. The strongest path to revenue is to use the current MEDICODAX proof package, multi-EHR workflow story, and coding-operations pain signals as the lead narrative, then run a relationship-led campaign into medical coding and training firms first, outpatient and ambulatory workflow operators second, home-health aligned operators third, strategic healthcare workflow / RCM buyers fourth, and healthcare-aligned investors fifth.
 
 The commercial motion should combine the wholesale asset, continuation development services, domain configuration support, and retail / enterprise upside as an optional future layer. This keeps the offer aligned with current proof while creating a practical path from buyer curiosity to diligence, paid work, and a strategic transaction. What closes deals fastest is turning MEDICODAX into a believable `build-vs-buy` shortcut for firms that already own distribution, customers, or operations.
 
-The safest reading of the market is **not** "launch MEDICODAX broadly and hope buyers appear." It is a focused 2026 process that actively sells into only **12-18 priority accounts**, while keeping adjacent buyers warm through low-cost content, direct follow-up, and selective intermediary visibility.
+The safest reading of the market is **not** "launch MEDICODAX broadly and hope buyers appear." It is a focused 2026 process that actively sells into only **12-18 priority accounts**, while keeping adjacent buyers warm through low-cost content, direct follow-up, and selective channel visibility.
 
 ## Strategy In One View
 
@@ -22,7 +22,7 @@ flowchart TD
     F --> G[Continuation development agreement]
 
     H[Low-cost content and buyer briefs] --> C
-    I[Referral and broker channels] --> C
+    I[Relationship and advisor channels] --> C
 ```
 
 ## High-Level Solution Components
@@ -52,6 +52,7 @@ productivity + compliance + flexibility]
 - The coder shortage and ongoing revenue leakage from documentation and coding quality create immediate operating pressure.
 - MEDICODAX already has buyer-relevant proof points: human final decision loop, real-time auditing, adaptive workflow logic, and multi-EHR security framing.
 - RCM and healthcare workflow vendors need differentiated AI workflow capability without taking on a full greenfield build.
+- Outpatient coding and ambulatory workflow teams remain viable because they face high-volume throughput pressure, documentation variability, and QA demands that map well to MEDICODAX.
 - Home-health and post-acute coding remain especially urgent workflow niches, while training firms are an underused buyer category that can extend into software-enabled recurring revenue.
 
 ## Who To Target First
@@ -60,14 +61,15 @@ The highest-fit 2026 targets are:
 
 1. medical coding and audit firms that can absorb MEDICODAX into existing service operations
 2. coding education, training, and credentialing firms that want a workflow layer, not just content
-3. home-health aligned coding, compliance, or workflow operators with urgent documentation and review pain
-4. RCM, healthcare workflow, and hospital-tech platform buyers that prefer bolt-on capability over greenfield build
-5. healthcare-aligned investors, search buyers, and sponsors who value a continuation team and strategic optionality
+3. outpatient coding, ambulatory RCM, physician-group, or clinic-workflow operators with urgent throughput, QA, and documentation pain
+4. home-health aligned coding, compliance, or workflow operators with urgent documentation and review pain
+5. RCM, healthcare workflow, and hospital-tech platform buyers that prefer bolt-on capability over greenfield build
+6. healthcare-aligned investors, search buyers, and sponsors who value a continuation team and strategic optionality
 
 The campaign should **not** attempt a generic mass-market blast. It should move in waves while limiting active outbound to a narrow priority set:
 
 - `March-April`: asset packaging, proof package, first-intro shortlist, and buyer brief
-- `April-June`: coding, training, and home-health operator outreach
+- `April-June`: coding, training, outpatient, and home-health operator outreach
 - `July-September`: strategic platform, RCM, and corp-dev outreach plus active diligence
 - `October-December`: close motion, investor backstop, and continuation-agreement packaging
 
@@ -116,19 +118,20 @@ That ladder matches how buyers reduce risk at alpha / demo-ready stage and how M
 
 ### 4. Channel strategy
 
-For the detailed broker shortlist, fee-model checks, comparison scorecard, first-contact email, and one-week execution sprint, use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md`.
+For the detailed channel shortlist, relationship-fit checks, comparison scorecard, first-contact framework, and one-week execution sprint, use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md`. For target-by-target routes and copy, use `docs/strategic-plan/medicodax/medicodax-tactical-contact-playbook.md`. For ranked names, personalized LinkedIn outreach, and the month-long send plan, use `docs/strategic-plan/medicodax/medicodax-30-day-outreach-execution-plan.md`.
 
 Use three lanes in parallel:
 
-- `Direct strategic outreach` - founder-led contact into coding firms, training firms, RCM buyers, and corp-dev targets
-- `Curated intermediary outreach` - success-fee or low-upfront brokers first, then healthcare IT advisors for larger processes
-- `Selective listing visibility` - controlled teaser exposure through software deal marketplaces and advisor networks
+- `Direct strategic outreach` - founder-led contact into coding firms, outpatient and ambulatory operators, training firms, RCM buyers, corp-dev targets, and named individuals via LinkedIn / InMail first, then contact-form fallback, with email last
+- `Relationship-first outreach` - SimiTree, McBee, Healthcare Provider Solutions, DecisionHealth / AHCC, AAPC, AHIMA, Alliance for Care at Home, and similar channels that already know the market
+- `Selective advisor and listing visibility` - niche healthcare or IP advisors plus controlled teaser exposure through software deal marketplaces only when useful
 
 Practical options to test in 2026:
 
-- `Acquire.com` for low-friction market testing and buyer exposure
-- `Synergy Business Brokers` and `Sigma Mergers` for success-fee-first search
-- `iMerge Advisors`, `Founders Advisors`, and `Axial` via advisor if the process matures into a larger healthcare IT transaction
+- `SimiTree`, `McBee`, `Healthcare Provider Solutions`, and `DecisionHealth / AHCC` as first-wave relationship channels
+- `AAPC`, `AHIMA`, and `Alliance for Care at Home` as ecosystem channels for warm introductions and visibility
+- `LECO`, `VERTESS`, and `Greenberg Advisors` as second-wave strategic buyer-introduction paths
+- `Synergy`, `Sigma`, `Acquire.com`, `iMerge`, `Founders`, and `Axial` only as backup or later-stage coverage
 
 ## Timeline And Milestones
 
@@ -190,7 +193,7 @@ gantt
 
 ## Bottom Line
 
-MEDICODAX can generate meaningful 2026 revenue if LSA Digital treats it as a **strategic coding-workflow asset with a built-in continuation team**, not a generic app launch. The combination of implemented workflow proof, Beverly's domain credibility, founder-led buyer development, low-cost support content, and disciplined intermediary use creates a practical path to **1-2 meaningful closes**, with upside beyond that if one coding, home-health, or strategic platform buyer moves quickly. The key is discipline: keep the claims safe, keep the funnel narrow, and make every month advance either buyer fit, diligence, or a continuation-backed close. Use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md` as the operational guide for choosing and engaging the right broker or advisor.
+MEDICODAX can generate meaningful 2026 revenue if LSA Digital treats it as a **strategic coding-workflow asset with a built-in continuation team**, not a generic app launch. The combination of implemented workflow proof, Beverly's domain credibility, founder-led buyer development, low-cost support content, and disciplined relationship-channel use creates a practical path to **1-2 meaningful closes**, with upside beyond that if one coding, outpatient, home-health, or strategic platform buyer moves quickly. The key is discipline: keep the claims safe, keep the funnel narrow, and make every month advance either buyer fit, diligence, or a continuation-backed close. Use `docs/strategic-plan/medicodax/medicodax-wholesale-brokers.md` as the operational guide for choosing and engaging the right channel, advisor, or backup broker.
 
 ## Sources
 

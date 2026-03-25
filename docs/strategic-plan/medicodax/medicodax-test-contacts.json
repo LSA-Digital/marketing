@@ -1,0 +1,348 @@
+[
+  {
+    "_meta": {
+      "target_id": "test-001",
+      "rank": 1,
+      "organization": "Evergreen Health Partners",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/simple-form.html"
+    },
+    "contact_person": {
+      "name": "Dana Whitfield",
+      "title": "CEO",
+      "linkedin_profile_url": "https://www.linkedin.com/in/test-dana-whitfield/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "555-100-2001",
+      "primary_route": "Website form",
+      "fallback_route": "Email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Dana - reaching out because your role at Evergreen Health Partners looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — coding workflow asset strategic fit",
+        "linkedin_inmail_body": "Hi Dana,\n\nI am reaching out because your role at Evergreen Health Partners is useful for validating the individualized outreach structure in this test dataset.\n\nThis is a test message for the outreach automation system. Evergreen Health Partners appears to have strong alignment with our product capabilities. We are exploring whether there is a direct strategic fit, a partnership path, or a referral opportunity. This message was generated for testing purposes only and should not be treated as a real outreach. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — coding workflow asset strategic fit",
+        "email_body": "Hello Dana Whitfield,\n\nI am reaching out because your role at Evergreen Health Partners is useful for validating the individualized outreach structure in this test dataset.\n\nThis is a test message for the outreach automation system. Evergreen Health Partners appears to have strong alignment with our product capabilities. We are exploring whether there is a direct strategic fit, a partnership path, or a referral opportunity. This message was generated for testing purposes only and should not be treated as a real outreach. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/simple-form.html",
+      "company_email": "info@test-evergreen.example.com",
+      "company_phone": "555-100-2001",
+      "exact_url_verified": true,
+      "department_route": "Strategic, product, or partnership routing",
+      "routing_note": "TEST FIXTURE — simple 3-field form (name, email, message).",
+      "approved_subject": "TEST — coding workflow asset strategic fit",
+      "approved_message_body": "This is a test message for the outreach automation system. Evergreen Health Partners appears to have strong alignment with our product capabilities. We are exploring whether there is a direct strategic fit, a partnership path, or a referral opportunity. This message was generated for testing purposes only and should not be treated as a real outreach.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Test User",
+        "email": "test@lsadigital.example.com",
+        "subject": "TEST — coding workflow asset strategic fit",
+        "message": "This is a test message for the outreach automation system. Evergreen Health Partners appears to have strong alignment with our product capabilities. We are exploring whether there is a direct strategic fit, a partnership path, or a referral opportunity. This message was generated for testing purposes only and should not be treated as a real outreach."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "test-002",
+      "rank": 2,
+      "organization": "Evergreen Health Partners",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/simple-form.html"
+    },
+    "contact_person": {
+      "name": "Marcus Chen-Ramirez",
+      "title": "Chief Product Officer",
+      "linkedin_profile_url": "https://www.linkedin.com/in/test-marcus-cr/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "555-100-2002",
+      "primary_route": "Website form",
+      "fallback_route": "Email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Marcus - reaching out because your role at Evergreen Health Partners looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — workflow automation asset discussion",
+        "linkedin_inmail_body": "Hi Marcus,\n\nI am reaching out because your role at Evergreen Health Partners is useful for validating the individualized outreach structure in this test dataset.\n\nThis is a test message for the outreach automation system. We believe Evergreen's product capabilities align with our workflow automation asset. Our preferred path is a strategic transaction that preserves the option for continued implementation support. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — workflow automation asset discussion",
+        "email_body": "Hello Marcus Chen-Ramirez,\n\nI am reaching out because your role at Evergreen Health Partners is useful for validating the individualized outreach structure in this test dataset.\n\nThis is a test message for the outreach automation system. We believe Evergreen's product capabilities align with our workflow automation asset. Our preferred path is a strategic transaction that preserves the option for continued implementation support. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/simple-form.html",
+      "company_email": "info@test-evergreen.example.com",
+      "company_phone": "555-100-2002",
+      "exact_url_verified": true,
+      "department_route": "Product or technology routing",
+      "routing_note": "TEST FIXTURE — simple 3-field form (name, email, message).",
+      "approved_subject": "TEST — workflow automation asset discussion",
+      "approved_message_body": "This is a test message for the outreach automation system. We believe Evergreen's product capabilities align with our workflow automation asset. Our preferred path is a strategic transaction that preserves the option for continued implementation support. This message was generated for testing purposes only.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message, comments, or how can we help field"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "name": "Test User",
+        "email": "test@lsadigital.example.com",
+        "subject": "TEST — workflow automation asset discussion",
+        "message": "This is a test message for the outreach automation system. We believe Evergreen's product capabilities align with our workflow automation asset. Our preferred path is a strategic transaction that preserves the option for continued implementation support. This message was generated for testing purposes only."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "test-003",
+      "rank": 3,
+      "organization": "Pinnacle Compliance Group",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "high",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/multi-field-form.html"
+    },
+    "contact_person": {
+      "name": "Samantha Torres",
+      "title": "VP, Business Development",
+      "linkedin_profile_url": "https://www.linkedin.com/in/test-samantha-torres/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "555-200-3001",
+      "primary_route": "Website form",
+      "fallback_route": "Email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Samantha - reaching out because your role at Pinnacle Compliance Group looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — strategic asset conversation",
+        "linkedin_inmail_body": "Hi Samantha,\n\nI am reaching out because your role at Pinnacle Compliance Group is useful for validating individualized outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. Pinnacle Compliance Group appears to combine compliance expertise with operational workflow knowledge. We are exploring strategic transactions and partnership paths. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — strategic asset conversation",
+        "email_body": "Hello Samantha Torres,\n\nI am reaching out because your role at Pinnacle Compliance Group is useful for validating individualized outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. Pinnacle Compliance Group appears to combine compliance expertise with operational workflow knowledge. We are exploring strategic transactions and partnership paths. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/multi-field-form.html",
+      "company_email": "contact@test-pinnacle.example.com",
+      "company_phone": "555-200-3001",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "TEST FIXTURE — multi-field form (8 fields + dropdown). Tests complex field mapping.",
+      "approved_subject": "TEST — strategic asset conversation",
+      "approved_message_body": "This is a test message for the outreach automation system. Pinnacle Compliance Group appears to combine compliance expertise with operational workflow knowledge. We are exploring strategic transactions and partnership paths. This message was generated for testing purposes only.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": "555-000-0000",
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field",
+        "company": "Company or organization field if present"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "firstName": "Test",
+        "lastName": "User",
+        "workEmail": "test@lsadigital.example.com",
+        "company": "LSA Digital (TEST)",
+        "jobTitle": "Director of Product",
+        "phone": "555-000-0000",
+        "interest": "partnership",
+        "comments": "This is a test message for the outreach automation system. Pinnacle Compliance Group appears to combine compliance expertise with operational workflow knowledge. We are exploring strategic transactions and partnership paths. This message was generated for testing purposes only."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "test-004",
+      "rank": 4,
+      "organization": "Pinnacle Compliance Group",
+      "lane": "strategic buyer",
+      "message_family": "F1",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/multi-field-form.html"
+    },
+    "contact_person": {
+      "name": "Robert Nakamura",
+      "title": "Senior VP, Client Development",
+      "linkedin_profile_url": "https://www.linkedin.com/in/test-robert-nakamura/",
+      "linkedin_company_url": null,
+      "public_email": null,
+      "public_phone": "555-200-3002",
+      "primary_route": "Website form",
+      "fallback_route": "Email",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Robert - reaching out because your role at Pinnacle Compliance Group looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — workflow technology partnership",
+        "linkedin_inmail_body": "Hi Robert,\n\nI am reaching out because your role at Pinnacle Compliance Group is useful for validating individualized outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. We see potential alignment between Pinnacle's client base and our workflow technology. We would value a conversation to explore strategic options. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — workflow technology partnership",
+        "email_body": "Hello Robert Nakamura,\n\nI am reaching out because your role at Pinnacle Compliance Group is useful for validating individualized outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. We see potential alignment between Pinnacle's client base and our workflow technology. We would value a conversation to explore strategic options. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/multi-field-form.html",
+      "company_email": "contact@test-pinnacle.example.com",
+      "company_phone": "555-200-3002",
+      "exact_url_verified": true,
+      "department_route": null,
+      "routing_note": "TEST FIXTURE — multi-field form. Tests dropdown selection and many-field mapping.",
+      "approved_subject": "TEST — workflow technology partnership",
+      "approved_message_body": "This is a test message for the outreach automation system. We see potential alignment between Pinnacle's client base and our workflow technology. We would value a conversation to explore strategic options. This message was generated for testing purposes only.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": "555-000-0000",
+      "field_mapping": {
+        "subject": "Subject if present",
+        "message": "Message or comments field"
+      },
+      "payload_schema": "buyer_simple",
+      "payload": {
+        "firstName": "Test",
+        "lastName": "User",
+        "workEmail": "test@lsadigital.example.com",
+        "company": "LSA Digital (TEST)",
+        "jobTitle": "Product Manager",
+        "phone": "555-000-0000",
+        "interest": "product-demo",
+        "comments": "This is a test message for the outreach automation system. We see potential alignment between Pinnacle's client base and our workflow technology. We would value a conversation to explore strategic options. This message was generated for testing purposes only."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "test-005",
+      "rank": 5,
+      "organization": "National Coding Education Alliance",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/captcha-form.html"
+    },
+    "contact_person": {
+      "name": "Patricia Okonkwo",
+      "title": "Executive Director",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/test-ncea/",
+      "public_email": null,
+      "public_phone": "555-300-4001",
+      "primary_route": "Website form",
+      "fallback_route": "Member inbox",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi Patricia - reaching out because your role at National Coding Education Alliance looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — coding workflow asset education fit",
+        "linkedin_inmail_body": "Hi Patricia,\n\nI am reaching out because your role at the National Coding Education Alliance is useful for validating individualized association-outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. The National Coding Education Alliance appears to be well positioned in coding education and certification. We are exploring whether a curriculum, training, or member-introduction path makes sense. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — coding workflow asset education fit",
+        "email_body": "Hello Patricia Okonkwo,\n\nI am reaching out because your role at the National Coding Education Alliance is useful for validating individualized association-outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. The National Coding Education Alliance appears to be well positioned in coding education and certification. We are exploring whether a curriculum, training, or member-introduction path makes sense. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/captcha-form.html",
+      "company_email": "members@test-ncea.example.com",
+      "company_phone": "555-300-4001",
+      "exact_url_verified": true,
+      "department_route": "Education, community, sponsorship, or member route",
+      "routing_note": "TEST FIXTURE — captcha form. Tests CAPTCHA detection and checkbox solving.",
+      "approved_subject": "TEST — coding workflow asset education fit",
+      "approved_message_body": "This is a test message for the outreach automation system. The National Coding Education Alliance appears to be well positioned in coding education and certification. We are exploring whether a curriculum, training, or member-introduction path makes sense. This message was generated for testing purposes only.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "comments": "Message, comments, or inquiry details field",
+        "organization": "Organization or company field if present"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "fullName": "Test User",
+        "emailAddress": "test@lsadigital.example.com",
+        "subject": "TEST — coding workflow asset education fit",
+        "yourMessage": "This is a test message for the outreach automation system. The National Coding Education Alliance appears to be well positioned in coding education and certification. We are exploring whether a curriculum, training, or member-introduction path makes sense. This message was generated for testing purposes only."
+      }
+    }
+  },
+  {
+    "_meta": {
+      "target_id": "test-006",
+      "rank": 6,
+      "organization": "National Coding Education Alliance",
+      "lane": "association",
+      "message_family": "F2",
+      "source_confidence": "medium",
+      "last_touch_date": null,
+      "next_allowed_action": "website-form",
+      "contactFormURL": "http://localhost:8090/captcha-form.html"
+    },
+    "contact_person": {
+      "name": "James Weatherby",
+      "title": "VP, Partnerships & Events",
+      "linkedin_profile_url": null,
+      "linkedin_company_url": "https://www.linkedin.com/company/test-ncea/",
+      "public_email": null,
+      "public_phone": "555-300-4002",
+      "primary_route": "Website form",
+      "fallback_route": "Partnerships form",
+      "outreach_content": {
+        "linkedin_connection_note": "Hi James - reaching out because your role at National Coding Education Alliance looks highly relevant to MEDICODAX and the buyer/channel discussion we are running.",
+        "linkedin_inmail_subject": "TEST — business solutions partnership inquiry",
+        "linkedin_inmail_body": "Hi James,\n\nI am reaching out because your role at the National Coding Education Alliance is useful for validating individualized association-outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. We are exploring whether business solutions, curriculum channels, or a member-introduction path is the right fit. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_subject": "TEST — business solutions partnership inquiry",
+        "email_body": "Hello James Weatherby,\n\nI am reaching out because your role at the National Coding Education Alliance is useful for validating individualized association-outreach content in this test dataset.\n\nThis is a test message for the outreach automation system. We are exploring whether business solutions, curriculum channels, or a member-introduction path is the right fit. This message was generated for testing purposes only. This individualized message was generated for testing purposes only.",
+        "email_enabled": false,
+        "email_use_only_if_verified": true
+      }
+    },
+    "contact_form": {
+      "company_form_url": "http://localhost:8090/captcha-form.html",
+      "company_email": "partnerships@test-ncea.example.com",
+      "company_phone": "555-300-4002",
+      "exact_url_verified": true,
+      "department_route": "Partnerships or business-solutions route",
+      "routing_note": "TEST FIXTURE — captcha form. Tests CAPTCHA handling with association payload schema.",
+      "approved_subject": "TEST — business solutions partnership inquiry",
+      "approved_message_body": "This is a test message for the outreach automation system. We are exploring whether business solutions, curriculum channels, or a member-introduction path is the right fit. This message was generated for testing purposes only.",
+      "submitter_name": "Test User",
+      "submitter_email": "test@lsadigital.example.com",
+      "submitter_phone": null,
+      "field_mapping": {
+        "interest": "Partnership, business solutions, or similar routing choice",
+        "comments": "Message or inquiry details field"
+      },
+      "payload_schema": "association_outreach",
+      "payload": {
+        "fullName": "Test User",
+        "emailAddress": "test@lsadigital.example.com",
+        "subject": "TEST — business solutions partnership inquiry",
+        "yourMessage": "This is a test message for the outreach automation system. We are exploring whether business solutions, curriculum channels, or a member-introduction path is the right fit. This message was generated for testing purposes only."
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "_meta": {
+      "contactFormURL": "http://localhost:8090/multi-field-form.html",
+      "notes": "Test fixture: enterprise demo request form with 8 fields including dropdown"
+    },
+    "firstName": "Sarah",
+    "lastName": "Chen",
+    "workEmail": "sarah.chen@lsadigital.com",
+    "company": "LSA Digital",
+    "jobTitle": "Director of Product",
+    "phone": "(617) 555-0198",
+    "interest": "partnership",
+    "comments": "We're building AI agent workflows for enterprise clients and see strong alignment with your platform capabilities. Interested in discussing a partnership or integration opportunity."
+  }
+]

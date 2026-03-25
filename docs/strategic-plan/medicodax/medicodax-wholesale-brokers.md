@@ -1,14 +1,14 @@
-# MEDICODAX Wholesale Broker and Advisor Guide
+# MEDICODAX Wholesale Channel and Advisor Guide
 
-**Last Updated:** 2026-03-10
+**Last Updated:** 2026-03-11
 
 ## Purpose
 
-This document is the detailed broker and intermediary playbook for **MEDICODAX wholesale**. It is designed to minimize decision time and help LSA Digital identify the best-fit broker, marketplace, or advisor to find a buyer or investor for MEDICODAX while preserving the option for a post-close continuation development agreement.
+This document is the detailed intermediary, advisor, and strategic-buyer channel playbook for **MEDICODAX wholesale**. It is designed to minimize decision time and help LSA Digital identify the best-fit path to find a buyer, investor, or commercialization partner for MEDICODAX while preserving the option for a post-close continuation development agreement and implementation SOW.
 
 Use this document as the working source of truth for:
 
-- broker and advisor shortlist
+- channel and advisor shortlist
 - verified fee-model guidance
 - healthcare and software fit assessment
 - first-contact outreach
@@ -19,57 +19,259 @@ This document supports:
 
 - `docs/strategic-plan/medicodax/medicodax-wholesale-marketing-and-sales-plan.md`
 - `docs/strategic-plan/medicodax/medicodax-wholesale-marketing-and-sales-briefing.md`
+- `docs/strategic-plan/medicodax/medicodax-tactical-contact-playbook.md`
 
 ## Bottom-Line Recommendation
 
-If the goal is to spend minimal time, avoid upfront cash, and still get real buyer-search help, the best starting sequence is:
+MEDICODAX should no longer be treated primarily as a `sell my business` mandate. It is a better fit for a `strategic product asset transfer + post-close implementation SOW` process.
 
-1. `Synergy Business Brokers`
-2. `Acquire.com / Guided by Acquire`
-3. `Archstone Business Brokers`
-4. `Sigma Mergers & Acquisitions`
-5. `American Healthcare Capital`
-6. `Stoneridge Partners` only if the home-health angle becomes central
+If the goal is to spend minimal time, avoid up-front cash, and get into the right buyer conversations quickly, the best starting sequence is:
 
-For MEDICODAX, the cleanest low-cash path is to start with the firms and platforms that publicly support `no fee until sold`, `success-fee only`, or very low upfront costs. Only move into specialist healthcare IT advisors with unclear or likely retainer-heavy structures if the buyer process becomes larger, more competitive, or more strategic than broker-led outreach can handle.
+1. `relationship-rich coding, outpatient, and home-health channels`
+2. `BDA-like consulting, training, coding, and post-acute firms`
+3. `selective strategic-buyer advisors or introducers`
+4. `traditional brokers only as backup coverage`
+
+The primary job is not to run a broad brokered auction. It is to get MEDICODAX in front of firms that already understand coding operations, outpatient documentation pressure, home-health documentation pain, training economics, compliance, and post-acute workflow realities. Traditional business brokers should be downgraded because most are optimized to sell profitable companies, not undeployed healthcare workflow assets.
+
+## Transaction Model That Fits
+
+The target transaction model should be:
+
+- `asset sale` of most of the MEDICODAX product and related commercialization rights
+- `post-close implementation SOW` for LSA Digital to configure, extend, and operationalize the solution
+- optional `transition services`, `license-to-buy`, or `staged acquisition` structure where needed
+
+This is meaningfully different from:
+
+- selling LSA Digital as an operating business
+- selling a profitable home-health agency or RCM company
+- selling a standard bootstrapped SaaS business on trailing revenue multiples
+
+## Compatibility Snapshot
+
+| Channel / firm | Compatibility with MEDICODAX asset + SOW model | Why |
+| --- | --- | --- |
+| Relationship-rich coding, outpatient, and home-health consultancies | `yes` | Best fit for warm buyer conversations and strategic relevance |
+| AAPC / AHIMA / AHCC / Alliance-style ecosystems | `yes` | Strong networking, education, credentialing, and buyer-introduction potential |
+| SimiTree / McBee / HPS / DecisionHealth-like firms | `yes / maybe` | Strong domain fit; useful as direct targets, partners, or introducer channels |
+| Synergy Business Brokers | `maybe` | Best of the classic brokers, but still biased toward selling revenue-producing companies |
+| Sigma Mergers & Acquisitions | `maybe` | Could help with buyer search, but public fit still reads like general business brokerage |
+| iMerge Advisors | `maybe` | More relevant if the process becomes a larger strategic software transaction |
+| Founders Advisors | `maybe` | Similar to iMerge; likely more formal and retainer-heavy |
+| Axial | `maybe` | Useful network if a custom advisor runs the process |
+| Archstone Business Brokers | `no / weak maybe` | Publicly focused on profitable companies with $1M-$50M revenue |
+| Acquire.com / Guided by Acquire | `no` for Guided | Guided service publicly targets profitable SaaS with $100k+ revenue |
+| American Healthcare Capital | `no / weak maybe` | Strong healthcare M&A firm, but public posture is operating-company sale, not undeployed asset transfer |
+| Stoneridge Partners | `weak maybe` | Relevant only if home-health M&A becomes the central story, but still more business-sale oriented than asset-transfer oriented |
 
 ## How To Choose Fast
 
-### Best fit if cash preservation is the priority
+### Best fit if the goal is real buyer conversations
 
-- `Synergy Business Brokers`
-- `Archstone Business Brokers`
-- `Acquire.com / Guided by Acquire`
+- `SimiTree`
+- `McBee`
+- `Healthcare Provider Solutions`
+- `DecisionHealth / AHCC`
+- `AAPC` and `AHIMA` relationship channels
+- `National Alliance for Care at Home`
 
-### Best fit if healthcare buyer relevance is the priority
+### Best fit if outpatient relevance is the priority
 
-- `American Healthcare Capital`
-- `Stoneridge Partners`
-- `Synergy Business Brokers`
+- `AAPC` and local chapters
+- `AHIMA` and component associations
+- outpatient-aligned coding, audit, and RCM firms already in the MEDICODAX buyer map
+- strategic workflow and RCM software buyers
 
-### Best fit if the process matures into a larger strategic transaction
+### Best fit if home health relevance is the priority
+
+- `SimiTree`
+- `Healthcare Provider Solutions`
+- `McBee`
+- `DecisionHealth / AHCC`
+- `National Alliance for Care at Home`
+
+### Best fit if the process matures into a larger strategic asset transaction
 
 - `iMerge Advisors`
 - `Founders Advisors`
 - `Axial` through an advisor
+- `Synergy Business Brokers` as supplemental coverage only
+
+### Best fit if cash preservation is the priority
+
+- `direct strategic outreach into domain firms`
+- `association and event channels`
+- `success-fee broker coverage only as backup`
 
 ## Ranked Shortlist
 
-| Rank | Firm / Channel | Why it is on the list | Fee-model confidence | MEDICODAX fit |
+| Rank | Channel / firm | Why it is on the list now | Fee-model confidence | MEDICODAX fit |
 | --- | --- | --- | --- | --- |
-| 1 | Synergy Business Brokers | Best verified blend of no-upfront model plus healthcare and technology coverage | High | High |
-| 2 | Acquire.com / Guided by Acquire | Transparent pricing, good buyer exposure, low upfront or closing-fee-only for the guided model | High | Medium-High |
-| 3 | Archstone Business Brokers | Clear no-fees-until-sale language with healthcare and technology coverage | High | Medium-High |
-| 4 | Sigma Mergers & Acquisitions | Likely broker-style contingent model, but exact terms need written confirmation | Medium | Medium |
-| 5 | American Healthcare Capital | Strong healthcare M&A relevance including software, RCM, telemedicine, and home health | Low-Medium | High |
-| 6 | Stoneridge Partners | Strong home-health and behavioral-health sector relevance | Low | Medium-High if home-health-led |
-| 7 | iMerge Advisors | Strong software / SaaS advisor, better for larger strategic processes | Low | Medium |
-| 8 | Founders Advisors | Strong middle-market healthcare and technology advisor | Low | Medium |
-| 9 | Axial | Useful network, but not a direct sell-side finder on its own | Medium | Conditional |
+| 1 | SimiTree | Deep home health, hospice, coding, consulting, recruiting, events, and even healthcare AI positioning | Not applicable | High |
+| 2 | McBee | Deep home health market coverage, coding/CDI, education, strategic consulting, and M&A support | Not applicable | High |
+| 3 | Healthcare Provider Solutions | Home care and hospice coding, OASIS, education, startup support, consulting, and strong state-association presence | Not applicable | High |
+| 4 | DecisionHealth / AHCC | Home health coding/compliance education, credentialing community, and strong post-acute reach | Not applicable | Medium-High |
+| 5 | AAPC / local chapters / business solutions | Large coding network, employer and business channels, and strong training relevance | Not applicable | Medium-High |
+| 6 | AHIMA / component associations / business solutions | Large health-information network, employer channels, and institutional credibility | Not applicable | Medium |
+| 7 | National Alliance for Care at Home | Large home-health and hospice membership network with finance and technology programming | Not applicable | Medium-High |
+| 8 | Synergy Business Brokers | Best of the traditional brokers, but still a secondary path | High | Medium |
+| 9 | Sigma Mergers & Acquisitions | Backup contingent-fee broker candidate only | Medium | Low-Medium |
+| 10 | iMerge / Founders / Axial | Relevant only if the process matures into a larger strategic transaction | Low-Medium | Conditional |
+
+## Priority Relationship Channels
+
+These are not all `brokers`, but they are more likely than brokers to get MEDICODAX into the right conversations.
+
+### 1. Home-health and post-acute consulting firms
+
+- `SimiTree` publicly serves home health, home care, hospice, and behavioral health with coding and OASIS, consulting, recruiting, interim leadership, M&A support, webinars, and events.
+- `McBee` publicly serves home health and provides coding/CDI, healthcare education and training, revenue cycle services, and M&A support.
+- `Healthcare Provider Solutions` publicly offers home care and hospice coding, OASIS, revenue cycle consulting, startup help, coding education, and alliance-style membership resources.
+
+These firms are compelling because they already have relationships with the exact buyers or operators who should understand MEDICODAX fastest.
+
+### 2. Coding, outpatient, and compliance education ecosystems
+
+- `DecisionHealth / AHCC` has strong home health coding, OASIS, training, credentialing, and community reach.
+- `AAPC` is the world's largest training and credentialing organization for medical coding, billing, auditing, compliance, and revenue cycle management, with business solutions and local chapters that can also support outpatient and ambulatory reach.
+- `AHIMA` has strong health information, coding, revenue cycle, employer resources, and component associations that can support inpatient and outpatient buyer-introduction paths.
+
+These are strong channels for introductions, message testing, speaking visibility, and finding firms that already buy training, workflow, outpatient coding, or home-health coding capability.
+
+### 3. Home-health membership and event ecosystems
+
+- `National Alliance for Care at Home` publicly describes a network of more than 30,000 home health, hospice, palliative, and home care professionals across more than 10,000 member organizations.
+- state home-care and hospice associations surfaced indirectly through HPS and related education/event ecosystems are also relevant.
+
+These are more useful for getting into the network than for formal transaction execution.
+
+## Downgraded Traditional Broker Options
+
+Traditional brokers and classic M&A advisors should now be treated as `backup`, not primary.
+
+- `Synergy`: best backup broker because of healthcare + technology coverage and no-upfront language, but still publicly oriented to revenue-producing companies.
+- `Sigma`: backup only; useful if you want additional contingent-fee coverage, but weak evidence of true asset-sale specialization.
+- `Archstone`: downgraded because it publicly targets profitable companies with $1M-$50M revenue.
+- `Acquire Guided by Acquire`: downgraded because the guided service explicitly targets profitable SaaS with $100k+ trailing revenue.
+- `American Healthcare Capital`: downgraded because its public posture is healthcare-company M&A, not undeployed product asset transfer.
+- `Stoneridge`: downgraded unless home-health/post-acute M&A becomes the primary framing.
+- `iMerge`, `Founders`, and `Axial`: only relevant if a larger strategic process emerges and you can tolerate a more formal advisory model.
 
 ## Detailed Comparison
 
-### 1. Synergy Business Brokers
+### 1. SimiTree
+
+**Website:** `https://www.simitreehc.com`
+
+**Why it matters**
+
+- Publicly serves home health, hospice, and behavioral health.
+- Publicly offers coding and OASIS, consulting, recruiting, interim leadership, webinars, and M&A support.
+- Publicly markets healthcare AI for home health review workflows, which means MEDICODAX should not feel alien to the category.
+
+**Best use**
+
+- Direct strategic conversation with a home-health and post-acute operator that already understands coding and workflow economics.
+- Source of introductions, market feedback, and potential partnership or commercialization conversations.
+
+**Main concern**
+
+- Public site does not present SimiTree as an asset broker; treat it as a strategic target or connector, not a formal sell-side intermediary.
+
+**Verdict**
+
+- Top-priority conversation target.
+
+### 2. McBee
+
+**Website:** `https://www.mcbeeassociates.com`
+
+**Why it matters**
+
+- Publicly serves home health and offers coding and clinical documentation improvement, healthcare education and training, revenue cycle work, and M&A support.
+- Publicly positions itself as a large healthcare consulting and advisory platform with deep home-health coverage.
+
+**Best use**
+
+- Direct strategic conversation target.
+- Potential introducer to home-health operators or buyer-side firms that already trust McBee's market perspective.
+
+**Main concern**
+
+- Again, not a traditional contingent-fee asset broker; this is more likely a target, channel, or strategic introducer.
+
+**Verdict**
+
+- Top-priority conversation target.
+
+### 3. Healthcare Provider Solutions
+
+**Website:** `https://www.healthcareprovidersolutions.com`
+
+**Why it matters**
+
+- Publicly offers home care and hospice billing, coding, OASIS review, revenue cycle consulting, clinical consulting, startup support, and education.
+- Publicly emphasizes alliances with national and state associations, which implies strong relationship depth in the market.
+
+**Best use**
+
+- High-fit target for a home-health and coding-focused MEDICODAX introduction.
+- Strong source of ecosystem credibility and potential warm-introduction routes.
+
+**Main concern**
+
+- Same caveat: not a formal asset-sale broker.
+
+**Verdict**
+
+- High-priority direct target and connector.
+
+### 4. DecisionHealth / AHCC
+
+**Website:** `https://www.decisionhealth.com`
+
+**Why it matters**
+
+- Publicly offers home health coding, OASIS, training, certification, and post-acute content.
+- AHCC and related DecisionHealth programs create a strong home-health coding and compliance network.
+
+**Best use**
+
+- Channel for visibility, buyer-language testing, and identifying BDA-like firms in the community.
+- Useful for sponsorship, content, webinar, or targeted relationship-building.
+
+**Main concern**
+
+- Not a transaction advisor.
+
+**Verdict**
+
+- Strong ecosystem channel, not a broker.
+
+### 5. AAPC / AHIMA / Alliance for Care at Home
+
+**Websites:** `https://www.aapc.com`, `https://www.ahima.org`, `https://allianceforcareathome.org`
+
+**Why they matter**
+
+- `AAPC` publicly has 300,000+ members across coding, billing, auditing, compliance, CDI, revenue cycle, and practice management, plus business solutions and local chapters.
+- `AHIMA` publicly has business solutions, employer resources, certification, events, and component associations.
+- `Alliance for Care at Home` publicly represents a very large home-health, hospice, and home-care community with education, advocacy, and networking.
+
+**Best use**
+
+- Relationship-building, speaking, sponsorship, chapter outreach, event visibility, and identifying high-fit firms.
+
+**Main concern**
+
+- These are ecosystems, not direct sell-side execution channels.
+
+**Verdict**
+
+- High-value relationship channels.
+
+### 6. Synergy Business Brokers
 
 **Website:** `https://synergybb.com`
 
@@ -271,64 +473,83 @@ For MEDICODAX, the cleanest low-cash path is to start with the firms and platfor
 
 ## Recommended Decision Path
 
-### Path A - strict no-upfront preference
+### Path A - relationship-first channel build
 
 Use this path first.
 
+1. Contact `SimiTree`
+2. Contact `McBee`
+3. Contact `Healthcare Provider Solutions`
+4. Contact `DecisionHealth / AHCC`
+5. Activate `AAPC`, `AHIMA`, and `Alliance for Care at Home` relationship paths
+
+**Goal:** get MEDICODAX into conversations with firms and ecosystems that already understand coding operations, outpatient workflow pressure, training economics, home-health workflow pain, and compliance-sensitive adoption.
+
+### Path B - strategic buyer-introduction and niche healthcare advisors
+
+Run this path in parallel once Path A outreach is live.
+
+1. Contact `LECO`
+2. Contact `VERTESS`
+3. Contact `Greenberg Advisors`
+4. Evaluate `Sheridan Capital Partners` and adjacent post-acute investors as buyer-side relationship channels
+
+**Goal:** reach firms that already touch home-health, RCM, HCIT, or strategic healthcare transactions without defaulting to a generic business-sale process.
+
+### Path C - selective asset and IP transaction coverage
+
+Use this only for controlled parallel testing.
+
+1. Contact `Tech+IP Advisory`
+2. Contact `Ocean Tomo`
+3. Contact `Solganick & Co.`
+4. Consider `Technology Holdings`, `iMerge Advisors`, or `Founders Advisors` only if the process becomes more formal and strategic
+
+**Goal:** test whether MEDICODAX can attract stronger interest as a strategic software or IP asset than as a classic healthcare operating-company sale.
+
+### Path D - backup broker coverage only
+
+Use this lane only if the relationship-first channels do not generate enough movement.
+
 1. Contact `Synergy Business Brokers`
-2. Contact `Acquire.com / Guided by Acquire`
-3. Contact `Archstone Business Brokers`
-4. Contact `Sigma Mergers & Acquisitions`
+2. Contact `Sigma Mergers & Acquisitions`
+3. Use `Acquire.com` only as a low-confidence market test, not as the primary path
 
-**Goal:** confirm who will work on a true success-fee or very-low-upfront basis and understands the MEDICODAX story.
-
-### Path B - stronger healthcare relevance if Path A is weak
-
-1. Contact `American Healthcare Capital`
-2. Contact `Stoneridge Partners`
-
-**Goal:** test whether a healthcare-specialist firm can match or approximate a contingent-first model.
-
-### Path C - larger strategic process only if needed
-
-1. Contact `iMerge Advisors`
-2. Contact `Founders Advisors`
-3. Consider `Axial` through the chosen advisor
-
-**Goal:** only if the transaction looks large enough or strategic enough to justify a more traditional advisory process.
+**Goal:** preserve optional coverage without letting the process drift back into a classic broker-first sale narrative.
 
 ## Exact Questions To Ask Every Firm
 
-Use these questions almost verbatim.
+Use these questions almost verbatim, but match them to the type of firm. Some are for introducers and channel partners, not only formal brokers.
 
-### Fee structure
+### Relationship depth
 
-1. `Do you charge any retainer, upfront engagement fee, valuation fee, CIM fee, monthly work fee, or marketing fee before close?`
-2. `If yes, what is each fee, when is it due, and is it credited against the success fee?`
-3. `If no, is your compensation 100 percent success-fee-based?`
-4. `What success-fee percentage or range would apply to a transaction like this?`
+1. `Which coding, outpatient, ambulatory, home-health, hospice, or post-acute firms do you already know well enough to introduce quickly?`
+2. `Which buyer type would you target first for MEDICODAX: coding firms, outpatient or ambulatory operators, training firms, home-health consultancies, workflow software companies, or investors?`
+3. `Do you already have active relationships with operators or executives who would understand coding workflow, outpatient documentation pressure, OASIS, auditability, or documentation-review pain?`
 
-### Buyer search process
+### Transaction fit
 
-5. `Will you proactively source buyers, or mainly list and react to inbound interest?`
-6. `What buyer types would you approach first for a healthcare-adjacent coding and workflow software asset?`
-7. `Do you already work with healthcare operators, RCM buyers, coding firms, or healthcare-focused investors?`
+4. `Are you comfortable positioning MEDICODAX as a strategic product asset sale with a post-close implementation and development SOW for LSA Digital?`
+5. `Can you support a path that could end in an asset purchase, license-to-buy, minority investment, staged acquisition, or strategic partnership?`
+6. `How would you explain the difference between this opportunity and a typical profitable-company sale?`
 
-### Sector fit
+### Commercial model
 
-8. `Have you sold healthcare software, RCM, coding, home-health, workflow, or compliance-related assets before?`
-9. `How would you position a product that is strategic and demo-ready, but not a mass-market SaaS launch?`
+7. `Do you charge any retainer, upfront engagement fee, monthly fee, or marketing fee before close?`
+8. `If yes, what is each fee, when is it due, and is any portion credited against back-end compensation?`
+9. `If no, how do you get paid and what success-fee range would apply to a transaction like this?`
 
-### Deal structure
+### Market credibility
 
-10. `Can you support a deal where the seller wants a continuation development contract after sale or investment?`
-11. `Are you comfortable with a buyer path that could end in acquisition, minority investment, license, or staged transaction?`
+10. `Have you worked on healthcare software, coding, revenue cycle, home-health, training, workflow, or compliance-related transactions or introductions before?`
+11. `Have you seen buyers respond well to a product asset that is strong in workflow proof and domain fit but not positioned as mature mass-market SaaS?`
+12. `What concerns do you expect from buyers in this segment, and how would you help address them?`
 
 ### Execution quality
 
-12. `Who would personally run the process, and how many active sell-side mandates do they have right now?`
-13. `How often will you update us, and what reports will we get each week?`
-14. `What are the typical timelines from engagement to first qualified buyer conversations and first LOI?`
+13. `Who would personally handle this work, and how many active mandates or strategic searches are they carrying now?`
+14. `How quickly could you get us to first relevant conversations, and what does your weekly communication rhythm look like?`
+15. `If you think this is not the right fit for your firm, who specifically in your network would be a better fit?`
 
 ## Fast Comparison Scorecard
 
@@ -354,7 +575,7 @@ Score each firm from `1-5` on each line.
 
 ## Minimal-Time Outreach Packet
 
-Prepare one simple packet and send it to every shortlisted broker. The first packet should stay at `teaser level` before NDA: enough detail to prove fit, not enough detail to expose sensitive diligence.
+Prepare one simple packet and adapt the first paragraph to the target. This should work for consultancies, associations, strategic advisors, and backup brokers. The first packet should stay at `teaser level` before NDA: enough detail to prove fit, not enough detail to expose sensitive diligence.
 
 ### Messaging Guardrails
 
@@ -364,18 +585,18 @@ Prepare one simple packet and send it to every shortlisted broker. The first pac
 - say `demo-ready`, `strategic`, or `asset-quality proof`; do not imply mass-market SaaS maturity
 - frame retail as optional upside, not the primary 2026 commercialization path
 - keep BDA in the background as origin context only; do not make the opportunity sound dependent on one original partner
-- ask for fee-model clarity before spending time on calls
+- ask for relationship-fit and commercial-model clarity before spending time on calls
 - do not send detailed financials, source code, named clinic details, or sensitive diligence until a fit and NDA path exist
 
 ### What To Send Before NDA
 
 | Item | Purpose | Format |
 | --- | --- | --- |
-| Cover email | Confirm interest, fit, and fee model | email body |
+| Cover email | Confirm interest, relationship fit, and commercial model | email body |
 | MEDICODAX one-paragraph overview | Explain the asset clearly in one fast paragraph | email body or attachment |
 | Buyer target list | Show who should buy this and why | bullets |
 | Preferred deal structures | Signal flexibility without overcommitting | bullets |
-| Broker-fit questions | Force clarity on fees, buyer network, and sector fit | bullets |
+| Channel-fit questions | Force clarity on network depth, fees, and sector fit | bullets |
 
 ### What To Hold Until After Fit Or NDA
 
@@ -396,12 +617,12 @@ Use this structure every time:
 3. buyer targets sought
 4. preferred deal structures
 5. why MEDICODAX is credible now
-6. fee-model and fit questions
+6. channel-fit and commercial questions
 
 ### Packet block 1 - MEDICODAX teaser paragraph
 
 ```text
-MEDICODAX is a strategic human-AI medical coding and workflow asset focused on wholesale and enterprise buyer paths. The product story centers on human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. We believe the highest-fit buyers are coding firms, coding/training firms, RCM or workflow software companies, home-health aligned operators, healthcare technology groups, and healthcare-focused investors. Our preferred structure minimizes upfront fees and preserves the option for LSA Digital to continue product development under contract after close.
+MEDICODAX is a strategic Human-AI medical coding and workflow solution focused on wholesale and enterprise buyer paths. The product story centers on human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. We believe the highest-fit buyers are coding firms, coding/training firms, outpatient and ambulatory workflow operators, RCM or workflow software companies, home-health aligned operators, healthcare technology groups, and healthcare-focused investors.
 ```
 
 ### Packet block 2 - Buyer targets sought
@@ -410,6 +631,7 @@ MEDICODAX is a strategic human-AI medical coding and workflow asset focused on w
 Priority buyer types:
 - medical coding and audit firms
 - coding education and training businesses
+- outpatient and ambulatory workflow operators
 - home-health aligned coding, compliance, or workflow operators
 - RCM and healthcare workflow software companies
 - hospital-tech and enterprise healthcare IT groups
@@ -426,7 +648,7 @@ Preferred structures:
 - strategic partnership that can expand into a transaction after diligence
 
 Important:
-- we prefer low-upfront or success-fee-first sell-side representation
+- we prefer low-upfront, back-end-compensation, or success-fee-first channel support
 - we want to preserve LSA Digital as the continuation development team where possible
 ```
 
@@ -438,13 +660,13 @@ Why this asset is credible now:
 - audit-first workflow with real-time auditing and review controls
 - workflow adaptation tied to real documentation conditions, not one rigid pipeline
 - multi-EHR integration story with JWT / FHIR-oriented architecture
-- buyer fit across coding operations, training, home health, and healthcare workflow platforms
+- buyer fit across coding operations, outpatient workflows, training, home health, and healthcare workflow platforms
 - practical post-close continuity because LSA Digital can continue development under contract
 ```
 
-### Optional proof lines if a broker asks for one level more detail
+### Optional proof lines if a firm asks for one level more detail
 
-Use these selectively in replies or on calls. Keep them out of the first cold email unless the broker clearly wants more substance.
+Use these selectively in replies or on calls. Keep them out of the first cold email unless the target clearly wants more substance.
 
 ```text
 Optional proof lines:
@@ -454,13 +676,13 @@ Optional proof lines:
 - The current proof package is strongest as an auditable coding-workflow asset with human final decision control, not as a black-box autonomous coding claim.
 ```
 
-### Packet block 5 - Broker fit questions
+### Packet block 5 - Channel fit questions
 
 ```text
 Before we spend time on a call, please confirm:
-1. whether you charge any retainer, upfront fee, valuation fee, or monthly work fee before close
-2. whether your engagement can be structured on a success-fee or other low-upfront basis
-3. whether you have experience selling healthcare software, workflow, RCM, coding, or related assets
+1. whether you already know coding, outpatient, ambulatory, home-health, or workflow firms that would be relevant to this opportunity
+2. whether you are comfortable positioning this as an asset sale plus post-close implementation and development SOW
+3. whether you charge any retainer, upfront fee, or monthly work fee before close
 4. which buyer types you would likely target first for this opportunity
 5. whether you are comfortable with a deal that preserves a continuation development agreement after close
 ```
@@ -468,25 +690,21 @@ Before we spend time on a call, please confirm:
 ## Copy-Paste Master First Email
 
 ```text
-Subject: MEDICODAX healthcare software asset - sell-side representation inquiry
+Subject: MEDICODAX coding-workflow solution - strategic fit inquiry
 
 Hello [Name],
 
-We are evaluating a small set of brokers and advisors to help identify a buyer or investor for MEDICODAX, a healthcare-adjacent coding and workflow software asset.
+We are evaluating a small set of firms and relationship channels that may be able to introduce MEDICODAX to the right strategic buyers, partners, or investors.
 
-MEDICODAX is a strategic human-AI medical coding and workflow asset focused on wholesale and enterprise buyer paths. The product story centers on human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture. We believe the highest-fit buyers are coding firms, coding/training firms, RCM or workflow software companies, home-health aligned operators, healthcare technology groups, and healthcare-focused investors.
-
-Our preferred transaction paths include an asset purchase, minority investment, staged acquisition, or strategic partnership, with a strong preference to preserve the option for LSA Digital to continue product development under contract after close.
+MEDICODAX is a strategic Human-AI medical coding and workflow solution focused on wholesale and enterprise buyer paths. The product story centers on human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. We believe the highest-fit buyers are coding firms, coding/training firms, outpatient and ambulatory workflow operators, RCM or workflow software companies, home-health aligned operators, healthcare technology groups, and healthcare-focused investors. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 Before we spend time on a call, could you please confirm:
 
-1. whether you charge any retainer, upfront fee, valuation fee, or monthly work fee before close
-2. whether your engagement can be structured on a success-fee or other low-upfront basis
-3. whether you have experience selling healthcare software, workflow, RCM, coding, or related assets
-4. which buyer types you would likely target first for this opportunity
-5. whether you are comfortable with a continuation development agreement as part of the transaction structure
-
-If the fit looks good, we can share a short buyer brief and set up a discussion.
+1. whether this opportunity sounds relevant to your network
+2. which buyer types you would likely target first for this opportunity
+3. whether you are comfortable with an asset sale plus continuation development agreement structure
+4. whether you charge any retainer, upfront fee, or monthly work fee before close
+5. whether there is someone else in your network who would be a better fit if this is outside your lane
 
 Best,
 [Name]
@@ -494,71 +712,61 @@ Best,
 
 ## Tailored Email Variants For Top Targets
 
-### Variant A - Synergy Business Brokers
+### Variant A - SimiTree
 
 ```text
-Subject: Healthcare + technology sell-side fit for MEDICODAX?
+Subject: MEDICODAX home-health coding workflow solution - possible strategic fit
 
 Hello [Name],
 
-I am reaching out because Synergy appears to cover both healthcare and technology transactions, and we are evaluating a limited set of firms for a MEDICODAX sell-side process.
+I am reaching out because SimiTree appears to sit at the intersection of home health, hospice, coding, operations, recruiting, and strategic advisory work, which is very close to the buyer context we think fits MEDICODAX.
 
-MEDICODAX is a strategic human-AI medical coding and workflow asset with buyer relevance across coding firms, training businesses, healthcare workflow software companies, and healthcare-aligned investors. The core story is human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture.
-
-We are specifically looking for a broker who can work on a success-fee or other low-upfront basis and who can help us find strategic buyers rather than just list the opportunity passively.
-
-Could you let me know whether this sounds like a fit and whether your engagement would require any retainer or upfront fees?
+MEDICODAX is a strategic Human-AI medical coding and workflow solution with strongest fit for coding firms, training firms, home-health aligned operators, and healthcare workflow companies. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. We are looking for a small number of strategic conversations with post-close implementation and development support from LSA Digital. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 Best,
 [Name]
 ```
 
-### Variant B - Acquire.com / Guided by Acquire
+### Variant B - McBee
 
 ```text
-Subject: Guided by Acquire fit for MEDICODAX wholesale asset?
+Subject: MEDICODAX coding and post-acute workflow solution - strategic conversation?
 
 Hello [Name],
 
-We are evaluating whether MEDICODAX could be a fit for Guided by Acquire or another Acquire-supported sell-side path.
+I am reaching out because McBee appears to combine home-health depth, coding and CDI expertise, training, and strategic advisory capability in a way that maps well to MEDICODAX.
 
-MEDICODAX is a healthcare-adjacent coding and workflow software asset, positioned primarily for strategic buyers rather than a retail SaaS launch. The core story is human-in-the-loop coding workflows, auditability, workflow adaptation, and multi-EHR readiness. Likely buyer types include coding firms, training businesses, RCM or workflow software companies, and healthcare-aligned investors.
-
-Before we go deeper, I would like to confirm whether this profile could fit your process and whether Guided by Acquire would support a deal that includes continuation development services after close.
+MEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for strategic buyers rather than a broad SaaS launch. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models across home health and adjacent outpatient settings. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 Best,
 [Name]
 ```
 
-### Variant C - Archstone Business Brokers
+### Variant C - Healthcare Provider Solutions
 
 ```text
-Subject: Sell-side inquiry - healthcare workflow software asset
+Subject: MEDICODAX home care and hospice workflow solution - introduction request
 
 Hello [Name],
 
-We are evaluating brokers for MEDICODAX, a strategic healthcare-adjacent coding and workflow software asset. I am reaching out because Archstone appears to cover both healthcare and technology deals and publicly positions itself on a no-fees-until-sale basis.
+I am reaching out because Healthcare Provider Solutions appears to have deep home care and hospice relationships across coding, OASIS, consulting, education, and association channels.
 
-The opportunity is centered on strategic buyer fit rather than a broad software listing: coding firms, training businesses, RCM or workflow software buyers, home-health aligned operators, and healthcare-focused investors are the main buyer types we want to pursue.
-
-If this sounds within your lane, I would appreciate a quick note on your fee structure, likely buyer targets, and whether you are comfortable with a post-close continuation development agreement.
+MEDICODAX is a strategic Human-AI medical coding and workflow solution aimed at buyers who already understand documentation variability, review discipline, and home-health operational realities. It is built around human final decision control, auditability, workflow adaptation, and multi-EHR / FHIR-oriented architecture, and the system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 Best,
 [Name]
 ```
 
-### Variant D - American Healthcare Capital
+### Variant D - LECO / VERTESS / Greenberg-style advisor
 
 ```text
-Subject: Healthcare workflow / coding asset - sell-side fit?
+Subject: Strategic buyer-introduction fit for MEDICODAX?
 
 Hello [Name],
 
-We are evaluating a small set of sell-side firms for MEDICODAX, a strategic coding and healthcare workflow software asset. I am reaching out because your healthcare transaction focus appears highly relevant, especially across software, RCM, telemedicine, and home-health related categories.
+I am reaching out because your healthcare transaction work appears relevant to buyers in RCM, coding, workflow software, and home-health related services.
 
-MEDICODAX is positioned for wholesale and enterprise buyer paths. The strongest buyer story is around human final decision control, auditability, workflow adaptation, multi-EHR readiness, and the option for LSA Digital to continue development after close.
-
-Before we set up a call, could you let me know whether this sounds like a fit for your buyer network and whether your engagement model can work on a success-fee or other low-upfront basis?
+MEDICODAX is a strategic Human-AI medical coding and workflow solution positioned for wholesale and enterprise buyer paths. The strongest buyer story is around human final decision control, auditability, workflow adaptation, multi-EHR readiness, and the option for LSA Digital to continue development after close. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 Best,
 [Name]
@@ -566,35 +774,33 @@ Best,
 
 ## Short Buyer-Brief Text To Paste Below The Email
 
-Use this if a broker asks for a quick summary in the same thread.
+Use this if a firm asks for a quick summary in the same thread.
 
 ```text
 Quick MEDICODAX summary:
 
-- Category: human-AI medical coding and workflow asset
-- Stage: strategic / demo-ready asset, not positioned as mature mass-market SaaS
+- Category: strategic Human-AI medical coding and workflow solution
+- Stage: strategic / demo-ready solution, not positioned as mature mass-market SaaS
 - Core proof: human final decision loop, auditability, workflow adaptation, multi-EHR / FHIR-oriented architecture
-- Highest-fit buyers: coding firms, training firms, RCM / workflow software buyers, home-health aligned operators, healthcare IT groups, healthcare-focused investors
-- Preferred transaction outcome: asset sale, investment, staged acquisition, or strategic partnership with continuation development role for LSA Digital
+- Deployment models: high-volume retail, consulting/wholesale, and enterprise
+- Highest-fit buyers: coding firms, training firms, outpatient and ambulatory workflow operators, RCM / workflow software buyers, home-health aligned operators, healthcare IT groups, healthcare-focused investors
 ```
 
 ## Follow-Up Email If No Reply
 
 ```text
-Subject: Re: MEDICODAX healthcare software asset - sell-side representation inquiry
+Subject: Re: MEDICODAX coding-workflow solution - strategic fit inquiry
 
 Hello [Name],
 
 Following up once in case my earlier note got buried.
 
-The short version is that we are evaluating a very small number of brokers and advisors for a healthcare-adjacent coding and workflow software asset with likely buyer fit across coding operators, training businesses, healthcare workflow software buyers, and healthcare-focused investors.
+The short version is that MEDICODAX is a strategic Human-AI medical coding and workflow solution with likely buyer fit across coding operators, outpatient and ambulatory workflow firms, training businesses, home-health aligned firms, healthcare workflow software buyers, and healthcare-focused investors. The system is designed to accommodate high-volume retail, consulting/wholesale, and enterprise deployment models. A potential buyer can see a preview and read more at https://medicodax.com, or feel free to reply to this email to schedule a discussion/demo.
 
 The two questions that matter most for us up front are:
 
-1. whether your engagement requires any meaningful upfront cash before close
-2. whether you have relevant experience with healthcare software, coding, RCM, or workflow transactions
-
-If this is not in your lane, I would appreciate being pointed to the right person.
+1. whether this opportunity is relevant to your network
+2. whether you have relevant experience with healthcare software, coding, outpatient, home health, RCM, or workflow transactions
 
 Best,
 [Name]
@@ -603,7 +809,7 @@ Best,
 ## Post-Reply Scheduling Email
 
 ```text
-Subject: Re: MEDICODAX healthcare software asset - next step
+Subject: Re: MEDICODAX coding-workflow solution - next step
 
 Hello [Name],
 
@@ -611,12 +817,12 @@ Thank you for the reply.
 
 The most useful next step on our side would be a short introductory call focused on:
 
-1. your fee structure and whether any upfront fees apply
-2. the buyer types you would prioritize first
-3. whether MEDICODAX fits your current healthcare / software transaction experience
-4. how you would handle a process where continuation development services remain part of the structure
+1. the buyer or partner types you would prioritize first
+2. whether MEDICODAX fits your current healthcare / software relationship base
+3. how you would handle an asset sale plus continuation development services structure
+4. your fee structure and whether any upfront fees apply
 
-If helpful, I can send a short buyer brief in advance.
+If helpful, I can send a short buyer brief in advance, and a potential buyer can also see a preview and read more at https://medicodax.com before the call.
 
 Best,
 [Name]
@@ -630,63 +836,64 @@ Before sending, confirm that the packet:
 - does not imply sensitive customer details will be shared before fit is confirmed
 - keeps claims tied to implemented proof: auditability, human review, workflow adaptation, multi-EHR readiness
 - names likely buyer types clearly
-- asks for fee structure before committing time
+- asks for network fit and fee structure before committing time
 - preserves the continuation development option explicitly
 
 ## Recommended One-Week Execution Sprint
 
 ### Day 1
 
-- Send first-contact emails to `Synergy`, `Acquire.com / Guided by Acquire`, `Archstone`, and `Sigma`.
+- Send first-contact emails to `SimiTree`, `McBee`, `Healthcare Provider Solutions`, and `DecisionHealth / AHCC`.
 
 ### Day 2
 
-- If replies are weak or unclear, send the same note to `American Healthcare Capital` and `Stoneridge Partners`.
+- Activate one association and ecosystem lane: `AAPC`, `AHIMA`, and `Alliance for Care at Home`, plus any known home-health state associations that surface from partner sites.
 
 ### Day 3-4
 
-- Run calls with the most responsive firms.
-- Fill in the scorecard immediately after each call.
+- Run calls with the most responsive relationship targets.
+- Fill in the scorecard immediately after each call and note who can make direct introductions within 14 days.
 
 ### Day 5
 
-- Compare top `2-3` options.
+- Compare top `2-3` relationship channels.
 - Choose either:
-  - one primary broker, or
-  - one broker plus one marketplace / low-cost exposure channel
+  - one direct strategic target plus one introducer path, or
+  - two introducer paths plus one backup advisor lane
 
 ### Day 6-7
 
-- Finalize broker engagement choice.
-- Prepare broker-ready materials: short teaser, buyer brief, and diligence-lite FAQ.
+- Launch selective advisor outreach to `LECO`, `VERTESS`, `Greenberg Advisors`, or one IP-asset advisor only after the relationship-first results are visible.
+- Prepare channel-ready materials: short teaser, buyer brief, intro request note, and diligence-lite FAQ.
 
 ## Practical Selection Rules
 
-- If a firm avoids answering fee questions clearly, downgrade it.
-- If a firm cannot explain who the likely MEDICODAX buyers are, downgrade it.
-- If a firm pushes a full-retainer model before showing healthcare-software fit, downgrade it.
-- If a firm understands both `coding operations pain` and `software asset sale`, upgrade it.
-- If a firm is comfortable packaging a continuation development agreement with the sale, upgrade it.
+- If a firm cannot name likely MEDICODAX buyers or introducible relationships quickly, downgrade it.
+- If a firm keeps reframing the opportunity as a generic profitable-business sale, downgrade it.
+- If a firm pushes a full-retainer process before showing real coding, outpatient, or home-health access, downgrade it.
+- If a firm understands both `coding operations pain` and `asset sale plus implementation SOW`, upgrade it.
+- If a firm can make direct introductions into outpatient, home health, training, coding, or post-acute operators quickly, upgrade it.
 
 ## Recommended Final Shortlist
 
 If minimal time is the main objective, the final shortlist should be:
 
-1. `Synergy Business Brokers`
-2. `Acquire.com / Guided by Acquire`
-3. `Archstone Business Brokers`
-4. `American Healthcare Capital`
+1. `SimiTree`
+2. `McBee`
+3. `Healthcare Provider Solutions`
+4. `DecisionHealth / AHCC`
+5. `AAPC` / `AHIMA` / `Alliance for Care at Home` relationship channels
 
-Keep `Sigma Mergers & Acquisitions` as an additional comparison call if bandwidth allows.
+Keep `LECO`, `VERTESS`, and `Greenberg Advisors` as the next wave of strategic-buyer-introduction calls. Keep `Synergy` and `Sigma` as backup broker coverage only if the relationship-first approach stalls.
 
 ## Decision Summary
 
-For MEDICODAX, the best probable path is to begin with a true contingent-fee broker that covers both healthcare and technology, while simultaneously testing a low-friction software marketplace / guided sell-side option. That creates the best balance of:
+For MEDICODAX, the best probable path is to begin with relationship-rich coding, outpatient, training, home-health, and post-acute channels that can create believable buyer conversations around a strategic asset sale plus post-close implementation SOW. That creates the best balance of:
 
 - low cash risk
-- fast buyer exposure
-- optionality across strategic buyers and investors
-- ability to preserve LSA Digital as the continuation development team
+- better buyer-context fit
+- faster access to firms that already understand coding workflow pain
+- stronger odds of preserving LSA Digital as the continuation development team
 
 ## Sources
 
@@ -705,3 +912,17 @@ For MEDICODAX, the best probable path is to begin with a true contingent-fee bro
 - https://imergeadvisors.com
 - https://foundersib.com
 - https://axial.net
+- https://www.simitreehc.com
+- https://www.mcbeeassociates.com
+- https://healthcareprovidersolutions.com
+- https://www.decisionhealth.com
+- https://www.aapc.com
+- https://www.ahima.org
+- https://allianceforcareathome.org
+- https://lawrenceevans.com
+- https://vertess.com
+- https://greenberg-advisors.com
+- https://techip.ai
+- https://oceantomo.com
+- https://solganick.com
+- https://technologyholdings.com

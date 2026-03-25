@@ -1,0 +1,35 @@
+[
+  {
+    "_meta": {
+      "contactFormURL": "http://localhost:8090/simple-form.html",
+      "notes": "Simple form — basic outreach"
+    },
+    "name": "Alex Rivera",
+    "email": "alex.rivera@lsadigital.com",
+    "message": "Hi, I came across your company and would love to explore a potential collaboration. We specialize in AI-powered enterprise solutions. Would you be open to a brief call next week?"
+  },
+  {
+    "_meta": {
+      "contactFormURL": "http://localhost:8090/multi-field-form.html",
+      "notes": "Enterprise form — demo request"
+    },
+    "firstName": "Sarah",
+    "lastName": "Chen",
+    "workEmail": "sarah.chen@lsadigital.com",
+    "company": "LSA Digital",
+    "jobTitle": "Director of Product",
+    "phone": "(617) 555-0198",
+    "interest": "partnership",
+    "comments": "We're building AI agent workflows for enterprise clients and see strong alignment with your platform. Interested in a partnership discussion."
+  },
+  {
+    "_meta": {
+      "contactFormURL": "http://localhost:8090/captcha-form.html",
+      "notes": "CAPTCHA form — tests bot protection handling"
+    },
+    "fullName": "Mike Idengren",
+    "emailAddress": "mike@lsadigital.com",
+    "subject": "AI Consulting Partnership",
+    "yourMessage": "I lead LSA Digital's AI practice and we help organizations implement agentic AI solutions. I'd like to discuss how we might collaborate on upcoming projects in your portfolio."
+  }
+]
