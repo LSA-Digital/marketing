@@ -1,6 +1,6 @@
 # HSRA Strategy Briefing
 
-**Last Updated:** 2026-03-10
+**Last Updated:** 2026-03-12
 
 ## Executive Summary
 
@@ -68,11 +68,13 @@ Recommended coverage model:
 
 ## State Prioritization Snapshot
 
-The state strategy is now explicit: all 50 states still receive launch messaging, but the campaign narrows quickly into a ranked active-pursuit set based on visible state need and message responsiveness. Tier A states get the fastest research, strongest state-specific tailoring, and earliest live discovery effort. Tier B states remain the fast-follower bench, while Tier C states stay in broad launch coverage until response signals or new research justify moving them up.
+The state strategy is now explicit: all 50 states still receive launch messaging, but the campaign narrows quickly into a ranked active-pursuit set based primarily on visible unmet need, then on adoption readiness and access path. Tier A states get the fastest research, strongest state-specific tailoring, and earliest live discovery effort. Tier B states remain the fast-follower and bridge bench, while Tier C states stay in broad launch coverage until response signals or new research justify moving them up.
 
-- `Tier A`: Tennessee, Texas, Colorado, Pennsylvania, Connecticut, North Carolina, Minnesota, New York, Kentucky, Oregon
-- `Tier B`: Maryland, Alabama, Washington, California, Georgia, Mississippi, Arkansas, Vermont, Nebraska, Kansas
-- `Tier C`: the remaining 30 states stay in launch coverage and nurture until response data or stronger public evidence changes their standing
+- `Tier A`: Tennessee, Texas, Mississippi, Alabama, Georgia, Arkansas, Kentucky, West Virginia, Kansas, North Carolina, New York
+- `Tier B`: Oklahoma, Louisiana, New Mexico, Pennsylvania, Colorado, Maryland, South Carolina, Connecticut, Minnesota, Oregon, Massachusetts, California, Washington
+- `Tier C`: the remaining 28 states stay in launch coverage and nurture until response data or stronger public evidence changes their standing
+
+California and Washington now sit in Tier B as bridge states because the team has stronger partnership coverage and/or a better practical chance of physically meeting buyers across the `NY / MA / CA / WA` corridor.
 
 For the full 50-state ranking, methodology, and evidence notes, see [HSRA State Prioritization Ranking 2026](./HSRA-state-prioritization-ranking-2026.md). For the current active-pursuit account list and owner assignments, see [HSRA Tier 1 State Account Scorecard](./HSRA-tier-1-state-account-scorecard.md).
 
@@ -92,7 +94,9 @@ Use this briefing as the high-level read, then go deeper based on what you need 
 ### Strategy and execution
 
 - [HSRA Marketing and Sales Plan](./HSRA-marketing-and-sales-plan.md) - full operating plan, buyer map, wave structure, workstreams, and targets
-- [HSRA Outreach Email Set](./HSRA-outreach-email-set.md) - message lanes, sender roles, and first-touch email templates
+- [HSRA 30-Day Outreach Execution Plan](./HSRA-30-day-outreach-execution-plan.md) - 30-day runbook, route order, status model, and state-first cadence
+- [HSRA Tactical Contact Playbook](./HSRA-tactical-contact-playbook.md) - state-by-state message lanes, account types, channel templates, and research packet structure
+- [HSRA Outreach Email Set](./HSRA-outreach-email-set.md) - source email set that feeds the tactical playbook templates and follow-up variants
 - [HSRA Tier 1 State Account Scorecard](./HSRA-tier-1-state-account-scorecard.md) - active-pursuit states, account hooks, and ownership model
 - [HSRA State Prioritization Ranking 2026](./HSRA-state-prioritization-ranking-2026.md) - 50-state ranking, tier rationale, and working matrix
 

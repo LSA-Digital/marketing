@@ -1,0 +1,646 @@
+[
+  {
+    "state": {
+      "state_name": "Tennessee",
+      "abbreviation": "TN",
+      "tier": "Tier A",
+      "priority_rank": 1,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S5"],
+      "region": "HHS Region 4",
+      "department_official_name": "Tennessee Department of Health",
+      "department_url": "https://www.tn.gov/health",
+      "governor_or_agency_priorities": ["County and community health prioritization", "Rural health transformation"],
+      "active_grants_or_initiatives": ["CMS Rural Health Transformation"],
+      "pain_points": ["Need for defensible county and tract prioritization", "Need for a credible Tennessee-first proof story"],
+      "research_status": "ready",
+      "owner": "Thad"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the right planning, rural health, or epidemiology owner and secure a live discussion or redirect.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "tn-001",
+          "buyer_type": "state health department",
+          "organization": "Tennessee Department of Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Primary state agency route for Tennessee-first HSRA outreach and county-community prioritization work."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.tn.gov/health",
+          "official_contact_form_url": "https://www.tn.gov/health/contact-us.html",
+          "official_public_inbox": "tn.health@tn.gov",
+          "public_phone": "+1-615-741-3111",
+          "department_route": "Commissioner's office, planning, rural health, or epidemiology",
+          "routing_note": "TDH public site was under redesign in early 2026; use the main domain and public inbox if a subpage fails.",
+          "procurement_notes": "Use official route first; named contact emails are not publicly listed."
+        },
+        "contact_persons": [
+          { "name": "John R. Dunn", "title": "Interim Commissioner", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.tn.gov/health/about-tdh/leadership.html", "linkedin_url": null, "public_email": null, "public_phone": "+1-615-741-3111", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Interim Commissioner since July 2025." },
+          { "name": "Timothy F. Jones", "title": "Chief Medical Officer", "functional_role": "informatics or epidemiology lead", "tier": 2, "official_bio_url": "https://www.tn.gov/health/about-tdh/leadership.html", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Use for medical and public-health framing." },
+          { "name": "Leslie Meehan", "title": "Deputy Commissioner, Population Health", "functional_role": "population health or planning lead", "tier": 2, "official_bio_url": "https://www.tn.gov/health/about-tdh/leadership.html", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Strong fit for planning and population-health route." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Vanderbilt University School of Medicine",
+          "why_it_matters": "Interim Commissioner Dunn and CMO Jones have Vanderbilt ties; useful secondary academic route.",
+          "organization_url": "https://medschool.vanderbilt.edu/"
+        },
+        "sources": ["https://www.tn.gov/health", "https://www.tn.gov/health/contact-us.html", "https://www.tn.gov/health/about-tdh/leadership.html"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Texas",
+      "abbreviation": "TX",
+      "tier": "Tier A",
+      "priority_rank": 2,
+      "message_lane": "S1",
+      "secondary_message_lanes": [],
+      "region": "HHS Region 6",
+      "department_official_name": "Texas Department of State Health Services",
+      "department_url": "https://www.dshs.texas.gov",
+      "governor_or_agency_priorities": ["Rural health transformation", "County outcome measurement"],
+      "active_grants_or_initiatives": ["CMS Rural Health Transformation", "Texas Health Data and cancer-control infrastructure"],
+      "pain_points": ["Rural hospital vulnerability", "Need for county-community evidence at scale"],
+      "research_status": "ready",
+      "owner": "Thad + Mike"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Commissioner's office or a rural health/public-health strategy owner and secure routing to the right team.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "tx-001",
+          "buyer_type": "state health department",
+          "organization": "Texas Department of State Health Services",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Texas is the highest-scale RHT state and a core rural-transformation target for HSRA."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.dshs.texas.gov",
+          "official_contact_form_url": "https://www.dshs.texas.gov/contact-us",
+          "official_public_inbox": "customer.service@dshs.texas.gov",
+          "public_phone": "+1-512-776-7111",
+          "department_route": "Commissioner, rural health, public health strategy, or epidemiology",
+          "routing_note": "Use the main DSHS contact route first; media inbox exists but is secondary for HSRA unless outreach has a policy or partnership angle.",
+          "procurement_notes": "Toll-free line is also public: +1-888-963-7111."
+        },
+        "contact_persons": [
+          { "name": "Jennifer Shuford", "title": "Commissioner", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.dshs.texas.gov/about/leadership", "linkedin_url": null, "public_email": null, "public_phone": "+1-512-776-7363", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Stable in role since 2022; strong first named leader for Texas packet." },
+          { "name": "Imelda Garcia", "title": "Chief Deputy Commissioner", "functional_role": "deputy or chief of staff", "tier": 2, "official_bio_url": "https://www.dshs.texas.gov/about/leadership", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Useful operational gatekeeper route." },
+          { "name": "Varun Shetty", "title": "Chief State Epidemiologist", "functional_role": "informatics or epidemiology lead", "tier": 2, "official_bio_url": "https://www.dshs.texas.gov/about/leadership", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Strong fit for surveillance and measurement framing." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Texas Medical Association",
+          "why_it_matters": "Relevant professional bridge for physician-facing or public-health-adjacent credibility work.",
+          "organization_url": "https://www.texmed.org/"
+        },
+        "sources": ["https://www.dshs.texas.gov/contact-us", "https://www.dshs.texas.gov/about/leadership"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Mississippi",
+      "abbreviation": "MS",
+      "tier": "Tier A",
+      "priority_rank": 3,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S4"],
+      "region": "HHS Region 4",
+      "department_official_name": "Mississippi State Department of Health",
+      "department_url": "https://msdh.ms.gov",
+      "governor_or_agency_priorities": ["Rural hospital stabilization and health-gap reduction", "Targeting limited public-health resources under high disease burden"],
+      "active_grants_or_initiatives": ["CMS Rural Health Transformation", "Change Can't Wait initiative", "HB 33 health-gap closure program"],
+      "pain_points": ["Extreme rural hospital vulnerability and poor health outcomes", "Need for defensible county and tract prioritization with limited internal analytics capacity"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the State Health Officer, epidemiology, or health-gap owner and secure routing to the right resource-targeting conversation.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ms-001",
+          "buyer_type": "state health department",
+          "organization": "Mississippi State Department of Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Mississippi is one of the clearest unmet-need states for HSRA because burden is high and internal tooling appears limited."
+        },
+        "organization_profile": {
+          "organization_url": "https://msdh.ms.gov",
+          "official_contact_form_url": null,
+          "official_public_inbox": "info@msdh.ms.gov",
+          "public_phone": "+1-601-576-7400",
+          "department_route": "State Health Officer, epidemiology, or health-gap reduction route",
+          "routing_note": "MSDH is legitimate but direct site fetches surfaced SSL certificate issues during research; use public inbox and central office phone if the site behaves inconsistently.",
+          "procurement_notes": "Use public inbox first; media inbox exists but should be secondary unless outreach has a press or public-policy angle."
+        },
+        "contact_persons": [
+          { "name": "Daniel P. Edney", "title": "State Health Officer and Executive Director", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://msdh.ms.gov/page/1,0,76.html", "linkedin_url": null, "public_email": null, "public_phone": "+1-601-576-7400", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in 2022; strongest named route for Mississippi." },
+          { "name": "Tami Brooks", "title": "Agency Medical Director", "functional_role": "chief medical officer", "tier": 2, "official_bio_url": "https://msdh.ms.gov", "linkedin_url": null, "public_email": null, "public_phone": "+1-601-576-7400", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "New appointment in June 2025; confirm title stability before outreach." },
+          { "name": "Renia Dotson", "title": "State Epidemiologist", "functional_role": "informatics or epidemiology lead", "tier": 2, "official_bio_url": "https://msdh.ms.gov", "linkedin_url": null, "public_email": null, "public_phone": "+1-601-576-7400", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "New appointment in January 2025; strong route for surveillance and targeting framing." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Mississippi Public Health Association",
+          "why_it_matters": "Primary professional association for Mississippi public-health practitioners and a credible secondary bridge for introductions.",
+          "organization_url": "https://mspha.org"
+        },
+        "sources": ["https://msdh.ms.gov", "https://msdh.ms.gov/page/1,0,76.html", "https://mspha.org"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Alabama",
+      "abbreviation": "AL",
+      "tier": "Tier A",
+      "priority_rank": 4,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S2"],
+      "region": "HHS Region 4",
+      "department_official_name": "Alabama Department of Public Health",
+      "department_url": "https://www.alabamapublichealth.gov",
+      "governor_or_agency_priorities": ["Rural hospital stabilization and public-health planning", "Maternal, child, and community health improvement under constrained resources"],
+      "active_grants_or_initiatives": ["CMS Rural Health Transformation", "Primary Care and Rural Health programs", "ASTHO leadership visibility through the State Health Officer"],
+      "pain_points": ["Need to prioritize scarce resources across rural counties", "Need for planning support that goes beyond static dashboards"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the State Health Officer, Chief Medical Officer, or planning owner and secure a resource-prioritization discussion.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "al-001",
+          "buyer_type": "state health department",
+          "organization": "Alabama Department of Public Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Alabama combines high burden, rural pressure, and enough institutional structure to make HSRA's planning value easy to explain."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.alabamapublichealth.gov",
+          "official_contact_form_url": "https://www.alabamapublichealth.gov/about/contact.html",
+          "official_public_inbox": null,
+          "public_phone": "+1-334-206-5300",
+          "department_route": "State Health Officer, Chief Medical Officer, rural health, or planning route",
+          "routing_note": "General toll-free line is public and useful for routing help: +1-800-252-1818.",
+          "procurement_notes": "Use the official contact page first; individual direct emails are not publicly listed."
+        },
+        "contact_persons": [
+          { "name": "Scott Harris", "title": "State Health Officer", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.alabamapublichealth.gov/about/admin.html", "linkedin_url": null, "public_email": null, "public_phone": "+1-334-206-5300", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in 2018; ASTHO President as of October 2024 and the strongest named route in Alabama." },
+          { "name": "Karen Landers", "title": "Chief Medical Officer", "functional_role": "chief medical officer", "tier": 2, "official_bio_url": "https://www.alabamapublichealth.gov/about/admin.html", "linkedin_url": null, "public_email": null, "public_phone": "+1-334-206-5300", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Strong medical and public-health operations route." },
+          { "name": "Michele Jones", "title": "Chief of Staff", "functional_role": "deputy or chief of staff", "tier": 2, "official_bio_url": "https://www.alabamapublichealth.gov/about/admin.html", "linkedin_url": null, "public_email": null, "public_phone": "+1-334-206-5300", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Useful operational gatekeeper route." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Alabama Hospital Association",
+          "why_it_matters": "Credible statewide health-system partner with strong public-health policy collaboration relevance.",
+          "organization_url": "https://www.alaha.org"
+        },
+        "sources": ["https://www.alabamapublichealth.gov/about/contact.html", "https://www.alabamapublichealth.gov/about/admin.html", "https://www.alaha.org"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Georgia",
+      "abbreviation": "GA",
+      "tier": "Tier A",
+      "priority_rank": 5,
+      "message_lane": "S4",
+      "secondary_message_lanes": ["S1"],
+      "region": "HHS Region 4",
+      "department_official_name": "Georgia Department of Public Health",
+      "department_url": "https://dph.georgia.gov",
+      "governor_or_agency_priorities": ["Cancer-control and screening prioritization", "Rural burden and non-expansion pressure"],
+      "active_grants_or_initiatives": ["Georgia Comprehensive Cancer Control Plan 2024-2029", "CMS Rural Health Transformation", "159 county health departments infrastructure"],
+      "pain_points": ["Need to target screening and prevention resources more defensibly", "Need to connect rural burden and cancer disparities to county-community action"],
+      "research_status": "ready",
+      "owner": "Thad + Mike"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Commissioner's office or the strongest cancer-control, prevention, or policy-routing owner and secure a conversation or redirect.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ga-001",
+          "buyer_type": "state health department",
+          "organization": "Georgia Department of Public Health",
+          "message_family": "S4",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Georgia has a strong cancer-control and rural-burden story that maps well to HSRA's targeting value."
+        },
+        "organization_profile": {
+          "organization_url": "https://dph.georgia.gov",
+          "official_contact_form_url": "https://dph.georgia.gov/about-dph/contact-dph",
+          "official_public_inbox": "DPH-ConstituentServices@dph.ga.gov",
+          "public_phone": "+1-404-657-2700",
+          "department_route": "Commissioner, cancer-control, prevention, epidemiology, or policy route",
+          "routing_note": "Constituent Services phone is a strong public route for non-media inquiries: +1-470-763-8303. Epidemiology public inbox is also listed: contactpublichealth@dph.ga.gov.",
+          "procurement_notes": "Georgia does not publish direct leader emails publicly; use Constituent Services as the official route first."
+        },
+        "contact_persons": [
+          { "name": "Kathleen E. Toomey", "title": "Commissioner", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://dph.georgia.gov/about-dph/commissioners-message", "linkedin_url": null, "public_email": null, "public_phone": "+1-404-657-2700", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in 2019; strongest named route for Georgia." },
+          { "name": "Megan Kate Andrews", "title": "Assistant Commissioner for Policy", "functional_role": "deputy or chief of staff", "tier": 2, "official_bio_url": null, "linkedin_url": null, "public_email": null, "public_phone": "+1-404-657-2700", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Policy route confirmed through public records, but no official DPH bio page was found; verify role before direct named outreach." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Georgia Public Health Association",
+          "why_it_matters": "Primary professional association for Georgia public-health practitioners and a credible secondary bridge for introductions.",
+          "organization_url": "https://gapha.org"
+        },
+        "sources": ["https://dph.georgia.gov/about-dph/contact-dph", "https://dph.georgia.gov/about-dph/commissioners-message", "https://gapha.org"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Arkansas",
+      "abbreviation": "AR",
+      "tier": "Tier A",
+      "priority_rank": 6,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S2"],
+      "region": "HHS Region 6",
+      "department_official_name": "Arkansas Department of Health",
+      "department_url": "https://healthy.arkansas.gov",
+      "governor_or_agency_priorities": ["Rural health and primary care access", "County health fact-sheet and disparity targeting"],
+      "active_grants_or_initiatives": ["County Health Fact Sheets", "Rural Health and Primary Care", "Arkansas Cancer Coalition and data dashboard infrastructure"],
+      "pain_points": ["Need to prioritize limited rural health resources", "Need to connect county burden and disparities to practical public-health action"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Secretary, State Health Officer, or rural-health route and secure a resource-prioritization discussion.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ar-001",
+          "buyer_type": "state health department",
+          "organization": "Arkansas Department of Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Arkansas has extreme rural-burden relevance and a strong need for county-level prioritization support."
+        },
+        "organization_profile": {
+          "organization_url": "https://healthy.arkansas.gov",
+          "official_contact_form_url": "https://healthy.arkansas.gov/resources/about-adh/contact-us/",
+          "official_public_inbox": null,
+          "public_phone": "+1-501-661-2000",
+          "department_route": "Secretary, State Health Officer, rural health, or public-health programs route",
+          "routing_note": "Communications office phone is public and useful for routing support: +1-501-661-2186.",
+          "procurement_notes": "Arkansas uses a public contact form rather than a clear general inbox; use the form first."
+        },
+        "contact_persons": [
+          { "name": "Renee Mallory", "title": "Secretary of Health", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://healthy.arkansas.gov/resources/about-adh/secretarys-message/", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Cabinet-level route; appointed permanent Secretary in 2023." },
+          { "name": "Jennifer Dillaha", "title": "Director and State Health Officer", "functional_role": "chief medical officer", "tier": 1, "official_bio_url": "https://astho.org/profile/jennifer-dillaha/", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Operational and medical leadership route; confirm title wording at outreach time if state materials change." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Arkansas Center for Health Improvement",
+          "why_it_matters": "Independent health policy and improvement organization with direct relevance to statewide public-health planning and data use.",
+          "organization_url": "https://achi.net"
+        },
+        "sources": ["https://healthy.arkansas.gov/resources/about-adh/contact-us/", "https://healthy.arkansas.gov/resources/about-adh/secretarys-message/", "https://achi.net"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Kentucky",
+      "abbreviation": "KY",
+      "tier": "Tier A",
+      "priority_rank": 7,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S2", "S4"],
+      "region": "HHS Region 4",
+      "department_official_name": "Kentucky Cabinet for Health and Family Services",
+      "department_url": "https://chfs.ky.gov",
+      "governor_or_agency_priorities": ["Rural burden and public-health planning", "Equity and screening relevance"],
+      "active_grants_or_initiatives": ["Kentucky Department for Public Health programs", "Rural and health-equity work"],
+      "pain_points": ["Need for rural and community-targeting support", "Need for equity and planning alignment"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Secretary or KDPH Commissioner office and route to the strongest public-health planning owner.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ky-001",
+          "buyer_type": "state health department",
+          "organization": "Kentucky Cabinet for Health and Family Services / Kentucky Department for Public Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Kentucky combines rural burden, equity signals, and planning pressure, making it a strong HSRA fit."
+        },
+        "organization_profile": {
+          "organization_url": "https://chfs.ky.gov",
+          "official_contact_form_url": "https://chfs.ky.gov/Pages/contact.aspx",
+          "official_public_inbox": "CHFS.Listens@ky.gov",
+          "public_phone": "+1-833-372-0004",
+          "department_route": "Secretary's office, Department for Public Health, or planning route",
+          "routing_note": "Secretary's office public phone is +1-502-564-7042; KDPH main line is +1-502-564-3970.",
+          "procurement_notes": "Kentucky had leadership transitions in 2025; confirm incumbents before sending."
+        },
+        "contact_persons": [
+          { "name": "Steven Stack", "title": "Secretary", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://governor.ky.gov/news/Pages/20250701-GovernorBeshearAnnouncesNewCHFSSecretary.aspx", "linkedin_url": null, "public_email": null, "public_phone": "+1-502-564-7042", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in 2025; confirm before outreach." },
+          { "name": "John Langefeld", "title": "Commissioner, Kentucky Department for Public Health", "functional_role": "chief medical officer", "tier": 1, "official_bio_url": "https://chfs.ky.gov/agencies/dph/Pages/default.aspx", "linkedin_url": null, "public_email": null, "public_phone": "+1-502-564-3970", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in July 2025; strong primary public-health route." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Kentucky Department for Public Health",
+          "why_it_matters": "Direct operational public-health arm and the strongest route for HSRA planning conversations.",
+          "organization_url": "https://chfs.ky.gov/agencies/dph/Pages/default.aspx"
+        },
+        "sources": ["https://chfs.ky.gov/Pages/contact.aspx", "https://chfs.ky.gov/agencies/dph/Pages/default.aspx"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "West Virginia",
+      "abbreviation": "WV",
+      "tier": "Tier A",
+      "priority_rank": 8,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S4"],
+      "region": "HHS Region 3",
+      "department_official_name": "West Virginia Department of Health",
+      "department_url": "https://health.wv.gov",
+      "governor_or_agency_priorities": ["Rural healthcare transformation implementation", "Resource targeting in a newly reorganized state health structure"],
+      "active_grants_or_initiatives": ["CMS Rural Healthcare Transformation Program", "State Office of Rural Health", "Department reorganization under HB 2006"],
+      "pain_points": ["Severe rural burden with weak infrastructure depth", "Need for clearer county-community targeting during organizational transition"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Secretary, Bureau for Public Health, or rural transformation route and secure routing to the right owner.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "wv-001",
+          "buyer_type": "state health department",
+          "organization": "West Virginia Department of Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "West Virginia is a strong unmet-need state where rural burden and organizational transition make HSRA's targeting value compelling."
+        },
+        "organization_profile": {
+          "organization_url": "https://health.wv.gov",
+          "official_contact_form_url": null,
+          "official_public_inbox": "DHSecretary@wv.gov",
+          "public_phone": "+1-304-558-0684",
+          "department_route": "Secretary's office, Bureau for Public Health, or Rural Health Transformation Program route",
+          "routing_note": "The department was reorganized from DHHR in 2024. Bureau for Public Health main line is +1-304-558-2971; client services hotline is +1-800-642-8589.",
+          "procurement_notes": "Acting titles remain in place for some public-health leadership roles; verify before direct named outreach."
+        },
+        "contact_persons": [
+          { "name": "Arvin Singh", "title": "Cabinet Secretary", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://dhhr.wv.gov/leadership/Pages/default.aspx", "linkedin_url": null, "public_email": "DHSecretary@wv.gov", "public_phone": "+1-304-558-0684", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Sworn in March 2025; strongest named leadership route." },
+          { "name": "Mark E. McDaniel", "title": "Acting State Health Officer", "functional_role": "chief medical officer", "tier": 2, "official_bio_url": "https://dhhr.wv.gov/leadership/Pages/default.aspx", "linkedin_url": null, "public_email": "mark.e.mcdaniel@wv.gov", "public_phone": "+1-304-352-5255", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Acting role; verify before outreach." },
+          { "name": "Justin Davis", "title": "Acting Commissioner, Bureau for Public Health", "functional_role": "population health or planning lead", "tier": 2, "official_bio_url": "https://dhhr.wv.gov/leadership/Pages/default.aspx", "linkedin_url": null, "public_email": "Justin.J.Davis@wv.gov", "public_phone": "+1-304-558-2971", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Acting role; strong operational route for public-health planning conversations." }
+        ],
+        "secondary_collaborator": {
+          "organization": "WV Primary Care Association",
+          "why_it_matters": "Credible statewide collaborator active in public-health capacity building and related state partnerships.",
+          "organization_url": "https://wvpca.org"
+        },
+        "sources": ["https://health.wv.gov", "https://dhhr.wv.gov/leadership/Pages/default.aspx", "https://dhhr.wv.gov/contacts/Pages/default.aspx", "https://wvpca.org"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "Kansas",
+      "abbreviation": "KS",
+      "tier": "Tier A",
+      "priority_rank": 9,
+      "message_lane": "S1",
+      "secondary_message_lanes": ["S2"],
+      "region": "HHS Region 7",
+      "department_official_name": "Kansas Department of Health and Environment",
+      "department_url": "https://www.kdhe.ks.gov",
+      "governor_or_agency_priorities": ["Rural hospital vulnerability and public-health planning", "County and rural prioritization under non-expansion pressure"],
+      "active_grants_or_initiatives": ["CMS Rural Health Transformation", "Division of Public Health leadership", "Kansas public-health partnership and policy infrastructure"],
+      "pain_points": ["Need to prioritize scarce rural-health resources", "Need for defensible county and community targeting despite limited integrated analytics"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Secretary, Division of Public Health, or rural-health route and secure a county-prioritization conversation.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ks-001",
+          "buyer_type": "state health department",
+          "organization": "Kansas Department of Health and Environment",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Kansas pairs major rural vulnerability with a clear state-level public-health route and strong need for prioritization support."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.kdhe.ks.gov",
+          "official_contact_form_url": "https://www.kdhe.ks.gov",
+          "official_public_inbox": null,
+          "public_phone": "+1-785-296-1500",
+          "department_route": "Secretary, Division of Public Health, or rural-health planning route",
+          "routing_note": "Division of Public Health public phone is +1-785-296-1086. The main site uses an obfuscated public contact link rather than a simple inbox listing.",
+          "procurement_notes": "Use the official site route first; Ashley Goss's public email can be treated as a tertiary route after official routing."
+        },
+        "contact_persons": [
+          { "name": "Janet Stanek", "title": "Secretary", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.kdhe.ks.gov/about", "linkedin_url": null, "public_email": null, "public_phone": "+1-785-296-1500", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Confirmed active through 2026; strongest named route for Kansas." },
+          { "name": "Ashley Goss", "title": "Deputy Secretary of Public Health and Division Director", "functional_role": "population health or planning lead", "tier": 1, "official_bio_url": "https://www.kdhe.ks.gov/Directory.aspx", "linkedin_url": null, "public_email": "Ashley.Goss@ks.gov", "public_phone": "+1-785-296-1086", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Public email appears in government materials; treat as tertiary route after official routing." },
+          { "name": "Dereck Totten", "title": "Chief Medical Officer", "functional_role": "chief medical officer", "tier": 2, "official_bio_url": "https://www.kdhe.ks.gov/about", "linkedin_url": null, "public_email": null, "public_phone": "+1-785-296-1500", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Appointed in 2024; strong medical and rural-health framing route." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Kansas Health Institute",
+          "why_it_matters": "Independent health policy research organization with active statewide credibility and public-health partnership relevance.",
+          "organization_url": "https://khi.org"
+        },
+        "sources": ["https://www.kdhe.ks.gov", "https://www.kdhe.ks.gov/Directory.aspx", "https://khi.org"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "North Carolina",
+      "abbreviation": "NC",
+      "tier": "Tier A",
+      "priority_rank": 10,
+      "message_lane": "S2",
+      "secondary_message_lanes": ["S6"],
+      "region": "HHS Region 4",
+      "department_official_name": "North Carolina Department of Health and Human Services",
+      "department_url": "https://www.ncdhhs.gov",
+      "governor_or_agency_priorities": ["CHA and CHNA planning", "Rural health and local public-health planning"],
+      "active_grants_or_initiatives": ["Rural health action work", "State and local planning infrastructure"],
+      "pain_points": ["Need for county-community planning support", "Need for local and hospital planning alignment"],
+      "research_status": "ready",
+      "owner": "Thad + intern"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Secretary's office or State Health Director route and secure the right planning or public-health owner.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "nc-001",
+          "buyer_type": "state health department",
+          "organization": "North Carolina Department of Health and Human Services",
+          "message_family": "S2",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "North Carolina is one of the clearest state planning and local-public-health fits in the cohort."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.ncdhhs.gov",
+          "official_contact_form_url": "https://www.ncdhhs.gov/contact",
+          "official_public_inbox": "news@dhhs.nc.gov",
+          "public_phone": "+1-919-855-4800",
+          "department_route": "Secretary, State Health Director, Division of Public Health, or local planning route",
+          "routing_note": "General customer service line is public: +1-800-662-7030; Division of Public Health main line is +1-919-707-5000.",
+          "procurement_notes": "Use official route and phone routing before any named-contact follow-up."
+        },
+        "contact_persons": [
+          { "name": "Devdutta Sangvai", "title": "Secretary", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.ncdhhs.gov/about/department-leadership/secretary", "linkedin_url": null, "public_email": null, "public_phone": "+1-919-855-4800", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Top cabinet-level route." },
+          { "name": "Lawrence Greenblatt", "title": "State Health Director and Chief Medical Officer", "functional_role": "chief medical officer", "tier": 1, "official_bio_url": "https://www.ncdhhs.gov/news/press-releases/2025/05/29/governor-stein-appoints-dr-lawrence-greenblatt-state-health-director", "linkedin_url": null, "public_email": null, "public_phone": "+1-919-707-5000", "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Strong operational public-health route for HSRA planning conversations." }
+        ],
+        "secondary_collaborator": {
+          "organization": "North Carolina Division of Public Health",
+          "why_it_matters": "Direct operational public-health arm and likely routing point for county-community planning work.",
+          "organization_url": "https://www.ncdhhs.gov/divisions/public-health"
+        },
+        "sources": ["https://www.ncdhhs.gov/contact", "https://www.ncdhhs.gov/about/department-leadership/secretary"]
+      }
+    ]
+  },
+  {
+    "state": {
+      "state_name": "New York",
+      "abbreviation": "NY",
+      "tier": "Tier A",
+      "priority_rank": 11,
+      "message_lane": "S2",
+      "secondary_message_lanes": ["S4"],
+      "region": "HHS Region 2",
+      "department_official_name": "New York State Department of Health",
+      "department_url": "https://www.health.ny.gov",
+      "governor_or_agency_priorities": ["Planning and reporting infrastructure", "Cancer and prevention agenda alignment"],
+      "active_grants_or_initiatives": ["Prevention Agenda", "Hospital and public-health reporting infrastructure"],
+      "pain_points": ["Need to sharpen county-community prioritization", "Need to support population targeting and public-health reporting"],
+      "research_status": "ready",
+      "owner": "Thad + Mike"
+    },
+    "campaign": {
+      "channels_priority": ["website-contact-form", "linkedin", "email", "calling"],
+      "last_touch_date": null,
+      "next_state_action": "official-route-launch",
+      "success_definition": "Reach the Commissioner's office or Office of Public Health route and secure the right planning or prevention owner.",
+      "timing_rules": { "official_route_day": 0, "linkedin_day": 3, "email_day": 6, "calling_day": 10 }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "ny-001",
+          "buyer_type": "state health department",
+          "organization": "New York State Department of Health",
+          "message_family": "S2",
+          "source_confidence": "high",
+          "status": "ready",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "New York remains a strategic Tier A special case because of its reporting environment, hospital pressure, and signaling value."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.health.ny.gov",
+          "official_contact_form_url": "https://www.health.ny.gov/contact/",
+          "official_public_inbox": "dohweb@health.ny.gov",
+          "public_phone": "+1-518-402-0836",
+          "department_route": "Commissioner, Office of Public Health, prevention, or reporting route",
+          "routing_note": "Alternative public inbox for media or partnership angle: press@health.ny.gov.",
+          "procurement_notes": "Complaints and inquiries line is public: +1-800-663-6114."
+        },
+        "contact_persons": [
+          { "name": "James V. McDonald", "title": "Commissioner of Health", "functional_role": "state health officer", "tier": 1, "official_bio_url": "https://www.health.ny.gov/commissioner/bio/", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Primary named route for New York." },
+          { "name": "Laura J. Trolio", "title": "Acting Deputy Commissioner, Office of Public Health", "functional_role": "population health or planning lead", "tier": 2, "official_bio_url": "https://www.ny.gov/agencies/department-health", "linkedin_url": null, "public_email": null, "public_phone": null, "preferred_channel": "official-route", "relationship_status": "cold", "last_contact_date": null, "notes": "Good public-health operations route; acting title should be rechecked at outreach time." }
+        ],
+        "secondary_collaborator": {
+          "organization": "Office of Public Health, NYSDOH",
+          "why_it_matters": "Most directly aligned with prevention, health equity, and population-health planning lanes.",
+          "organization_url": "https://www.ny.gov/agencies/department-health"
+        },
+        "sources": ["https://www.health.ny.gov/contact/", "https://www.health.ny.gov/commissioner/bio/"]
+      }
+    ]
+  }
+]

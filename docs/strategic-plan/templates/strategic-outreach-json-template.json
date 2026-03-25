@@ -1,0 +1,135 @@
+[
+  {
+    "_template_meta": {
+      "template_name": "strategic-outreach-json-template",
+      "version": "2026-03-12",
+      "notes": "Use this template for state-organized outreach datasets. Treat the state as the parent record and agencies, universities, hospitals, and leaders as child records."
+    },
+    "state": {
+      "state_name": "Tennessee",
+      "abbreviation": "TN",
+      "tier": "Tier A",
+      "priority_rank": 1,
+      "message_lane": "S1",
+      "region": "HHS Region 4",
+      "department_official_name": "Tennessee Department of Health",
+      "department_url": "https://www.tn.gov/health.html",
+      "governor_or_agency_priorities": [
+        "County and community health prioritization",
+        "Rural health transformation",
+        "Health equity and measurable resource allocation"
+      ],
+      "active_grants_or_initiatives": [
+        "CMS Rural Health Transformation",
+        "State planning and reporting initiatives"
+      ],
+      "pain_points": [
+        "Need for defensible county and tract prioritization",
+        "Need to align planning, funding, and intervention targeting"
+      ],
+      "research_status": "research",
+      "owner": "Example Owner"
+    },
+    "campaign": {
+      "channels_priority": [
+        "website-contact-form",
+        "linkedin",
+        "email",
+        "calling"
+      ],
+      "last_touch_date": null,
+      "next_state_action": "research-official-contact-routes",
+      "success_definition": "Secure the right owner, a live conversation, or a clear redirect.",
+      "timing_rules": {
+        "official_route_day": 0,
+        "linkedin_day": 3,
+        "email_day": 6,
+        "calling_day": 10
+      }
+    },
+    "accounts": [
+      {
+        "_meta": {
+          "account_id": "tn-001",
+          "buyer_type": "state health department",
+          "organization": "Tennessee Department of Health",
+          "message_family": "S1",
+          "source_confidence": "high",
+          "status": "research",
+          "next_allowed_action": "website-contact-form",
+          "why_this_account_matters": "Primary state agency route for county and community health prioritization."
+        },
+        "organization_profile": {
+          "organization_url": "https://www.tn.gov/health.html",
+          "official_contact_form_url": "https://www.tn.gov/health/contact-us.html",
+          "official_public_inbox": "example@tn.gov",
+          "public_phone": "+1-555-000-0000",
+          "department_route": "Planning, rural health, epidemiology, or community health",
+          "routing_note": "Use the official routing page first unless a higher-confidence named route is already known.",
+          "procurement_notes": "Add later when state procurement research is complete."
+        },
+        "contact_persons": [
+          {
+            "name": "Example Person",
+            "title": "Deputy Commissioner",
+            "functional_role": "deputy or chief of staff",
+            "tier": 1,
+            "linkedin_url": "https://www.linkedin.com/in/example-person/",
+            "public_email": "person@example.gov",
+            "public_phone": "+1-555-111-1111",
+            "preferred_channel": "linkedin",
+            "relationship_status": "cold",
+            "last_contact_date": null,
+            "notes": "Use after official route or when a warm referral exists."
+          }
+        ],
+        "outreach_content": {
+          "message_family": "S1",
+          "state_specific_hook": "Tennessee-first county and tract prioritization for rural and community health decision-making.",
+          "official_route_subject": "Brief question on Tennessee county and community prioritization",
+          "official_route_body": "Hello, I am reaching out because Tennessee appears to be working on county and community health prioritization questions that align closely with the work our team is doing. If this belongs with a planning, rural health, or epidemiology owner, I would appreciate being pointed in the right direction.",
+          "linkedin_connection_note": "Hi [First Name] - reaching out because your role looks highly relevant to Tennessee's county and community prioritization work.",
+          "linkedin_message": "Hi [First Name], I am reaching out because your role appears close to Tennessee's planning and prioritization work. We are working on an auditable county and tract prioritization approach and would value a short discussion if this topic is in your lane.",
+          "email_subject": "Tennessee question on county and community prioritization",
+          "email_body": "Hello [Name],\n\nI am reaching out because your role appears relevant to Tennessee's work on county and community health prioritization. We are focused on an auditable approach to tract and county decision support and would appreciate a short conversation if this topic belongs with your team.\n\nBest,\n[Name]",
+          "call_opening": "We are trying to reach the best person for county and community health prioritization, rural health planning, or related analytics support.",
+          "do_not_use": [
+            "generic AI claims",
+            "pricing language in first touch",
+            "unsupported statewide deployment claims"
+          ]
+        },
+        "contact_form_submission": {
+          "submitter_name": "Example Sender",
+          "submitter_email": "sender@example.com",
+          "submitter_phone": null,
+          "field_mapping": {
+            "subject": "Subject if present",
+            "message": "Message or comments field",
+            "organization": "Organization field if present"
+          },
+          "payload_schema": "state_public_sector_simple",
+          "payload": {
+            "name": "Example Sender",
+            "email": "sender@example.com",
+            "organization": "Example Organization",
+            "subject": "Brief question on Tennessee county and community prioritization",
+            "message": "Hello, I am reaching out because Tennessee appears to be working on county and community health prioritization questions that align closely with the work our team is doing. If this belongs with a planning, rural health, or epidemiology owner, I would appreciate being pointed in the right direction."
+          }
+        },
+        "calling": {
+          "call_status": "not-started",
+          "best_number": "+1-555-000-0000",
+          "call_purpose": "Routing and light follow-up",
+          "call_script": "Hello, we are trying to reach the best person for county and community health prioritization, planning, or rural health measurement. Who is the best contact for that?",
+          "call_notes": []
+        },
+        "sources": [
+          "State department website",
+          "State improvement plan",
+          "Grant or initiative announcement"
+        ]
+      }
+    ]
+  }
+]

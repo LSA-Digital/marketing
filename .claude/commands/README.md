@@ -5,6 +5,7 @@ These commands work in Claude CLI. Type `/` followed by the command name.
 ## Available Commands
 
 - `/new-post` - Create a new marketing post
+- `/new-video-script` - Create an outcome-driven video script package
 - `/list-posts` - List all posts from squawk-index.md or Squawk MCP (--live)
 - `/update-post` - Update post metadata and status via Squawk
 

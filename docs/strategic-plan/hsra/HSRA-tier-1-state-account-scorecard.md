@@ -1,64 +1,68 @@
 # HSRA Tier 1 State Account Scorecard
 
-**Last Updated:** 2026-03-10
+**Last Updated:** 2026-03-12
 
 ## Purpose
 
-This scorecard turns the HSRA strategic plan into a working active-pursuit list inside a broader all-state launch. All 50 states should receive tailored messaging at campaign start; this document tracks the states and accounts that rise into heavier discovery, follow-up, and commercial motion. Rank-ordering logic and tier rationale now live in `HSRA-state-prioritization-ranking-2026.md`, and this scorecard now reflects the updated burden-plus-responsiveness ranking rather than the earlier draft cohort.
+This scorecard turns the HSRA strategic ranking into a working active-pursuit list inside the broader 50-state launch. It now reflects the revised `need-first` ranking logic in `HSRA-state-prioritization-ranking-2026.md`.
+
+The key shift is simple: states with severe burden and weak internal tooling should move up, not down. The scorecard still considers execution practicality, but unmet need now carries more weight than dashboard maturity.
 
 ## Scoring Logic
 
-Use these criteria when deciding whether a state/account belongs in Tier 1 active motion:
+Use these criteria when deciding whether a state or account belongs in Tier 1 active motion:
 
 | Criterion | Why it matters |
 | --- | --- |
-| RHT / county-community measurement pressure | HSRA fits places where county/community metrics are an active funding or reporting requirement. |
-| CHA / CHIP / CHNA / PHAB style planning pressure | HSRA is strongest where sub-county disparity analysis is already expected. |
-| EJ / environmental-health screening pressure | HSRA becomes more differentiated when pollution and health must be considered together. |
-| Academic or university route | Thad's credibility works best where university/public-health collaboration feels natural. |
+| Rural burden / resource-allocation pressure | HSRA is strongest where counties, communities, or tracts must be prioritized under real pressure. |
+| Capacity gap / transformational upside | Under-tooled states may need HSRA more than mature analytics states do. |
+| CHA / CHIP / CHNA / PHAB planning pressure | HSRA fits places where sub-county disparity analysis is already expected. |
+| Cancer, screening, or disparity targeting pressure | Strong fit where public-health teams need better targeting decisions. |
 | State-first configuration fit | Buyers needing a configurable deployment are better fits than buyers shopping for commodity dashboards. |
-| Tennessee adjacency or strategic narrative fit | Relationship and story transfer are stronger when the Tennessee-first framing feels credible. |
+| Academic, partner, or proof-transfer route | Thad's credibility and the Tennessee story matter most where a warm or believable bridge exists. |
 
-## All-State Launch Coverage
+## How To Read This Scorecard
 
-All-state launch does not mean every state gets the same message. The opening campaign should map each state to one or more visible need lanes.
-
-| Message lane | Typical state trigger | Example account types |
-| --- | --- | --- |
-| Rural transformation / Medicaid pressure | CMS RHT, county/community measurement pressure, rural health strategy | State health departments, rural-health offices, Medicaid transformation teams |
-| CHA / CHIP / CHNA / PHAB planning | Assessment, accreditation, local/public-health planning cycles | Local health departments, health assessment coordinators, hospital planning teams |
-| EJ and environmental-health screening | Post-EJScreen gap, state screening tools, permitting-health overlap | State environmental-health teams, EJ offices, public-health planning units |
-| Cancer-control / screening prioritization | Cancer-control planning, screening gaps, prevention targeting | State cancer-control programs, epidemiology teams, hospital/community-benefit leads |
+- `Strategic priority` comes from the revised state ranking.
+- `Active pursuit` is the execution layer, which means it can include a few bridge states with clearer routes even if they are not the very highest-need states.
+- Tier B bridge states can move up because partner coverage or realistic in-person meeting access improves the buyer path, not only because unmet-need pressure is extreme.
+- all 50 states still remain in launch coverage; this table is not a cap on outreach.
 
 ## Active Pursuit Cohort
 
-Use `HSRA-state-prioritization-ranking-2026.md` as the current ranking source when deciding which states should move up, move down, or stay in active pursuit.
+Use `HSRA-state-prioritization-ranking-2026.md` as the strategic source when deciding which states should move up, move down, or stay in active pursuit.
 
-| State | Primary account | Secondary account | Why this state is in Tier 1 | Primary hook | Outreach route | Status | Owner |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Tennessee | Tennessee Department of Health | Tennessee Tech University / Tennessee public-health collaborators | Anchor proof story, strongest relationship path, and best current HSRA narrative for resource allocation. | Tennessee-first proof story | Thad direct + existing relationships | active | Thad |
-| Texas | Texas Health and Human Services / Rural Texas Strong-adjacent leads | Rural health transformation stakeholders | Highest-scale rural transformation story in the current ranking; large need surface even if harder to penetrate. | RHT / county outcome measurement | Thad intro + LSA Digital commercial follow-up | active | Thad + Mike |
-| Colorado | Colorado Department of Public Health and Environment | EJ / environmental-health screening stakeholders | Explicitly relevant because current research cites Colorado EnviroScreen 2.0 and post-EJScreen state need. | EJ and tract-level health-linked screening | Thad first-touch + LSA Digital technical/commercial follow-up | active | Thad + Mike |
-| Pennsylvania | Pennsylvania Department of Health | University/public-health collaborators | Strong state assessment, SHA dashboard, and county-level planning infrastructure make the HSRA fit easy to explain. | State assessment + resource prioritization | Thad first-touch + academic framing | active | Thad |
-| Connecticut | Connecticut Department of Public Health | Health-equity dashboard and EJ-screening stakeholders | Strong health-equity and EJ-tool evidence make Connecticut a high-confidence configured-analytics buyer candidate. | Health equity + EJ-linked targeting | Thad first-touch + marketing support | active | Thad + marketing |
-| North Carolina | North Carolina Department of Health and Human Services | Local health and CHNA-adjacent stakeholders | Strong fit for county/community health planning, CHNA, and local-health use cases. | CHA / CHNA / local planning | Thad first-touch + intern routing | active | Thad + intern |
-| Minnesota | Minnesota Department of Health | Health equity / public-health planning collaborators | Strong health-equity, county-profile, and EJ-adjacent infrastructure support a broad HSRA story. | Health equity + tract prioritization | Thad + content support | active | Thad + marketing |
-| New York | New York State Department of Health | Hospital reporting and Prevention Agenda collaborators | Strong public reporting and planning infrastructure make New York a priority despite a more complex motion. | Prevention Agenda + reporting support | Thad first-touch + Mike follow-up on qualified accounts | active | Thad + Mike |
-| Kentucky | Kentucky Cabinet for Health and Family Services | Hospital / CHNA / equity-planning stakeholders | Kentucky combines health-equity dashboard evidence with strong rural and screening-gap relevance. | Health equity + CHNA / rural burden | Thad first-touch + intern research support | active | Thad + intern |
-| Oregon | Oregon Health Authority | Public-health planning and community health assessment stakeholders | Useful for proving HSRA relevance outside the Tennessee/Appalachia narrative and strong on planning workflows. | Public-health planning and tract disparity analysis | Thad + briefing asset | active | Thad + marketing |
-| Maryland | Maryland Department of Health | Cancer control, rural health, and EJ-screening stakeholders | Maryland rises into active pursuit because the updated evidence shows a rare combination of cancer planning, rural health planning, and EJ-tool alignment. | Cancer-control + rural planning + EJ analytics | Thad first-touch + Mike commercial follow-up | active | Thad + Mike |
-| Alabama | Alabama Department of Public Health | State rural-health / planning stakeholders | Alabama stays active because updated evidence strengthened the burden-led case: rural hospital stress, non-expansion pressure, and planning fit. | SHIP / rural health planning | Thad first-touch + intern follow-up | active | Thad + intern |
+| State | Strategic priority | Primary account | Secondary account | Why this state is in Tier 1 active motion | Primary hook | Outreach route | Status | Owner |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Tennessee | A | Tennessee Department of Health | Tennessee Tech University / Tennessee public-health collaborators | Anchor proof story, strongest relationship path, and best current conversion path from need to real meetings. | Tennessee-first proof story | Thad direct + existing relationships | active | Thad |
+| Texas | A | Texas Health and Human Services / Rural Texas Strong-adjacent leads | Rural health transformation stakeholders | Highest-scale rural transformation story and one of the clearest county-outcome measurement cases in the country. | RHT / county outcome measurement | Thad intro + LSA Digital commercial follow-up | active | Thad + Mike |
+| Mississippi | A | Mississippi State Department of Health | Rural health, health-equity, or planning collaborators | Severe unmet need plus weak infrastructure make Mississippi one of the clearest HSRA value states. | Rural crisis + health-gap closure + targeting | Thad first-touch + intern research support | active | Thad + intern |
+| Alabama | A | Alabama Department of Public Health | Rural health and planning stakeholders | Strong burden-led case with enough planning structure to support a serious state-first conversation. | Rural hospital stress + planning support | Thad first-touch + intern follow-up | active | Thad + intern |
+| Georgia | A | Georgia Department of Public Health | Cancer-control and rural-health collaborators | Burden, non-expansion pressure, and current cancer-plan activity create a strong urgency story. | Cancer-control + rural burden | Thad first-touch + Mike commercial follow-up | active | Thad + Mike |
+| Arkansas | A | Arkansas Department of Health | Rural-health and PHAB-adjacent stakeholders | The country's highest rural hospital vulnerability rate makes Arkansas too strong to leave outside active pursuit. | Rural burden + prioritization need | Thad first-touch + intern follow-up | active | Thad + intern |
+| Kentucky | A | Kentucky Cabinet for Health and Family Services / KDPH | Hospital / CHNA / equity-planning stakeholders | Kentucky combines rural burden, disparity pressure, and a plausible public-health planning route. | Rural burden + health equity + CHNA | Thad first-touch + intern research support | active | Thad + intern |
+| West Virginia | A | West Virginia Department of Health | Rural health and disparity stakeholders | Extreme need and limited tooling make West Virginia strategically important even though the buyer path is harder. | Rural crisis + resource-targeting gap | Thad first-touch + intern routing support | active | Thad + intern |
+| Kansas | A | Kansas Department of Health and Environment | Rural-health and PHAB-aligned stakeholders | Very high hospital-vulnerability and non-expansion pressure create a strong HSRA fit. | Rural hospital vulnerability + planning | Thad first-touch + intern follow-up | active | Thad + intern |
+| North Carolina | A | North Carolina Department of Health and Human Services | Local health and CHNA-adjacent stakeholders | Strong planning and local-health pathways make North Carolina one of the best execution-ready Tier A states. | CHA / CHNA / local planning | Thad first-touch + intern routing | active | Thad + intern |
+| New York | A | New York State Department of Health | Hospital reporting and Prevention Agenda collaborators | New York stays active as a special-case Tier A state because of its scale, reporting environment, and strategic signaling value. | Prevention Agenda + reporting support | Thad first-touch + Mike follow-up on qualified accounts | active | Thad + Mike |
+| Pennsylvania | B | Pennsylvania Department of Health | University / public-health collaborators | Not as urgent as the burden-led Tier A states, but still one of the clearest planning and assessment bridge states. | State assessment + resource prioritization | Thad first-touch + academic framing | active | Thad |
+| Colorado | B | Colorado Department of Public Health and Environment | EJ / environmental-health screening stakeholders | Strong HSRA analog and one of the best infrastructure-mature states for message testing and credibility transfer. | EJ and tract-level health-linked screening | Thad first-touch + LSA Digital technical follow-up | active | Thad + Mike |
 
 ## Secondary Engagement States
 
 | State / account | Why it stays in secondary engagement for now | Suggested trigger to move into active pursuit |
 | --- | --- | --- |
-| Washington health-equity / EJ stakeholders | Relevant on equity and screening logic, but still a step behind the active cohort on conversion-path clarity. | Warm intro through partner or public-health collaborator. |
-| Georgia rural-health and cancer-control buyers | Updated research shows strong burden and cancer-plan relevance, but the account-entry path is still less developed than active states. | State or coalition contact tied to cancer-control or rural-hospital planning. |
-| Mississippi rural-health / disparity stakeholders | One of the strongest burden-led need cases, but buyer-path evidence is still thinner than the active cohort. | Warm intro, coalition lead, or RHT implementation signal. |
-| Arkansas rural-health and PHAB-adjacent buyers | Strong burden and planning evidence, but still needs more named-contact research before moving into active pursuit. | Named rural-health or state-planning lead identified. |
-| Vermont health-equity / EJ / rural planning buyers | Strong signal density for a small state, but the commercial surface area is narrower. | Direct intro or clear project tied to rural equity or EJ mapping. |
-| Nebraska planning and rural-health leads | Solid planning fit, but now behind the updated active cohort on urgency and differentiating evidence. | Named state planning contact or visible initiative requiring county prioritization. |
+| Oklahoma burden-led public-health buyers | Strong need case, but still needs cleaner routing and owner identification. | Named rural-health or planning lead identified. |
+| Louisiana rural-health and disparity stakeholders | Strong need, but buyer-path evidence is still thinner than the active cohort. | Warm intro, RHT implementation signal, or named public-health owner. |
+| New Mexico cancer-control and rural / tribal health buyers | Strong screening-gap story, but routing confidence is still moderate. | Named cancer-control, screening, or public-health planning lead identified. |
+| Maryland cancer control, rural health, and EJ-screening stakeholders | Strong fit, but lower urgency than the burden-led active states. | Warm intro or planning initiative requiring targeting support. |
+| Connecticut health-equity and EJ-screening stakeholders | Strong configured-analytics fit, but lower unmet-need urgency than current active states. | Senior public-health contact or Yale-linked bridge. |
+| Minnesota health equity and planning collaborators | Strong fit and mature infrastructure, but lower urgency from a capacity-gap perspective. | Named planning or health-equity owner identified. |
+| Oregon public-health planning and community health assessment stakeholders | Good planning fit, but less urgent than the burden-led states. | Clear project tied to statewide assessment or targeting. |
+| Massachusetts health-equity and EJ stakeholders | Strategic Tier B state with real fit and better corridor-level meeting access, but not currently as urgent as the active burden-led cohort. | Public-health or academic bridge tied to equity or EJ targeting. |
+| South Carolina rural-health and non-expansion buyers | Need case is real, but the execution path remains thinner than the active group. | Named state planning or rural-health owner identified. |
+| California CalEnviroScreen, public-health, and EJ stakeholders | Strategic Tier B bridge state because the product analog is strong and the team has better partnership coverage plus a better shot at physical buyer meetings. | Warm intro through partner, collaborator, or in-person meeting opportunity. |
+| Washington equity and EJ stakeholders | Strategic Tier B bridge state because partner routes and local meeting access improve the practical buyer path even though urgency is lower than the active burden-led group. | Warm intro through partner, collaborator, or in-person meeting opportunity. |
 
 ## Account Development Fields To Fill As Work Starts
 
@@ -66,10 +70,10 @@ Use this table structure as the live operating sheet once research starts fillin
 
 | State | Account | Buyer type | Named contact | Role | Route in | Primary trigger | Last touch | Next action | Owner | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Tennessee | Tennessee Department of Health | State health department | TBD | TBD | Existing relationship | Tennessee anchor story | — | Identify best lead and opening path | Thad | Start here |
-| Texas | Texas HHSC / Rural Texas Strong-adjacent leads | State health department / rural initiative | TBD | TBD | Relationship + commercial follow-up | County outcome measurement | — | Build state-specific opening note and partner map | Mike | High-scale target |
-| Colorado | CDPHE / EJ and environmental-health leads | State public health / EJ | TBD | TBD | Direct outreach | EJ and tract-linked screening | — | Build named-account list and first-touch note | Intern | Strong post-EJScreen lane |
-| Pennsylvania | Pennsylvania Department of Health | State health department | TBD | TBD | Academic outreach | State assessment + resource prioritization | — | Build dossier and routing path | Intern | Strong planning infrastructure |
+| Tennessee | Tennessee Department of Health | State health department | TBD | TBD | Existing relationship | Tennessee anchor story | - | Identify best lead and opening path | Thad | Start here |
+| Texas | Texas HHSC / Rural Texas Strong-adjacent leads | State health department / rural initiative | TBD | TBD | Relationship + commercial follow-up | County outcome measurement | - | Build state-specific opening note and partner map | Mike | High-scale target |
+| Mississippi | Mississippi State Department of Health | State health department | TBD | TBD | Direct outreach + research support | Rural burden + capacity gap | - | Build dossier and routing path | Intern | Need-first priority |
+| Alabama | Alabama Department of Public Health | State health department | TBD | TBD | Direct outreach | Rural hospital stress | - | Identify planning and rural-health owners | Intern | Strong burden case |
 
 ## Base-Case Funnel Tie-In
 
@@ -78,7 +82,7 @@ This scorecard tracks the states that rise into active pursuit after the all-sta
 | Metric | Base-case target |
 | --- | ---: |
 | States touched at launch | 50 |
-| Active pursuit states/accounts | 12-16 |
+| Active pursuit states / accounts | 12-16 |
 | Named target contacts | 150-250 |
 | Positive replies / referrals | 20-30 |
 | Intro calls | 12-18 |
@@ -89,9 +93,10 @@ This scorecard tracks the states that rise into active pursuit after the all-sta
 ## Usage Notes
 
 - treat this as the active-pursuit layer inside a broader all-state launch, not a cap on outreach
-- prioritize accounts with a clear county/community measurement problem and a credible academic route in
+- prioritize states where resource scarcity, weak internal tooling, and real public-health pressure make HSRA more valuable, not less
 - keep commercial escalation out of first-touch outreach until fit is confirmed
 - revise the active-pursuit list as real reply data and meetings come in
+- the detailed Tier A packet build completed earlier in this session reflects the prior wave and should be refreshed against the revised ranking before the next research sprint
 
 ## Sources
 
